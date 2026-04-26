@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Drafting Scaffold | Marginalia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shared/tokens.css">
+    <link rel="stylesheet" href="shared/marginalia.css">
+
+    <style>
+        .draft-grid {
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: var(--space-xl);
+            max-width: 1400px;
+            height: 100%;
+        }
+
+        .draft-main {
+            overflow-y: auto;
+            padding-right: var(--space-md);
+        }
+
+        .draft-rail {
+            border-left: 1px solid var(--aged-soft);
+            padding-left: var(--space-lg);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+            overflow-y: auto;
+        }
+
+        .draft-header {
+            margin-bottom: var(--space-lg);
+        }
+
+        .draft-header__title {
+            font-family: var(--font-display);
+            font-size: var(--text-2xl);
+            color: var(--ink);
+            margin-bottom: var(--space-sm);
+        }
+
+        .draft-header__lead {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+            max-width: 65ch;
+            line-height: 1.55;
+        }
+
+        .scaffold-section {
+            margin-bottom: var(--space-2xl);
+            padding: var(--space-md);
+            border-left: 3px solid var(--aged-soft);
+            background: rgba(244, 236, 216, 0.5);
+        }
+
+        .scaffold-section--question { border-left-color: var(--marginalia); }
+        .scaffold-section--positions { border-left-color: var(--clarity); }
+        .scaffold-section--analysis { border-left-color: var(--marginalia); }
+        .scaffold-section--position { border-left-color: var(--clarity); }
+        .scaffold-section--bibliography { border-left-color: var(--aged); }
+
+        .scaffold-section__head {
+            margin-bottom: var(--space-md);
+        }
+
+        .scaffold-section__criterion {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--clarity);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+
+        .scaffold-section__title {
+            font-family: var(--font-display);
+            font-size: var(--text-xl);
+            color: var(--ink);
+            margin-bottom: var(--space-xs);
+        }
+
+        .scaffold-section__guide {
+            font-family: var(--font-body);
+            font-style: italic;
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+            line-height: 1.5;
+            margin-bottom: var(--space-md);
+            max-width: 60ch;
+        }
+
+        .draft-textarea {
+            width: 100%;
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink);
+            background: var(--ground);
+            border: 1px solid var(--aged-soft);
+            padding: var(--space-md);
+            line-height: 1.6;
+            resize: vertical;
+            min-height: 120px;
+            border-radius: 0;
+        }
+
+        .draft-textarea:focus {
+            outline: 2px solid var(--clarity);
+            outline-offset: 1px;
+            border-color: var(--clarity);
+        }
+
+        .word-count {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            margin-top: var(--space-xs);
+            text-align: right;
+            letter-spacing: 0.04em;
+        }
+
+        .word-count--over {
+            color: var(--marginalia);
+            font-weight: 600;
+        }
+
+        .total-counter {
+            padding: var(--space-md);
+            background: var(--paper-dark);
+            text-align: center;
+            border: 1px solid var(--aged-soft);
+            margin-bottom: var(--space-md);
+        }
+
+        .total-counter__label {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: var(--space-xs);
+        }
+
+        .total-counter__value {
+            font-family: var(--font-display);
+            font-size: var(--text-2xl);
+            color: var(--ink);
+        }
+
+        .total-counter__limit {
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            color: var(--aged);
+        }
+
+        .total-counter--over .total-counter__value {
+            color: var(--marginalia);
+        }
+
+        .export-actions {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+
+        <header class="site-header">
+            <a href="index.html" class="site-header__brand">
+                Marginalia <small>Stage 1 Issues Study</small>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">welcome</a>
+                <a href="explainer.html">the task</a>
+                <a href="bank.html">questions</a>
+                <a href="chamber.html">chamber</a>
+                <a href="resources.html">readings</a>
+                <a href="drafting.html" class="active">drafting</a>
+            </nav>
+        </header>
+
+        <main class="page-main">
+            <div class="draft-grid">
+
+                <section class="draft-main">
+
+                    <header class="draft-header">
+                        <h1 class="draft-header__title">The drafting scaffold</h1>
+                        <p class="draft-header__lead">
+                            Five sections, one for each move the assessment expects of you. Fill in your work-in-progress here, watch the word count climb toward 800, and export to plain Markdown when you're ready to draft the actual piece.
+                        </p>
+                    </header>
+
+                    <article class="scaffold-section scaffold-section--question">
+                        <header class="scaffold-section__head">
+                            <p class="scaffold-section__criterion">KU1 — your question</p>
+                            <h2 class="scaffold-section__title">Your question</h2>
+                            <p class="scaffold-section__guide">State your philosophical question. Phrase it so that taking a position is unavoidable. Briefly say why this question is philosophical (not psychological, not sociological, not historical).</p>
+                        </header>
+                        <textarea class="draft-textarea" data-section="question" rows="3" placeholder="My question is: ..."></textarea>
+                        <p class="word-count" data-count-for="question">0 words</p>
+                    </article>
+
+                    <article class="scaffold-section scaffold-section--positions">
+                        <header class="scaffold-section__head">
+                            <p class="scaffold-section__criterion">KU2 + R1 — multiple positions</p>
+                            <h2 class="scaffold-section__title">The positions on this question</h2>
+                            <p class="scaffold-section__guide">Identify at least two philosophical positions on your question. For each, name a philosopher or tradition associated with it, and explain — in their own terms — why someone holds it.</p>
+                        </header>
+                        <textarea class="draft-textarea" data-section="positions" rows="6" placeholder="Position 1: ... (held by ...). The reasoning is: ...&#10;&#10;Position 2: ... (held by ...). The reasoning is: ..."></textarea>
+                        <p class="word-count" data-count-for="positions">0 words</p>
+                    </article>
+
+                    <article class="scaffold-section scaffold-section--analysis">
+                        <header class="scaffold-section__head">
+                            <p class="scaffold-section__criterion">CA1 + R2 — strengths and weaknesses</p>
+                            <h2 class="scaffold-section__title">Critical analysis</h2>
+                            <p class="scaffold-section__guide">For each position above, identify its strongest point and its most damaging weakness. This is the section that most distinguishes A from C — be specific.</p>
+                        </header>
+                        <textarea class="draft-textarea" data-section="analysis" rows="8" placeholder="Position 1's strongest point: ...&#10;Position 1's most damaging weakness: ...&#10;&#10;Position 2's strongest point: ...&#10;Position 2's most damaging weakness: ..."></textarea>
+                        <p class="word-count" data-count-for="analysis">0 words</p>
+                    </article>
+
+                    <article class="scaffold-section scaffold-section--position">
+                        <header class="scaffold-section__head">
+                            <p class="scaffold-section__criterion">R1 + R2 — your defended position</p>
+                            <h2 class="scaffold-section__title">Your position, defended</h2>
+                            <p class="scaffold-section__guide">State your own answer to the question. Defend it with reasoning that follows from your analysis above. Anticipate the strongest objection and respond to it.</p>
+                        </header>
+                        <textarea class="draft-textarea" data-section="position" rows="6" placeholder="My position is: ...&#10;&#10;The reasons I find this most defensible are: ...&#10;&#10;The strongest objection I can imagine is: ... My response is: ..."></textarea>
+                        <p class="word-count" data-count-for="position">0 words</p>
+                    </article>
+
+                    <article class="scaffold-section scaffold-section--bibliography">
+                        <header class="scaffold-section__head">
+                            <p class="scaffold-section__criterion">C2 — sources</p>
+                            <h2 class="scaffold-section__title">Sources you've engaged</h2>
+                            <p class="scaffold-section__guide">List the readings (and any other sources) you've drawn on. Use a consistent referencing style.</p>
+                        </header>
+                        <textarea class="draft-textarea" data-section="bibliography" rows="5" placeholder="Author, A. (Year). Title. Publisher.&#10;..."></textarea>
+                        <p class="word-count" data-count-for="bibliography">0 words</p>
+                    </article>
+
+                </section>
+
+                <aside class="draft-rail">
+                    <h2 class="marginalia-rail__heading">Word count</h2>
+
+                    <div class="total-counter" id="totalCounter">
+                        <p class="total-counter__label">Total</p>
+                        <p>
+                            <span class="total-counter__value" id="totalValue">0</span>
+                            <span class="total-counter__limit"> / 800 words</span>
+                        </p>
+                    </div>
+
+                    <div class="marg-note">
+                        <span class="marg-note__author">Reminder</span>
+                        800 words is a maximum, not a target. A tighter argument always beats a longer one.
+                    </div>
+
+                    <div class="marg-note">
+                        <span class="marg-note__author">Save as you go</span>
+                        Your draft auto-saves to this browser session. To keep it permanently, export below.
+                    </div>
+
+                    <div class="export-actions">
+                        <button class="btn btn--clarity btn--small" id="exportMd">Export as Markdown</button>
+                        <button class="btn btn--ghost btn--small" id="exportTxt">Export as plain text</button>
+                        <button class="btn btn--ghost btn--small" id="clearDraft">Clear draft</button>
+                    </div>
+                </aside>
+
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <span>SACE Stage 1 Philosophy &middot; Issues Study workspace</span>
+            <span><a href="index.html" class="footer-link">&larr; Back to welcome</a></span>
+        </footer>
+
+    </div>
+
+    <script>
+        (() => {
+            const KEY = 'marginalia.draft';
+            const textareas = document.querySelectorAll('[data-section]');
+            const totalValue = document.getElementById('totalValue');
+            const totalCounter = document.getElementById('totalCounter');
+
+            const wordCount = (s) => (s || '').trim().split(/\s+/).filter(Boolean).length;
+
+            function load() {
+                try {
+                    const saved = JSON.parse(sessionStorage.getItem(KEY)) || {};
+                    textareas.forEach(t => {
+                        if (saved[t.dataset.section]) t.value = saved[t.dataset.section];
+                    });
+                } catch (e) { /* ignore */ }
+                updateCounts();
+            }
+
+            function save() {
+                const obj = {};
+                textareas.forEach(t => { obj[t.dataset.section] = t.value; });
+                sessionStorage.setItem(KEY, JSON.stringify(obj));
+            }
+
+            function updateCounts() {
+                let total = 0;
+                textareas.forEach(t => {
+                    const c = wordCount(t.value);
+                    total += c;
+                    const counter = document.querySelector(`[data-count-for="${t.dataset.section}"]`);
+                    counter.textContent = `${c} words`;
+                });
+                totalValue.textContent = total;
+                totalCounter.classList.toggle('total-counter--over', total > 800);
+            }
+
+            textareas.forEach(t => {
+                t.addEventListener('input', () => {
+                    save();
+                    updateCounts();
+                });
+            });
+
+            function getDraftMarkdown() {
+                const sections = [
+                    { key: 'question', title: 'My question' },
+                    { key: 'positions', title: 'The positions' },
+                    { key: 'analysis', title: 'Critical analysis' },
+                    { key: 'position', title: 'My defended position' },
+                    { key: 'bibliography', title: 'Sources' }
+                ];
+                const lines = ['# Issues Study — working draft', ''];
+                sections.forEach(s => {
+                    const t = document.querySelector(`[data-section="${s.key}"]`).value.trim();
+                    lines.push(`## ${s.title}`);
+                    lines.push('');
+                    lines.push(t || '_(empty)_');
+                    lines.push('');
+                });
+                return lines.join('\n');
+            }
+
+            function download(filename, content, mime) {
+                const blob = new Blob([content], { type: mime });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }
+
+            document.getElementById('exportMd').onclick = () => {
+                download('issues-study-draft.md', getDraftMarkdown(), 'text/markdown');
+            };
+            document.getElementById('exportTxt').onclick = () => {
+                const plain = getDraftMarkdown().replace(/^#+\s*/gm, '').replace(/_\(empty\)_/g, '(empty)');
+                download('issues-study-draft.txt', plain, 'text/plain');
+            };
+            document.getElementById('clearDraft').onclick = () => {
+                if (!confirm('Clear all sections of your draft? This cannot be undone.')) return;
+                textareas.forEach(t => { t.value = ''; });
+                save();
+                updateCounts();
+            };
+
+            load();
+        })();
+    </script>
+</body>
+</html>

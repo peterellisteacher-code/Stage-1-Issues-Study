@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Question Bank | Marginalia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shared/tokens.css">
+    <link rel="stylesheet" href="shared/marginalia.css">
+
+    <style>
+        .bank-grid {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: var(--space-xl);
+            max-width: 1600px;
+            height: 100%;
+        }
+
+        .bank-main {
+            overflow-y: auto;
+            padding-right: var(--space-md);
+        }
+
+        .bank-rail {
+            border-left: 1px solid var(--aged-soft);
+            padding-left: var(--space-lg);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+            overflow-y: auto;
+        }
+
+        .bank-header {
+            margin-bottom: var(--space-lg);
+        }
+
+        .bank-header__title {
+            font-family: var(--font-display);
+            font-size: var(--text-2xl);
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: var(--space-sm);
+        }
+
+        .bank-header__lead {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+            max-width: 60ch;
+            line-height: 1.55;
+        }
+
+        .filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-md) 0;
+            margin-bottom: var(--space-md);
+            border-top: 1px solid var(--aged-soft);
+            border-bottom: 1px solid var(--aged-soft);
+        }
+
+        .filter-bar__label {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-right: var(--space-sm);
+        }
+
+        .filter-search {
+            flex: 1;
+            min-width: 240px;
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            padding: var(--space-xs) var(--space-sm);
+            background: transparent;
+            border: 1px solid var(--aged-soft);
+            color: var(--ink);
+            border-radius: 0;
+        }
+
+        .filter-search:focus {
+            outline: 2px solid var(--clarity);
+            outline-offset: 1px;
+            border-color: var(--clarity);
+        }
+
+        .key-area-section {
+            margin-bottom: var(--space-2xl);
+        }
+
+        .key-area-section__title {
+            font-family: var(--font-display);
+            font-size: var(--text-xl);
+            font-weight: 500;
+            color: var(--ink);
+            padding-bottom: var(--space-xs);
+            border-bottom: 2px solid var(--marginalia);
+            margin-bottom: var(--space-sm);
+            display: inline-block;
+        }
+
+        .key-area-section__tagline {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            font-style: italic;
+            color: var(--ink-soft);
+            margin-bottom: var(--space-md);
+            max-width: 60ch;
+        }
+
+        .cluster {
+            margin-bottom: var(--space-lg);
+        }
+
+        .cluster__title {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: var(--space-sm);
+            padding-bottom: var(--space-xs);
+            border-bottom: 1px dashed var(--aged-soft);
+        }
+
+        .question {
+            padding: var(--space-md);
+            margin-bottom: var(--space-xs);
+            border-left: 2px solid transparent;
+            cursor: pointer;
+            transition: background 0.2s, border-color 0.2s;
+        }
+
+        .question:hover {
+            background: var(--paper-dark);
+            border-left-color: var(--marginalia-soft);
+        }
+
+        .question.expanded {
+            background: var(--paper-dark);
+            border-left-color: var(--marginalia);
+        }
+
+        .question__text {
+            font-family: var(--font-body);
+            font-size: var(--text-lg);
+            line-height: 1.4;
+            color: var(--ink);
+            margin-bottom: var(--space-xs);
+        }
+
+        .question__meta {
+            display: flex;
+            gap: var(--space-md);
+            align-items: center;
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.04em;
+        }
+
+        .question__diff {
+            padding: 2px 8px;
+            border: 1px solid var(--aged-soft);
+            border-radius: 999px;
+            text-transform: lowercase;
+            font-weight: 500;
+        }
+
+        .question__diff--entry { border-color: var(--clarity-soft); color: var(--clarity); }
+        .question__diff--standard { border-color: var(--aged); color: var(--aged); }
+        .question__diff--ambitious { border-color: var(--marginalia); color: var(--marginalia); }
+
+        .question__detail {
+            display: none;
+            padding-top: var(--space-md);
+            margin-top: var(--space-md);
+            border-top: 1px dashed var(--aged-soft);
+        }
+
+        .question.expanded .question__detail {
+            display: block;
+            animation: ink-appear 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+
+        .detail-section {
+            margin-bottom: var(--space-md);
+        }
+
+        .detail-section__title {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: var(--space-xs);
+        }
+
+        .detail-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .detail-section li {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink);
+            padding: 4px 0;
+            line-height: 1.5;
+        }
+
+        .detail-section li::before {
+            content: "→ ";
+            color: var(--marginalia);
+            margin-right: var(--space-xs);
+        }
+
+        .question__actions {
+            display: flex;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+            padding-top: var(--space-sm);
+            border-top: 1px solid var(--aged-soft);
+        }
+
+        .empty-rail {
+            font-family: var(--font-body);
+            font-style: italic;
+            color: var(--aged);
+            font-size: var(--text-base);
+            padding: var(--space-md) 0;
+            line-height: 1.5;
+        }
+
+        .pin-count {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .rail-actions {
+            margin-top: auto;
+            padding-top: var(--space-md);
+            border-top: 1px solid var(--aged-soft);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+
+        <header class="site-header">
+            <a href="index.html" class="site-header__brand">
+                Marginalia <small>Stage 1 Issues Study</small>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">welcome</a>
+                <a href="explainer.html">the task</a>
+                <a href="bank.html" class="active">questions</a>
+                <a href="chamber.html">chamber</a>
+                <a href="resources.html">readings</a>
+                <a href="drafting.html">drafting</a>
+            </nav>
+        </header>
+
+        <main class="page-main">
+            <div class="bank-grid">
+
+                <section class="bank-main">
+
+                    <header class="bank-header">
+                        <h1 class="bank-header__title">The question bank</h1>
+                        <p class="bank-header__lead">
+                            117 philosophical questions across ethics, epistemology, and metaphysics — every one phrased so that taking a position is unavoidable. Browse, filter, and pin the ones that catch your attention. Pinned questions follow you into the Socratic chamber.
+                        </p>
+                    </header>
+
+                    <div class="filter-bar">
+                        <span class="filter-bar__label">Key area:</span>
+                        <button class="chip chip--active" data-filter-area="all">all</button>
+                        <button class="chip chip--ethics" data-filter-area="ethics">ethics</button>
+                        <button class="chip chip--epistemology" data-filter-area="epistemology">epistemology</button>
+                        <button class="chip chip--metaphysics" data-filter-area="metaphysics">metaphysics</button>
+                        <span class="filter-bar__label">Difficulty:</span>
+                        <button class="chip chip--active" data-filter-diff="all">all</button>
+                        <button class="chip" data-filter-diff="entry">entry</button>
+                        <button class="chip" data-filter-diff="standard">standard</button>
+                        <button class="chip" data-filter-diff="ambitious">ambitious</button>
+                        <input type="search" class="filter-search" id="searchInput" placeholder="Search questions, philosophers, concepts..." aria-label="Search the question bank">
+                    </div>
+
+                    <div id="bankContainer" aria-live="polite">
+                        <p class="empty-rail">Loading questions...</p>
+                    </div>
+
+                </section>
+
+                <aside class="bank-rail">
+                    <h2 class="marginalia-rail__heading">Your pinned questions</h2>
+                    <p class="pin-count" id="pinCount">0 pinned</p>
+
+                    <div id="pinContainer">
+                        <p class="empty-rail">
+                            Click any question to expand it. Click <em>Pin</em> to add it here. Pinned questions move with you into the Socratic chamber and the drafting scaffold.
+                        </p>
+                    </div>
+
+                    <div class="rail-actions">
+                        <a href="chamber.html" class="btn btn--clarity btn--small" id="toChamberBtn">Take pins to the chamber &rarr;</a>
+                        <button class="btn btn--ghost btn--small" id="clearPinsBtn">Clear all pins</button>
+                    </div>
+                </aside>
+
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <span>SACE Stage 1 Philosophy &middot; Issues Study workspace</span>
+            <span><a href="chamber.html" class="footer-link" id="footerLink">Next: Socratic chamber &rarr;</a></span>
+        </footer>
+
+    </div>
+
+    <script src="shared/pins.js"></script>
+    <script>
+        (() => {
+            const container = document.getElementById('bankContainer');
+            const searchInput = document.getElementById('searchInput');
+            const pinContainer = document.getElementById('pinContainer');
+            const pinCount = document.getElementById('pinCount');
+            const clearPinsBtn = document.getElementById('clearPinsBtn');
+            const areaChips = document.querySelectorAll('[data-filter-area]');
+            const diffChips = document.querySelectorAll('[data-filter-diff]');
+
+            let bank = null;
+            let activeArea = 'all';
+            let activeDiff = 'all';
+            let activeQuery = '';
+
+            const escape = (s) => String(s).replace(/[&<>"']/g, (c) => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            }[c]));
+
+            async function loadBank() {
+                try {
+                    const r = await fetch('data/questions.json');
+                    bank = await r.json();
+                    render();
+                } catch (e) {
+                    container.innerHTML = '<p class="empty-rail">Could not load the question bank. Try refreshing the page.</p>';
+                }
+            }
+
+            function questionMatches(q) {
+                const cluster = bank.clusters[q.cluster];
+                if (activeArea !== 'all' && cluster.key_area !== activeArea) return false;
+                if (activeDiff !== 'all' && q.difficulty !== activeDiff) return false;
+                if (activeQuery) {
+                    const haystack = [
+                        q.question,
+                        ...(q.positions || []),
+                        ...(q.counter_positions || []),
+                        cluster.label
+                    ].join(' ').toLowerCase();
+                    if (!haystack.includes(activeQuery.toLowerCase())) return false;
+                }
+                return true;
+            }
+
+            function render() {
+                if (!bank) return;
+                const visible = bank.questions.filter(questionMatches);
+                if (visible.length === 0) {
+                    container.innerHTML = '<p class="empty-rail">No questions match those filters. Try widening the search.</p>';
+                    return;
+                }
+
+                // Group by key area, then cluster
+                const byArea = {};
+                bank.key_areas.forEach(ka => byArea[ka.id] = { meta: ka, clusters: {} });
+                visible.forEach(q => {
+                    const cl = bank.clusters[q.cluster];
+                    if (!byArea[cl.key_area].clusters[q.cluster]) {
+                        byArea[cl.key_area].clusters[q.cluster] = { meta: cl, questions: [] };
+                    }
+                    byArea[cl.key_area].clusters[q.cluster].questions.push(q);
+                });
+
+                const html = [];
+                for (const ka of bank.key_areas) {
+                    const areaData = byArea[ka.id];
+                    if (Object.keys(areaData.clusters).length === 0) continue;
+                    html.push(`<section class="key-area-section">
+                        <h2 class="key-area-section__title">${escape(ka.label)}</h2>
+                        <p class="key-area-section__tagline">${escape(ka.tagline)}</p>`);
+                    for (const clusterId in areaData.clusters) {
+                        const cd = areaData.clusters[clusterId];
+                        html.push(`<div class="cluster"><h3 class="cluster__title">${escape(cd.meta.label)} (${cd.questions.length})</h3>`);
+                        for (const q of cd.questions) {
+                            const isPinned = window.pins.has(q.id);
+                            html.push(renderQuestion(q, cd.meta, isPinned));
+                        }
+                        html.push('</div>');
+                    }
+                    html.push('</section>');
+                }
+                container.innerHTML = html.join('');
+            }
+
+            function renderQuestion(q, cluster, isPinned) {
+                const positions = (q.positions || []).map(p => `<li>${escape(p)}</li>`).join('');
+                const counters = (q.counter_positions || []).map(p => `<li>${escape(p)}</li>`).join('');
+                const readings = (q.readings || []).map(r => `<li>${escape(r)}</li>`).join('') || '<li>(No specific readings tagged — explore broadly.)</li>';
+                return `<article class="question" data-id="${escape(q.id)}">
+                    <p class="question__text">${escape(q.question)}</p>
+                    <div class="question__meta">
+                        <span class="question__diff question__diff--${escape(q.difficulty)}">${escape(q.difficulty)}</span>
+                        <span>${q.positions.length} positions</span>
+                    </div>
+                    <div class="question__detail">
+                        <div class="detail-section">
+                            <h4 class="detail-section__title">Positions you'll need to engage</h4>
+                            <ul>${positions}</ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4 class="detail-section__title">Counter-positions to consider</h4>
+                            <ul>${counters}</ul>
+                        </div>
+                        <div class="detail-section">
+                            <h4 class="detail-section__title">Readings that support this question</h4>
+                            <ul>${readings}</ul>
+                        </div>
+                        <div class="question__actions">
+                            <button class="btn btn--small ${isPinned ? 'btn--ghost' : ''}" data-action="pin">${isPinned ? '✓ Pinned' : 'Pin this'}</button>
+                            <a class="btn btn--clarity btn--small" href="chamber.html?q=${encodeURIComponent(q.id)}" data-action="chamber">Discuss in chamber &rarr;</a>
+                        </div>
+                    </div>
+                </article>`;
+            }
+
+            function renderPins() {
+                const list = window.pins.list();
+                pinCount.textContent = `${list.length} pinned`;
+                if (list.length === 0) {
+                    pinContainer.innerHTML = '<p class="empty-rail">Click any question to expand it. Click <em>Pin</em> to add it here. Pinned questions move with you into the Socratic chamber and the drafting scaffold.</p>';
+                    return;
+                }
+                pinContainer.innerHTML = list.map(p => `<div class="pin">
+                    <p class="pin__title">${escape(p.text)}</p>
+                    <p class="pin__meta">${escape(p.id)}</p>
+                    <button class="pin__remove" data-id="${escape(p.id)}" aria-label="Remove pin">×</button>
+                </div>`).join('');
+            }
+
+            // --- Event delegation: ONE listener handles all clicks in the bank --
+            container.addEventListener('click', (e) => {
+                const pinBtn = e.target.closest('[data-action="pin"]');
+                if (pinBtn) {
+                    e.stopPropagation();
+                    const card = pinBtn.closest('.question');
+                    const id = card.dataset.id;
+                    const q = bank.questions.find(x => x.id === id);
+                    if (window.pins.has(id)) {
+                        window.pins.remove(id);
+                        pinBtn.textContent = 'Pin this';
+                        pinBtn.classList.remove('btn--ghost');
+                    } else {
+                        window.pins.add(id, q.question);
+                        pinBtn.textContent = '✓ Pinned';
+                        pinBtn.classList.add('btn--ghost');
+                    }
+                    renderPins();
+                    return;
+                }
+                const card = e.target.closest('.question');
+                if (card && !e.target.closest('.question__actions')) {
+                    card.classList.toggle('expanded');
+                }
+            });
+
+            // --- Pin removal in the rail uses delegation too ---
+            pinContainer.addEventListener('click', (e) => {
+                const removeBtn = e.target.closest('.pin__remove');
+                if (!removeBtn) return;
+                window.pins.remove(removeBtn.dataset.id);
+                renderPins();
+                render();
+            });
+
+            // --- Filter chips: one helper, used for both groups ---
+            function bindChipGroup(chips, onSelect) {
+                chips.forEach(chip => {
+                    chip.onclick = () => {
+                        chips.forEach(c => c.classList.remove('chip--active'));
+                        chip.classList.add('chip--active');
+                        onSelect(chip);
+                        render();
+                    };
+                });
+            }
+            bindChipGroup(areaChips, (chip) => { activeArea = chip.dataset.filterArea; });
+            bindChipGroup(diffChips, (chip) => { activeDiff = chip.dataset.filterDiff; });
+
+            searchInput.oninput = () => {
+                activeQuery = searchInput.value.trim();
+                render();
+            };
+            clearPinsBtn.onclick = () => {
+                window.pins.clear();
+                renderPins();
+                render();
+            };
+
+            loadBank().then(renderPins);
+        })();
+    </script>
+</body>
+</html>

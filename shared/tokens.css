@@ -1,0 +1,65 @@
+/* ============================================================
+   TOKENS — Marginalia aesthetic for Stage 1 Issues Study
+   Closed layer: every font-size uses var(--text-*),
+   every spacing value uses var(--space-*).
+   ============================================================ */
+
+:root {
+    /* --- Spacing: 8px grid --- */
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-2xl: 64px;
+    --space-3xl: 96px;
+    --space-4xl: 128px;
+
+    /* --- Type: Perfect Fourth scale from 18px base --- */
+    --text-xs: clamp(0.75rem, 0.7vw + 0.2rem, 0.813rem);   /* 12-13px — captions */
+    --text-sm: clamp(0.813rem, 0.9vw + 0.2rem, 0.875rem);  /* 13-14px — UI chrome */
+    --text-base: clamp(1.125rem, 1.2vw + 0.5rem, 1.25rem); /* 18-20px — body */
+    --text-lg: clamp(1.35rem, 1.5vw + 0.6rem, 1.5rem);     /* 22-24px — subheadings */
+    --text-xl: clamp(1.8rem, 2vw + 0.8rem, 2rem);          /* 29-32px — sections */
+    --text-2xl: clamp(2.2rem, 2.5vw + 1rem, 2.688rem);     /* 35-43px — page titles */
+    --text-3xl: clamp(3rem, 3.5vw + 1rem, 3.563rem);       /* 48-57px — hero */
+    --text-display: clamp(3.8rem, 5vw + 1.5rem, 4.75rem);  /* 60-76px — pull quotes */
+
+    /* --- Marginalia palette: aged paper, iron ink, scholar's red --- */
+    --ground: #F4ECD8;          /* Aged cream paper — page background */
+    --paper-dark: #E5DBC1;      /* Slightly darker cream — elevated panels */
+    --ink: #1A1612;             /* Iron-gall ink — primary text, slightly warm black */
+    --ink-soft: #4A3F35;        /* Faded ink — secondary text */
+    --marginalia: #A53A2A;      /* Scholar's red — annotations, agent voice, emphasis */
+    --marginalia-soft: #C8867A; /* Faded scholar's red — hover states, dividers */
+    --clarity: #2952A3;         /* Cobalt — the colour of an argument crystallising */
+    --clarity-soft: #6B89C2;    /* Faded cobalt — link hover */
+    --aged: #9C8569;            /* Sepia — citation text, dividers, captions */
+    --aged-soft: #C2B49B;       /* Pale sepia — borders, faint dividers */
+
+    /* --- Function tokens (semantic aliases) --- */
+    --color-bg: var(--ground);
+    --color-text: var(--ink);
+    --color-text-muted: var(--ink-soft);
+    --color-heading: var(--ink);
+    --color-accent: var(--marginalia);
+    --color-link: var(--clarity);
+    --color-border: var(--aged-soft);
+    --color-surface: var(--paper-dark);
+
+    /* --- Typography families --- */
+    --font-display: 'Fraunces', 'Spectral', Georgia, serif;
+    --font-body: 'Spectral', Georgia, serif;
+    --font-marginalia: 'Caveat', 'Spectral', cursive;
+    --font-ui: 'Inter', system-ui, sans-serif;
+}
+
+/* ============================================================
+   PAPER TEXTURE — subtle SVG noise baked into the body bg.
+   Generated noise ~5% opacity over --ground.
+   ============================================================ */
+body {
+    background-color: var(--ground);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.10 0 0 0 0 0.08 0 0 0 0 0.07 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    background-blend-mode: multiply;
+}

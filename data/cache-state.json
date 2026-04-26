@@ -1,0 +1,45 @@
+{
+  "$note": "Maps pack IDs (used by the chamber UI) to live Vertex AI cache resource names. Update this file when caches are rebuilt. Built/rebuilt caches expire 70 days after creation.",
+  "$generated_at": "2026-04-27",
+  "packs": {
+    "stage1_virtue_compassion": {
+      "cache_name": "projects/167911956198/locations/us-central1/cachedContents/593140240617570304",
+      "model": "gemini-2.5-pro",
+      "label": "Virtue, attention, and compassion (Murdoch, Nussbaum)",
+      "files_cached": 2,
+      "expires_iso": "2026-07-05"
+    },
+    "stage1_aesthetics": {
+      "cache_name": "projects/167911956198/locations/us-central1/cachedContents/853223119098216448",
+      "model": "gemini-2.5-pro",
+      "label": "Aesthetics and the intentional fallacy",
+      "files_cached": 2,
+      "expires_iso": "2026-07-05"
+    },
+    "stage1_existentialism": {
+      "cache_name": null,
+      "_status": "build pending — see _design/03-cache-rebuild-instructions.md",
+      "label": "Existentialism (Sartre, de Beauvoir, Camus)"
+    },
+    "stage1_religion_ethics": {
+      "cache_name": null,
+      "_status": "build pending — see _design/03-cache-rebuild-instructions.md",
+      "label": "Religion and morality (Haidt)"
+    },
+    "stage1_mind_simulation": {
+      "cache_name": null,
+      "_status": "build pending — see _design/03-cache-rebuild-instructions.md",
+      "label": "Mind, consciousness, and simulation"
+    },
+    "lab_applied_normative_ethics": {
+      "cache_name": null,
+      "_note": "Live in the Stage 2 Issues Study Lab corpus. Look up the actual cache_name from C:/Users/Peter Ellis/OneDrive/Teaching/2026/12PHIL - 2026/Issues Study/Issues_Study_Lab/unit_corpus_state.json and paste here.",
+      "label": "Applied normative ethics (Marquis, Thomson, Singer, Brave New World) — Stage 2 cache"
+    },
+    "lab_q005": {
+      "cache_name": null,
+      "_note": "Live in the Stage 2 Issues Study Lab corpus. Look up the actual cache_name from C:/Users/Peter Ellis/OneDrive/Teaching/2026/12PHIL - 2026/Issues Study/Issues_Study_Lab/unit_corpus_state.json and paste here.",
+      "label": "Phil zombies / philosophy of mind — Stage 2 cache"
+    }
+  }
+}

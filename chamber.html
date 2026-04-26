@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Socratic Chamber | Marginalia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shared/tokens.css">
+    <link rel="stylesheet" href="shared/marginalia.css">
+
+    <style>
+        .chamber-grid {
+            display: grid;
+            grid-template-columns: 7fr 5fr;
+            gap: var(--space-xl);
+            max-width: 1600px;
+            height: 100%;
+        }
+
+        .working-panel {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+            overflow-y: auto;
+            padding-right: var(--space-md);
+        }
+
+        .working-panel__title {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .working-question {
+            font-family: var(--font-display);
+            font-size: var(--text-xl);
+            font-weight: 400;
+            font-style: italic;
+            color: var(--ink);
+            line-height: 1.3;
+            padding: var(--space-md);
+            background: var(--paper-dark);
+            border-left: 4px solid var(--marginalia);
+            min-height: 80px;
+            outline: none;
+            cursor: text;
+        }
+
+        .working-question:focus {
+            background: var(--ground);
+            border-left-color: var(--clarity);
+        }
+
+        .working-question[data-empty="true"]::before {
+            content: attr(data-placeholder);
+            color: var(--aged);
+            font-style: italic;
+            opacity: 0.7;
+        }
+
+        .pinned-section {
+            border-top: 1px solid var(--aged-soft);
+            padding-top: var(--space-md);
+        }
+
+        .pinned-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .pinned-card {
+            padding: var(--space-sm) var(--space-md);
+            background: var(--paper-dark);
+            border-left: 2px solid var(--aged);
+            cursor: pointer;
+            transition: border-color 0.2s;
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink);
+            line-height: 1.4;
+        }
+
+        .pinned-card:hover {
+            border-left-color: var(--marginalia);
+        }
+
+        .pinned-card__hint {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            display: block;
+            margin-top: 4px;
+            letter-spacing: 0.04em;
+        }
+
+        .working-panel__instructions {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+            line-height: 1.55;
+            font-style: italic;
+            max-width: 60ch;
+        }
+
+        .topic-selector {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-xs);
+            margin-top: var(--space-sm);
+        }
+
+        .topic-selector__label {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-right: var(--space-sm);
+            display: flex;
+            align-items: center;
+        }
+
+        /* --- Chat panel (right side, marginalia rail) --- */
+        .chat-panel {
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid var(--aged-soft);
+            padding-left: var(--space-lg);
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            margin-bottom: var(--space-md);
+        }
+
+        .chat-header__title {
+            font-family: var(--font-display);
+            font-size: var(--text-lg);
+            color: var(--marginalia);
+            font-style: italic;
+            margin-bottom: var(--space-xs);
+        }
+
+        .chat-header__subtitle {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.04em;
+            line-height: 1.4;
+        }
+
+        .chat-transcript {
+            flex: 1;
+            overflow-y: auto;
+            padding: var(--space-sm) 0;
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .turn {
+            line-height: 1.5;
+        }
+
+        .turn--agent {
+            font-family: var(--font-marginalia);
+            font-size: var(--text-lg);
+            color: var(--marginalia);
+            border-left: 2px solid var(--marginalia);
+            padding-left: var(--space-md);
+        }
+
+        .turn--student {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink);
+            padding-left: var(--space-md);
+            border-left: 2px solid var(--aged-soft);
+        }
+
+        .turn__author {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .turn--thinking {
+            font-style: italic;
+            opacity: 0.6;
+        }
+
+        .input-area {
+            border-top: 1px solid var(--aged-soft);
+            padding-top: var(--space-md);
+            margin-top: var(--space-md);
+        }
+
+        .input-area__form {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .input-area__textarea {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink);
+            background: transparent;
+            border: 1px solid var(--aged-soft);
+            padding: var(--space-sm);
+            resize: none;
+            min-height: 80px;
+            line-height: 1.5;
+            border-radius: 0;
+        }
+
+        .input-area__textarea:focus {
+            outline: 2px solid var(--clarity);
+            outline-offset: 1px;
+            border-color: var(--clarity);
+        }
+
+        .input-area__row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .input-area__hint {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            font-style: italic;
+        }
+
+        .empty-chat {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+            line-height: 1.55;
+            font-style: italic;
+        }
+
+        .empty-chat strong {
+            color: var(--marginalia);
+            font-weight: 500;
+        }
+
+        .agent-warning {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--marginalia);
+            background: rgba(165, 58, 42, 0.06);
+            padding: var(--space-sm);
+            border-left: 2px solid var(--marginalia-soft);
+            margin-bottom: var(--space-md);
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+
+        <header class="site-header">
+            <a href="index.html" class="site-header__brand">
+                Marginalia <small>Stage 1 Issues Study</small>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">welcome</a>
+                <a href="explainer.html">the task</a>
+                <a href="bank.html">questions</a>
+                <a href="chamber.html" class="active">chamber</a>
+                <a href="resources.html">readings</a>
+                <a href="drafting.html">drafting</a>
+            </nav>
+        </header>
+
+        <main class="page-main">
+            <div class="chamber-grid">
+
+                <section class="working-panel">
+                    <h1 class="working-panel__title">Your working question</h1>
+
+                    <div
+                        class="working-question"
+                        id="workingQuestion"
+                        contenteditable="true"
+                        spellcheck="true"
+                        data-placeholder="Type your question here, or pin one from the bank. Edit it as your thinking sharpens."
+                        data-empty="true"
+                    ></div>
+
+                    <div class="topic-selector">
+                        <span class="topic-selector__label">Topic context for the agent:</span>
+                        <button class="chip chip--active" data-pack="auto">auto-detect</button>
+                        <button class="chip" data-pack="stage1_existentialism">existentialism</button>
+                        <button class="chip" data-pack="stage1_virtue_compassion">virtue / compassion</button>
+                        <button class="chip" data-pack="stage1_religion_ethics">religion</button>
+                        <button class="chip" data-pack="stage1_aesthetics">aesthetics</button>
+                        <button class="chip" data-pack="stage1_mind_simulation">mind / simulation</button>
+                        <button class="chip" data-pack="lab_applied_normative_ethics">applied ethics</button>
+                    </div>
+
+                    <p class="working-panel__instructions">
+                        Refine the question above as the conversation unfolds. The agent in the rail to the right will press you toward sharper formulations, name the philosophical moves you're making, and surface positions you haven't considered. It will <em>not</em> write your essay.
+                    </p>
+
+                    <section class="pinned-section">
+                        <h2 class="working-panel__title">Pins from the bank</h2>
+                        <div class="pinned-list" id="pinnedList">
+                            <p class="empty-chat">No pins yet — visit the <a href="bank.html" class="inline-link">question bank</a> to find some.</p>
+                        </div>
+                    </section>
+                </section>
+
+                <aside class="chat-panel">
+                    <header class="chat-header">
+                        <h2 class="chat-header__title">In the margin</h2>
+                        <p class="chat-header__subtitle">A Socratic interlocutor. Will not write for you.</p>
+                    </header>
+
+                    <div class="agent-warning">
+                        Tip: the agent works best when you give it something to push against. Try writing your half-formed thought above, then asking the agent: <em>"What's the strongest objection to this?"</em>
+                    </div>
+
+                    <div class="chat-transcript" id="transcript" aria-live="polite">
+                        <p class="empty-chat">
+                            <strong>Begin when ready.</strong> A good first prompt: tell the agent your topic, and ask what philosophical questions it suggests within that topic. The agent will not give you a question — but it will help you find one.
+                        </p>
+                    </div>
+
+                    <div class="input-area">
+                        <form class="input-area__form" id="chatForm">
+                            <textarea
+                                class="input-area__textarea"
+                                id="chatInput"
+                                placeholder="What are you wondering about?"
+                                rows="3"
+                                aria-label="Your message to the agent"
+                            ></textarea>
+                            <div class="input-area__row">
+                                <span class="input-area__hint">Cmd/Ctrl + Enter to send</span>
+                                <button type="submit" class="btn btn--small" id="sendBtn">Send →</button>
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <span>SACE Stage 1 Philosophy &middot; Issues Study workspace</span>
+            <span><a href="drafting.html" class="footer-link">Next: drafting scaffold &rarr;</a></span>
+        </footer>
+
+    </div>
+
+    <script src="shared/pins.js"></script>
+    <script>
+        (() => {
+            const workingQ = document.getElementById('workingQuestion');
+            const pinnedList = document.getElementById('pinnedList');
+            const transcript = document.getElementById('transcript');
+            const form = document.getElementById('chatForm');
+            const input = document.getElementById('chatInput');
+            const sendBtn = document.getElementById('sendBtn');
+            const packChips = document.querySelectorAll('[data-pack]');
+
+            let conversation = [];   // {role: 'user'|'model', text: string}
+            let activePack = 'auto';
+            let isThinking = false;
+
+            const escape = (s) => String(s).replace(/[&<>"']/g, (c) => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            }[c]));
+
+            // --- Working question ---
+            const params = new URLSearchParams(window.location.search);
+            const initialQId = params.get('q');
+
+            function loadInitialQuestion() {
+                if (initialQId) {
+                    fetch('data/questions.json').then(r => r.json()).then(bank => {
+                        const q = bank.questions.find(x => x.id === initialQId);
+                        if (q) {
+                            workingQ.textContent = q.question;
+                            workingQ.dataset.empty = 'false';
+                            // Auto-pick the matching pack if any
+                            const cluster = bank.clusters[q.cluster];
+                            const packMap = {
+                                'authenticity': 'stage1_existentialism',
+                                'virtue': 'stage1_virtue_compassion',
+                                'compassion': 'stage1_virtue_compassion',
+                                'religion_ethics': 'stage1_religion_ethics',
+                                'art_meaning': 'stage1_aesthetics',
+                                'aesthetic_ontology': 'stage1_aesthetics',
+                                'mind_consciousness': 'stage1_mind_simulation',
+                                'simulation': 'stage1_mind_simulation',
+                                'personal_identity': 'stage1_mind_simulation',
+                                'personhood': 'lab_applied_normative_ethics',
+                                'animal_ethics': 'lab_applied_normative_ethics'
+                            };
+                            const matched = packMap[q.cluster];
+                            if (matched) selectPack(matched);
+                        }
+                    });
+                }
+            }
+
+            workingQ.addEventListener('input', () => {
+                workingQ.dataset.empty = workingQ.textContent.trim() === '' ? 'true' : 'false';
+            });
+
+            // --- Pins display ---
+            function renderPins() {
+                const pins = window.pins.list();
+                if (pins.length === 0) {
+                    pinnedList.innerHTML = '<p class="empty-chat">No pins yet — visit the <a href="bank.html" class="inline-link">question bank</a> to find some.</p>';
+                    return;
+                }
+                pinnedList.innerHTML = pins.map(p => `<div class="pinned-card" data-text="${escape(p.text)}">
+                    ${escape(p.text)}
+                    <span class="pinned-card__hint">click to load into your working question →</span>
+                </div>`).join('');
+            }
+
+            pinnedList.addEventListener('click', (e) => {
+                const card = e.target.closest('.pinned-card');
+                if (!card) return;
+                workingQ.textContent = card.dataset.text;
+                workingQ.dataset.empty = 'false';
+                workingQ.focus();
+            });
+
+            // --- Pack selector ---
+            function selectPack(packId) {
+                packChips.forEach(c => c.classList.remove('chip--active'));
+                const target = Array.from(packChips).find(c => c.dataset.pack === packId);
+                if (target) {
+                    target.classList.add('chip--active');
+                    activePack = packId;
+                }
+            }
+
+            packChips.forEach(chip => {
+                chip.onclick = () => selectPack(chip.dataset.pack);
+            });
+
+            // --- Chat ---
+            function renderTranscript() {
+                if (conversation.length === 0 && !isThinking) {
+                    transcript.innerHTML = '<p class="empty-chat"><strong>Begin when ready.</strong> A good first prompt: tell the agent your topic, and ask what philosophical questions it suggests within that topic. The agent will not give you a question — but it will help you find one.</p>';
+                    return;
+                }
+                const turns = conversation.map(t => {
+                    const isAgent = t.role === 'model';
+                    return `<div class="turn ${isAgent ? 'turn--agent' : 'turn--student'}">
+                        <span class="turn__author">${isAgent ? 'Agent' : 'You'}</span>
+                        ${escape(t.text).replace(/\n/g, '<br>')}
+                    </div>`;
+                });
+                if (isThinking) {
+                    turns.push('<div class="turn turn--agent turn--thinking"><span class="turn__author">Agent</span>Considering...</div>');
+                }
+                transcript.innerHTML = turns.join('');
+                transcript.scrollTop = transcript.scrollHeight;
+            }
+
+            async function sendMessage(text) {
+                if (!text.trim() || isThinking) return;
+                conversation.push({ role: 'user', text });
+                isThinking = true;
+                renderTranscript();
+
+                try {
+                    const r = await fetch('/.netlify/functions/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            messages: conversation,
+                            pack: activePack,
+                            workingQuestion: workingQ.textContent.trim()
+                        })
+                    });
+                    if (!r.ok) {
+                        const errText = await r.text();
+                        throw new Error(`HTTP ${r.status}: ${errText.slice(0, 200)}`);
+                    }
+                    const data = await r.json();
+                    conversation.push({ role: 'model', text: data.reply || '(empty response)' });
+                } catch (err) {
+                    conversation.push({
+                        role: 'model',
+                        text: `[The agent isn't reachable right now. ${err.message}]\n\nThis usually means the Netlify function isn't deployed yet, or the Vertex AI environment variables aren't set. See the README for setup instructions.`
+                    });
+                } finally {
+                    isThinking = false;
+                    renderTranscript();
+                }
+            }
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const text = input.value.trim();
+                if (!text) return;
+                input.value = '';
+                sendMessage(text);
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+                    e.preventDefault();
+                    form.requestSubmit();
+                }
+            });
+
+            loadInitialQuestion();
+            renderPins();
+            renderTranscript();
+        })();
+    </script>
+</body>
+</html>

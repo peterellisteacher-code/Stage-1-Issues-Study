@@ -1,0 +1,17 @@
+{
+  "name": "marginalia-stage1-issues-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A polished portal for the SACE Stage 1 Philosophy Issues Study — assignment intro, exhaustive question bank, Vertex-AI Socratic chamber, cached readings, and drafting scaffold. Static site + Netlify Function.",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site — nothing to build'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.15.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

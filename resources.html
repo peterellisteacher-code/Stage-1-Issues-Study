@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Readings | Marginalia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shared/tokens.css">
+    <link rel="stylesheet" href="shared/marginalia.css">
+
+    <style>
+        .resources-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-lg);
+            max-width: 1400px;
+            height: 100%;
+            overflow-y: auto;
+            padding-right: var(--space-md);
+        }
+
+        .resources-header {
+            margin-bottom: var(--space-md);
+        }
+
+        .resources-header__title {
+            font-family: var(--font-display);
+            font-size: var(--text-2xl);
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: var(--space-sm);
+        }
+
+        .resources-header__lead {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+            max-width: 70ch;
+            line-height: 1.55;
+        }
+
+        .topic-section {
+            margin-bottom: var(--space-2xl);
+        }
+
+        .topic-section__title {
+            font-family: var(--font-display);
+            font-size: var(--text-xl);
+            color: var(--ink);
+            padding-bottom: var(--space-xs);
+            border-bottom: 2px solid var(--marginalia);
+            margin-bottom: var(--space-md);
+            display: inline-block;
+        }
+
+        .reading-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: var(--space-md);
+        }
+
+        .reading-card {
+            background: var(--paper-dark);
+            padding: var(--space-md);
+            box-shadow: 1px 1px 0 rgba(26, 22, 18, 0.06);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+
+        .reading-card__author {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .reading-card__title {
+            font-family: var(--font-display);
+            font-size: var(--text-lg);
+            font-weight: 500;
+            color: var(--ink);
+            line-height: 1.25;
+        }
+
+        .reading-card__orient {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            color: var(--ink);
+            line-height: 1.5;
+        }
+
+        .reading-card__actions {
+            margin-top: auto;
+            display: flex;
+            gap: var(--space-sm);
+            padding-top: var(--space-sm);
+            border-top: 1px dashed var(--aged-soft);
+        }
+
+        .reading-card__cache-status {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            font-style: italic;
+        }
+
+        .reading-card__cache-status--cached {
+            color: var(--clarity);
+            font-style: normal;
+        }
+
+        .cache-legend {
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            color: var(--ink-soft);
+            padding: var(--space-md);
+            background: rgba(41, 82, 163, 0.04);
+            border-left: 2px solid var(--clarity-soft);
+            margin-bottom: var(--space-lg);
+            line-height: 1.55;
+        }
+
+        .cache-legend strong {
+            color: var(--clarity);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+
+        <header class="site-header">
+            <a href="index.html" class="site-header__brand">
+                Marginalia <small>Stage 1 Issues Study</small>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">welcome</a>
+                <a href="explainer.html">the task</a>
+                <a href="bank.html">questions</a>
+                <a href="chamber.html">chamber</a>
+                <a href="resources.html" class="active">readings</a>
+                <a href="drafting.html">drafting</a>
+            </nav>
+        </header>
+
+        <main class="page-main">
+            <div class="resources-grid">
+
+                <header class="resources-header">
+                    <h1 class="resources-header__title">The readings</h1>
+                    <p class="resources-header__lead">
+                        Every reading on this page is loaded into your class's Stage 1 unit and can be discussed with the AI agent in the chamber. Where a topic has been cached for AI access, you can chat with the source directly.
+                    </p>
+                </header>
+
+                <p class="cache-legend">
+                    <strong>Cache status</strong> — Some readings are cached server-side so the agent can reference them quickly. <strong>cached</strong> means the agent has direct access to that reading; <strong>not yet cached</strong> means the reading is in your class folder and you can read it yourself, but the agent may have less detailed knowledge of it. See <em>_design/03-cache-rebuild-instructions.md</em> for how to extend the cache.
+                </p>
+
+                <section class="topic-section">
+                    <h2 class="topic-section__title">Existentialism</h2>
+                    <div class="reading-grid">
+                        <article class="reading-card">
+                            <span class="reading-card__author">Jean-Paul Sartre</span>
+                            <h3 class="reading-card__title">Republic of Silence</h3>
+                            <p class="reading-card__orient">Sartre's wartime essay on radical freedom — the claim that even under occupation, every act remains a choice and an exercise of authenticity. Short, intense.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">Sartre</span>
+                            <h3 class="reading-card__title">Sartre — overview</h3>
+                            <p class="reading-card__orient">A class-prepared overview of Sartre's central concepts: existence precedes essence, bad faith, the look of the Other, anguish.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">Simone de Beauvoir</span>
+                            <h3 class="reading-card__title">de Beauvoir — situation and freedom</h3>
+                            <p class="reading-card__orient">How "situation" conditions but does not abolish freedom — Beauvoir's extension of Sartrean existentialism to gendered embodiment. The ethical core of <em>The Second Sex</em>.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">Albert Camus</span>
+                            <h3 class="reading-card__title">Camus — the absurd and revolt</h3>
+                            <p class="reading-card__orient">The absurd is the collision between human longing for meaning and the silence of the universe. Camus's response: revolt, freedom, passion.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">overview</span>
+                            <h3 class="reading-card__title">Existentialism — four thinkers</h3>
+                            <p class="reading-card__orient">A comparative overview of Sartre, de Beauvoir, Camus, and a fourth (Kierkegaard or Heidegger, depending on edition). Useful for orientation before reading the primary texts.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="topic-section">
+                    <h2 class="topic-section__title">Virtue, attention, and compassion</h2>
+                    <div class="reading-grid">
+                        <article class="reading-card">
+                            <span class="reading-card__author">Iris Murdoch</span>
+                            <h3 class="reading-card__title">The Sovereignty of Good</h3>
+                            <p class="reading-card__orient">Murdoch's defining argument: morality is not primarily about what we <em>do</em> but how we <em>see</em>. Loving attention to particular people is the moral act. A counterweight to consequentialism.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=stage1_virtue_compassion" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">Martha Nussbaum</span>
+                            <h3 class="reading-card__title">Compassion and Reason</h3>
+                            <p class="reading-card__orient">Emotions, Nussbaum argues, are forms of cognition — not noise on top of reasoning. Compassion in particular is a structured judgement about another's suffering and our shared vulnerability.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=stage1_virtue_compassion" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="topic-section">
+                    <h2 class="topic-section__title">Religion and morality</h2>
+                    <div class="reading-grid">
+                        <article class="reading-card">
+                            <span class="reading-card__author">Jonathan Haidt</span>
+                            <h3 class="reading-card__title">Haidt on Religion</h3>
+                            <p class="reading-card__orient">Available in three depths (bare minimum, standard, more than minimum). Haidt's argument: religion's primary function is moral binding, not metaphysical claim — and secular morality lacks something the binding does.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="topic-section">
+                    <h2 class="topic-section__title">Aesthetics — what is art and what does it mean?</h2>
+                    <div class="reading-grid">
+                        <article class="reading-card">
+                            <span class="reading-card__author">Wimsatt &amp; Beardsley</span>
+                            <h3 class="reading-card__title">The Intentional Fallacy</h3>
+                            <p class="reading-card__orient">The argument that what an author intended is neither available nor desirable as a standard for interpretation. The poem is a public object; meaning lives in the work, not the maker.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=stage1_aesthetics" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">companion essay</span>
+                            <h3 class="reading-card__title">The Intentional and the Unintentional</h3>
+                            <p class="reading-card__orient">A counterweight or extension to Wimsatt &amp; Beardsley — what role <em>does</em> intention play in interpretation, if any?</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=stage1_aesthetics" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="topic-section">
+                    <h2 class="topic-section__title">Mind, consciousness, and simulation</h2>
+                    <div class="reading-grid">
+                        <article class="reading-card">
+                            <span class="reading-card__author">overview</span>
+                            <h3 class="reading-card__title">Identity Theory and Functionalism</h3>
+                            <p class="reading-card__orient">Two contrasting accounts of what mental states <em>are</em>. Identity theory: mental states ARE brain states. Functionalism: mental states are defined by their causal roles, not their physical substrate.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">overview</span>
+                            <h3 class="reading-card__title">Problems for Identity Theory</h3>
+                            <p class="reading-card__orient">The standard objections — multiple realisability, Nagel's "what is it like to be a bat", the conceivability of philosophical zombies.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">overview</span>
+                            <h3 class="reading-card__title">Dualism</h3>
+                            <p class="reading-card__orient">The view that minds and brains are distinct kinds of thing. Substance vs property dualism. Why dualism survives the rise of neuroscience — and where it doesn't.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">overview</span>
+                            <h3 class="reading-card__title">Simulation Theory</h3>
+                            <p class="reading-card__orient">Bostrom's argument that we are likely living in a simulation, the standard responses, and the philosophical question of whether the answer would matter even if we knew it.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">overview</span>
+                            <h3 class="reading-card__title">What is a Human Being?</h3>
+                            <p class="reading-card__orient">A class lecture on what makes us distinctively human — biological, rational, social, narrative — and what each criterion includes and excludes.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">cache pending — see _design notes</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="topic-section">
+                    <h2 class="topic-section__title">Applied ethics — personhood, abortion, animals</h2>
+                    <div class="reading-grid">
+                        <article class="reading-card">
+                            <span class="reading-card__author">Peter Singer</span>
+                            <h3 class="reading-card__title">Singer on Abortion</h3>
+                            <p class="reading-card__orient">Singer's utilitarian argument: personhood depends on capacities (sentience, self-awareness, future preference), not species membership. Implications for abortion, infanticide, and animal ethics.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=lab_applied_normative_ethics" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached (Stage 2 pack)</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">Don Marquis</span>
+                            <h3 class="reading-card__title">Why Abortion is Immoral</h3>
+                            <p class="reading-card__orient">The Future-Like-Ours argument. Killing is wrong because it deprives the victim of a future of value — and a fetus has such a future. A non-religious argument against abortion.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=lab_applied_normative_ethics" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached (Stage 2 pack)</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">Judith Jarvis Thomson</span>
+                            <h3 class="reading-card__title">A Defence of Abortion</h3>
+                            <p class="reading-card__orient">The famous violinist thought experiment. Even granting that a fetus is a person, the right to life does not automatically entail the right to use another person's body.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=lab_applied_normative_ethics" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached (Stage 2 pack)</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">supplementary</span>
+                            <h3 class="reading-card__title">Brave New World, Chapter 16</h3>
+                            <p class="reading-card__orient">Huxley's dialogue between Mustapha Mond and the Savage on engineered happiness, soma, and what we lose when we eliminate suffering. Useful for ethics-of-enhancement questions.</p>
+                            <div class="reading-card__actions">
+                                <a href="chamber.html?pack=lab_applied_normative_ethics" class="btn btn--small btn--clarity">Discuss in chamber →</a>
+                                <span class="reading-card__cache-status reading-card__cache-status--cached">✓ cached (Stage 2 pack)</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">supplementary</span>
+                            <h3 class="reading-card__title">The Genetic Supermarket</h3>
+                            <p class="reading-card__orient">A short reading on genetic enhancement of children — designer babies, eugenics by consumer choice, the line between treatment and enhancement.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">in class folder, not yet cached</span>
+                            </div>
+                        </article>
+                        <article class="reading-card">
+                            <span class="reading-card__author">supplementary</span>
+                            <h3 class="reading-card__title">When We Die</h3>
+                            <p class="reading-card__orient">A reading on the philosophy of death — what makes death bad, the deprivation account, Epicurean responses, the question of whether immortality would be a blessing.</p>
+                            <div class="reading-card__actions">
+                                <span class="reading-card__cache-status">in class folder, not yet cached</span>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <span>SACE Stage 1 Philosophy &middot; Issues Study workspace</span>
+            <span><a href="drafting.html" class="footer-link">Next: drafting scaffold &rarr;</a></span>
+        </footer>
+
+    </div>
+</body>
+</html>

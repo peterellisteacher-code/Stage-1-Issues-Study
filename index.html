@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marginalia — Stage 1 Philosophy Issues Study</title>
+    <meta name="description" content="A workspace for the SACE Stage 1 Philosophy Issues Study. Find your question. Hear the conversation. Defend your position.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shared/tokens.css">
+    <link rel="stylesheet" href="shared/marginalia.css">
+
+    <style>
+        /* Landing-specific composition */
+        .hero {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: var(--space-lg);
+            max-width: 1600px;
+            margin: 0 auto;
+            height: 100%;
+            align-items: center;
+            padding: var(--space-2xl) var(--space-lg);
+        }
+
+        .hero__main {
+            grid-column: 2 / 9;
+        }
+
+        .hero__rail {
+            grid-column: 9 / 13;
+            border-left: 1px solid var(--aged-soft);
+            padding-left: var(--space-lg);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+            align-self: stretch;
+            justify-content: center;
+        }
+
+        .hero__question {
+            font-family: var(--font-display);
+            font-size: var(--text-display);
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.05;
+            color: var(--ink);
+            letter-spacing: -0.02em;
+            margin-bottom: var(--space-lg);
+        }
+
+        .hero__question em {
+            color: var(--marginalia);
+            font-style: italic;
+        }
+
+        .hero__intro {
+            font-family: var(--font-body);
+            font-size: var(--text-lg);
+            line-height: 1.55;
+            color: var(--ink);
+            max-width: 50ch;
+            margin-bottom: var(--space-lg);
+        }
+
+        .hero__intro + .hero__intro {
+            font-size: var(--text-base);
+            color: var(--ink-soft);
+        }
+
+        .hero__cta {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+
+        .hero__cta .btn {
+            font-size: var(--text-lg);
+            padding: var(--space-md) var(--space-xl);
+        }
+
+        .hero__cta-detail {
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            color: var(--aged);
+            font-style: italic;
+        }
+
+        .rail-quote {
+            font-family: var(--font-marginalia);
+            font-size: var(--text-lg);
+            color: var(--marginalia);
+            line-height: 1.4;
+        }
+
+        .rail-attribution {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-top: var(--space-xs);
+        }
+
+        @media (max-width: 1100px) {
+            .hero__main { grid-column: 2 / 13; }
+            .hero__rail { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+
+        <header class="site-header">
+            <a href="index.html" class="site-header__brand">
+                Marginalia <small>Stage 1 Issues Study</small>
+            </a>
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html" class="active">welcome</a>
+                <a href="explainer.html">the task</a>
+                <a href="bank.html">questions</a>
+                <a href="chamber.html">chamber</a>
+                <a href="resources.html">readings</a>
+                <a href="drafting.html">drafting</a>
+            </nav>
+        </header>
+
+        <main class="page-main" style="padding: 0;">
+            <section class="hero">
+                <div class="hero__main ink-appear">
+                    <h1 class="hero__question">
+                        What question keeps <em>you</em> up at night?
+                    </h1>
+
+                    <p class="hero__intro">
+                        The Issues Study is the only assessment in your Stage 1 Philosophy course that asks you to choose your <em>own</em> philosophical question — and then defend your <em>own</em> answer.
+                    </p>
+
+                    <p class="hero__intro">
+                        This site is a workspace. You'll find an exhaustive bank of philosophical questions across ethics, epistemology, and metaphysics; a Socratic chamber where an AI interlocutor will press you to refine your thinking; a library of readings drawn from the Western tradition; and a drafting scaffold for when you're ready to write.
+                    </p>
+
+                    <div class="hero__cta">
+                        <a href="explainer.html" class="btn btn--clarity">Begin &rarr;</a>
+                        <span class="hero__cta-detail">Roughly 8 minutes to read.</span>
+                    </div>
+                </div>
+
+                <aside class="hero__rail ink-appear" style="animation-delay: 200ms;">
+                    <div>
+                        <p class="rail-quote">
+                            "The unexamined life is not worth living."
+                        </p>
+                        <p class="rail-attribution">Socrates, Apology 38a</p>
+                    </div>
+                    <div>
+                        <p class="rail-quote">
+                            "Philosophy begins in wonder."
+                        </p>
+                        <p class="rail-attribution">Aristotle, Metaphysics</p>
+                    </div>
+                    <div>
+                        <p class="rail-quote">
+                            "We are condemned to be free."
+                        </p>
+                        <p class="rail-attribution">Sartre, Existentialism is a Humanism</p>
+                    </div>
+                </aside>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <span>SACE Stage 1 Philosophy &middot; Issues Study workspace</span>
+            <span>Built for negotiating your own question, not solving someone else's.</span>
+        </footer>
+
+    </div>
+</body>
+</html>

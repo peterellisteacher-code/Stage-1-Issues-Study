@@ -1,0 +1,496 @@
+/* ============================================================
+   MARGINALIA — Shared component styles
+   Built on tokens.css. Loaded after tokens.css on every page.
+   ============================================================ */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100dvh;
+    overflow: hidden;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   PAGE SHELL — header + main + footer/nav
+   ============================================================ */
+.page-shell {
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+}
+
+/* ============================================================
+   HEADER — site nav, sectional title
+   ============================================================ */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-sm) var(--space-lg);
+    border-bottom: 1px solid var(--aged-soft);
+}
+
+.site-header__brand {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.site-header__brand small {
+    font-family: var(--font-ui);
+    font-size: var(--text-sm);
+    color: var(--aged);
+    margin-left: var(--space-sm);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.site-nav {
+    display: flex;
+    gap: var(--space-md);
+}
+
+.site-nav a {
+    font-family: var(--font-ui);
+    font-size: var(--text-sm);
+    color: var(--ink-soft);
+    text-decoration: none;
+    padding: var(--space-xs) var(--space-sm);
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+}
+
+.site-nav a:hover {
+    color: var(--ink);
+    border-bottom-color: var(--marginalia-soft);
+}
+
+.site-nav a.active {
+    color: var(--ink);
+    border-bottom-color: var(--marginalia);
+}
+
+/* ============================================================
+   MAIN CONTENT — 12-column grid
+   ============================================================ */
+.page-main {
+    overflow: hidden;
+    padding: var(--space-lg) var(--space-lg) var(--space-md);
+}
+
+.page-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--space-lg);
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.col-7 { grid-column: span 7; }
+.col-5 { grid-column: span 5; }
+.col-6 { grid-column: span 6; }
+.col-8 { grid-column: span 8; }
+.col-4 { grid-column: span 4; }
+.col-12 { grid-column: 1 / -1; }
+.col-centred { grid-column: 3 / 11; }
+
+/* ============================================================
+   ACTIVE TEXT COLUMN (left) and MARGINALIA RAIL (right)
+   The structural signature of this site — see aesthetic brief.
+   ============================================================ */
+.active-text {
+    background: var(--ground);
+    padding: var(--space-lg);
+    overflow-y: auto;
+    height: 100%;
+    border-right: 1px solid var(--aged-soft);
+}
+
+.active-text--no-border {
+    border-right: none;
+}
+
+.marginalia-rail {
+    background: transparent;
+    padding: var(--space-lg) var(--space-md);
+    overflow-y: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.marginalia-rail__heading {
+    font-family: var(--font-ui);
+    font-size: var(--text-sm);
+    color: var(--aged);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-sm);
+}
+
+/* ============================================================
+   TYPOGRAPHY — Body text, headings, pull quotes
+   ============================================================ */
+.h-display {
+    font-family: var(--font-display);
+    font-size: var(--text-display);
+    font-weight: 400;
+    line-height: 1.05;
+    color: var(--ink);
+    letter-spacing: -0.015em;
+}
+
+.h-display em {
+    font-style: italic;
+    color: var(--marginalia);
+}
+
+.h-1 {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+}
+
+.h-2 {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    font-weight: 500;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: var(--space-md);
+}
+
+.h-3 {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: var(--space-sm);
+}
+
+.h-4 {
+    font-family: var(--font-ui);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--aged);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-sm);
+}
+
+.body-text {
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: 1.65;
+    color: var(--ink);
+    max-width: 70ch;
+    margin-bottom: var(--space-md);
+}
+
+.body-text + .body-text {
+    margin-top: var(--space-md);
+}
+
+.body-text em {
+    font-style: italic;
+    color: var(--marginalia);
+}
+
+.body-text a {
+    color: var(--clarity);
+    text-decoration: underline;
+    text-decoration-color: var(--clarity-soft);
+    text-underline-offset: 3px;
+}
+
+.body-text a:hover {
+    text-decoration-color: var(--clarity);
+}
+
+.pull-quote {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    font-style: italic;
+    line-height: 1.25;
+    color: var(--marginalia);
+    border-left: 3px solid var(--marginalia);
+    padding-left: var(--space-md);
+    margin: var(--space-lg) 0;
+    max-width: 50ch;
+}
+
+.caption, .citation {
+    font-family: var(--font-ui);
+    font-size: var(--text-xs);
+    color: var(--aged);
+    letter-spacing: 0.02em;
+}
+
+/* ============================================================
+   MARGINALIA NOTE — handwritten annotation in the rail
+   ============================================================ */
+.marg-note {
+    font-family: var(--font-marginalia);
+    font-size: var(--text-lg);
+    color: var(--marginalia);
+    line-height: 1.4;
+    padding: var(--space-sm) var(--space-md);
+    border-left: 2px solid var(--marginalia-soft);
+    background: rgba(165, 58, 42, 0.04);
+}
+
+.marg-note--agent {
+    border-left-color: var(--marginalia);
+}
+
+.marg-note__author {
+    font-family: var(--font-ui);
+    font-size: var(--text-xs);
+    color: var(--aged);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-xs);
+    display: block;
+}
+
+/* ============================================================
+   PINNED ITEM — like a piece of tape on the rail
+   ============================================================ */
+.pin {
+    background: var(--paper-dark);
+    padding: var(--space-md);
+    position: relative;
+    box-shadow: 1px 1px 0 rgba(26, 22, 18, 0.08);
+    transform: rotate(-0.3deg);
+    transition: transform 0.2s;
+}
+
+.pin + .pin {
+    transform: rotate(0.4deg);
+}
+
+.pin:hover {
+    transform: rotate(0deg) translateY(-2px);
+}
+
+.pin__title {
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: var(--space-xs);
+}
+
+.pin__meta {
+    font-family: var(--font-ui);
+    font-size: var(--text-xs);
+    color: var(--aged);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.pin__remove {
+    position: absolute;
+    top: var(--space-xs);
+    right: var(--space-xs);
+    background: transparent;
+    border: none;
+    color: var(--aged);
+    cursor: pointer;
+    font-size: var(--text-base);
+    line-height: 1;
+    padding: 4px 6px;
+}
+
+.pin__remove:hover {
+    color: var(--marginalia);
+}
+
+/* ============================================================
+   BUTTON — Primary action
+   ============================================================ */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--space-xl);
+    padding: var(--space-sm) var(--space-lg);
+    font-family: var(--font-ui);
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--ground);
+    background: var(--ink);
+    border: 2px solid var(--ink);
+    border-radius: 0;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: var(--marginalia);
+    border-color: var(--marginalia);
+}
+
+.btn--clarity {
+    background: var(--clarity);
+    border-color: var(--clarity);
+}
+
+.btn--clarity:hover {
+    background: var(--ink);
+    border-color: var(--ink);
+}
+
+.btn--ghost {
+    background: transparent;
+    color: var(--ink);
+}
+
+.btn--ghost:hover {
+    background: var(--ink);
+    color: var(--ground);
+}
+
+.btn--small {
+    min-height: 36px;
+    padding: var(--space-xs) var(--space-md);
+    font-size: var(--text-sm);
+}
+
+/* ============================================================
+   CHIP / TAG — for filters, key area indicators
+   ============================================================ */
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px var(--space-sm);
+    font-family: var(--font-ui);
+    font-size: var(--text-xs);
+    font-weight: 500;
+    color: var(--ink-soft);
+    background: transparent;
+    border: 1px solid var(--aged-soft);
+    border-radius: 999px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+    transition: all 0.2s;
+}
+
+.chip:hover {
+    border-color: var(--ink);
+    color: var(--ink);
+}
+
+.chip--active {
+    background: var(--ink);
+    color: var(--ground);
+    border-color: var(--ink);
+}
+
+.chip--ethics { border-color: var(--marginalia-soft); }
+.chip--ethics.chip--active { background: var(--marginalia); border-color: var(--marginalia); }
+.chip--epistemology { border-color: var(--clarity-soft); }
+.chip--epistemology.chip--active { background: var(--clarity); border-color: var(--clarity); }
+.chip--metaphysics { border-color: var(--aged); }
+.chip--metaphysics.chip--active { background: var(--aged); border-color: var(--aged); color: var(--ground); }
+
+/* ============================================================
+   FOOTER — site-wide
+   ============================================================ */
+.site-footer {
+    padding: var(--space-sm) var(--space-lg);
+    border-top: 1px solid var(--aged-soft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-ui);
+    font-size: var(--text-xs);
+    color: var(--aged);
+    letter-spacing: 0.04em;
+}
+
+/* ============================================================
+   FOCUS STATES (accessibility)
+   ============================================================ */
+:focus-visible {
+    outline: 2px solid var(--clarity);
+    outline-offset: 3px;
+}
+
+/* ============================================================
+   UTILITY
+   ============================================================ */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.gap-xs { gap: var(--space-xs); }
+.gap-sm { gap: var(--space-sm); }
+.gap-md { gap: var(--space-md); }
+.gap-lg { gap: var(--space-lg); }
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.justify-between { justify-content: space-between; }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+
+/* ============================================================
+   ANIMATIONS — Weighted ink
+   ============================================================ */
+@keyframes ink-appear {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ink-appear {
+    animation: ink-appear 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+@keyframes pen-underline {
+    from { transform: scaleX(0); transform-origin: left; }
+    to { transform: scaleX(1); transform-origin: left; }
+}
