@@ -9,3 +9,6 @@ Thumbs.db
 .vscode/
 .idea/
 package-lock.json
+
+# Derivative — text extracted from readings_source/ + text_packs/ at pack-build time
+extracted/
