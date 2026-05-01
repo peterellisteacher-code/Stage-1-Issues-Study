@@ -240,10 +240,21 @@ exports.handler = async (event) => {
             body: JSON.stringify({ reply: extractText(response) })
         };
     } catch (err) {
-        console.error('chat function error:', err);
         const status = (err && typeof err.status === 'number' && err.status >= 400 && err.status < 600)
             ? err.status
             : 500;
+        // Anthropic SDK retries 429 + 5xx with exponential backoff (default maxRetries=2,
+        // respects Retry-After). If we still see a 429 here, retries were exhausted —
+        // log it structurally so we can spot real capacity problems in Netlify function logs.
+        if (status === 429) {
+            console.log(JSON.stringify({ event: 'chat.rate_limited_after_retries', ip, pack: pack || 'auto' }));
+            return {
+                statusCode: 429,
+                headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+                body: JSON.stringify({ error: "The agent is briefly overloaded. Try sending again in a few seconds." })
+            };
+        }
+        console.error('chat function error:', err);
         return {
             statusCode: status,
             headers: { ...corsHeaders, 'Content-Type': 'application/json' },
