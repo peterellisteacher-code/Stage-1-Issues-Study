@@ -5,20 +5,31 @@
  * Body: { messages: [{role, text}, ...], pack: "stage1_*" or "auto", workingQuestion: "..." }
  * Returns: { reply: "..." }
  *
- * Architecture:
- *   - Calls the Anthropic Messages API via @anthropic-ai/sdk using Claude Haiku 4.5
- *   - Always enforces the Socratic system prompt (never write the essay; ask questions)
- *   - Optional `pack` adds a one-line topic-context note alongside the working question
- *   - The system prompt is marked for prompt caching; activates automatically once enough
- *     content (e.g. inlined readings) pushes the prefix above the 4096-token Haiku 4.5 minimum
+ * Cost-conscious design (for a 14-30 student class over a unit):
+ *   - Claude Haiku 4.5 ($1/M in, $5/M out)
+ *   - System prompt (and optional readings pack) marked for ephemeral caching
+ *   - Per-IP sliding-window rate limit (default: 30 req / 5 min)
+ *   - Conversation history truncated to the last 6 turns before sending
+ *   - Output capped at 600 tokens; usage logged for cost tracking
+ *
+ * Readings:
+ *   - Looks for data/packs/<pack_id>.txt at request time
+ *   - If found, inlines it as a cached system block (caching activates above 4096 tokens)
+ *   - If not, falls back to a one-line topic context note
  *
  * Environment variable:
  *   ANTHROPIC_API_KEY — set in Netlify site settings (never commit)
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
+const fs = require('fs');
+const path = require('path');
 
 const MODEL = 'claude-haiku-4-5';
+const MAX_OUTPUT_TOKENS = 600;
+const HISTORY_TURN_LIMIT = 6;          // last N user/assistant pairs (last 2N messages)
+const RATE_LIMIT_MAX = 30;             // requests per window per IP
+const RATE_LIMIT_WINDOW_MS = 5 * 60_000; // 5 minutes
 
 const SOCRATIC_SYSTEM_PROMPT = `You are a Socratic interlocutor for a Year 11 SACE Stage 1 Philosophy student working on their Issues Study assessment. The student must produce their OWN philosophical question, identify multiple positions on it, critically analyse those positions, and defend their own position with logic and evidence.
 
@@ -59,6 +70,8 @@ const PACK_CONTEXT = {
 };
 
 let client = null;
+const packCache = new Map();           // pack_id → { content: string, mtime: number } | null
+const rateBuckets = new Map();         // ip → number[] of recent timestamps
 
 function getClient() {
     if (client) return client;
@@ -70,12 +83,63 @@ function getClient() {
     return client;
 }
 
-function buildMessages(messages, workingQuestion, pack) {
-    const out = [];
+function loadPackText(pack) {
+    if (!pack || pack === 'auto') return null;
+    if (!/^[a-z0-9_]+$/i.test(pack)) return null; // path-traversal guard
+    if (packCache.has(pack)) return packCache.get(pack);
+    const file = path.join(__dirname, '..', '..', 'data', 'packs', `${pack}.txt`);
+    try {
+        const stat = fs.statSync(file);
+        const content = fs.readFileSync(file, 'utf8');
+        const entry = { content, mtime: stat.mtimeMs };
+        packCache.set(pack, entry);
+        return entry;
+    } catch (e) {
+        packCache.set(pack, null);
+        return null;
+    }
+}
 
+function checkRateLimit(ip) {
+    const now = Date.now();
+    const cutoff = now - RATE_LIMIT_WINDOW_MS;
+    const recent = (rateBuckets.get(ip) || []).filter(t => t > cutoff);
+    if (recent.length >= RATE_LIMIT_MAX) {
+        const retryAfterMs = recent[0] + RATE_LIMIT_WINDOW_MS - now;
+        return { ok: false, retryAfter: Math.max(1, Math.ceil(retryAfterMs / 1000)) };
+    }
+    recent.push(now);
+    rateBuckets.set(ip, recent);
+    return { ok: true };
+}
+
+function getClientIp(event) {
+    const xff = event.headers?.['x-forwarded-for'] || event.headers?.['X-Forwarded-For'];
+    if (xff) return String(xff).split(',')[0].trim();
+    return event.headers?.['client-ip'] || 'unknown';
+}
+
+function buildSystem(pack) {
+    const blocks = [{ type: 'text', text: SOCRATIC_SYSTEM_PROMPT }];
+    const packEntry = loadPackText(pack);
+    if (packEntry) {
+        blocks.push({
+            type: 'text',
+            text: `\n\n--- READINGS FOR THIS TOPIC ---\nThe following passages are available for reference. Cite specific lines when pointing the student toward them; do not summarise unprompted.\n\n${packEntry.content}`
+        });
+    }
+    blocks[blocks.length - 1].cache_control = { type: 'ephemeral' };
+    return blocks;
+}
+
+function buildMessages(messages, workingQuestion, pack, hasInlineReadings) {
+    const truncated = messages.slice(-HISTORY_TURN_LIMIT * 2);
+    const out = [];
     const contextParts = [];
-    const packNote = pack && pack !== 'auto' ? PACK_CONTEXT[pack] : null;
-    if (packNote) contextParts.push(`[TOPIC CONTEXT: I'm working in ${packNote}]`);
+    if (!hasInlineReadings) {
+        const packNote = pack && pack !== 'auto' ? PACK_CONTEXT[pack] : null;
+        if (packNote) contextParts.push(`[TOPIC CONTEXT: I'm working in ${packNote}]`);
+    }
     if (workingQuestion) contextParts.push(`[WORKING QUESTION: "${workingQuestion}"]`);
 
     if (contextParts.length) {
@@ -83,7 +147,7 @@ function buildMessages(messages, workingQuestion, pack) {
         out.push({ role: 'assistant', content: 'Noted. Keep going.' });
     }
 
-    for (const m of messages) {
+    for (const m of truncated) {
         out.push({
             role: m.role === 'model' ? 'assistant' : 'user',
             content: m.text
@@ -119,6 +183,16 @@ exports.handler = async (event) => {
         };
     }
 
+    const ip = getClientIp(event);
+    const limit = checkRateLimit(ip);
+    if (!limit.ok) {
+        return {
+            statusCode: 429,
+            headers: { ...corsHeaders, 'Retry-After': String(limit.retryAfter), 'Content-Type': 'application/json' },
+            body: JSON.stringify({ error: `Slow down — try again in ${limit.retryAfter}s.` })
+        };
+    }
+
     let payload;
     try {
         payload = JSON.parse(event.body || '{}');
@@ -140,18 +214,25 @@ exports.handler = async (event) => {
     }
 
     try {
+        const system = buildSystem(pack);
+        const hasInlineReadings = system.length > 1;
         const response = await getClient().messages.create({
             model: MODEL,
-            max_tokens: 600,
-            system: [
-                {
-                    type: 'text',
-                    text: SOCRATIC_SYSTEM_PROMPT,
-                    cache_control: { type: 'ephemeral' }
-                }
-            ],
-            messages: buildMessages(messages, workingQuestion, pack)
+            max_tokens: MAX_OUTPUT_TOKENS,
+            system,
+            messages: buildMessages(messages, workingQuestion, pack, hasInlineReadings)
         });
+
+        const u = response.usage || {};
+        console.log(JSON.stringify({
+            event: 'chat.usage',
+            ip,
+            pack: pack || 'auto',
+            input_tokens: u.input_tokens,
+            output_tokens: u.output_tokens,
+            cache_creation_input_tokens: u.cache_creation_input_tokens,
+            cache_read_input_tokens: u.cache_read_input_tokens
+        }));
 
         return {
             statusCode: 200,

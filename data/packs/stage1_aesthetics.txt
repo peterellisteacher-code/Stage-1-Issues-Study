@@ -1,0 +1,2390 @@
+# Readings pack: stage1_aesthetics
+
+The following passages are the readings the agent should reference. Cite specific lines or paragraphs when pointing the student toward them. Do not summarise unprompted.
+
+=== Wimsatt & Beardsley — The Intentional Fallacy ===
+
+THE INTENTIONAL FALLACY
+
+BY w. K. WIMSATT, JR. AND M. C. BEARDSLEY
+
+He owns with toil he wrote the following scenes;
+But, if they're naught, ne'er spare him for his pains:
+Damn him the more; have no commise�ation
+For dullness on mature deliberation.
+
+\V1LLIAM CoNGREVE, Prologue to
+The Way of the World
+
+T
+
+HE claim of the author's "intention" upon the critic's
+judgment has been challenged in a number of recent dis­
+cussions, notably in the debate entitled The Personal
+Heresy, between Professors Lewis and Till yard, and at least im­
+plicitly in periodical essays like those in the "Symposiums" of
+1940 in the Southern and Kenyon Reviews. 1 But it seems doubt­
+ful if this claim and most of its romantic corollaries are as yet
+subject to any widespread questioning. The present writers, in
+a short article entitled "Intention" for a Dictionary2 of literary
+criticism, raised the issue but were unable to pursue its implica­
+tions at any length. \Ve argued that the design or intention of
+the author is neither available nor desirable as a standard for
+judging the success of a work of literary art1 and it seems to us
+that this is a principle which goes deep into some differences in
+the history of critical attitudes. It is a principle which accepted
+or rejected points to the polar opposites of classical "imitation"
+and romantic expression. It entails many specific truths about
+inspiration, authenticity, biography, literary history and scholar­
+ship, and about some trends of contemporary poetry, especially
+its allusiveness. There is hardly a problem of literary criticism
+in which the critic's approach will not be qualified by his view
+of "intention."
+
+"Intention," as we shall use the term, corresponds to what he
+intended in a formula which more or less explicitly has had wide
+acceptance. "In order to judge the poet's performance, we must
+
+WIMSATT AND BEARDSLEY
+
+469
+
+know what he intended." Intention is design or plan in the au­
+thor's mind. Intention has obvious affinities for the author's at­
+titude toward his work, the way he felt, what made him write.
+
+We begin our discussion with a series of propositions sum­
+marized and abstracted to a degree where they seem to us axio­
+matic, if not truistic.
+
+1. A poem does not come into existence by accident. The
+words of a poem, as Professor Stoll has remarked, come out of
+a head, not out of a hat. Yet to insist on the designing intellect
+as a cause of a poem is not to grant the design or intention as a
+standard.
+
+2. One must ask how a critic expects to get an answer to the
+question about intention. How is he to find out what the poet
+tried to do? If the poet succeeded in doing it, then the poem itself
+shows what he was trying to do. And if the poet did not succeed,
+then the poem is not adequate evidence, and the critic must go
+outside the poem-for evidence of an intention that did not be­
+come effective in the poem. "Only one caveat must be borne in
+mind," says an eminent intentionalist' in a moment when his the­
+ory repudiates itself; "the poet's aim must be judged at the mo­
+ment of the creative act, that is to say, by the art of the poem
+itself."
+
+3. Judging a poem is like judging a pudding or a machine.
+One demands that it work. It is only because an artifact works
+that we infer the intention of an artificer. "A poem should not
+mean but be." A poem can be only through its meaning-since
+its medium is words-yet it is, simply is, in the sense that we have
+no excuse for inquiring what part is intended or meant.' Poetry
+is a feat of style by which a complex of meaning is handled all
+at once. Poetry succeeds because all or most of what is said or
+implied is relevant; what is irrelevant has been excluded, like
+lumps from pudding and "bugs" from machinery. In this re­
+spect poetry differs from practical messages, which are success-
+
+
+470
+
+THE INTENTIONAL FALLACY
+
+ful if and only if we correctly infer the intention. They are
+more abstract than poetry.
+
+4. The meaning of a poem may certainly be a personal one, in
+the sense that a poem expresses a personality or state of soul
+rather than a physical object like an apple. But even a short
+lyric poem is dramatic, the response of a speaker ( no matter how
+abstractly conceived) to a situation ( no matter how universal­
+ized). We ought to impute the thoughts and attitudes of the
+poem immediately to the dramatic speaker, and if to the author
+at all, only by a biographical act of inference.
+
+5. If there is any sense in which an author, by revision, has
+better achieved his original intention, it is only the very abstract,
+tautological, sense that he intended to write a better work and
+now has done it.
+( In this sense every author's intention is the
+same.) His former specific intention was not his intention.
+"He's the man we were in search of, that's true"; says Hardy's
+rustic constable, "and yet he's not the man we were in search of.
+For the man we were in search of was not the man we wanted.""
+
+*
+
+* *
+
+* *
+
+* *
+"Is not a critic," asks Professor Stoll," ... a judge, who does
+not explore his own consciousness, but determines the author's
+meaning or intention, as if the poem were a will, a contract, or
+the constitution? The poem is not the critic's own."" He has
+diagnosed very accurately two forms of irresponsibility, one which
+he prefers. Our view is yet different. The poem is not the
+critic's own and not the author's (it is detached from the author
+at birth and goes about the world beyond his power to intend
+about it or control it). The poem belongs to the public. It is
+embodied in language, the peculiar possession of the public, and
+it is about the human being, an object of public knowledge. What
+is said about the poem is subject to the same scrutiny as any
+statement in linguistics or in the general science of psychology
+or morals. Mr. Richards has aptly called the poem a class­
+"a class of experiences which do not differ in any character more
+
+WIMSATT AND BEARDSLEY
+
+471
+
+than a certain amount ... from a standard experience." And
+he adds, "Vv e may take as this standard experience the relevant
+experience of the poet when contemplating the completed com­
+position." Professor vVellek in a fine essay on the problem has
+preferred to call the poem "a system of norms," "extracted from
+every individual experience," and he objects to Mr. Richards'
+deference to the poet as reader. We side with Professor W ellek
+in not wishing to make the poet (outside the poem) an authority.
+A critic of our Dictionary article, Mr. Ananda K. Coomara­
+swamy, has argued1 that there are two kinds of enquiry about a
+work of art: ( 1 ) whether the artist achieved his intentions; ( 2)
+whether the work of art "ought ever to have been undertaken
+at all" and so "whether it is worth preserving." Number (2),
+l\!1r. Coomaraswamy maintains, is not "criticism of any work of
+art qua work of art," but is rather moral criticism; number ( ! )
+is artistic criticism. But we maintain that (2) need not be moral
+cr�ticism: that there is another way of deciding whether works
+of art are worth preserving and whether, in a sense, they "ought"
+to have been undertaken, and this is the way of objective criticism
+of works of art as such, the way which enables us to distinguish
+between a skilful murder and a skilful poem. A skilful murder
+is an example which Mr. Coomaraswamy uses, and in his system
+the difference between the murder and the poem is simply a
+"moral" one, not an "artistic" one, since each if carried out ac­
+cording to plan is "artistically" successful. Vv e maintain that
+( 2) is an enquiry of more worth than ( 1 ) , and since ( 2), and
+not ( 1) is capable of distinguishing poetry from murder, the
+name "artistic criticism" is properly given to (2).
+
+II
+
+It is not so much an empirical as an analytic judgment, not a
+historical statement, but a definition, to say that the intentional
+fallacy is a romantic one. When a rhetorician, presumably of the
+first century A.D., writes: "Sublimity is the echo of a great soul,"
+
+=== The Intentional and the Unintentional ===
+
+48
+
+dario compagno
+
+6. The Intentional and the Unintentional
+
+Theoretical simplifications in the nineteenth century attributed to the author
+either a precise conscious plan (well defined ‘in the head’ up to the smallest
+detail) or a messy net of idiosyncratic associations (over which s/he has no
+control). What emerged in the end is the need for an author, for a real person
+who could be held responsible for the sense of writing, and could therefore
+confute inappropriate interpretations. The author shows up in interpretation
+well before biographies and in genetic comparisons: it is a matter of seeing
+the result of human action in literary and artistic works.
+
+As we have seen, the first phase of approaches to the author implicitly
+postulated a hidden, interior intention that could not be reached by analyses.
+The ‘real intentions’ of writing were confined to an unreachable subjectivity,
+and the public aspects of writing were consequently belittled, given that they
+could not point to the hidden ‘real intention’ in the author. But, actually, in
+interpretation anything is better than nothing, and some indications about
+the author’s intention have been recognized to be available and needed. If this
+is true, then it is better to build up an author as best as we can. A pragmatic
+approach to the author recognizes the fallibility of interpretation, but values
+all clues that can help to understand intentions in the act of writing itself, and
+so to see alternatives and choices in the words and sentences actually used.
+
+The twentieth-century hunting season for the author showed above all
+that a minimal meaning attributed to a minimal author is very hard to find
+and define. On the other hand, the ends of speakers and writers do emerge
+from the historical and communicative context: they are not unavoidably lost
+after the author’s physical death, because they never lived inside the author
+in the first place. Authors live in their works. There was in Dante no hidden
+res, there was no private ‘real intention’; if there were one, then we would be
+justified to stop looking for it (given its disappearance), and only concentrate
+on language. But intention is public, and lives in the acts performed: it does
+not disappear, or all meaning would also disappear at the same time.10 There-
+fore, given (1) the need for an author, (2) the availability of intentions, (3)
+the difficulty in building a minimal author and meaning, then (4) we need to
+understand the author as best as we can, by all means necessary. Otherwise we
+would risk making the author say whatever we preferred. As a matter of fact,
+
+
+
+
+
+
+
+
+theories of authorship
+
+49
+
+whenever we build up a formal or minimal author, we are just projecting our
+intention into the text.11 Referring to the author, on the other hand, permits
+us to evaluate the correctness of our interpretation.
+
+Luigi Pareyson blamed Croce because for the latter the productive act had
+no value per se, and was only a means to express the universal idea behind the
+work. Pareyson had a very different theory about artistic creation: it is human
+action that gives artistic works their value, and ‘it is necessary to consider art
+more as a “doing” than as an “expressing” or “contemplating” ’ (1974, 7; my
+translation). The artistic intention emerges in interpretation, and the interpreter
+needs to reactivate the author’s intention in order to understand the work.
+Intentions are formed along the creative process and persist in the work’s form.
+The matter is then how to understand the intentions of an author that make
+a work of art out of wood, or a piece of paper and some ink.
+
+Umberto Eco elaborates on Pareyson’s theory. Eco looks for an inten-
+tion also in those open works whose meaning apparently does not depend on
+their author’s project, either because random processes of creation played a
+major role in their production, or because the author left in them an ample
+space for interpretative freedom. Eco’s theory is far from Barthes’s and Der-
+rida’s ideas. For Eco, we need to look for and find an intention in order to
+recognize a work of art as such. Art, in other words, is always intentional,
+although some relevant parts of its expression and/or meaning can be left open
+to the interpreter’s freedom. The author of an open work ‘wanted to provoke
+a feeling of suspension, of indeterminateness’ (1989, 116). Not all works of
+art are open works; but there is also an author’s intention in open works: the
+intention to make an open work, in a certain way and for a certain end. Any
+work, ‘even before becoming a field of actualizable choices, is already a field
+of actualized choices’, and ‘the original gesture, fixed by and in the sign, is in
+itself a direction that will eventually lead us to the discovery of the author’s
+intention’ (101-103). To interpret is then a matter of cooperating with the
+author’s intention, as it is put into form in the work (Eco 1979).
+
+For Barthes and Derrida the author’s intention was a dull limit that the
+critic had to avoid, while Eco looks for an intention that is public (intentio operis,
+as in Eco 1990), and not ‘in the head’ of the author, defined up to the smallest
+detail before even taking up the pen (intentio auctoris).12 This public intention
+leaves some freedom to the interpreter, an open field of possibilities, but not
+complete freedom. It may happen that a work does really escape from the author’s
+control and begins to produce meaning by itself, but in that case ‘what remains
+then is no longer a field of possibilities but rather the indistinct, the primary,
+the indeterminate at its wildest – at once everything and nothing’ (1989, 93).
+Eco’s intention is perfectly compatible and complementary with
+Anscombe’s. Intentions are semiotic realities, existing only within our public
+interpretation of actions and texts. Without intentions we could not give form
+to acts and texts (that are both the result of intentional activities), and intentions
+
+
+50
+
+dario compagno
+
+are neither hidden res in the brain nor private experiences accessible only to
+oneself. Moreover, intentions can be (and for the later Eco always are, at least in
+part) open; whenever we act, our end is never defined up to the smallest detail,
+‘because the intention itself was open, aiming at a plural communication’ (102;
+my emphasis). Openness is a property of language and of thought, depriving
+the will-to-say of the conscious perfection wanted by Husserl, but granting a
+partially-conscious directive power to it. We are not fully conscious of what we
+mean, whenever we speak or write, but we are conscious of at least some of the
+sense effects we want to obtain by speaking and writing.
+
+The consequences of writing are only partially foreseen, and writers try to
+understand at their best the ways in which interpreters will read their works. This
+indeterminacy does not make our intentions less legitimate: that of a perfectly
+defined, ‘crystalline closed’ intended meaning in the mind is a wrong idea. What
+we think is analogous to what we write, with all the uncertainties and blank
+spaces (intentionally or not) left to the reader. Anscombe and Eco show that
+intentions are public and open, against the two phenomenological ‘myths’ of a hidden
+interiority and of a perfect definition. Barthes and Derrida could not recognize
+that something in the text is intentional and something else is not, otherwise
+they would have had to admit that the (however polysemic) author’s intention
+remains in the text and in its interpretation. Anscombe and Eco actively look
+for clues to better interpretations and, when doing so, find an intention at work.
+Thus, the later developments of twentieth-century reflection on subjectivity
+and language completely overturned the original statements about an ‘intentional
+fallacy’. Interpretation is a matter of recognizing what is intentional: where the
+work begins and ends, and what is planned within it. There is also the need
+to recognize what is unintentional, above and beyond the author’s intention –
+otherwise the author would become a god-like entity with a perfect control over
+language and with an unrealistically clear idea of the ends and consequences
+of his or her actions. In practice, while interpreting a text, we need to distribute
+intended and non-intended messages: the way in which we realize this distribution
+determines the resulting meaning. For example, it is very different to understand
+a certain sentence as ironic or not; it depends on how we give shape to the
+author’s intention, on the basis of all the data we manage to find and to our
+reasoning. Attributing or not-attributing an intentional ironic message to a
+sentence depends on the hypothesis we make about the author (while the sentence
+itself remains the same in both readings). For example, to talk about our
+friend’s mismatched socks can be done intentionally or not: it is all important
+to understand what is the case, in order to interpret the actual sense and use of
+what we say. And this applies also in case of intentional ambiguity.
+
+This is the exact opposite of asserting that the author’s intention is ‘neither
+available nor desirable’, as New Criticism suggested. Intention is always at stake
+and in discussion. The author cannot be exhausted, fully understood, because
+interpretation (from a pragmatic standpoint) is a nearly never-ending activity.
+
+
+theories of authorship
+
+51
+
+But intention remains the only limit to interpretation and the only possibility to
+negotiate our proper reading with others on a public basis. Intention is actually
+the opposite of what Husserl and the New Critics thought: intention is an
+entirely public benchmark, to be defined according to textual and contextual
+evidence against which diverse interpretations can be compared. Intention
+is public and visible, and not something hidden within the author. To be an
+author (and also to simply communicate) is a matter of publicly expressing
+something, and not at all keeping it private for oneself. There is nothing
+unreachable in communication, and especially not the author’s intention.
+
+I hope I have given an adequate idea of the richness and complexity of
+the debate on authorship and interpretation as it developed throughout the
+whole of the twentieth century. The subject, initially marginal, took a long
+time to become visible and describable. And every new idea of the author has
+been accompanied by a new idea of what a text is, and of how it should be
+read: realization of ideal meanings under the control of a transcendental sub-
+ject; agglomerate of citations under the drives of the unconscious; intentional
+product of an author with a partially conscious strategy in mind. Only this
+last idea needs an effective, ‘useful’ concept of author: a person writing for an
+end, even if s/he may not be able to foresee all the consequences of his or her
+choices. This makes a human out of the author. In this way the word ‘author’
+can be pronounced again without prefixes or restrictive attributions, without
+seeing in it the residual par excellence, that about which it is not possible to
+talk. There is no hidden author. A scapegoat for an entire century, the author
+is actually its dearest son, a linking of consciousness and the unconscious.
+
+It was only following the twentieth-century debate that the author was born.
+
+1 This article presents some of the results of my PhD thesis, discussed at the University
+
+of Siena in May, 2010.
+
+2 Wimsatt and Beardsley (1954, 6) completely misunderstood Croce’s theory and in particu-
+lar ignored his ‘golden rule’ of dividing mundane intentions from the pure aesthetic intuition (see
+also Benedetti 1999, 41). Croce did not attribute the original formulation of the ‘golden rule’ to
+himself, but to the Italian critic Francesco De Sanctis and to Pëtr Kropotkin. New Criticism gave
+resonance to an approach that was well-known and recognized in nineteenth-century Europe.
+3 Eric Hirsch proposes a form of intentionalism explicitly rooted in Husserl's phenomenol-
+ogy. Hirsch is only interested in meaning-intentions (Bedeutungsintentionen), and not in lived
+intentions (Absichten). From our perspective, Hirsch’s position adds nothing to the ‘intentional
+fallacy’. Hirsch’s author is an ideal author (literary transposition of the transcendental subject),
+emptied of lived intentions, and fully aware of objective meanings independent from historical
+change: ‘an unlimited number of intentional acts can intend the same verbal meaning’ (1967, 38).
+4 Important sources for the ‘death of the Author’ proposed by Barthes, and for French
+
+post-structuralism in general, are Lacan (1966) and Benveniste (1966).
+
+5 Understanding the real extension of Barthes’s ‘death of the author’ would require much more
+space than is allowed here. Let us simply say that it is not fully clear whether Barthes (1967) refers
+to all literary works, to all contemporary literary works, or to some contemporary literary works.
+
+
+52
+
+dario compagno
+
+6 Foucault’s move drastically changes the perspective in which we observe texts and authors.
+It is a matter of viewing authors as functions of texts, by which we ‘build’ and understand
+what we read. On the contrary, texts have been usually thought as ‘signs’ of the author’s genius
+and creativity. As H.W. Gabler makes very clear in his contribution to the present volume,
+this revolution in perspective represents in a much better way how scholars actually deal with
+texts and promotes further effects in contemporary critical and interpretative practices. The
+concept of text itself emerges as a literate construction involving material documents on the
+one hand, and hypotheses about the author’s work and will on the other.
+
+7 Booth’s author is implied and not implicit. Implied by the very existence of the text, as
+my coffee on the table implies that someone made it. Explicit and implicit messages are both
+to be referred to the author.
+
+8 Actually, Foucault’s position can be interpreted as saying that the ordinary concept
+of author has to be substituted by the author-function, meaning that there is no hidden ‘real
+author’ but only an effective semiotic figure built by discourses. This interpretation would
+imply that Foucault also held that the author function manifests all of the author’s intention
+and ‘interiority’, as Elisabeth Anscombe more explicitly stated (see section 5).
+
+9 Derrida (1967) complained that Husserl did not take the distinction between linguistic mean-
+ing and intuitive knowledge far enough. Language was important for Husserl (it shaped thought),
+but not important enough, and private intuition kept the ruling role. Wittgenstein and Anscombe,
+on the other hand, attributed overriding importance to language, and left no knowing capacity for
+private intuition. To know what I think, I need to listen to what I say: this idea is common to Der-
+rida and Wittgenstein. There are many other analogies between the two thinkers (see Staten 1985).
+10 Whenever we become unable to read an ancient language, we lose at the same time the
+
+texts’ meaning and their authors’ intentions.
+
+11 Eco (1990) calls this intentio lectoris. For example, if my wife tells me that she’s going
+to buy some cigarettes, and I believe this to be a subliminal message and that she will never
+return, very often I am just reading in the words something that is not there. A reference to the
+situation of utterance, and to our life in general, would be the only way to guide interpreta-
+tion (in fact, every sentence is potentially ambiguous, but not all are intentionally ambiguous;
+see Eco’s openness).
+
+12 Compagnon (1998) believes that Eco’s intentio operis is just another way of talking
+about texts (against the complete freedom accorded to the reader by deconstruction) without
+including their authors. But Eco’s pragmatic theory of interpretation could not do without
+the author’s intentions, strategies and choices. The intentio operis is Eco’s proper way to define a
+purely semiotic intention, existing only in operari and not in mentis.
+
+Works Cited
+
+Anscombe Elisabeth (1957), Intention, Oxford, Blackwell.
+Barthes Roland (1967), La mort de l’auteur, Paris, Éditions du Seuil. Engl. trans. ‘The
+Death of the Author’, in S. Heath, ed. (1977), Image-Music-Text, London, Mill
+and Wang, 142-148.
+
+Benedetti Carla (1999), L’ombra lunga dell’autore, Milano, Feltrinelli.
+Bennett Andrew (2005), The Author, London and New York, Routledge.
+Benveniste Émile (1966), Problèmes de linguistique générale, Paris, Gallimard.
+Bernet Rudolf (1990), ‘Derrida et la voix de son maître’, Revue philosophique de la
+France et de l’étranger CLXXX, 2, 147-168. Engl. trans., ‘Derrida and His Master’s
+Voice’, in Z. Direk and L. Lawlor, eds (2002), Jacques Derrida. Critical Assessments
+of Leading Philosophers, vol. I, London and New York, Routledge, 250-266.
+Booth Wayne (1961), The Rhetoric of Fiction, Chicago, The University of Chicago Press.
+
+
+theories of authorship
+
+53
+
+Bouveresse Jacques (1987), Le mythe de l’intériorité, Paris, Minuit.
+Burke Sean (1998 [1992]), The Death and the Return of the Author, Edinburgh,
+
+Edinburgh University Press.
+
+Compagno Dario (2010), Attorno alla ‘morte dell’autore’. Indagine sulla soggettività nelle
+teorie semiotiche del Novecento, unpublished PhD dissertation, University of Siena.
+Compagnon Antoine (1998), Le Démon de la théorie, Paris, Seuil. Engl. trans. (2004),
+
+Literature, Theory, and Common Sense, Princeton, Princeton University Press.
+
+Croce Benedetto (1941 [1936]), La poesia, Bari, Laterza.
+Derrida Jacques (1967), La voix et le phénomène, Paris, Presses Universitaires de France.
+Eco Umberto (1962), Opera aperta, Milano, Bompiani. Engl. trans. (1989), The Open
+
+Work, Cambridge, MA, Harvard University Press.
+
+Eco Umberto (1979), Lector in Fabula, Milano, Bompiani. Engl. trans. (1979), The
+Role of the Reader, Explorations in the Semiotics of Texts, Bloomington, Indiana
+University Press.
+
+Eco Umberto (1990), I limiti dell’interpretazione, Milano, Bompiani. Engl. trans.
+(1991), The Limits of Interpretation, Bloomington, Indiana University Press.
+Foucault Michel (1969), ‘Qu’est-ce qu’un auteur?’, Bulletin de la Société française de
+philosophie, 63, 3, 73-104. Engl. trans., ‘What is an Author?’, in P. Rabinow,
+ed. (1984), The Foucault Reader, New York, Pantheon, 101-120.
+
+Gabler H.W. (2012), ‘Beyond Author-Centricity in Scholarly Editing’, in this volume.
+Hirsch Eric (1967), Validity in Interpretation, New Haven, Yale University Press.
+Husserl Edmund (1900), Logische Untersuchungen, vol. I, Leipzig, Veit. Engl. trans
+(1970), Logical Investigations, vol. I, London and New York, Routledge.
+Husserl Edmund (1913), Ideen zu einer reiner Phänomenologie und phänomenologische
+Philosophie, Den Haag, Nijhoof. Engl. trans. (1982), Ideas Pertaining to a Pure
+Phenomenology and to a Phenomenological Philosophy, The Hague, Nijhoff.
+Husserl Edmund (1929), Formale und transzendentale Logik, Den Haag, Nijhoof.
+Engl. trans. (1969), Formal and Transcendental Logic, The Hague, Nijhoff.
+Irwin William, ed. (2002), The Death and Resurrection of the Author?, Westport,
+
+Greenwood.
+
+Lacan Jacques (1966), ‘Subversion du sujet et dialectique du désir dans l’inconscient
+
+freudien’, in id., Écrits, Paris, Seuil, 793-827.
+Pareyson Luigi (1974 [1954]), Estetica, Firenze, Sansoni.
+Peirce C.S. (1868), ‘Questions Concerning Certain Faculties Claimed for Men’,
+
+Journal of Speculative Philosophy 2, 103-114.
+
+Ricoeur Paul (1969), Le conflit des interprétations, Paris, Seuil. Engl. trans. (1974),
+The Conflict of Interpretations: Essays in Hermeneutics, Evanston, Northwestern
+University Press.
+
+Sacks Sheldon (1964), Fiction and the Shape of Belief, Chicago, The University of
+
+Chicago Press.
+
+Staten Henry (1985), Wittgenstein and Derrida, Oxford, Blackwell.
+Wimsatt W.K. and Monroe Beardsley (1954), ‘The Intentional Fallacy’, in The Verbal
+
+Icon, Lexington, Kentucky University Press, 3-18.
+
+Wittgenstein Ludwig (1953), Philosophische Untersuchungen, Oxford, Blackwell.
+Wittgenstein Ludwig (1958), The Blue and the Brown Book, Oxford, Blackwell.
+Wittgenstein Ludwig (1967), Zettel, Oxford, Blackwell.
+
+=== On the Interpretation of Art Works (Theme 4) ===
+
+THEME 4
+On the Interpretation of
+Art Works
+
+Our previous Theme considered the nature of art and its value. However, often underlying our
+assessments of art are questions of interpretation. What does a work of art actually mean? Should
+we look for meaning at all? And where and how should we look for it? Can works of art carry
+moral meanings? These questions are our focus in this Theme.
+
+As with our previous Theme, it will be useful to draw on any experiences of art available to you.
+The term ‘art’ covers a multitude of forms, including novels, poetry, plays, songs, all styles of
+music, dance, sculpture, installation, film, photography, graphic design, architecture, painting,
+drawing and animation. Reflecting on your past and present encounters with these artforms, as
+well as organising new experiences of art ~ such as a visit to a local gallery - will enhance your
+philosophical exploration of how we find meaning in art.
+
+Introductory Activities
+
+Pablo Picasso’s Guernica (1937) is among the most famous paintings of the twentieth century.
+Picasso created it during the Spanish Civil War in response to the bombings of a small town
+named Guernica in northern Spain.
+
+The painting is generally interpreted as a depiction of the suffering which war inflicts upon
+innocent civilians. It has become world famous as an indictment of war.
+
+But is this the only interpretation possible? And is it the only correct interpretation?
+
+DO
+Survey your class to find out which students were acquainted with Guernica
+prior to the exercise above, and which students were encountering it for the first
+time. How did the ‘naive’ interpretations compare with the ‘informed’ ones?
+
+1.
+
+2.
+
+Describe what you see in this painting.
+
+DO
+Working by yourself, study the following image and write your own answers to
+the questions beneath.
+
+If you are encountering Guernica for the first time, what do you see? Do you see images of war,
+terror, violence, chaos and suffering? Do you read a political message? If you see something
+quite different from the orthodox interpretation of this work, who is to say yours is not a valid
+interpretation, an equally important way of finding meaning in this artwork?
+
+What do you think the artist is trying to depict in this painting?
+Does this painting have a particular point of view? Could it be said that this
+painting contains an argument? Why or why not?
+Do you recognise this painting and its artist? How does that recognition — or
+lack thereof — affect the way you approach the image?
+
+Further Problems in Value Theory
+
+And what is the status of the view communicated by Picasso’s painting? Is this just as powerful
+an indictment of war as a philosophical argument for pacifism? Or can it be said that Picasso has
+produced a philosophical argument ~ and if so, what are its premises and conclusions?
+
+THINK
+Can art be philosophy? Can it be said to produce arguments? Can you think of
+other relevant examples to draw into this discussion?
+
+VCE Philosophy: Units 1 & 2
+
+O
+
+
+
+ Arbiters of Meaning: Author, Text or Audience?
+Intentionalism
+
+Picasso himself stated that his purpose in painting Guernica was to bring international attention
+to the bombing of civilians by Germans, who were supporting General Franco during the Spanish
+Civil War. Picasso was inspired by an eyewitness report by journalist George Steer, published in
+both the New York Times and The Times, two days after the bombings. Within six weeks, Picasso,
+working in Paris, had completed the massive mural-size canvas, and the painting spent the next
+several years touring the globe and gaining the exposure its artist hoped for. Picasso expressed his
+wish that Guernica should not come to Spain, his country of origin, until freedom and democracy
+had been re-established. It arrived in Spain in 1981 and now hangs in the Reina Sofia Gallery,
+Madrid.
+
+For those who follow the intentionalist theory of art, this information about Guernica’s context
+and Picasso’s intentions is crucial if we are to make an accurate interpretation of the artwork.
+According to the intentionalist theory, if we can obtain knowledge about the artist, his life,
+his intentions and state of mind when he created a particular work of art, we will have the
+definitive and authoritative account of what the work is meant to convey. We can then judge how
+successfully it achieves these aims. In other words, intentionalism says that a work of art means
+whatever its creator intended it to mean.
+
+DISCUSS
+
+1.
+
+In your opinion, how relevant to the meaning of the painting Guernica is
+contextual information?
+
+You will no doubt be familiar with this idea, as it still resonates today. R.G.Collingwood (Famous
+Philosopher File p.526), whose work we read about in the previous Theme, was clearly influenced
+by Romanticism. In arguing that the worth of a piece of art lies in its expression of the artist’s
+emotion, Collingwood implies that (a) the artist has an emotional intensity which the rest of us
+would benefit from sharing in, and (b) to understand or value the artwork, we need some insight
+into the state of mind of the artist (see Text Study, p.526).
+
+WRITE
+
+1.
+
+2.
+
+What is the ‘Romantic’ view of the artist? Describe it in a couple of sentences.
+
+Reflect upon the way you regard creators in various artforms (for example, your
+favourite authors, actors, directors, musicians and so on). To what extent do you
+subscribe to this Romantic view? Why?
+
+DISCUSS
+
+When the news broke in 2007 it caused a sensation through news media worldwide.
+After reading from Harry Potter and the Deathly Hallows at New York’s Carnegie
+Hall, author J. K. Rowling took questions from her audience of 1,600 students. In
+response to a query about Dumbledore’s love life, Rowling replied,
+‘My truthful answer to you... I always thought of Dumbledore as gay.’ *
+
+Rowling’s stunned audience took its time to recover from the
+bombshell before bursting into applause. Within minutes,
+international headlines screamed, ‘Dumbledore is gay!’
+
+KANT, THE ROMANTICS AND THE AUTHORITY OF GENIUS
+
+Does knowledge of Picasso’s stated intentions in painting Guernica enhance
+your appreciation for the work?
+
+Does knowledge of Picasso’s intentions in painting Guernica make alternative
+interpretations wrong?
+
+In what ways might the intentionalist theory be problematic? Brainstorm a list of
+responses on your classroom whiteboard.
+
+Rowling explained to her Carnegie Hall audience that when reading
+a film script for one of her books, she had to reject a newly created
+Dumbledore back-story about a supposed past crush on a girl,
+scribbling ‘Dumbledore is gay!’ in the margin.
+
+Further Problems in Value Theory
+
+One of the defining features of the so-called Romantic era - spanning the nineteenth century
+~ was the elevation of the artist to the status of heroic and inspired genius. This was the word
+used by Immanuel Kant (Famous Philosopher File p.111) in his Critique of Judgment (1790). Kant
+argued that because art does not follow rules, artistic talent cannot be taught. It must therefore
+be innate and intuitive. The artist of Romantic imagination was a driven by special sensitivity
+and insight. The implication of this view for interpreting works of art is that the artist has unique
+authority, which should be revered.
+
+How are we to take this new data about a fictional character? Does Rowling, as
+author, have unique authority to banish alternative interpretations with a ‘fact’ about
+her creation, Dumbledore?
+
+Should interpretations of the Harry Potter books which differ from Rowling’s be
+considered wrong?
+
+‘Dumbledore was gay, JK tells amazed fans’ by David Smith, Sunday 21st October 2007,
+http://www.theguardian.com/uk/2007/oct/21/film.books (accessed September Ist, 2013)
+
+Is ita ‘fact’ that Dumbledore is gay if J.K.Rowling says he is?
+
+VCE Philosophy: Units 1 & 2
+
+2.
+
+1.
+
+
+
+Anti-intentionalism
+
+ SCOSPSHS9HSEOSNHHSHSSHSSHOSSSSHSHSSSHSHSSSOHSHHSHHOHSSSSHSSHSSSSRFOOFTFGSGPCCHEBSEBEEaH
+
+e
+
+T.S.ELIOT, NEW CRITICISM AND THE ‘INTENTIONAL FALLACY’
+
+In a reaction against the subjectivism of the Romantics, the poet T.S.Eliot published a landmark
+work of literary criticism in 1919. His essay, “Tradition and the Individual Talent’, rejects th
+Romantic obsession with the character of the artist, and argues that the only authority on the
+meaning of a poem is the poem itself. The artist ‘surrenders’ his work after its creation, accordin
+to Eliot. Eliot’s arguments inspired the so-called New Criticism movement of the 1920s an
+308, which regarded works of art as autonomous entities and emphasised close analysis of their
+internal rather than external features.
+
+Reflecting the New Criticism in many ways, literary theorist W.K. Wimsatt and philosopher
+Monroe Beardsley published “The Intentional Fallacy’ in 1954, arguing — to quote the essay’s final
+sentence — that ‘critical inquiries are not settled by consulting the oracle’ - that is, the artist. There
+is always a problem of access when it comes to an artist’s intention, they contend. We can never
+be fully sure of an artist’s complete state of mind when they created a work of art. An artist’s ideas
+about her work should thus be considered just one valid interpretation among many. Accordin
+to Wimsatt and Beardsley, when assessing the validity of competing interpretations we should
+ask questions such as which one best matches the evidence in the text, and which interpretation
+allows for the richest and most coherent reading.
+
+On this way of viewing an artwork, its meaning belongs neither to the author nor the reader
+but to the art, in itself, separate from its context. The art yields a fixed set of possible meanings
+regardless of when it is read or by whom.
+
+DISCUSS
+
+1.
+
+One of Wimsatt and Beardsley’s objections to intentionalism is that we cannot
+always be sure of an artist’s intention. Is this a strong objection? Is there any way
+
+it can be overcome to save the intentionalist view?
+Should we completely reject contextual information when looking for meaning
+in works of art? Why or why not?
+
+D
+H
+H
+H
+H
+G
+H
+H
+G
+H
+H
+H
+H
+H
+F
+H
+H
+H
+H
+O
+H
+H
+H
+H
+H
+H
+H
+S
+H
+H
+H
+H
+H
+H
+H
+S
+H
+H
+H
+H
+H
+H
+S
+H
+H
+H
+H
+O
+H
+H
+H
+S
+H
+H
+O
+H
+H
+O
+H
+H
+S
+H
+H
+H
+S
+S
+O
+C
+P
+
+The. areata wl Pale a
+enuonmal
+raliac
+
+noaey eee
+
+[see Useful Resources]
+
+:
+
+READ Section I of the essay.
+
+1.
+
+What set of assumptions make up what Wimsatt and Beardsley call ‘the
+intentional fallacy’?
+What are some implications of the view that ‘the design or intention of the
+author is neither available nor desirable as a standard for judging the success of
+
+DON'T WORRY ABOUT THIS
+BOX, LARA!
+
+a work of literary art?
+What do Wimsatt and Beardsley argue is the difficulty of inferring an author's
+intention through studying his/her work?
+What does it mean to say that ‘a poem should not mean but be’?
+According to Wimsatt and Beardsley, can an author's original intention be
+revised? Why or why not?
+In what sense may a poem/work of art be said to be a public document?
+Might there be other justifications for studying the social and publication
+
+context of a text in addition to a concern with its author's intentions:
+Does this essay provide valuable insights on the interpretation of artworks?
+Which of its points do you find persuasive and why? On what grounds might
+this essay be criticised?
+
+6
+
+8
+8
+9
+6
+6
+0
+0
+0
+8
+0
+0
+6
+
+S
+S
+H
+O
+H
+H
+H
+E
+H
+H
+H
+G
+E
+R
+H
+O
+H
+H
+S
+S
+H
+H
+H
+S
+H
+S
+H
+S
+H
+S
+S
+H
+S
+S
+H
+H
+S
+H
+H
+S
+H
+S
+S
+H
+S
+S
+H
+S
+H
+O
+H
+S
+T
+S
+S
+H
+H
+H
+H
+H
+C
+S
+
+COCO SHSSSSHEHSHSHSOHSOSSHHSHHHSHHSHOHSHHHHHHSHOHHHSHHOHHFOHHHSOHSHSSHSHHHHOHOSS
+
+ROLAND BARTHES: DEATH OF THE AUTHOR
+Like Wimsatt and Beardsley, Roland Barthes’ Death of the Author (1967) rejects the Romantic view
+of the artist as the supreme arbiter of meaning. But Barthes (1915-1980) went further still, denying
+the author any role in the ongoing interpretation of her work. According to Barthes, the author
+is ‘dead’ once her creation is released to the public. To think otherwise is to ‘close’ the work. For
+Barthes, the text is ‘open’ and perpetually recreated every time it is read. It is ‘played’ like a game or a
+musical instrument, with readers as active participants in the production of meaning. The meanings
+of a text (or work of art) lie in the multiplicity of expanding interpretations made by its readers.
+
+Barthes’ ideas foreshadowed the themes of post-structuralism. Michael Foucault’s “What is an
+Author?’ (1969) further diminishes the status of the author. Like Barthes, Foucault (Famous
+Philosopher File p.543) rejects views such as those of Eliot, the New Critics and Wimsatt and
+Beardsley, who hold the text up as the authority of its own meaning. Rather, for Foucault and post-
+structuralist reading, the reader is the authority. Indeed, each act of reading creates a new work,
+because, as the post-structuralist argues, every reader brings a vast web of inter-relating meanings
+and associations to each encounter they have with a text or artwork. On this account, Rowling's
+reading of Dumbledore has no special status whatever, and each reader is free to ‘play’ with the
+stories of Harry Potter as they will. Each time you read Harry Potter you will interact with it in
+a new way. Foucault argues that it is only because we fear the vast proliferation of alternative
+meanings that we try to fix meaning to a single authorial source.
+
+VCE Philosophy: Units 1 & 2
+
+Further Problems in Value Theory
+
+=== VCE Aesthetics — chapter on art ===
+
+sults from the size and order of things,
+or in other words, from its ?form? (used in a different sense from Plato?s Form). Aristotle gives
+particular emphasis to the concept of moderation. If something is too big or small, or otherwise
+out of balance, it cannot be beautiful. Beautiful things appear as unified wholes, with all elements
+in proportion.
+Plato and Aristotle had divergent views on the role of art in society, too. Whereas Plato saw art
+as valuable only insofar as it could illuminate truth and virtue, and thus be an edifying influence
+upon citizens, Aristotle believed art was valuable in itself. He writes about the ?self-sufficiency? of
+art, meaning that art and the pleasure it brings are valuable for their own sake. He argues that it
+is natural to enjoy imitation, and defends the value of emotional release through art, a process he
+terms catharsis.
+506
+VCE Philosophy: Units 1 & 2
+
+SOHOSSHSHSHHHHSHHSHHHSHHHHHSHHHSHSHSHHHHHHHHHHHHHHHHHHHHHHHHHHHEHHHSHHHEEO
+.e
+TEXT STUDY: Aristotle, Poetics (around 335 BCE)
+[see Useful Resources]
+READ the following passage:
+A beautiful object, whether it be a living organism or any whole composed of parts,
+must not only have an orderly arrangement of parts, but must also be of a certain
+magnitude;
+for beauty depends on magnitude and order. Hence a very small animal
+organism cannot be beautiful; for the view of it is confused, the object being seen in
+an almost imperceptible moment of time. Nor, again, can one of vast size be beautiful;
+for as the eye cannot take it all in at once, the unity and sense of the whole is lost for
+the spectator; as for instance if there were one a thousand miles long. As, therefore,
+in the case of animate bodies and organisms a certain magnitude is necessary, and a
+magnitude which may be easily embraced in one view; so in the plot, a certain length
+is necessary, and a length which can be easily embraced by the memory.*
+To what extent does beauty depend on ?orderly arrangement of parts?, the size of
+the parts and the whole?
+1.
+Working in a small group, test Aristotle?s ideas on five examples of beautiful
+things, including examples of artworks. (Try to include examples beyond those
+of just visual beauty ? for example, beautiful music, beautiful writing, etc.)
+2.
+Report your findings back to the class.
+
+x
+Aristotle http://classics.mit.edu/Aristotle/poetics.1.1.html (August 5, 2013)
+SPOHOHHSHHHHHSHSHHHSHHHHHHHSHHSHHSHHHHHHHHHHSHHHHSHSHHHSHHHHHHHHHSHSHHHHHB
+SCOSSHHSHSHHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHHHHHHHHSHHHHHHHEO
+Since Plato and Aristotle
+The theories set out by Plato and Aristotle have been of enormous influence in the conversations
+about aesthetics that have occurred since. Plato?s distrust of art was reinforced by the repression
+of sensuality advocated by the early Christian church. On the other hand, the idea of beautiful
+art being a means to transcendent truth was taken up by St Augustine (Famous Philosopher
+File p.201). He promoted the idea of beautiful art as a vehicle for divine revelation. We can see
+this idea ? that the beauty of art can bring us closer to God - at work in medieval Christian art.
+Meanwhile, Aristotle?s principles of balance, moderation, size and order were developed further
+by art theorists and technicians. In medieval times these were seen as the tools for evoking the
+beauty of the divine in art.
+WRITE
+1.
+Is beauty subjective or objective, according to Plato and Aristotle?
+
+
+
+
+
+
+
+
+nfirmed his significance for a very long time.
+:
+« cucccureceddddbuseecouwesuegeessséb000600anssES eRe
+Further Problems in Value Theory
+517
+;
+ah
+
+----- page break -----
+
+The Representational Theory
+:
+ART AS IMITATION
+We are often impressed by how well an artist manages to convey real life in their work. Perhaps
+you have appreciated the skill of a fine portrait painter by exclaiming that it looks ?just like a
+photo?. You may have heard of method acting - the process which many actors use to immerse
+themselves totally in a life like that of the character they are playing. Heath Ledger famously
+locked himself in a hotel room for weeks in order to ?become? the sadistic Joker character. His
+acclaimed performance won a posthumous Academy Award (but also drove him to sleeplessness
+and to the sleeping pills which claimed his life). Do you know anyone who can draw objects in the
+world with extraordinary accuracy? Is this skill enough to make them an artist?
+The theory that art represents the world realistically, and that good artists are those who can
+capture reality in their work, is known as representationism.
+Plato is famous for writing about art as representation, although for Plato, this was a reason to
+disparage art, as we saw on pages 502-505. Aristotle, by contrast, praised mimicry in artworks.
+However, neither philosopher argued that representation should be seen as the defining principle
+of art. Indeed, such a theory did not really emerge until the eighteenth century, and it is true
+that up to this point, most art was essentially representational. The arrival of the camera in the
+nineteenth century called these assumptions into question and was a catalyst for visual artists to
+explore other goals in their work, resulting in movements such as impressionism.
+From our twenty-first-century vantage point, it is clear that not all art tries to copy or imitate
+directly the external world. And is simply to make a copy of the world ever enough to make
+something art? Yet it can be argued that any depiction of objects in the world - such as portraiture
+or photography - involves interpretation of those objects. The artist makes choices about the
+composition and framing of their work, which makes the final piece quite different to behold than
+the real person, scene or object. And it is usually because of these other elements of form ? besides
+just those of capturing a likeness ? that we regard a painting or photograph as art or as good art.
+This is also why we reject forgeries and do not value a copy of an artwork (for example, a print of
+a famous painting) as highly as the original.
+But it also seems obvious that there are many artforms that are not representational. If music and
+abstract painting are to be regarded as art, then surely the representational theory must be false.
+It could be responded that perhaps these kinds of art represent feeling, but it is often hard to pin
+down just what these feelings might be.
+Thus, the representational theory seems to have some severe limitations.
+ART AS REPRESENTATION THAT CONVEYS TRUTH
+But what about the idea that perhaps art doesn?t reproduce directly a specific item of experience,
+but instead conveys a more abstract truth or vision about the world? Perhaps art gives us profound
+insight into our lives, ourselves and each other. This view was proposed by Aristotle in his Poetics.
+518
+VCE Philosophy: Units 1 & 2
+
+Consider the plays of Shakespeare. The
+
+
+y are entertaining, often very funny and have been
+consistently popular with audiences for centuries. And the most oft-cited reason for this is that
+Shakespeare captures eternal truths about human nature; he wisely teaches us to understand
+more about ourselves. Similarly, the great symphonies of Beethoven are not ?about? anything in
+particular, nor do they stir specific emotions that any two people could readily agree upon. But
+it is generally recognised that these works have profound power. They seem to arouse something
+deep and eternal in the psyche of the listener and to convey some essence or truth about our
+humanity. And what about a painting such as Picasso?s Guernica? Here Picasso conveys the horror
+and pointlessness of war with unrivalled power.
+Or do you disagree? Perhaps you do not share my responses to the works discussed in the previous
+paragraph. You may find Shakespeare?s plays to be boring and believe they add nothing to your
+life, arguing that studying Philosophy has given you more profound insight than any work of
+art ever could. You may find deep spiritual resonances in the music and lyrics of a band which I
+consider to be rubbish. You may contend that the only way to be genuinely horrified by war is to
+visit a war zone or read the real accounts of people who have experienced war, rather than look at
+a painting by a now-dead Spaniard famous for his personal infidelities. And where does all that
+leave the theory that art illuminates and reveals truths about human experience?
+)
+(/
+DISCUSS
+[os Go}
+1.
+How convincing do you find the theory of representationalism as a way
+to determine what should be valued as art? What are its advantages and
+drawbacks?
+2.
+Is the theory of art as representing profound truths or insights an improvement
+on the theory of art as imitation? Why or why not?
+3.
+What do you make of the claim that art does not copy reality?
+The Subjectivist Theory
+Subjectivism holds that any aesthetic judgement is subjective and therefore can tell us only
+something about the responses of the person making the judgement, and nothing about the work
+of art itself. Therefore, according to subjectivism, there can be no conflict of opinions in aesthetics;
+if I say I love a song on Spotify, but you find it hideous, neither of us can be actually wrong.
+This is quite an appealing view for reasons you have no doubt already encountered in your
+discussions. It allows everyone to make acceptable claims about art regardless of their tastes,
+education, social class or cultural group and is thereby an inclusive and anti-elitist position. It also
+avoids the problems of trying to find particular factors which might objectively and universally
+declare something to be good art (which the formalists try to do, as we shall see).
+Further Problems in Value Theory
+519
+
+----- page break -----
+
+But are there problems with subjectivism? The subjectivist?s argument often goes like this:
+Pl
+There is wide divergence of aesthetic judgements.
+UP2
+Cases where judgements diverge widely cannot be objectively decided.
+
+Cc
+Therefore aesthetic judgements must be subjective.
+How strong is this argument? Let?s consider Premise 1. One thing that is striking about the history
+of art is how much agreement there actually is over what makes something art and what makes it
+good. There are very few people who will try and argue that Bach or Shakespeare are rubbish, and
+this consensus has been upheld over centuri
+
+
+
+blem with the theory of aesthetic emotion is that it doesn?t refer to anything within the
+artwork itself. Our responses to works of art can also be very subjective, varying widely from
+person to person. So some philosophers have suggested that what it is which engages the aesthetic
+emotion is our response to its form, or the particular elements from which it is composed.
+We can recognise that a painter makes choices when creating her art: she arranges shapes, colours,
+lines and so on, in particular ways. Similarly, a composer uses the elements of music - rhythm,
+melody, harmony, timbre and so on ? and combines them in deliberate ways to create something
+pleasing. A poet uses rhyme, metre and the sounds of words. A novelist makes choices about plot,
+setting, character and so on.
+The ways these elements are manipulated by an artist, and the ways the elements relate to one
+another, can be judged as effective or ineffective. This is the basis of the formalist theory.
+Further Problems in Value Theory
+521
+
+----- page break -----
+
+For example, we might judge the elements of a painting to be well balanced, or sculpture to be
+pleasingly proportioned. A play may be skilfully acted, well cast, with an interesting set, and
+paced to heighten dramatic tension.
+We have already considered a version of this theory as articulated by Aristotle. Clive Bell (Famous
+Philosopher File p.514) is perhaps formalism?s most notable advocate. In Art (1914), Bell argues
+that what is represented by an artwork is irrelevant. Nor does it matter whether something is
+portrayed realistically, nor what the artist is like, nor why they created the art, nor the context
+surrounding it. It is purely the manipulation of the formal elements which marks something as a
+work of art or not, and instructs us as to whether it should be valued. An artist?s goal should be
+perfection of form.
+Bell thinks that for our discussion of form to be meaningful, there ought to be some universal
+principles of form that we judge as desirable. This is difficult because as we have seen, there are
+different elements of form which apply to different kinds of art. So perhaps there are descriptions
+which can apply across all art to assess the relations between aesthetic features. Perhaps we can
+speak of the ?elegance? of an artwork, or its ?balance?, and these could be terms which could apply
+just as easily to a painting as to a ballet as to a sculpture.
+DISCUSS
+1.
+Do you agree with Bell that the subject represented by a work is irrelevant
+when assessing whether it should be valued as art or not? Use examples in your
+response.
+Do you think we can clearly say what it is we appreciate in the form of an
+artwork?
+Can the formal elements of different artworks be compared and valued on the
+basis of words such as ?elegance?, ?balance? or ?beauty?? What are some problems
+with this suggestion?
+To what extent are you persuaded by the formalist theory as a way of assessing
+the value of something as art? Did you use any elements of this theory when
+completing the ?Art or Not?? exercise on page 515? What are the advantages and
+disadvantages of this theory?
+VCE Philosophy: Units 1 & 2
+@eeeeeoseeeeeeeoosee
+eee oeoee Gane eoaeaseeeoee O9eoSSGeasseseseeeeoeaeeeoeeee oe ees
+TEXT STUDY: Clive Bell, Art (1914)
+[see Useful Resources]
+Read paragraphs 1 - 19 as anthologised in Cahn, 2007 (that is, from ?It is improbable
+that more nonsense has been written about aesthetics...?
+
+=== Freeland — Art and Moral Knowledge (1997) ===
+
+attack on a fundamentalist construal of the holy word."7
+ Does art in such cases present moral claims, and can it provide moral
+ knowledge? In what sense? Do photographs, novels, or songs present truths,
+ facts, theses, and arguments? Or do they stimulate cognitive activity in some
+ other way? What sort of activity, and how is it relevant to morality? And how
+ in general is the moral content of works of art related to their artistic value?
+ In this essay I shall explore some answers to these questions.
+ ART AND COGNITION
+ Some people do not think artworks make cognitive contributions. In his
+ recent article, "On the Cognitive Triviality of Art," Jerome Stolnitz flatly
+ denies that art contributes to knowledge.8 He argues that if art is to add to
+ knowledge, then it must provide us with truths; but his exploration of likely
+ truths gleaned from great novelists like George Eliot results in findings that
+ are "distressingly impoverished." So he concludes that what truths there are
+ to be derived from art are "distinctly banal" and "could probably have been
+ arrived at otherwise."9 Along with such a narrow, discursive notion of knowl-
+ edge, the noncognitivist about art will probably also adopt a narrow con-
+ ception of learning as acquiring facts, testing or confirming hypotheses,
+ and/or being persuaded by arguments. Such people would say that since art
+ cannot teach us facts or offer arguments, we cannot learn from it.
+ If art is cognitively trivial, it is hard to see why artworks like those I
+ mentioned at the start have been held to be so disturbing in recent contro-
+ versies. The alternative view, and the one I favor, is that art is not cognitively
+ trivial: it may add to and advance our knowledge. An aesthetician might
+ defend this view while retaining a narrow notion of knowledge as the pre-
+ sentation of theses and arguments. For example, Levinson, in his article
+ "Messages in Art," argues that artists make "utterances" in a communicative
+ network; some of these may be proposition-like in nature. Thus, Levinson
+ interprets a controversial feminist college art project entitled "Rape Piece"
+ as making the utterance that "all college men are potential rapists."10 1 am
+ not sure that Levinson himself adopts a narrow account of knowledge in art;
+ but one could do so in principle. However, I shall not pursue this sort of nar-
+ row cognitivismi about art here.
+ In this paper I shall consider two promising cognitivist approaches to
+ art: "Aristotelianism" and "pragmatism." Both employ a broadened, nondis-
+ 12
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ cursive conception of knowledge - not just as theses and propositions, but
+ as understanding, insight, empathy, imagination, the creation and discovery
+ of new perceptual schémas, new worlds, or new relationships among things.
+ For the pragmatist, knowledge in general is broadly conceived: it involves
+ acquiring beliefs or explanations that meet the needs of inquirers in certain
+ circumstances. In his seminal essay, "How to Make Our Ideas Clear," Peirce
+ actually uses a musical metaphor to describe the epistemic notion of belief:
+ "And what, then, is belief? Belief is the demi-cadence which closes a musi-
+ cal phrase in the symphony of our intellectual life."11 Belief for Peirce is a
+ rule for action, something that appeases the irritation of doubt; he comme
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+
+
+tors that are internal and external to the work is hard to maintain. It is
+ notoriously controversial whether we ought to separate the meaning of an
+ artist's work so sharply from facts about his or her life, since knowledge of
+ those facts may affect our construal of features seen in the work. It seems
+ psychologically problematic and self-deceptive to admire a film like Triumph
+ of the Will without noticing its immoral content or without relating this film
+ to other work of Riefenstahl's or considering her relation to the Nazis.25 As
+ a comparison, we would feel concern for a friend who loves a beautiful per-
+ son without regard to his or her evil character.
+ The real problem lies in the formalist's denial that a work's moral con-
+ tent can be part of what Gass calls its internal, organic, or "artistic" quality.
+ 15
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ We need a theory of artistic value that recognizes that in Triumph of the Will ,
+ as in the Mapplethorpe images, content is conceptually linked to "internal"
+ aesthetic features and values. I agree with Danto that surely Mapplethorpe
+ intended to create works with strong erotic content and a certain point of
+ view.26 In making such a sharp separation, the formalist effectively denies
+ artists the power to express ideas and content in their work. But this seem
+ simply false to the facts. The expression of moral ideas has always been cen-
+ tral in art - from Greek tragedies, architecture, and sculpture, to Christian
+ cathedrals, icons, and Bach masses; from Persian miniatures to landscape
+ gardens; from Manuel Bravo public murals to Brecht operettas; from Walker
+ Evans photographs to films like Schindler 's List
+ In sum, the limitations of formalist autonomy theories of art are these:
+ (1) They implausibly separate content in general from what contributes to
+ aesthetic value; (2) In particular, they too sharply separate moral content
+ from aesthetic features of works; and (3) They do not offer plausible accounts
+ of the psychology of experiencing art, because they invoke a self-deceptive
+ view about our ability to separate aesthetic from moral judgments about
+ works of art. Formalist autonomy theories do not offer an acceptable account
+ either of art's moral content or of how we may learn from artworks.
+ MORALISM
+ The moralist maintains that moral content is relevant - indeed even crucial -
+ to a work's artistic functioning and value. If a work of art presents an immoral
+ content, it is either bad art or not art at all.27 There are two variants of moral-
+ ism. The reductive moralist says that there are certain types of bad content
+ that rule a candidate for art out altogether. The strong moralist says that the
+ artistic disvalue of a work can be directly inferred from its presentation of
+ unacceptable moral content. Many of the critics of Ice-T, Salman Rushdie,
+ and Mapplethorpe were extreme moralists who held one of these two views.
+ For the moralist, artistic value and moral value are not autonomous.28
+ Moralists hold that a work's artistic merit is, to at least some degree, a
+ direct function of its moral value. Many moralists seem to hold the overly
+ simple view that an artwork's moral value resides in a certain content that
+ may be discerned without attention to its artistic features. For example, U.S.
+ Senator Al D'Amato exhibited reductive m
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+oralism in denouncing Serrano's
+ photograph Piss Christ , the image of a crucifix submerged in urine. D'Amato
+ could not even conceive of regarding this image as art. He seemed to infer
+ that the work's title was a direct indication of its (unacceptable) content,
+ remarking in the U.S. Senate, "to be quite candid, I am somewhat reluctant
+ to utter its title. This so-called piece of art is a deplorable, despicable display
+ 16
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ of vulgarity."29 He went on to refer to the photograph as "this piece of trash,"
+ "garbage," and "filth," and he tore up a catalog containing the image on the
+ floor of the Senate.
+ Strong moralism, in contrast to reductive moralism, allows that a work
+ with disgusting or bad content may be art, but considers it bad art to the degree
+ that its content is morally problematic. George Dickie defends this sort of
+ approach in his book Evaluating Art , and he thinks that Hume also held some-
+ thing like it in his essay "On the Standard of Taste." Dickie comments,
+ Hume does not give an argument in support of his view, and I
+ expect that he did not think that any argument is required. It is
+ obvious that many works of art have an integral moral point of
+ view, and it was equally obvious to Hume that one cannot take
+ a neutral stance toward a moral point of view. Anyone who has
+ a moral point of view is bound to evaluate the moral point of
+ view of any work that has one. Thus, anyone with a moral point
+ of view will find the moral point of view of a work of art that has
+ one to be either valuable or disvaluable.30
+ In his book Dickie lays out a moralist position that directly infers some degree
+ of artistic value or disvalue of a work from the moral value or disvalue of
+ what it represents. He also argues that artistic worth varies according to
+ whether a work represents the moral value or disvalue of what it shows
+ "approvingly or disapprovingly."31 (So, for example, a didactic film like
+ Schindler 's List that shows the Nazis disapprovingly thereby gains in artistic
+ merit.) Dickie explains, "The representation in works of art of anything valu-
+ able (in isolation from the other properties of the work) is always valuable."32
+ I criticized formalist autonomy views for too sharply separating moral
+ value from aesthetic value. Such theories tend to overemphasize the unique
+ value of aesthetic features of artworks (like form). Moralism does link artis-
+ tic and moral values, but it goes to the other extreme by not providing enough
+ recognition of the role of aesthetic features in establishing moral content. It
+ errs by treating moral value as too distinct, independent, and preeminent.
+ Dickie may allow that to identify and assess a work's moral value we might
+ have to assess and identify its aesthetic or artistic value. But still, the moral
+ value of the thing actually represented in the work is always aesthetically
+ relevant. He says, "The value of experiencing referent-centered cognitive
+ value flows from the value of the thing referred to ."33 Dickie's theory is obvi-
+ ously not as crude as Senator D'Amato's, but it too tends to be reductive
+ about artistic quality.
+ Moralism says too little about how to identify the moral content of a
+ work of art. To be fair, at times Dickie acknowledges that content is not just
+ "there." His phrasing is revea
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+
+gnitivists do not hold that artistic and moral values are
+ autonomous or that one type can trump or determine the other type; they are
+ more likely to see these two types of value in artworks as fused or concep-
+ tually connected. Cognitivists locate a central value of artworks primarily in
+ the thoughts or knowledge they communicate, or what we learn from them;
+ and they take form or artistic quality to encompass and facilitate these cog-
+ nitive dimensions of artworks. Or at least this is true of pragmatists and
+ Aristotelians, who employ a broad conception of thoughts or knowledge
+ rather than a narrow, discursive one. So they are neither moralists nor for-
+ malists about art; instead, they maintain the following claims: (1) Artworks
+ may have moral content or present moral knowledge, as revealed by a pro-
+ cess of rational interpretation; (2) Artistic features and moral content of works
+ of art are conceptually linked; and (3) We can learn from the moral content
+ of artworks.
+ Cognitivism as a general approach to art is hardly new. It was adopted
+ in the ancient world by Plato and Aristotle, even though they disagreed about
+ the moral merits of artworks like epic poetry and tragedy. I take the follow-
+ ing list to encapsulate central theses in the cognitive view of art:
+ (1) Artworks stimulate cognitive activity that may teach us
+ about the world. Some say artworks do this because they
+ have representational (including expressive) content; oth-
+ ers, because they function as symbols within a diversely
+ structured system.
+ (2) The cognitive activity they stimulate is part and parcel of
+ their functioning as artworks.
+ (3) As a result of this stimulation, we learn from artworks: we
+ acquire fresh knowledge, our beliefs are refined, and our
+ understanding is deepened.
+ (4) What we learn in this manner constitutes one of the main
+ reasons we enjoy and value artworks in the first place.
+ Modern cognitivists like Nelson Goodman emphasize representational
+ content in art, which may seem surprising given the development of mod-
+ ern art movements such as abstract painting and atonal music. However, for
+ Goodman "content" is in fact quite broad; it turns out to be a matter of sym-
+ bolic functioning and is inseparable from form. It encompasses such features
+ of artworks as their style and expression, or even their emotional impact -
+ all of these become part of what we "cognize" or understand about a work.
+ So Goodman writes, "in aesthetic experience the emotions function cogni-
+ tively. ... To some extent, we may feel how a painting looks as we may see
+ how it feels."37 Features of art such as style or expression might formerly
+ have been treated as "aesthetic properties," but in construing them as rele-
+ vant to symbolic functioning, the modern cognitivist shifts attention onto
+ 19
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ how they function to represent a world and stimulate comprehension. For
+ example, when Danto interprets the triptych Jim and Tom , Sausalito as
+ Mapplethorpe's way of thinking about the transcendent and spiritual nature
+ of sex, he discusses such factors as the triptych format, art-historical allu-
+ sions, and the lighting in each frame. "Thinking" thus involves the photog-
+ rapher's style, composition, and expressive use of the medium, in addition
+ to his depiction of a certain subjec
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+t matter. I now take up more details from
+ two modern variants on the cognitive view of art.
+ NUSSBAUM' S ARISTOTELIANISM
+ Martha Nussbaum offers a general account of moral knowledge and in th
+ light makes claims about the kind of moral knowledge we can glean from
+ art. She has developed her Aristotelian cognitive view of art in a number
+ key works.38 On her view, some artworks - especially novels - have mor
+ content; artistic features and moral content are conceptually connected i
+ these works; and we can learn from the moral content of these artworks.
+ An Aristotelian like Nussbaum tends to give a kind of fused answer t
+ the general questions with which I began: what is moral knowledge (in
+ artwork), and how can we learn from the moral content of artworks? To s
+ how she answers both questions, we can look at her most extensive prese
+ tation of her view in the opening chapter of Love's Knowledge. Nussbaum
+ adopts an Aristotelian conception of moral knowledge. She explains, "Th
+ essays argue for a conception of ethical understanding that involves emo
+ tional as well as intellectual activity and gives a certain type of priority
+ the perception of particular people and situations, rather than to abstrac
+ rules."39 Here Nussbaum follows Aristotle's example in the Nicomachean
+ Ethics. He emphasizes the role of emotions and desires in moral judgmen
+ claiming that the rationality of ethics involves practical not theoretical w
+ dom. Practical wisdom is a unique rational capacity of humans that depen
+ upon particularity of perception rather than upon universal rules; Aristot
+ repeatedly denies that ethics can be a science.
+ Nussbaum highlights features of the Aristotelian moral tradition tha
+ are shared by certain novels that she discusses in Love's Knowledge. Thes
+ novels present an Aristotelian picture of moral knowledge by supportin
+ four key positions. (1) First, these novels, like Aristotle, are committed
+ the noncommensurability of valuable things; this allows for deep conflic
+ between diverse competing attachments. (2) Second, they endorse the pri
+ ority of perceptions. On this view, the perception of particulars of concre
+ actions, including awareness of context and of new or unanticipated fe
+ tures, is both more action-guiding and more relevant to justification than ar
+ 20
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ general moral rules and principles. (3) They highlight the ethical value of
+ the emotions: emotions are cognitive and have an important part to play in
+ our practical reasoning and our moral agency. Finally, (4) these novels illus-
+ trate the ethical relevance of uncontrolled happenings. Things that simply
+ happen, even reversals of fortune, have significance for how well we can
+ lead our lives.40 This last point, the recognition of contingency or moral luck,
+ is something Nussbaum particularly admires in ancient philosophers and
+ playwrights and calls this trait their openness to tragedy; it was the subject
+ of her earlier book The Fragility of Goodness.
+ What about moral learning? First, Nussbaum says that we should add
+ the study of certain novels (by Eliot, Proust, Dickens, and others) to the study
+ of recognized great works in ethics, because these novels exemplify the
+ Aristotelian procedure in ethical investigation that Nussbaum finds valuable.41
+ So from these novels we can lear
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+n about moral inquiry: what it is, and how
+ one pursues it. Even more, they present particular answers, which Nussbaum
+ wants to defend, to the basic question of how to live. The appropriate pro-
+ cedure begins by asking "How should one live?" and continues on through
+ a dialectical examination of the alternatives to advocate a certain answer.
+ Nussbaum interprets Henry James' The Golden Bowl , for example, as a moral
+ examination of the conflicting claims of a fine sense of moral rightness and
+ of erotic attachment and the working out of the right balance between them.42
+ Second, literature has certain lessons to teach us as philosophers about
+ how to do moral theory, because it reinforces what Nussbaum considers a
+ basic point in ethics, that form should fit content.43 That is, she thinks that
+ systematic treatises in philosophy have certain ideals of regularization and
+ simplicity that cannot capture some aspects of our moral lives and moral
+ knowledge in the way that novels can. This is partly a matter of how we react
+ to the respective kinds of writing - whether it involves us: "Our actual rela-
+ tion to the books we love is already messy, complex, erotic."44 It is also
+ because philosophy tends to oversimplify, whereas novels can better present
+ "mysterious, various, and complex content"; Nussbaum emphasizes that
+ "features that make the novels so unlike dogmatic treatises are, for us, the
+ source of their philosophical interest."45 She is attentive to the ways in which
+ style enables an author to present a certain point of view. Literary readings
+ may help us to read not only literature but also philosophy, because we can
+ better discern the style and hence the related message of a philosopher.
+ Nussbaum illustrates this point with brief readings of passages from Spinoza
+ and Seneca, whose styles are obviously distinctive and relevant to their mes-
+ sages. Attention to style can also make a philosopher more attentive to his
+ or her own style. Nussbaum mentions that she has found it essential to
+ employ different philosophical styles in her various essays to respond to the
+ literary works under consideration.46
+ 21
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ Third, in her more recent book Poetic Justice Nussbaum argues that lit-
+ erature offers something in addition to both method and content, namely,
+ "literary imagination." This is a combination of empathy and detailed, com-
+ passionate presentation of characters. She remarks, "The literary imagina-
+ tion is a part of public rationality. ... I defend the literary imagination
+ precisely because it seems to me an essential ingredient of an ethical stance
+ that asks us to concern ourselves with the good of other people whose lives
+ are distant from our own."47
+ In defending her basic claims, Nussbaum has written extensively about
+ a number of literary examples, especially ones drawn from what she herself
+ calls "the high literary tradition of Europe and North America."48 This
+ includes the ancient tragedians, nineteenth-century realists (Dickens, George
+ Eliot), and classical modernists (Henry James, Joyce, Proust, Beckett). In
+ Poetic Justice her attention has turned to socially significant legal decisions
+ in the United States, for example the notorious anti-homosexual ruling
+ Bowers vs. Hardwick. She "reads" these decisions for their literary me
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+rits or
+ defects, with the general assumption that the better decisions are those that
+ better exemplify the literary imagination. So she faults the judges in Bowers,
+ for example, for taking a detached, non-narrative approach that enabled what
+ she criticizes as "a distancing strategy." This involved various factors, such
+ as use of non-narrative language, severity of language, and enumeration of
+ historical condemnations.49 All this, together with lack of an appropriate level
+ of generality in looking into the case, precluded what was needed, namely,
+ "a careful attention to historical context, and an empathetic consideration of
+ the situation of the homosexual in American society."50 Poetic Justice makes
+ strong claims about the need for law to become more literary, i.e., to incor-
+ porate the values of particularity and compassion or empathy which literary
+ imagination would supply.
+ On Nussbaum's view, then, we learn from literature not propositions or
+ truths, but rather "insights" or "a stance" or "moral capacities."51 This fits
+ with her Aristotelian view that cognition is fused with emotional perception,
+ and that moral judgments require developed habits and abilities. Let us
+ explore two critical issues about Nussbaum's Aristotelian kind of cognitivismi
+ about art. First, how does her view overcome the problem faced by both for-
+ malists and moralists about content - that is, how does she discern the moral
+ content of the artworks she discusses? And, second, how much new moral
+ knowledge can artists provide, on her view?
+ To discern their moral content, Nussbaum must offer interpretations of
+ the works she reads. Sometimes she speaks about what literature "shows"
+ us, suggesting the worry that her version of cognitivism does not differ
+ enough from Dickie's moralism. Recall that I faulted Dickie for assuming
+ that it is somehow simple just to glean the moral content of an artwork such
+ 22
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ as a tragedy. Nussbaum emphasizes that literature requires perceptive read-
+ ing, and she produces lengthy interpretations of various works. Even so, at
+ times she appears to think that the meaning of a work is fairly definite and
+ fixed. Thus she writes, "I am interested, then, in all and only those thoughts,
+ feelings, wishes, movements, and other processes that are actually there to
+ be seen in the text."52 An example of her "unproblematizing" approach may
+ be found in this passage about The Golden Bowl: "This novel, I have indi-
+ cated, is about the development of a woman. To be a woman, to give herself
+ to her husband, Maggie will need to come to see herself as something
+ cracked, imperfect, unsafe, a vessel with a hole through which water may
+ pass, a steamer compartment no longer tightly sealed."53
+ To be fair to Nussbaum, in Love's Knowledge she develops complex,
+ elaborate readings of many works she discusses.54 Unfortunately, such read-
+ ings may well be contested. This happened in the case of her readings of
+ tragedies, as reviewers of The Fragility of Goodness cited gaps or idiosyn-
+ crasies in her treatments.55 But if others disagree with her interpretation of
+ a work, then they will more than likely disagree with her account of the moral
+ knowledge it offers. For instance, John Cooper argued that her interpreta-
+ tion of Euripides' Hecuba was mistaken:
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+ Hecuba is not, as Nussbaum thinks,
+ a good woman driven mad by tragedy, but rather a woman revealed to be
+ weak and flawed by her failure to face tragedy with strength. But this means
+ Euripides did not in fact manifest the openness to tragedy that Nussbaum
+ ascribes to him. This drives home the point that works of art have moral con-
+ tent and stimulate moral learning only under an interpretation.
+ In Poetic Justice Nussbaum acknowledges that readings of literature vary
+ across individuals, eras, and cultures. She endorses Wayne Booth's approach
+ to interpretation in his book The Company We Keep : An Ethics of Fiction,
+ where he says we must not only read books but have critical conversations
+ about them with others.56 Along these lines, Nussbaum envisions a kind of
+ public, rational discussion about the meaning of significant works. She pre-
+ sumably thinks that publishing her own interpretations of novels (as well as
+ court cases) is in fact part of this public and critical conversation. Thus, rejoin-
+ ders by other scholars might be welcome if they help us to describe, "really
+ read," and assess the moral views of, say, Euripides or Sophocles, Dickens,
+ or James. She sees reading itself in this sense as part of the creation of com-
+ munity along the lines required by Aristotelian moral inquiry.57
+ A second question to raise about Nussbaum's Aristotelian picture of
+ moral knowledge is whether her moral commitments are "thick" or "thin."
+ Is her theory again too much like Dickie's moralism, so that she knows in
+ advance what is morally acceptable, or what is not, about a work? That is, an
+ Aristotelian moral view carries with it certain "thick" moral commitments.
+ Aristotle held a view about human nature, its needs and capabilities, and he
+ 23
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ used this to ground his account of human virtue and happiness (eudaimonia).
+ To some degree at least, Nussbaum endorses this naturalism of Aristotle's
+ and sees it as a way of blocking relativism.58 To what extent, then, will her
+ commitments be subject to revision in encounters with literature or other art-
+ works that might provide genuinely new outlooks? In Love's Knowledge
+ Nussbaum says she has chosen to discuss novels that exemplify a certain (i.e.,
+ Aristotelian) procedure and also certain (i.e., Aristotelian) answers to the
+ question of how to define a good life. And in Poetic Justice she defends
+ novels for their power to stimulate empathy and moral imagination. The good
+ life involves a certain element of contingency that is dealt with through moral
+ virtue. What would Nussbaum say about a novel like J. G. Ballard's Crash,
+ which seems to overemphasize contingency and fate? In this book the nar-
+ rator, after a car crash involving a fatality, becomes obsessed with and emu-
+ lates a character named Vaughan, the "nightmare angel of the expressways"
+ who has "spent his life staging death." Vaughan collects albums full of pic-
+ tures of crash victims and can only find sexual excitement exploring the pos-
+ sibilities of scars and wounds. The narrator (also named Ballard) writes, "In
+ our wounds we celebrated the re-birth of the traffic-slain dead, the deaths and
+ injuries of those we had seen dying by the roadside and the imaginary wounds
+ and postures of the millions yet to die."59 Nussbaum's Aristotelian convic
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+
+learn from art's moral content. I shall focus on works by Hilar
+ Putnam, a current pragmatist who addresses questions of ethics and valu
+ We shall begin with the two broad opening questions I asked abo
+ Nussbaum's Aristotelianism: What is the pragmatist account of the nature
+ moral knowledge, and how does art provide such knowledge - that is, ho
+ and what can we learn from it?
+ Like the Aristotelian, the pragmatist holds that knowledge is not simply
+ knowledge of propositions and truths. What we learn from art depends upon
+ our aims, situations, and purposes. There can be knowledge how and emo-
+ tional knowledge, for example. Art can convey knowledge of how to per-
+ ceive the world around us, something not readily reducible to a series of
+ 25
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ propositions. Thus in Art as Experience Dewey notes that understanding art
+ is like understanding another person.64 Furthermore, art is integrally linked
+ to a culture; Dewey claims that art expresses the life of the community. Moral
+ life in general cannot be discussed outside the context of a culture and "can-
+ not go on without the support of a moral environment"; such an environment
+ "is created by the collective art of a time."65
+ In Languages of Art and later works, Nelson Goodman revised and
+ extended this pragmatist view of art. Goodman's organicism and naturalism
+ are not so readily apparent as Dewey's, yet I think they are present, espe-
+ cially when he makes comments like this: "What we know through art is felt
+ in our bones and nerves and muscles as well as grasped by our minds. . . .
+ [A]ll the sensitivity and responsiveness of the organism participates in the
+ invention and interpretation of symbols."66 Goodman describes artworks as
+ complex structures of symbols that achieve meaning and reference in a vari-
+ ety of specific ways. They contribute to and enlarge upon our understanding
+ of a world.67 Goodman articulates criteria that make either scientific hypothe-
+ ses or artworks successful: clarity, elegance, and a kind of fittingness: 'Truth
+ and its aesthetic counterpart amount to appropriateness under different
+ names."68 On the pragmatist view, scientific views and artworks create
+ worlds that seem right in relation to our needs and habits (or what can become
+ our habits). They help us, as Goodman puts it at the very conclusion of
+ Languages of Art, "in the creation and comprehension of our worlds." I quote
+ the following extended passage from Goodman because it offers a detailed
+ account of how much the pragmatist counts as knowledge in art:
+ Symbolization, then, is to be judged fundamentally by how well
+ it serves the cognitive purpose: by the delicacy of its discrimi-
+ nations and the aptness of its allusions; by the way it works in
+ grasping, exploring, and informing the world; by how it analyzes,
+ sorts, orders, and organizes; by how it participates in the mak-
+ ing, manipulation, retention, and transformation of knowledge.
+ Considerations of simplicity and subtlety, power and precision,
+ scope and selectivity, familiarity and freshness, are all relevant
+ and often contend with one another; their weighting is relative
+ to our interests, our information, and our inquiry.69
+ The effectiveness of symbol systems in art, as in science, is context-
+ dependent. This explains why artworks, like scientific
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+theories, change in
+ both their appeal and their capacity to shock or fascinate over time: "A work
+ may be successively offensive, fascinating, comfortable, and boring."70
+ Goodman entertains the possibility that art affords moral knowledge in his
+ discussion of the related notion of "lightness of rendering" in Ways of
+ Worldmaking. This notion goes beyond truth to include "standards of accept-
+ ability that sometimes supplement or even compete with truth ... or replace
+ truth for nondeclarative renderings."71 While Goodman acknowledges that
+ 26
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ "any treatment of lightness may, of course, give rise to speculation con-
+ cerning an application to moral lightness" he avoids this context, com-
+ menting that "I willingly leave that to others."72
+ Among the few "others" who have risen to this challenge is Hilary
+ Putnam. In fact, Putnam criticizes Goodman and Quine for neglecting ethics
+ in their pragmatist programs. He says that they "have been somewhat hesi-
+ tant to forthrightly extend the same approach [viz., their pragmatism] to our
+ moral images of ourselves and the world. Yet what can giving up the spec-
+ tator view in philosophy mean if we don't extend the same approach to the
+ most indispensible 'versions' of ourselves and the world that we possess?
+ Like William James ... I propose to do exactly that."73 Putnam has articu-
+ lated a pragmatist conception of moral knowledge, together with some claims
+ about how this knowledge may be found in works of art, especially litera-
+ ture. Let us first consider his view of moral knowledge.
+ Putnam says that he agrees with earlier pragmatist critiques of moral a
+ priorism.74 Yet he does not endorse moral skepticism or cultural relativism,
+ and he does maintain that there is moral knowledge. Though there are no
+ moral "facts," some ethical principles are likely to have a "large measure of
+ objectivity."75 He sketches a pragmatist argument "that the belief in the cog-
+ nitive status of value judgments underlies an enormous amount of our prac-
+ tice."76 Putnam's pragmatism thus leads him to reject narrow instrumentalist
+ notions of rationality that compare ethics unfavorably to other, allegedly
+ more legitimate (or "more rational") forms of knowledge, like science. He
+ holds that justification in ethics is also - equally - a rational enterprise, one
+ that involves recognizing that " all values, including the cognitive ones, get
+ their authority from our idea of human flourishing and our idea of reason.
+ These two ideas are interconnected: our image of an ideal theoretical intel-
+ ligence is simply a part of our ideal of total human flourishing
+ explicitly invokes Dewey's conception of inquiry as his own p
+ the search for knowledge, noting that Dewey rejected the mod
+ rithm: "According to the pragmatists, whether the subject b
+ ethics, what we have are maxims and not algorithms; and maxims
+ require contextual interpretation."78
+ Given this view of moral knowledge, what does Putnam say
+ moral content of art, or about what we can learn from artworks?
+ lier essays he assumed a less pragmatic, more narrowly discurs
+ knowledge, and contrasted what we can derive from literature
+ of knowledge required for ethics. In "Literature, Science, and
+ published in 1976, Putnam argued that literature differs from
+ a source of moral kn
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+owledge. Literary works offer only what
+ ceptual knowledge, "an imaginative re-creation of moral perpl
+ don't learn that certain things are true from a novelist, but wh
+ 27
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ looks like to someone who thinks that."79 Thus perhaps one learns from
+ Medea about how jealousy and wrath could lead a woman to harm her chil-
+ dren, or from The Brothers Karamazov why a son would kill a father from
+ jealous passion. Such conceptual knowledge, says Putnam, may amount to
+ a new interpretation of the facts. He says it should be more than knowledge
+ of mere possibilities; a novelist like Celine who writes only about the
+ "merely" possible is weak.
+ Conceptual knowledge, in this essay, is contrasted with genuine moral
+ knowledge, which Putnam says is "propositional" and "factual" knowledge
+ of standards and principles. Conceptual knowledge is inferior because it has
+ not been tested. Thus presumably the conceptual knowledge of what it might
+ feel like to be a Medea capable of killing her children does not offer us gen-
+ uine moral knowledge about whether, in any circumstances, infanticide is
+ justifiable or morally right. Though what we derive from literature is not fac-
+ tual knowledge, the conceptual knowledge it affords is worthwhile. So
+ Putnam writes, "Objectivity of ethical principles is connected with such
+ things as width of appeal, ability to withstand rational criticism, feasibility,
+ ideality, and what it feels like to live by them or attempt to live by them.
+ Imagination and sensibility are essential instruments of practical reasoning.
+ The literary imagination does really help us to understand ourselves and life
+ (reasoning about how to live)."80 Novelists who use the medium appropri-
+ ately give us something that we need in order to gain moral knowledge.
+ Putnam returned to this topic in his 1983 response to Nussbaum, 'Taking
+ Rules Seriously." In most of this essay he still presents a somewhat narrow
+ view of how much knowledge literature can offer, emphasizing the differ-
+ ence between knowledge from literature and real moral knowledge. He sug-
+ gests that when we do gain moral knowledge from a novel, it is because of
+ a philosophical discussion or description of the book, rather than from the
+ work itself. Thus he notes with approval Richard Wollheim's thought that it
+ is the commentary on a literary work, not the work itself, which may be a
+ work of moral philosophy.81
+ Still, Putnam acknowledges that imagination and sensibility are essen-
+ tial instruments of moral reasoning and that literature may be useful because
+ it demonstrates that moral reasoning takes place in a context.82 However, he
+ begins to note problems in drawing the distinction between literature and
+ philosophy when he confesses that "I suspect that both the ontological pre-
+ tensions and the epistemological pretensions of philosophy have failed."83
+ And in a few concluding sentences of the essay he uses scare quotes to indi-
+ cate his doubts about certain purported distinctions between fictional works
+ and moral philosophy, acknowledging the possibility that perhaps moral
+ works in philosophy are themselves not "foundations" or "methodologies"
+ but are themselves like works of literature:
+ 28
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+
+egesis/commentary distinction cannot be drawn.
+ Any exegesis that is nontrivial must, to that extent, be commentary-laden."90
+ What, then, is a commentary? In short, it is an account of implications of
+ what someone - whether Aristotle or Henry James - wrote "about our prob-
+ lems." Thus "getting at" the moral content of a work and presenting it in
+ some discursive format or commentary actually turns out to be the same as
+ interpreting the work, in the sense of construing how it says what it says.
+ Philosophy and literature are on a par, then, because each kind of writing
+ needs interpretation-cum-commentary so that we can see how its moral
+ images speak to us in our current situations of intellectual and moral per-
+ plexity. Interpretation, like other forms of intellectual inquiry, is context-
+ dependent and varies according to people's positions, assumptions, and
+ surrounding institutions.91
+ And what can we say about Putnam's moral commitments? His pragma-
+ tism at first appears to be remarkably similar to Nussbaum's Aristotelianism
+ in that, like her, he holds that rational debate is relevant and possible in ethics,
+ and he thinks that rational debate is grounded in the rationality of the com-
+ munity. Putnam alludes less to Aristotle's views on moral justification, though,
+ than to the picture of rationality developed by Peirce and followed up on by
+ the Frankfurt School.92 Eventually we reach not Aristotle's grounding in
+ human needs and capacities, nor a rational foundation like the Moral Law, but
+ rather the "bedrock" of our commitments to which Wittgenstein referred when
+ he said that, ultimately, for either ethics or epistemology, we must insist sim-
+ ply, "This is where my spade is turned." So Putnam rejects a strict founda-
+ tionalism as sought by both capital "E" Epistemology and capital "M"
+ Metaphysics, but he still insists that this is not "Feyerabendian relativism";
+ rational criticism of a moral vision is possible.93
+ Given that Putnam says that what we need are more and more varied
+ moral images, and that we still need better accounts in philosophy of the
+ nature of moral reasoning, then it would seem that in our commentaries we
+ need to reason about all the moral images we can consider, both those of
+ philosophers and those of novelists. In suggesting that philosophical systems
+ of morality are not different in kind from literature, in that both offer us
+ human creations, or moral images, Putnam has, in effect, dropped his ear-
+ lier distinction between conceptual and factual knowledge about morality.
+ He has, in fact, moved closer to a position like Dewey's - we should recall
+ that Dewey claimed that art actually has more moral power than the "reflec-
+ tive treatises" of philosophers.94
+ 30
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ CONCLUSION
+ The pragmatist and the Aristotelian both argue that art may function to inform
+ and illuminate the world and our lives - including our moral lives. It is a cen
+ tral strength of cognitivism that it regards moral content and artistic func-
+ tioning of a work as more integrally connected than they are on either of th
+ simple views I described at the start, namely, formalism or moralism. So
+ artwork may both challenge and stimulate us; it can engage the viewer simul
+ taneously with both artistic interpretation and moral reflection.
+ There are,
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+ of course, other kinds of cognitive theories of art besides thos
+ I have described here. Recent years have seen a proliferation of cognitiv
+ studies of various art forms, including music, film, visual arts, and literatur
+ Many of these views employ broad notions of knowledge. They emphasize
+ ways in which the experience of art both utilizes and enhances our vario
+ cognitive skills, including not just imagination but perception of our chan
+ ing environment, of sound or spatial relationships, and so on
+ Since both the pragmatist and the Aristotelian use very broad concep
+ tions of knowledge, their views of art will be rejected by someone who main
+ tains that moral knowledge must take a specific and narrower discursive form
+ as propositions or truths.95 Someone with this sort of narrow view of th
+ nature of moral knowledge will be likely to maintain that at best art afford
+ examples or illustrations, that it cannot be a source of such knowledge.
+ Nussbaum and Putnam acknowledge the important role of interpreta-
+ tion (or what Putnam calls "commentaries"); these are required in order t
+ provide accounts of the ways artworks serve as a source of moral know
+ edge. Often the confusion and lack of dialogue in the recent cases show th
+ to understand an artwork's moral content requires fairly complex acts of arti
+ tic interpretation. Islamic fundamentalists don't understand the vocabular
+ of magical realism; Mapplethorpe's critics don't understand his gay urb
+ S&M aesthetic; and Serrano's critics don't understand that Piss Christ cou
+ mean something other than "Piss on Christ." For Nussbaum and Putnam, t
+ content/value distinction is more complex than it is according to the formali
+ or moralist. Cognitive views better reflect and explain these recent debate
+ about art.
+ As a final comment, it is worth noting that both Nussbaum's an
+ Putnam's accounts of art and moral knowledge focus mainly on literatur
+ We can ask whether their views can be generalized to other arts. Nussbau
+ does think that novels are special, and she notes salient features of the nove
+ it is still a living form, and it offers us great narrative detail, emotional expres-
+ siveness, a concrete depiction of different ways of life, and an interest in t
+ ordinary. She acknowledges that other art forms, like film, may offer simi
+ lar features that make them moral resources.96 1 believe that her account
+ 31
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ the moral content of art can be generalized to other art forms - other forms
+ also do the key things that she attributes to the novel: they consider philo-
+ sophical questions and provide methods of pursuing them as well as actual
+ answers. To see how they do this we would need to look in more detail at
+ interpretations like those I mentioned at the start, at what, for example,
+ Levinson says about Ice-T's denunciation of commercial values in his rap
+ song, or at Lippard's claims about Serrano's idiosyncratic homage to
+ Christianity.
+ Can songs or photographs also supply something akin to Nussbaum's
+ "literary imagination"? I think we can say yes if we look at, say, Danto's dis-
+ cussion of Mapplethorpe's images. Danto reads these images as the repre-
+ sentation and expression of the photographer's empathetic relationship with
+ subjects who trusted him to portray a lifestyle they shared, and one that so
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+me
+ people considered worth exploring. Danto thinks that the success of the
+ images lies in making this point of view available to someone like himself
+ who finds what is pictured "fairly repellent," but who can still recognize a
+ continuum of sexual imagination between what is pictured and more main-
+ stream trappings of sexual fantasy like, say, black lingerie.97 And perhaps
+ we could say that photographs like Piss Christ or rap songs like "Pusher"
+ also supply moral images, to use Putnam's terms. Putnam emphasizes the
+ need for interpretations or exegeses, and there does not seem to be any good
+ reason to suppose that exegeses could not reveal the moral images offered
+ by such artworks.
+ I suspect that the real reason for philosophers to focus on literature can
+ be found in Nussbaum's remarks about how sensitivity to literature can also
+ illuminate the style or form of philosophy. Novels, like philosophical texts,
+ are made of words. Nussbaum can thus read Spinoza or Seneca or Lucretius
+ for their literary qualities; but how do we find the elements of a philosopher
+ that are painterly, filmic, photographic, or musical? Maybe this is a limita-
+ tion of philosophers, though (or of our view of what counts as philosophy) -
+ and not a limitation of cognitive theories of art.
+ NOTES
+ 1. Various versions of this paper have been read at the University of Pennsylvania, the
+ Australian National University, the University of Sydney, Rice University, and the
+ University of Wales, Aberystwyth (at the "Literature and Ethics" conference). I thank
+ many people at these venues for helpful questions and comments (especially the partic-
+ ipants in my seminars at the ANU, including Paul Thom, Jennifer McMahon, Natalie
+ Stoljar, Ian Gold, and Michael Smith). David Hills offered generous (and detailed) help-
+ ful comments on several drafts. I am also grateful for support received from the University
+ of Houston and the Australian National University.
+ 2. On Aeschylus, see Thomas Gould, The Ancient Quarrel Between Poetry and Philosophy
+ (Princeton: Princeton University Press, 1990), 122-23; on Michelangelo, see Leo
+ 32
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ Steinberg, The Sexuality of Christ in Renaissance Art and in Modern Oblivion, 2d ed.,
+ rev. and expanded (Chicago and London: University of Chicago Press, 1996), 19-21 and
+ 146-47.
+ 3. Lucy Lippard, 'The Spirit and The Letter," Art in America (Apr. 1990): 244. This essay
+ is reprinted and excerpted in Culture Wars: Documents from the Recent Controversies in
+ the Arts, ed. Richard Bolton (New York: New Press, 1992), 201-05.
+ 4. Lippard, in Culture Wars, 201.
+ 5. Arthur Danto, Playing with the Edge : The Photographic Achievement of Robert
+ Mapplethorpe (Berkeley and Los Angeles: University of California Press, 1996), 91; see
+ also 83-95. "What he [Mapplethorpe] did, almost inconceivably, was confer a certain
+ radiance on the act and even the tawdry place where it happens" (90).
+ 6. Jerrold Levinson, "Messages in Art," in Art and Its Messages: Meaning, Morality, and
+ Society, ed. Stephen Davies (University Park, Pa.: Pennsylvania State University Press,
+ 1997), 78-81.
+ 7. Wendy Steiner, The Scandal of Pleasure: Art in an Age of Fundamentalism (Chicago and
+ London: University of Chicago Press, 1995), 105.
+ 8. Jerome Stolnitz, "On the Cognitive Triviality of Art," Briti
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+sh Journal of Aesthetics 32
+ (1992): 191-200. For a discussion and critique of this view, see T. J. Diffey, "What Can
+ We Learn from Art?" in Art and Its Messages, 26-33.
+ 9. Stolnitz, "On the Cognitive Triviality of Art," 194, 200.
+ 10. Levinson, "Messages in Art," 78. 1 should point out that Levinson adds various qualifiers
+ to this interpretation and is not hasty to assert its truth!
+ 1 1 . Charles Sanders Peirce, "How to Make Our Ideas Clear," in Pragmatism: A Contemporary
+ Reader, ed. Russell Goodman (New York and London: Routledge, 1995), 41.
+ 12. Ibid., 43. See also William James in "Pragmatism's Conception of Truth": "Any idea that
+ helps us to deal, whether practically or intellectually, with either the reality or its belong-
+ ings, that doesn't entangle our progress in frustrations, that fits, in fact, and adapts our
+ life to the reality's whole setting, will agree sufficiently to meet the requirement"
+ C Pragmatism : The Classic Writings, ed. H. S. Thayer [Indianapolis and Cambridge:
+ Hackett, 1982], 234).
+ 13.1 think this is so, even though I am in agreement with scholars like Myles Burnyeat and
+ Bas Van Fraassen who have discussed the role of "understanding" in Aristotle and high-
+ lighted pragmatic elements of Aristotle's philosophy of science. For an overview, see my
+ "Scientific Explanation and Empirical Data in Aristotle's Meteorology. in Oxford Studies
+ in Ancient Philosophy 1 (1990): 67-102; and "Accidental Causes and Real Explanations,"
+ in Essays on Aristotle's Physics, ed. Lindsay Judson (Oxford: Oxford University Press,
+ 1991), 49-72.
+ 14. For examples and further discussion, see chap. 9, "Art and Morals," in Melvin Rader and
+ Bertram Jessup, Art and Human Values (Englewood Cliffs, N.J.: Prentice-Hall, 1976),
+ 212-34. Rader and Jessup label the distinction I have in mind "aestheticism" versus "moral-
+ ism," and while they do not describe these views exactly as I do here, most examples they
+ list under each category would fit my descriptions as well.
+ 15. I here discount "aesthetic idea" types of formalists like Suzanne Langer or R. G.
+ Collingwood; they really count more as cognitivists, the way I read them, since the "form"
+ of art presents ideas. (Jennifer McMahon drew this point to my attention.)
+ 16. For Kant, the beautiful object carries no particular cognitive content, but rather its form
+ stimulates "free play of imagination," a kind of harmonious interplay between under-
+ standing and sensibility that is a disinterested and universally communicable state of
+ mind. It is a sensible analog of the rationally grounded impersonality characteristic of
+ moral judgment. This is why Kant calls beauty a symbol of morality. See Ted Cohen,
+ "Why Beauty Is a Symbol of Morality," in Essays in Kant's Aesthetics, ed. Ted Cohen
+ and Paul Guyer (Chicago: University of Chicago Press, 1982), 221-36.
+ 17. For an overview, see Deane W. Curtin, "Varieties of Aesthetic Formalism," Journal of
+ Aesthetics and Art Criticism 40 (1982): 315-26.
+ 33
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ 18. William Gass, 'The Baby or the Botticelli," in his Finding a Form (New York: Alfred A.
+ Knopf, 1996), 287.
+ 19. Kramer, "Is Art Above the Laws of Decency?" New York Times, July 2, 1989; reprinted
+ in Culture Wars, 54.
+ 20. Ibid., 55.
+ 21. Danto responds to this point; for a summary, see Danto, Playing with the
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+
+
+
+ Ways ofWorldmaking (Indianapolis: Hackett, 1978).
+ 68. Goodman, Languages of Art, 264; see also 255-65.
+ 69. Ibid., 258.
+ 70. Ibid., 259.
+ 71. Goodman, WaysofWorldmaking, 110.
+ 72. Ibid., 109-10n. 1.
+ 73. Hilary Putnam, The Many Faces of Realism: The Paul Carus Lectures (La Salle, 111.:
+ Open Court, 1987), 21; hereafter this work is referred to as MF.
+ 74. "Pragmatism and Moral Objectivity," in Words and Life, ed. James Conant (Cambridge,
+ Mass.: Harvard University Press, 1994), 151.
+ 75. See Putnam, MF, 77-78, and "Literature, Science, and Reflection," in Meaning and the
+ Moral Sciences (Boston and London: Routledge & Kegan Paul, 1978), 93.
+ 76. Putnam, "Pragmatism and Moral Objectivity," 160.
+ 77. Putnam, "Beyond the Fact/Value Dichotomy," in Realism with a Human Face, ed. James
+ Conant (Cambridge, Mass.: Harvard University Press, 1990), 141; Putnam's emphasis;
+ hereafter referred to as RwHF.
+ 78. Putnam, "Pragmatism and Moral Objectivity," 172.
+ 79. Putnam, "Literature, Science, and Reflection," 89.
+ 80. Ibid., 91.
+ 81. Putnam, 'Taking Rules Seriously," in RwHF, 200.
+ 82. Ibid., 193-200.
+ 83. Ibid., 200.
+ 84. Ibid.
+ 85. Putnam, MF, 51. In 'Taking Rules Seriously," he does not use the term "moral images"
+ but does refer to "normative pictures" presented by Aristotle and Kant; see esp. 197.
+ 86. Putnam, MF, 78.
+ 87. Mark Johnson also defends the view that morality - even a putatively "pure" rationalis-
+ tic ethics like Kant's - is chiefly a matter of metaphor and moral imagination in his book,
+ Moral Imagination: Implications of Cognitive Science for Ethics (Chicago and London:
+ University of Chicago Press, 1993); on Kant see esp. 65-77.
+ 88. Putnam, "Is There a Fact of the Matter about Fiction?" in RwHF, 209-13.
+ 89. Ibid., 212.
+ 90. Ibid., 213.
+ 91. Ibid., 210.
+ 92. Putnam, MF, 81-83. Though Putnam agrees with Apel and Habermas that claims aiming
+ at truth and warrant must recognize implicitly the authority of an ongoing community
+ which must have a certain structure, he thinks that this project is still too Kantian, too
+ much an attempt to construct a universal ethic; see MF, 53-56.
+ 93. Ibid., 86.
+ 94. John Dewey, Art as Experience, 345.
+ 95. Stolnitz, "On the Cognitive Triviality of Art."
+ 96. This issue of whether her view might apply to other artistic media is something Nussbaum
+ briefly acknowledges in her "Endnote" to the Beckett essay in LK, 312-13.
+ 97. Danto, Playing with the Edge, 93-95.
+ 36
+This content downloaded from
+(cid:0)129.127.145.243 on Thu, 01 Jun 2023 05:18:00 +00:00(cid:0)
+All use subject to https://about.jstor.org/terms
+
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)
+(cid:0)

@@ -1,0 +1,2323 @@
+# Readings pack: stage1_existentialism
+
+The following passages are the readings the agent should reference. Cite specific lines or paragraphs when pointing the student toward them. Do not summarise unprompted.
+
+=== Existentialism — Four Thinkers (overview) ===
+
+Simone de Beauvoir (Ethics):
+
+Primary Focus: De Beauvoir's existentialist ethics revolves around the notion of authenticity
+and the moral responsibility to live authentically, especially in the face of ambiguity and societal
+pressures.
+
+Interaction with Other Fields:
+
+• Metaphysics (Sartre): De Beauvoir takes for granted Sartre's metaphysical
+
+proposition of radical freedom, using it as a basis to argue that in this freedom,
+individuals have an ethical responsibility to live authentically and resist "bad faith."
+
+• Epistemology (Camus): While de Beauvoir focuses on the ethics of living
+
+authentically, she assumes the epistemological backdrop of Camus' Absurd – that
+the universe is inherently devoid of meaning. It's against this backdrop that the
+ethical imperative to create one's own meaning becomes even more poignant.
+
+Jean-Paul Sartre (Metaphysics):
+
+Primary Focus: Sartre's existentialist metaphysics centres on the idea of radical freedom and
+existence preceding essence.
+
+Interaction with Other Fields:
+
+• Ethics (de Beauvoir & Frankl): Sartre's notion of freedom sets the stage for de
+Beauvoir's ethical arguments about authenticity and Frankl's emphasis on the
+responsibility to find meaning. For both, the metaphysical freedom Sartre discusses
+becomes an ethical landscape in which individuals must navigate and find purpose.
+
+• Epistemology (Camus): Sartre's metaphysics, which emphasises individual
+
+freedom and existence, assumes the epistemological framework of Camus' Absurd,
+suggesting that in a world without inherent meaning, individuals are free to create
+their own.
+
+Albert Camus (Epistemology):
+
+Primary Focus: Camus' epistemological existentialism revolves around the Absurd, the
+tension between humans' desire for meaning and the universe's inherent meaninglessness.
+
+Interaction with Other Fields:
+
+• Ethics (de Beauvoir & Frankl): Camus' exploration of the Absurd takes as given
+
+the ethical imperatives discussed by de Beauvoir and Frankl. In a world
+characterised by the Absurd, the ethical pursuits of authenticity and search for
+meaning become even more significant.
+
+• Metaphysics (Sartre): Camus' epistemological stance assumes Sartre's
+
+metaphysical proposition that existence precedes essence and that individuals are
+free to shape their destinies in an Absurd universe.
+
+
+
+
+
+Viktor Frankl (Ethics):
+
+• Primary Focus: Frankl's existentialist ethics is anchored in the belief that despite suffering
+and life's challenges, individuals have a moral responsibility to search for meaning. This
+search for meaning, for Frankl, is not just a personal quest but an ethical imperative.
+
+•
+
+Interaction with Other Fields:
+
+• Metaphysics (Sartre): Frankl's emphasis on the ethical responsibility to find
+
+meaning, especially in the face of suffering, builds upon Sartre's metaphysical
+proposition of radical freedom. While Sartre posits that we are "condemned to be
+free," Frankl suggests that within this freedom lies the ethical duty to find and create
+meaning.
+
+• Epistemology (Camus): While Frankl emphasises the ethical pursuit of meaning, he
+operates within the epistemological framework of Camus' Absurd. For Frankl, even in
+an Absurd universe, where objective meaning might be elusive, individuals can and
+should find personal meaning. This personal quest for meaning becomes an
+epistemological journey of understanding oneself and one's place in the universe.
+
+• Ethics (de Beauvoir): Both Frankl and de Beauvoir focus on the individual's
+
+responsibility in the face of freedom. While de Beauvoir emphasises the ethical
+importance of authenticity and confronting life's ambiguities, Frankl underscores the
+moral duty to find meaning, especially in adversity. Frankl's perspective can be seen
+as a complement to de Beauvoir's: where de Beauvoir speaks of the ethical
+challenge of living authentically in a world laden with ambiguity, Frankl provides a
+path, suggesting that even in the most challenging situations, one can and should
+seek purpose and meaning. Both philosophers offer an ethical framework for
+navigating the challenges of existence, with Frankl providing a more concrete
+method through logotherapy.
+
+
+
+
+
+Albert Camus
+
+FUNDAMENTALS
+
+Albert Camus is often associated with existentialism, but he personally preferred to be identified
+with the philosophy of the absurd. His work delves into the inherent tension between humans'
+search for meaning and the apparent meaninglessness of the universe. Here are the primary
+themes associated with Camus' philosophy:
+
+1. The Absurd: Central to Camus' thought is the concept of the absurd. The absurd arises
+from the confrontation between our desire for understanding and order and the apparent
+indifference and chaos of the universe. In other words, it's the clash between our search for
+meaning and the universe's seeming lack of it.
+
+2. Revolt: Instead of succumbing to despair in the face of the absurd, Camus believed in
+
+revolting against it. This revolt doesn't mean an external rebellion but an internal, personal
+confrontation with the absurdity of existence. By recognising the absurd and choosing to
+continue living in spite of it, individuals assert their existence and dignity.
+
+3. Freedom: For Camus, acknowledging the absurdity of life leads to a kind of freedom.
+
+Without predetermined meaning or destiny, individuals are free to create their own values
+and make their own choices.
+
+4. Passion: In a universe devoid of true meaning or order, Camus argued for living with
+intensity and passion. Instead of retreating into despair or nihilism, he believed in
+embracing life's experiences fully.
+
+5. Acceptance: While Camus emphasises revolt against the absurd, he also speaks of
+
+accepting the absurdity of life. This acceptance doesn't mean passive resignation but a
+conscious acknowledgment of life's inherent contradictions.
+
+6. Ethics of Ambiguity: Similar to some other existentialists, Camus believed that in a
+
+universe without inherent moral order, individuals must navigate an ethical landscape filled
+with ambiguity. Without clear moral guidelines, individuals must make choices based on
+personal integrity and responsibility.
+
+7. Death: The inevitability of death is a recurring theme in Camus' work. He viewed death as
+
+the ultimate absurdity, emphasising the tension it creates: individuals search for meaning in
+a life that is ultimately finite and transient.
+
+8. Nature and Beauty: In his works, especially in novels like "The Stranger," Camus often
+alludes to the beauty of nature and the physical world. For Camus, nature's indifference
+contrasts with human emotion and passion, further highlighting the absurdity of existence.
+
+It's worth noting that while Camus dealt with themes common to existentialism, such as freedom,
+alienation, and individualism, he had a unique perspective on these topics. His emphasis on the
+absurd and his ideas on how to confront it distinguish him from other existentialist thinkers.
+
+Biography of Albert Camus:
+
+
+1. Early Life: Albert Camus was born in Mondovi, Algeria, in 1913, when Algeria was a French
+colony. His father died during World War I, and Camus was raised in relative poverty by his
+mother in the Belcourt section of Algiers.
+
+2. Education: Despite the challenges of his upbringing, Camus was a bright student. He
+attended the University of Algiers, where he studied philosophy and was influenced by
+thinkers like Friedrich Nietzsche and Søren Kierkegaard.
+
+3. Tuberculosis: In his youth, Camus contracted tuberculosis, a disease that affected him
+
+intermittently throughout his life. His personal confrontation with illness and mortality had a
+profound impact on his philosophical perspectives, especially on themes related to the
+absurdity of life and death.
+
+4. World War II: During World War II, Camus joined the French Resistance against the Nazi
+
+occupation and became an editor for the underground newspaper "Combat." His
+experiences during the war deepened his reflections on freedom, revolt, and the human
+capacity for both cruelty and nobility.
+
+5. Literary Career: Camus became a prominent novelist, essayist, and playwright. His
+
+notable works include "The Stranger," "The Plague," "The Myth of Sisyphus," and "The
+Fall." Through his writings, he explored the themes of absurdity, alienation, and revolt.
+
+6. Death: Camus died tragically in a car accident in 1960 at the age of 46.
+
+Camus and Existentialism:
+
+1. Relationship with Sartre: Initially, Camus had a close intellectual and personal relationship
+with Jean-Paul Sartre, another towering figure of existentialism. However, they later had a
+public falling out, primarily due to ideological differences, especially concerning the role of
+political violence and their views on the Soviet Union.
+
+2. Absurdist vs. Existentialist: While Camus is often categorised with the existentialists, he
+saw himself more as an absurdist. The core of his philosophy revolved around the tension
+between the human quest for meaning and the inherent meaninglessness of the universe.
+
+3. Influence of Nietzsche and Kierkegaard: Like many existentialists, Camus was
+
+influenced by Friedrich Nietzsche's critique of traditional values and Søren Kierkegaard's
+focus on individual existence and choice.
+
+Camus Among Contemporaries:
+
+1. Philosophical Landscape: Camus' contemporaries included existentialist thinkers like
+
+Jean-Paul Sartre, Simone de Beauvoir, and Maurice Merleau-Ponty. While Camus shared
+certain themes with these thinkers, his emphasis on the absurd set him apart.
+
+2. Literary Context: As a writer, Camus was also part of the post-war literary world, which
+
+grappled with the traumas of World War II and the Holocaust. Writers like Samuel Beckett
+and Franz Kafka influenced and echoed Camus' themes of absurdity and alienation.
+
+In summary, Albert Camus' life experiences, from his upbringing in colonial Algeria to his role in the
+French Resistance, deeply influenced his philosophical perspectives. While he shared the
+existentialist stage with giants like Sartre and de Beauvoir, his unique emphasis on the absurd and
+
+
+his skeptical approach to overarching ideologies distinguished him as a singular voice in 20th-
+century philosophy and literature.
+
+Albert Camus' Philosophy:
+
+1. The Absurd:
+
+• Concept: At the heart of Camus' philosophy is the notion of the absurd. It emerges
+
+from the clash between our human desire for meaning and the seemingly indifferent,
+chaotic universe. For Camus, the realisation of this incongruity is fundamental to
+human existence.
+
+•
+
+Implication: Accepting the absurd means recognising life's inherent lack of ultimate
+purpose or meaning. However, this acceptance should not lead to despair or
+nihilism.
+
+• Ought: Instead of succumbing to the weight of the absurd, one ought to confront it
+
+head-on, embracing life with passion and intensity.
+
+2. Revolt:
+
+• Concept: Faced with the absurdity of existence, Camus advocates for revolt. This is
+not a physical rebellion but an internal, existential one—a consistent affirmation of
+life in the face of its inherent meaninglessness.
+
+•
+
+Implication: Revolt becomes a life-affirming act, a continuous challenge to the
+absurd, and a declaration of one's existence.
+
+• Ought: Individuals ought to live authentically, fully embracing the human condition
+and its inherent contradictions. Through revolt, one can find personal freedom and
+agency.
+
+3. Freedom:
+
+• Concept: With the acknowledgment of life's absurdity comes a profound sense of
+freedom. In a universe devoid of preordained meaning or destiny, individuals are
+liberated to create their own values and paths.
+
+•
+
+Implication: This freedom, however, is double-edged—it's both liberating and
+burdensome, as it places the responsibility of meaning-making squarely on the
+individual.
+
+• Ought: Camus suggests that one ought to exercise this freedom responsibly and
+
+authentically, forging a path that resonates with one's personal truths.
+
+4. Ethics of Ambiguity:
+
+• Concept: In a world without inherent moral order, ethical decisions become complex.
+Camus acknowledges the inherent ambiguity in moral choices in an absurd universe.
+
+•
+
+Implication: Traditional moral systems might fall short in providing clear guidance.
+Instead, moral decisions are deeply personal and often fraught with uncertainty.
+
+
+• Ought: Individuals ought to approach ethical decisions with a sense of humility and
+introspection, recognising the inherent ambiguity and doing their best to act with
+integrity.
+
+5. Nature, Beauty, and Art:
+
+• Concept: Despite the weighty themes of absurdity and revolt, Camus also
+
+emphasises the role of nature, beauty, and art in human life. These elements can
+offer solace and moments of transcendence.
+
+•
+
+Implication: In the face of the absurd, moments of beauty, whether in nature or art,
+provide brief respites and glimpses of meaning.
+
+• Ought: Camus suggests that one ought to seek out and appreciate these moments,
+
+allowing them to enrich the human experience and offer a counterpoint to the
+inherent absurdity of life.
+
+Camus' philosophy, rooted in his personal experiences and the tumultuous events of his time,
+offers a profound exploration of the human condition. While he paints a picture of a universe
+indifferent to human desires, he also provides a roadmap for finding personal meaning, agency,
+and beauty within that vast expanse of indifference. The "oughts" of his philosophy guide
+individuals on how to live authentically and passionately, even in the shadow of the absurd.
+
+
+
+
+Simone de Beauvoir
+
+FUNDAMENTAL IDEAS
+
+Existence Precedes Essence:
+
+• Concept: Echoing Jean-Paul Sartre, de Beauvoir asserted that individuals are not
+
+born with a predetermined nature or essence. Instead, they create their own essence
+through their actions and choices.
+
+•
+
+Implication: This means that there's no fixed human nature or predetermined role,
+especially for women. The roles that women have been assigned in society are not
+inherent but are constructed.
+
+Ambiguity of Existence:
+
+• Concept: De Beauvoir delved deeply into the inherent ambiguity of human
+
+existence. Life is full of uncertainties, and the human condition is one of constant
+tension between our freedom to define ourselves and the limitations imposed by our
+situations.
+
+•
+
+Implication: This theme is particularly relevant for women, who face societal
+constraints that limit their freedom and choices.
+
+Ethics of Liberation:
+
+• Concept: De Beauvoir believed in an ethics centered on liberation and authenticity.
+
+Individuals should strive to free themselves from societal impositions and live
+authentically.
+
+•
+
+Implication: This is especially significant for women, who, according to de Beauvoir,
+have been historically "imprisoned" by societal norms and roles. They must
+recognise and challenge these impositions to achieve genuine freedom.
+
+The Other:
+
+• Concept: In her seminal work, "The Second Sex," de Beauvoir explores the concept
+of women being defined as "The Other" in relation to men. Men represent the norm
+or the subject, while women are the "Other" – the deviant or the object.
+
+•
+
+Implication: This framework has been used to subordinate women and justify their
+oppression. Recognising and challenging this dynamic is crucial for women's
+liberation.
+
+Situationality:
+
+• Concept: While individuals have the freedom to define themselves, de Beauvoir
+emphasised that this freedom is always exercised within a particular situation or
+context. These situations, especially for women, often come with constraints.
+
+•
+
+Implication: The societal situation, with its patriarchal structures, often limits
+women's freedoms. Recognising these limitations is the first step toward challenging
+and overcoming them.
+
+Relationships and Dependency:
+
+
+• Concept: De Beauvoir explored the dynamics of relationships, particularly
+
+highlighting how societal norms can lead to imbalanced, dependent relationships,
+especially in the context of heterosexual romantic relationships.
+
+•
+
+Implication: Such dependencies can hinder women's freedom and self-realisation.
+Genuine relationships should be based on mutual respect and recognition.
+
+Freedom and Responsibility:
+
+• Concept: True freedom, for de Beauvoir, is not just the absence of external
+
+constraints but also involves taking responsibility for one's actions and choices.
+
+•
+
+Implication: Women must not only seek liberation from external impositions but also
+take active responsibility for defining themselves and their roles in society.
+
+In essence, Simone de Beauvoir's existentialism is deeply intertwined with her feminist philosophy.
+She uses existentialist concepts to analyse, critique, and challenge the societal structures and
+norms that have historically oppressed women. Her work calls for a radical redefinition of gender
+roles and relationships, advocating for a world where individuals, regardless of gender, can define
+their own essences and live authentically.
+
+Simone de Beauvoir's Biography and Context:
+
+Early Life:
+Born in Paris in 1908, de Beauvoir hailed from a bourgeois family. Her early years were marked by
+a staunch religious upbringing, which she later rejected, pivoting towards atheism and
+existentialism.
+
+This transition from religiosity to existentialism influenced her views on freedom, responsibility, and
+the absence of preordained human essence.
+
+Academic Pursuits:
+De Beauvoir studied at the Sorbonne (University of Paris), where she studied philosophy. It was
+here that she met Jean-Paul Sartre, establishing a lifelong relationship and intellectual partnership.
+
+Her academic training and close association with Sartre laid the foundation for her existentialist
+leanings, though she would develop unique perspectives, especially concerning women's
+experiences.
+
+Personal and Intellectual Relationships:
+De Beauvoir and Sartre shared an unconventional relationship, both romantic and intellectual, that
+lasted for decades. They maintained an open relationship, emphasising individual freedom and
+authenticity.
+
+Their relationship, built on mutual respect and intellectual exchange, influenced both of their
+works. De Beauvoir and Sartre often discussed, critiqued, and contributed to each other's writings.
+
+Feminism and "The Second Sex":
+In 1949, de Beauvoir published "The Second Sex," a groundbreaking work that combined
+existentialism with a critique of women's oppression. In it, she famously declared, "One is not
+born, but rather becomes, a woman."
+
+
+This work positioned de Beauvoir as a foundational figure in feminist philosophy. She applied
+existentialist ideas to the condition of women, arguing that cultural and societal norms, rather than
+biology, defined and limited women's roles.
+
+Engagement with Other Thinkers:
+Beyond Sartre, de Beauvoir engaged with various intellectuals of her time, including Albert Camus,
+Merleau-Ponty, and the phenomenologist Edmund Husserl.
+
+These engagements enriched her existentialist thought, integrating phenomenological insights
+with her unique perspectives on gender and existential freedom.
+
+Later Life and Activism:
+De Beauvoir became politically active, advocating for women's rights, participating in the feminist
+movement, and addressing other social issues. She traveled extensively, which further influenced
+her perspectives.
+
+Her activism and writings in her later years reflected a deep commitment to existentialist
+principles, particularly concerning freedom, authenticity, and societal responsibility.
+
+Legacy:
+De Beauvoir's influence extended beyond existentialism to encompass feminist theory, literature,
+and social critique. Her works have been foundational texts in gender studies and existential
+philosophy.
+
+De Beauvoir's integration of existentialist thought with a profound exploration of gender and
+society has solidified her legacy as one of the most influential thinkers of the 20th century.
+
+KEY IDEAS
+
+1) Existence Precedes Essence:
+
+De Beauvoir rejected the notion of a fixed essence or predetermined nature for individuals. This
+perspective underlines the idea that identity, including gender, is not a fixed entity but something
+constructed and chosen.
+
+Extended: She challenges the traditional gender roles and norms imposed by society. By
+asserting that existence precedes essence, de Beauvoir is emphasising the potential fluidity of
+gender and identity.
+
+What we Ought to do: Individuals ought to recognise the societal constructs that influence their
+understanding of gender and identity and should be empowered to define and embrace their
+authentic selves.
+
+2) Ambiguity of Existence:
+
+Life's inherent ambiguity arises from the tension between individual freedom and societal
+constraints. This tension is especially pronounced for women and marginalised groups.
+
+Extended: De Beauvoir's analysis of this ambiguity provides a framework for understanding the
+relationship between individual agency and societal pressures in shaping identity.
+
+
+What we Ought to do: Individuals ought to embrace and navigate this ambiguity, striving to
+exercise their agency even within the constraints of their specific situations.
+
+3) Ethics of Liberation:
+
+De Beauvoir's ethics are centred on the idea of liberation from oppressive societal norms and the
+pursuit of an authentic existence.
+
+Extended: This liberation is not just about breaking free from external constraints but also involves
+an internal journey of self-discovery and affirmation.
+
+What we Ought to do: People ought to challenge and resist oppressive norms and structures,
+seeking a life of authenticity and self-definition.
+
+4) The Other:
+
+The dynamic of defining women as "The Other" relative to men underlines the systemic
+marginalisation of women.
+
+Extended: This concept of "othering" extends to contemporary discussions on prejudice, where
+marginalised groups are often positioned as the "deviant" or "abnormal" in relation to the dominant
+culture.
+
+What we Ought to do: Society ought to challenge and deconstruct these binaries, recognising the
+inherent value and equality of all individuals, irrespective of their identity.
+
+5) Situationality:
+
+While individuals possess freedom, this freedom is always exercised within the confines of a
+particular situation.
+
+Extended: De Beauvoir's emphasis on situationality underscores the need to understand the
+specific personal histories that shape individual experiences and identities.
+
+What we Ought to do: Individuals ought to be critically aware of their personal histories, using
+this awareness as a tool for informed decision-making and self-definition.
+
+6) Relationships and Dependency:
+
+De Beauvoir delved into the complexities of human relationships, critiquing the imbalances and
+dependencies that societal norms can foster.
+
+Extended: Her insights into the dynamics of relationships shed light on the ways in which societal
+constructs, like heteronormativity, can shape interpersonal dynamics and self-perceptions.
+
+What we Ought to do: Individuals ought to seek relationships based on mutual respect,
+understanding, and equality, challenging traditional power dynamics and dependencies.
+
+7) Freedom and Responsibility:
+
+For de Beauvoir, genuine freedom is intertwined with responsibility. It's not just about the absence
+of constraints but also about taking responsibility for one's choices and actions.
+
+
+Extended: This perspective emphasises the active role individuals play in shaping their destinies,
+even in the face of external pressures.
+
+What we Ought to do: Individuals ought to exercise their freedom with a sense of responsibility,
+always striving for authenticity and integrity in their choices.
+
+SUMMARY
+
+Simone de Beauvoir's philosophy explores identity, freedom, and social influences. While rooted in
+existentialism, her work offers a pioneering perspective on gender and identity, emphasising the
+importance of defining ourselves by resisting oppressive norms and pursuing an authentic
+existence. Her insight remains relevant in contemporary discussions on gender, sexuality, and
+identity politics.
+
+
+
+
+
+Jean-Paul Sartre
+
+FUNDAMENTAL IDEAS
+
+Existence Precedes Essence:
+
+• Concept: Like de Beauvoir, one of the most fundamental tenets of Sartre's
+
+existentialism is the idea that "existence precedes essence." In simple terms, it
+means that individuals first exist, encounter themselves, and then define their
+essence or nature through their actions and choices.
+
+•
+
+Implication: This rejects the notion of a predetermined human nature or essence.
+There's no fixed "human nature" since there's no God or external entity to define
+such a nature. Thus, individuals are responsible for creating their own essence
+through their choices and actions.
+
+Radical Freedom:
+
+• Concept: Sartre believed that humans are condemned to be free. There's no
+
+external force or destiny determining our actions. Every choice we make defines our
+essence.
+
+•
+
+Implication: This freedom is both liberating and burdensome. While it allows
+individuals to shape their destinies, it also brings the weight of responsibility for every
+action and its consequences.
+
+Bad Faith (Mauvaise foi):
+
+• Concept: Sartre introduced the notion of "bad faith" as a form of self-deception. It's
+the act of denying one's complete freedom and responsibility by attributing one's
+actions to external causes or societal norms.
+
+•
+
+Implication: Living in bad faith is living inauthentically. It's a way to escape the
+anxiety of freedom by conforming to societal expectations or attributing decisions to
+factors beyond one's control.
+
+Anguish and Absurdity:
+
+• Concept: Recognising one's complete freedom and the absence of any
+
+predetermined essence or moral framework leads to feelings of anguish and
+absurdity.
+
+•
+
+Implication: The world lacks inherent meaning, and the realisation of this can lead
+to a sense of despair. However, it also opens the door for individuals to create their
+own meanings and values.
+
+The Look and the Other:
+
+• Concept: In his work "Being and Nothingness," Sartre explores the idea of "the
+
+Look." It's the awareness that others can perceive us, leading to a feeling of being
+objectified or defined by their perceptions.
+
+
+•
+
+Implication: This introduces the idea that our self-awareness and identity are
+shaped not only by our internal perceptions but also by our interactions and
+relationships with others.
+
+Commitment and Action:
+
+• Concept: For Sartre, existentialism isn't just a philosophical contemplation but a call
+to action. Individuals should be committed to their choices and take active roles in
+shaping their destinies and the world around them.
+
+•
+
+Implication: Authentic existence involves not just recognising one's freedom but
+actively engaging with the world, making choices, and taking responsibility for their
+outcomes.
+
+Existential Marxism:
+
+• Concept: Later in his life, Sartre attempted to reconcile existentialism with Marxism,
+emphasising the role of societal structures in shaping individual experiences while
+maintaining the core existentialist tenets of freedom and responsibility.
+
+•
+
+Implication: This synthesis aimed to combine the individual freedom emphasised by
+existentialism with the societal critique offered by Marxism.
+
+In essence, Jean-Paul Sartre's existentialism delves deeply into the human condition, exploring
+themes of freedom, responsibility, authenticity, and interpersonal relationships. It offers a profound
+reflection on the nature of existence, the challenges of freedom, and the quest for authentic living
+in a world devoid of inherent meaning.
+
+Jean-Paul Sartre's Biography and Context:
+
+Sartre's existentialism was deeply rooted in his life's events and the thinkers he engaged with.
+
+Early Life:
+
+Born in Paris in 1905, Sartre lost his father at a young age and was raised by his mother and
+maternal grandfather. His early years were marked by a passion for literature and philosophy.
+
+Academic Pursuits:
+
+Sartre studied at the École Normale Supérieure in Paris, where he formed significant friendships,
+most notably with Simone de Beauvoir. He was influenced by German phenomenology, especially
+the works of Edmund Husserl and Martin Heidegger.
+
+World War II and Resistance:
+
+Sartre served as a soldier during World War II and was captured by German forces in 1940. He
+spent around a year as a prisoner of war before being released. After his return to Paris, he
+became an active member of the French Resistance.
+
+His wartime experiences, witnessing human resilience, freedom, and despair amidst oppression,
+deeply influenced his existentialist writings. The themes of freedom, responsibility, and action
+became even more pronounced in his work.
+
+Post-War Paris:
+
+
+After the war, Sartre became a central figure in the Parisian intellectual scene. He founded the
+influential journal "Les Temps Modernes" and engaged in various political and social issues.
+
+His post-war writings and activism reflect a commitment to existentialist principles applied to real-
+world issues, emphasising individual freedom and societal responsibility.
+
+Engagement with Other Thinkers:
+
+Sartre's existentialism was in dialogue with other existential thinkers like Albert Camus, Friedrich
+Nietzsche, and Fyodor Dostoevsky. However, he had disagreements, most notably with Camus
+over issues like revolutionary violence.
+
+These engagements enriched his thought, leading to both convergences and divergences with
+other existentialist thinkers.
+
+Jean-Paul Sartre's Existential Philosophy:
+
+1. Existence Precedes Essence:
+
+Sartre's foundational claim is that existence comes before essence for humans. Unlike inanimate
+objects, humans are not born with a predetermined purpose or nature. Instead, they forge their
+essence through their choices and actions in the world.
+
+Extended: In a world devoid of divine determination, humans are thrown into existence with the
+freedom to define themselves. This freedom is both a blessing and a curse: it allows for self-
+definition but also carries the weight of responsibility.
+
+What we Ought to do: Sartre believed individuals ought to recognise and embrace their radical
+freedom. They should not hide behind societal norms or preconceived roles but instead actively
+define their essence through authentic choices.
+
+2. Radical Freedom and Responsibility:
+
+Sartre posited that humans possess an immense degree of freedom. Even in situations of external
+constraint, individuals retain the freedom of choice in how they respond or interpret their
+circumstances.
+
+Extended: This freedom, however, is accompanied by a profound sense of responsibility. Every
+choice made contributes to defining one's essence and, in a broader sense, contributes to defining
+what it means to be human.
+
+What we Ought to do: Individuals ought to be acutely aware of their freedom and the
+corresponding responsibility. They should act authentically, understanding that each action has
+consequences not just for oneself but for the collective definition of humanity.
+
+3. Bad Faith (Mauvaise foi):
+
+Bad faith is the act of self-deception, where individuals deny their freedom and responsibility, often
+to avoid the anxiety associated with them.
+
+Extended: People in bad faith might attribute their actions to societal norms, their role in society,
+or external circumstances. By doing so, they escape the existential anguish of freedom but live
+inauthentically.
+
+
+What we Ought to do: Sartre argued that individuals ought to confront and overcome bad faith.
+They should recognise and accept their freedom and the inherent responsibility, striving for
+authenticity even when it's uncomfortable.
+
+4. Anguish and Absurdity:
+
+Recognising one's freedom and the lack of inherent meaning or moral structure in the world can
+lead to feelings of anguish and a sense of absurdity.
+
+Extended: The absurdity stems from the realisation that the world lacks inherent purpose, yet
+humans continuously seek meaning. Anguish is the emotional response to the weight of freedom
+and the responsibility it entails.
+
+What we Ought to do: While these feelings are natural, Sartre believed individuals ought to
+confront them head-on. Instead of succumbing to despair, they should create their own meaning
+and values, forging purpose in an indifferent universe.
+
+5. The Look and the Other:
+
+Sartre explored interpersonal dynamics, emphasising how individuals become objectified in the
+gaze of the other. This realisation that one is being perceived can lead to feelings of objectification
+and alienation.
+
+Extended: This dynamic highlights the tension between one's subjective experience and the
+external perception of oneself. It underscores the complexities of human relationships and the
+challenge of maintaining authenticity in interpersonal interactions.
+
+What we Ought to do: Sartre suggested that individuals ought to be aware of this dynamic,
+striving for genuine relationships based on mutual recognition and respect, rather than reducing
+the other to mere objects.
+
+6. Commitment and Action:
+
+Beyond abstract contemplation, Sartre's existentialism is a call to committed action in the world.
+
+Extended: In a universe devoid of preordained values, individuals have the responsibility to create
+values through their actions. These actions not only define the individual but also shape the world.
+
+What we Ought to do: Sartre believed individuals ought to be actively engaged in the world.
+Authentic existence involves not only recognising one's freedom and responsibility but also acting
+on them, committedly shaping one's destiny and contributing to societal change.
+
+At its core, Sartre's existentialism is a call to action—a call for individuals to recognise their radical
+freedom, confront the inherent challenges of existence, and actively shape their destinies in an
+ever-complex world.
+
+
+
+
+
+
+Victor Frankl
+
+Fundamental Themes of Frankl's Existentialism:
+
+1. The Search for Meaning: Central to Frankl's philosophy is the idea that life's primary
+motivational force is the search for meaning. This contrasts with Freud's theory that
+pleasure is the primary motivator and Adler's idea of power as the main drive.
+
+2. Freedom of Will: Frankl believed that humans have the freedom to find meaning in
+
+whatever situation they are in, even in suffering and death.
+
+3. Will to Meaning: Unlike the will to power or the will to pleasure, Frankl posited a "will to
+
+meaning" as a central aspect of human nature.
+
+4. Existential Frustration: When individuals cannot realise their "will to meaning", they
+
+experience existential frustration, which can lead to neuroses.
+
+5. Tragic Optimism: The idea that even in the face of suffering, guilt, and death, one can still
+
+find meaning and thus a reason to be optimistic.
+
+Basic History Informing His Existentialism:
+
+Biography: Viktor Frankl was an Austrian neurologist and psychiatrist. He was a Holocaust
+survivor, having spent three years in concentration camps, including Auschwitz. His experiences in
+the camps deeply influenced his philosophical outlook and led to the development of his unique
+form of existential therapy called logotherapy.
+
+Relation to Other Existentialists: While Frankl's ideas resonate with those of other
+existentialists, especially in terms of the emphasis on personal freedom, responsibility, and the
+search for meaning, his approach is less abstract and more clinical. His experiences in
+concentration camps gave his philosophy a tangible, real-world application.
+
+Contemporaries: Frankl's work bridged the gap between existential philosophy and
+psychotherapy. While contemporaries like Sartre and Camus were discussing existential ideas in
+philosophical terms, Frankl was applying these concepts in a therapeutic setting. His ideas also
+contrasted with the predominant psychoanalytic theories of his time, which focused on the
+unconscious mind and past traumas.
+
+Closer Outline of Frankl’s Philosophy:
+
+Logotherapy: Derived from the Greek word "logos", which means "meaning", logotherapy is a
+form of existential psychotherapy that emphasises the human capacity to transcend suffering
+and find meaning in life.
+
+Three Ways to Find Meaning: According to Frankl, there are three primary ways through
+which one can find meaning:
+
+1. By Creating a Work or Doing a Deed.
+
+
+
+
+
+2. By Experiencing Something or Encountering Someone (love, for instance).
+
+3. By the Attitude We Take Toward Unavoidable Suffering.
+
+Confronting the Unconscious: Unlike Freudian psychoanalysis, which seeks to delve into
+the unconscious to unearth traumas, logotherapy focuses on the future and the conscious
+actions and decisions that can bring meaning.
+
+Defiant Power of the Human Spirit: Frankl believed in the human ability to rise above
+circumstances, including immense suffering. He believed that individuals have the power to
+choose their reactions to situations, thus demonstrating the defiant power of the human spirit.
+
+The 'Oughts' of His Work: Frankl's work essentially tells us that:
+
+• We ought to search for meaning in our lives.
+
+• We ought to recognise that even in the face of immense suffering, we have a choice in
+
+how we respond.
+
+• We ought to understand that life has potential meaning under any circumstances, even the
+
+most miserable ones.
+
+• We ought to know that our main concern is not to gain pleasure or to avoid pain but rather
+
+to see a meaning in our life.
+
+• We ought to realise that there's always hope, as long as we find meaning, even in the
+
+bleakest situations.
+
+Frankl's philosophy is not just theoretical but is grounded in his own lived experiences, making it
+profoundly impactful and resonant. He offers a perspective that is both deeply human and
+inherently hopeful.
+
+=== Sartre — overview ===
+
+Jean-Paul Sartre
+
+FUNDAMENTAL IDEAS
+
+Existence Precedes Essence:
+
+• Concept: Like de Beauvoir, one of the most fundamental tenets of
+
+Sartre's existentialism is the idea that "existence precedes essence." In
+simple terms, it means that individuals first exist, encounter
+themselves, and then define their essence or nature through their
+actions and choices.
+
+•
+
+Implication: This rejects the notion of a predetermined human nature
+or essence. There's no fixed "human nature" since there's no God or
+external entity to define such a nature. Thus, individuals are
+responsible for creating their own essence through their choices and
+actions.
+
+Radical Freedom:
+
+• Concept: Sartre believed that humans are condemned to be free.
+There's no external force or destiny determining our actions. Every
+choice we make defines our essence.
+
+•
+
+Implication: This freedom is both liberating and burdensome. While it
+allows individuals to shape their destinies, it also brings the weight of
+responsibility for every action and its consequences.
+
+Bad Faith (Mauvaise foi):
+
+• Concept: Sartre introduced the notion of "bad faith" as a form of self-
+
+deception. It's the act of denying one's complete freedom and
+responsibility by attributing one's actions to external causes or societal
+norms.
+
+•
+
+Implication: Living in bad faith is living inauthentically. It's a way to
+escape the anxiety of freedom by conforming to societal expectations
+or attributing decisions to factors beyond one's control.
+
+Anguish and Absurdity:
+
+• Concept: Recognisng one's complete freedom and the absence of any
+
+predetermined essence or moral framework leads to feelings of
+anguish and absurdity.
+
+•
+
+Implication: The world lacks inherent meaning, and the realisation of
+this can lead to a sense of despair. However, it also opens the door for
+individuals to create their own meanings and values.
+
+
+The Look and the Other:
+
+• Concept: In his work "Being and Nothingness," Sartre explores the
+idea of "the Look." It's the awareness that others can perceive us,
+leading to a feeling of being objectified or defined by their perceptions.
+
+•
+
+Implication: This introduces the idea that our self-awareness and
+identity are shaped not only by our internal perceptions but also by our
+interactions and relationships with others.
+
+Commitment and Action:
+
+• Concept: For Sartre, existentialism isn't just a philosophical
+
+contemplation but a call to action. Individuals should be committed to
+their choices and take active roles in shaping their destinies and the
+world around them.
+
+•
+
+Implication: Authentic existence involves not just recognising one's
+freedom but actively engaging with the world, making choices, and
+taking responsibility for their outcomes.
+
+Existential Marxism:
+
+• Concept: Later in his life, Sartre attempted to reconcile existentialism
+with Marxism, emphasising the role of societal structures in shaping
+individual experiences while maintaining the core existentialist tenets of
+freedom and responsibility.
+
+•
+
+Implication: This synthesis aimed to combine the individual freedom
+emphasised by existentialism with the societal critique offered by
+Marxism.
+
+In essence, Jean-Paul Sartre's existentialism delves deeply into the human
+condition, exploring themes of freedom, responsibility, authenticity, and interpersonal
+relationships. It offers a profound reflection on the nature of existence, the
+challenges of freedom, and the quest for authentic living in a world devoid of inherent
+meaning.
+
+Jean-Paul Sartre's Biography and Context:
+
+Sartre's existentialism was deeply rooted in his life's events and the thinkers he
+engaged with.
+
+Early Life:
+
+Born in Paris in 1905, Sartre lost his father at a young age and was raised by his
+mother and maternal grandfather. His early years were marked by a passion for
+literature and philosophy.
+
+
+Academic Pursuits:
+
+Sartre studied at the École Normale Supérieure in Paris, where he formed significant
+friendships, most notably with Simone de Beauvoir. He was influenced by German
+phenomenology, especially the works of Edmund Husserl and Martin Heidegger.
+
+World War II and Resistance:
+
+Sartre served as a soldier during World War II and was captured by German forces
+in 1940. He spent around a year as a prisoner of war before being released. After his
+return to Paris, he became an active member of the French Resistance.
+
+His wartime experiences, witnessing human resilience, freedom, and despair amidst
+oppression, deeply influenced his existentialist writings. The themes of freedom,
+responsibility, and action became even more pronounced in his work.
+
+Post-War Paris:
+
+After the war, Sartre became a central figure in the Parisian intellectual scene. He
+founded the influential journal "Les Temps Modernes" and engaged in various
+political and social issues.
+
+His post-war writings and activism reflect a commitment to existentialist principles
+applied to real-world issues, emphasising individual freedom and societal
+responsibility.
+
+Engagement with Other Thinkers:
+
+Sartre's existentialism was in dialogue with other existential thinkers like Albert
+Camus, Friedrich Nietzsche, and Fyodor Dostoevsky. However, he had
+disagreements, most notably with Camus over issues like revolutionary violence.
+
+These engagements enriched his thought, leading to both convergences and
+divergences with other existentialist thinkers.
+
+Jean-Paul Sartre's Existential Philosophy:
+
+1. Existence Precedes Essence:
+
+Sartre's foundational claim is that existence comes before essence for humans.
+Unlike inanimate objects, humans are not born with a predetermined purpose or
+nature. Instead, they forge their essence through their choices and actions in the
+world.
+
+Extended: In a world devoid of divine determination, humans are thrown into
+existence with the freedom to define themselves. This freedom is both a blessing
+and a curse: it allows for self-definition but also carries the weight of responsibility.
+
+
+What we Ought to do: Sartre believed individuals ought to recognise and embrace
+their radical freedom. They should not hide behind societal norms or preconceived
+roles but instead actively define their essence through authentic choices.
+
+2. Radical Freedom and Responsibility:
+
+Sartre posited that humans possess an immense degree of freedom. Even in
+situations of external constraint, individuals retain the freedom of choice in how they
+respond or interpret their circumstances.
+
+Extended: This freedom, however, is accompanied by a profound sense of
+responsibility. Every choice made contributes to defining one's essence and, in a
+broader sense, contributes to defining what it means to be human.
+
+What we Ought to do: Individuals ought to be acutely aware of their freedom and
+the corresponding responsibility. They should act authentically, understanding that
+each action has consequences not just for oneself but for the collective definition of
+humanity.
+
+3. Bad Faith (Mauvaise foi):
+
+Bad faith is the act of self-deception, where individuals deny their freedom and
+responsibility, often to avoid the anxiety associated with them.
+
+Extended: People in bad faith might attribute their actions to societal norms, their
+role in society, or external circumstances. By doing so, they escape the existential
+anguish of freedom but live inauthentically.
+
+What we Ought to do: Sartre argued that individuals ought to confront and
+overcome bad faith. They should recognise and accept their freedom and the
+inherent responsibility, striving for authenticity even when it's uncomfortable.
+
+4. Anguish and Absurdity:
+
+Recognising one's freedom and the lack of inherent meaning or moral structure in
+the world can lead to feelings of anguish and a sense of absurdity.
+
+Extended: The absurdity stems from the realisation that the world lacks inherent
+purpose, yet humans continuously seek meaning. Anguish is the emotional response
+to the weight of freedom and the responsibility it entails.
+
+What we Ought to do: While these feelings are natural, Sartre believed individuals
+ought to confront them head-on. Instead of succumbing to despair, they should
+create their own meaning and values, forging purpose in an indifferent universe.
+
+5. The Look and the Other:
+
+
+Sartre explored interpersonal dynamics, emphasising how individuals become
+objectified in the gaze of the other. This realisation that one is being perceived can
+lead to feelings of objectification and alienation.
+
+Extended: This dynamic highlights the tension between one's subjective experience
+and the external perception of oneself. It underscores the complexities of human
+relationships and the challenge of maintaining authenticity in interpersonal
+interactions.
+
+What we Ought to do: Sartre suggested that individuals ought to be aware of this
+dynamic, striving for genuine relationships based on mutual recognition and respect,
+rather than reducing the other to mere objects.
+
+6. Commitment and Action:
+
+Beyond abstract contemplation, Sartre's existentialism is a call to committed action in
+the world.
+
+Extended: In a universe devoid of preordained values, individuals have the
+responsibility to create values through their actions. These actions not only define
+the individual but also shape the world.
+
+What we Ought to do: Sartre believed individuals ought to be actively engaged in
+the world. Authentic existence involves not only recognising one's freedom and
+responsibility but also acting on them, committedly shaping one's destiny and
+contributing to societal change.
+
+At its core, Sartre's existentialism is a call to action—a call for individuals to
+recognise their radical freedom, confront the inherent challenges of existence, and
+actively shape their destinies in an ever-complex world.
+
+=== de Beauvoir — overview ===
+
+Simone de Beauvoir
+
+FUNDAMENTAL IDEAS
+
+Existence Precedes Essence:
+
+• Concept: Echoing Jean-Paul Sartre, de Beauvoir asserted that
+
+individuals are not born with a predetermined nature or essence.
+Instead, they create their own essence through their actions and
+choices.
+
+•
+
+Implication: This means that there's no fixed human nature or
+predetermined role, especially for women. The roles that women have
+been assigned in society are not inherent but are constructed.
+
+Ambiguity of Existence:
+
+• Concept: De Beauvoir delved deeply into the inherent ambiguity of
+
+human existence. Life is full of uncertainties, and the human condition
+is one of constant tension between our freedom to define ourselves
+and the limitations imposed by our situations.
+
+•
+
+Implication: This theme is particularly relevant for women, who face
+societal constraints that limit their freedom and choices.
+
+Ethics of Liberation:
+
+• Concept: De Beauvoir believed in an ethics centered on liberation and
+authenticity. Individuals should strive to free themselves from societal
+impositions and live authentically.
+
+•
+
+Implication: This is especially significant for women, who, according to
+de Beauvoir, have been historically "imprisoned" by societal norms and
+roles. They must recognise and challenge these impositions to achieve
+genuine freedom.
+
+The Other:
+
+• Concept: In her seminal work, "The Second Sex," de Beauvoir
+
+explores the concept of women being defined as "The Other" in relation
+to men. Men represent the norm or the subject, while women are the
+"Other" – the deviant or the object.
+
+•
+
+Implication: This framework has been used to subordinate women and
+justify their oppression. Recognising and challenging this dynamic is
+crucial for women's liberation.
+
+Situationality:
+
+
+• Concept: While individuals have the freedom to define themselves, de
+Beauvoir emphasised that this freedom is always exercised within a
+particular situation or context. These situations, especially for women,
+often come with constraints.
+
+•
+
+Implication: The societal situation, with its patriarchal structures, often
+limits women's freedoms. Recognising these limitations is the first step
+toward challenging and overcoming them.
+
+Relationships and Dependency:
+
+• Concept: De Beauvoir explored the dynamics of relationships,
+
+particularly highlighting how societal norms can lead to imbalanced,
+dependent relationships, especially in the context of heterosexual
+romantic relationships.
+
+•
+
+Implication: Such dependencies can hinder women's freedom and
+self-realisation. Genuine relationships should be based on mutual
+respect and recognition.
+
+Freedom and Responsibility:
+
+• Concept: True freedom, for de Beauvoir, is not just the absence of
+external constraints but also involves taking responsibility for one's
+actions and choices.
+
+•
+
+Implication: Women must not only seek liberation from external
+impositions but also take active responsibility for defining themselves
+and their roles in society.
+
+In essence, Simone de Beauvoir's existentialism is deeply intertwined with her
+feminist philosophy. She uses existentialist concepts to analyse, critique, and
+challenge the societal structures and norms that have historically oppressed women.
+Her work calls for a radical redefinition of gender roles and relationships, advocating
+for a world where individuals, regardless of gender, can define their own essences
+and live authentically.
+
+Simone de Beauvoir's Biography and Context:
+
+Early Life:
+Born in Paris in 1908, de Beauvoir hailed from a bourgeois family. Her early years
+were marked by a staunch religious upbringing, which she later rejected, pivoting
+towards atheism and existentialism.
+
+This transition from religiosity to existentialism influenced her views on freedom,
+responsibility, and the absence of preordained human essence.
+
+
+Academic Pursuits:
+De Beauvoir studied at the Sorbonne (University of Paris), where she studied
+philosophy. It was here that she met Jean-Paul Sartre, establishing a lifelong
+relationship and intellectual partnership.
+
+Her academic training and close association with Sartre laid the foundation for her
+existentialist leanings, though she would develop unique perspectives, especially
+concerning women's experiences.
+
+Personal and Intellectual Relationships:
+De Beauvoir and Sartre shared an unconventional relationship, both romantic and
+intellectual, that lasted for decades. They maintained an open relationship,
+emphasising individual freedom and authenticity.
+
+Their relationship, built on mutual respect and intellectual exchange, influenced both
+of their works. De Beauvoir and Sartre often discussed, critiqued, and contributed to
+each other's writings.
+
+Feminism and "The Second Sex":
+In 1949, de Beauvoir published "The Second Sex," a groundbreaking work that
+combined existentialism with a critique of women's oppression. In it, she famously
+declared, "One is not born, but rather becomes, a woman."
+
+This work positioned de Beauvoir as a foundational figure in feminist philosophy. She
+applied existentialist ideas to the condition of women, arguing that cultural and
+societal norms, rather than biology, defined and limited women's roles.
+
+Engagement with Other Thinkers:
+Beyond Sartre, de Beauvoir engaged with various intellectuals of her time, including
+Albert Camus, Merleau-Ponty, and the phenomenologist Edmund Husserl.
+
+These engagements enriched her existentialist thought, integrating
+phenomenological insights with her unique perspectives on gender and existential
+freedom.
+
+Later Life and Activism:
+De Beauvoir became politically active, advocating for women's rights, participating in
+the feminist movement, and addressing other social issues. She traveled extensively,
+which further influenced her perspectives.
+
+Her activism and writings in her later years reflected a deep commitment to
+existentialist principles, particularly concerning freedom, authenticity, and societal
+responsibility.
+
+Legacy:
+
+
+De Beauvoir's influence extended beyond existentialism to encompass feminist
+theory, literature, and social critique. Her works have been foundational texts in
+gender studies and existential philosophy.
+
+De Beauvoir's integration of existentialist thought with a profound exploration of
+gender and society has solidified her legacy as one of the most influential thinkers of
+the 20th century.
+
+KEY IDEAS
+
+1) Existence Precedes Essence:
+
+De Beauvoir rejected the notion of a fixed essence or predetermined nature for
+individuals. This perspective underlines the idea that identity, including gender, is not
+a fixed entity but something constructed and chosen.
+
+Extended: She challenges the traditional gender roles and norms imposed by
+society. By asserting that existence precedes essence, de Beauvoir is emphasising
+the potential fluidity of gender and identity.
+
+What we Ought to do: Individuals ought to recognise the societal constructs that
+influence their understanding of gender and identity and should be empowered to
+define and embrace their authentic selves.
+
+2) Ambiguity of Existence:
+
+Life's inherent ambiguity arises from the tension between individual freedom and
+societal constraints. This tension is especially pronounced for women and
+marginalised groups.
+
+Extended: De Beauvoir's analysis of this ambiguity provides a framework for
+understanding the relationship between individual agency and societal pressures in
+shaping identity.
+
+What we Ought to do: Individuals ought to embrace and navigate this ambiguity,
+striving to exercise their agency even within the constraints of their specific
+situations.
+
+3) Ethics of Liberation:
+
+De Beauvoir's ethics are centred on the idea of liberation from oppressive societal
+norms and the pursuit of an authentic existence.
+
+Extended: This liberation is not just about breaking free from external constraints but
+also involves an internal journey of self-discovery and affirmation.
+
+
+What we Ought to do: People ought to challenge and resist oppressive norms and
+structures, seeking a life of authenticity and self-definition.
+
+4) The Other:
+
+The dynamic of defining women as "The Other" relative to men underlines the
+systemic marginalisation of women.
+
+Extended: This concept of "othering" extends to contemporary discussions on
+prejudice, where marginalised groups are often positioned as the "deviant" or
+"abnormal" in relation to the dominant culture.
+
+What we Ought to do: Society ought to challenge and deconstruct these binaries,
+recognising the inherent value and equality of all individuals, irrespective of their
+identity.
+
+5) Situationality:
+
+While individuals possess freedom, this freedom is always exercised within the
+confines of a particular situation.
+
+Extended: De Beauvoir's emphasis on situationality underscores the need to
+understand the specific personal histories that shape individual experiences and
+identities.
+
+What we Ought to do: Individuals ought to be critically aware of their personal
+histories, using this awareness as a tool for informed decision-making and self-
+definition.
+
+6) Relationships and Dependency:
+
+De Beauvoir delved into the complexities of human relationships, critiquing the
+imbalances and dependencies that societal norms can foster.
+
+Extended: Her insights into the dynamics of relationships shed light on the ways in
+which societal constructs, like heteronormativity, can shape interpersonal dynamics
+and self-perceptions.
+
+What we Ought to do: Individuals ought to seek relationships based on mutual
+respect, understanding, and equality, challenging traditional power dynamics and
+dependencies.
+
+7) Freedom and Responsibility:
+
+For de Beauvoir, genuine freedom is intertwined with responsibility. It's not just about
+the absence of constraints but also about taking responsibility for one's choices and
+actions.
+
+
+Extended: This perspective emphasises the active role individuals play in shaping
+their destinies, even in the face of external pressures.
+
+What we Ought to do: Individuals ought to exercise their freedom with a sense of
+responsibility, always striving for authenticity and integrity in their choices.
+
+SUMMARY
+
+Simone de Beauvoir's philosophy explores identity, freedom, and social influences.
+While rooted in existentialism, her work offers a pioneering perspective on gender
+and identity, emphasising the importance of defining ourselves by resisting
+oppressive norms and pursuing an authentic existence. Her insight remains relevant
+in contemporary discussions on gender, sexuality, and identity politics.
+
+=== Camus — overview ===
+
+Albert Camus
+
+FUNDAMENTALS
+
+Albert Camus is often associated with existentialism, but he personally preferred to
+be identified with the philosophy of the absurd. His work delves into the inherent
+tension between humans' search for meaning and the apparent meaninglessness of
+the universe. Here are the primary themes associated with Camus' philosophy:
+
+1. The Absurd: Central to Camus' thought is the concept of the absurd. The
+absurd arises from the confrontation between our desire for understanding
+and order and the apparent indifference and chaos of the universe. In other
+words, it's the clash between our search for meaning and the universe's
+seeming lack of it.
+
+2. Revolt: Instead of succumbing to despair in the face of the absurd, Camus
+
+believed in revolting against it. This revolt doesn't mean an external rebellion
+but an internal, personal confrontation with the absurdity of existence. By
+recognising the absurd and choosing to continue living in spite of it,
+individuals assert their existence and dignity.
+
+3. Freedom: For Camus, acknowledging the absurdity of life leads to a kind of
+freedom. Without predetermined meaning or destiny, individuals are free to
+create their own values and make their own choices.
+
+4. Passion: In a universe devoid of true meaning or order, Camus argued for
+
+living with intensity and passion. Instead of retreating into despair or nihilism,
+he believed in embracing life's experiences fully.
+
+5. Acceptance: While Camus emphasises revolt against the absurd, he also
+speaks of accepting the absurdity of life. This acceptance doesn't mean
+passive resignation but a conscious acknowledgment of life's inherent
+contradictions.
+
+6. Ethics of Ambiguity: Similar to some other existentialists, Camus believed
+that in a universe without inherent moral order, individuals must navigate an
+ethical landscape filled with ambiguity. Without clear moral guidelines,
+individuals must make choices based on personal integrity and responsibility.
+
+7. Death: The inevitability of death is a recurring theme in Camus' work. He
+
+viewed death as the ultimate absurdity, emphasising the tension it creates:
+individuals search for meaning in a life that is ultimately finite and transient.
+
+8. Nature and Beauty: In his works, especially in novels like "The Stranger,"
+Camus often alludes to the beauty of nature and the physical world. For
+Camus, nature's indifference contrasts with human emotion and passion,
+further highlighting the absurdity of existence.
+
+
+It's worth noting that while Camus dealt with themes common to existentialism, such
+as freedom, alienation, and individualism, he had a unique perspective on these
+topics. His emphasis on the absurd and his ideas on how to confront it distinguish
+him from other existentialist thinkers.
+
+Biography of Albert Camus:
+
+1. Early Life: Albert Camus was born in Mondovi, Algeria, in 1913, when Algeria
+was a French colony. His father died during World War I, and Camus was
+raised in relative poverty by his mother in the Belcourt section of Algiers.
+
+2. Education: Despite the challenges of his upbringing, Camus was a bright
+
+student. He attended the University of Algiers, where he studied philosophy
+and was influenced by thinkers like Friedrich Nietzsche and Søren
+Kierkegaard.
+
+3. Tuberculosis: In his youth, Camus contracted tuberculosis, a disease that
+
+affected him intermittently throughout his life. His personal confrontation with
+illness and mortality had a profound impact on his philosophical perspectives,
+especially on themes related to the absurdity of life and death.
+
+4. World War II: During World War II, Camus joined the French Resistance
+against the Nazi occupation and became an editor for the underground
+newspaper "Combat." His experiences during the war deepened his
+reflections on freedom, revolt, and the human capacity for both cruelty and
+nobility.
+
+5. Literary Career: Camus became a prominent novelist, essayist, and
+
+playwright. His notable works include "The Stranger," "The Plague," "The
+Myth of Sisyphus," and "The Fall." Through his writings, he explored the
+themes of absurdity, alienation, and revolt.
+
+6. Death: Camus died tragically in a car accident in 1960 at the age of 46.
+
+Camus and Existentialism:
+
+1. Relationship with Sartre: Initially, Camus had a close intellectual and
+personal relationship with Jean-Paul Sartre, another towering figure of
+existentialism. However, they later had a public falling out, primarily due to
+ideological differences, especially concerning the role of political violence and
+their views on the Soviet Union.
+
+2. Absurdist vs. Existentialist: While Camus is often categorised with the
+existentialists, he saw himself more as an absurdist. The core of his
+philosophy revolved around the tension between the human quest for
+meaning and the inherent meaninglessness of the universe.
+
+
+3. Influence of Nietzsche and Kierkegaard: Like many existentialists, Camus
+was influenced by Friedrich Nietzsche's critique of traditional values and
+Søren Kierkegaard's focus on individual existence and choice.
+
+Camus Among Contemporaries:
+
+1. Philosophical Landscape: Camus' contemporaries included existentialist
+thinkers like Jean-Paul Sartre, Simone de Beauvoir, and Maurice Merleau-
+Ponty. While Camus shared certain themes with these thinkers, his emphasis
+on the absurd set him apart.
+
+2. Literary Context: As a writer, Camus was also part of the post-war literary
+world, which grappled with the traumas of World War II and the Holocaust.
+Writers like Samuel Beckett and Franz Kafka influenced and echoed Camus'
+themes of absurdity and alienation.
+
+In summary, Albert Camus' life experiences, from his upbringing in colonial Algeria to
+his role in the French Resistance, deeply influenced his philosophical perspectives.
+While he shared the existentialist stage with giants like Sartre and de Beauvoir, his
+unique emphasis on the absurd and his skeptical approach to overarching ideologies
+distinguished him as a singular voice in 20th-century philosophy and literature.
+
+Albert Camus' Philosophy:
+
+1. The Absurd:
+
+• Concept: At the heart of Camus' philosophy is the notion of the absurd.
+It emerges from the clash between our human desire for meaning and
+the seemingly indifferent, chaotic universe. For Camus, the realisation
+of this incongruity is fundamental to human existence.
+
+•
+
+Implication: Accepting the absurd means recognising life's inherent
+lack of ultimate purpose or meaning. However, this acceptance should
+not lead to despair or nihilism.
+
+• Ought: Instead of succumbing to the weight of the absurd, one ought
+to confront it head-on, embracing life with passion and intensity.
+
+2. Revolt:
+
+• Concept: Faced with the absurdity of existence, Camus advocates for
+revolt. This is not a physical rebellion but an internal, existential one—a
+consistent affirmation of life in the face of its inherent meaninglessness.
+
+•
+
+Implication: Revolt becomes a life-affirming act, a continuous
+challenge to the absurd, and a declaration of one's existence.
+
+
+• Ought: Individuals ought to live authentically, fully embracing the
+
+human condition and its inherent contradictions. Through revolt, one
+can find personal freedom and agency.
+
+3. Freedom:
+
+• Concept: With the acknowledgment of life's absurdity comes a
+profound sense of freedom. In a universe devoid of preordained
+meaning or destiny, individuals are liberated to create their own values
+and paths.
+
+•
+
+Implication: This freedom, however, is double-edged—it's both
+liberating and burdensome, as it places the responsibility of meaning-
+making squarely on the individual.
+
+• Ought: Camus suggests that one ought to exercise this freedom
+
+responsibly and authentically, forging a path that resonates with one's
+personal truths.
+
+4. Ethics of Ambiguity:
+
+• Concept: In a world without inherent moral order, ethical decisions
+become complex. Camus acknowledges the inherent ambiguity in
+moral choices in an absurd universe.
+
+•
+
+Implication: Traditional moral systems might fall short in providing
+clear guidance. Instead, moral decisions are deeply personal and often
+fraught with uncertainty.
+
+• Ought: Individuals ought to approach ethical decisions with a sense of
+humility and introspection, recognising the inherent ambiguity and
+doing their best to act with integrity.
+
+5. Nature, Beauty, and Art:
+
+• Concept: Despite the weighty themes of absurdity and revolt, Camus
+also emphasises the role of nature, beauty, and art in human life.
+These elements can offer solace and moments of transcendence.
+
+•
+
+Implication: In the face of the absurd, moments of beauty, whether in
+nature or art, provide brief respites and glimpses of meaning.
+
+• Ought: Camus suggests that one ought to seek out and appreciate
+these moments, allowing them to enrich the human experience and
+offer a counterpoint to the inherent absurdity of life.
+
+Camus' philosophy, rooted in his personal experiences and the tumultuous events of
+his time, offers a profound exploration of the human condition. While he paints a
+picture of a universe indifferent to human desires, he also provides a roadmap for
+
+
+finding personal meaning, agency, and beauty within that vast expanse of
+indifference. The "oughts" of his philosophy guide individuals on how to live
+authentically and passionately, even in the shadow of the absurd.
+
+=== Sartre — Republic of Silence ===
+
+“Republic of Silence”
+
+by Jean-Paul Sartre
+
+We were never more free than during the German occupation. We had lost all our rights, beginning
+
+with the right to talk. Every day we were insulted to our faces and had to take it in silence. Under one
+
+pretext or another, as workers, Jews, or political prisoners, we were deported EN MASSE.
+
+Everywhere, on billboards, in the newspapers, on the screen, we encountered the revolting and
+
+insipid picture of ourselves that our oppressors wanted us to accept. And, because of all this, we
+
+were free. Because the Nazi venom seeped even into our thoughts, every accurate thought was a
+
+conquest. Because an all-powerful police tried to force us to hold our tongues, every word took on
+
+the value of a declaration of principles. Because we were hunted down, every one of our gestures
+
+had the weight of a solemn commitment. The circumstances, atrocious as they often were, finally
+
+made it possible for us to live, without pretense or false shame, the hectic and impossible existence
+
+that is known as the lot of man. Exile, captivity, and especially death (which we usually shrink from
+
+facing at all in happier times) became for us the habitual objects of our concern. We learned that
+
+they were neither inevitable accidents, nor even constant and exterior dangers, but that they must
+
+be considered as our lot itself, our destiny, the profound source of our reality as men. At every instant
+
+we lived up to the full sense of this commonplace little phrase: “Man is mortal!” And the choice that
+
+each of us made of his life and of his being was an authentic choice because it was made face to face
+
+with death, because it could always have been expressed in these terms: “Rather death than…” And
+
+here I am not speaking of the elite among us who were real Resistants, but of all Frenchmen who, at
+
+every hour of the night and day throughout four years, answered NO. But the very cruelty of the
+
+enemy drove us to the extremities of this condition by forcing us to ask ourselves questions that one
+
+never considers in time of peace. All those among us – and what Frenchman was not at one time or
+
+another in this situation who knew any details concerning the Resistance asked themselves
+
+anxiously, “If they torture me, shall I be able to keep silent?” Thus the basic question of liberty itself
+
+was posed, and we were brought to the verge of the deepest knowledge that man can have of
+
+himself. For the secret of a man is not his Oedipus complex or his inferiority complex: it is the limit of
+
+his own liberty, his capacity for resisting torture and death.
+
+To those who were engaged in underground activities, the conditions of their struggle afforded a new
+
+kind of experience. They did not fight openly like soldiers. In all circumstances they were alone. They
+
+were hunted down in solitude, arrested in solitude. It was completely forlorn and unbefriended that
+
+they held out against torture, alone and naked in the presence of torturers, clean-shaven, well-fed,
+
+and well-clothed, who laughed at their cringing flesh, and to whom an untroubled conscience and a
+
+boundless sense of social strength gave every appearance of being in the right. Alone. Without a
+
+friendly hand or a word of encouragement. Yet, in the depth of their solitude, it was the others that
+
+they were protecting, all the others, all their comrades in the Resistance. Total responsibility in total
+
+solitude – is this not the very definition of our liberty? This being stripped of all, this solitude, this
+
+tremendous danger, were the same for all. For the leaders and for their men, for those who
+
+conveyed messages without knowing what their content was, as for those who directed the entire
+
+Resistance, the punishment was the same – imprisonment, deportation, death. There is no army in
+
+the world where there is such equality of risk for the private and for the commander-in-chief. And
+
+this is why the Resistance was a true democracy: for the soldier as for the commander, the same
+
+danger, the same forsakenness, the same total responsibility, the same absolute liberty within
+
+discipline. Thus, in darkness and in blood, a Republic was established, the strongest of Republics.
+
+Each of its citizens knew that he owed himself to all and that he could count only on himself alone.
+
+Each of them, in complete isolation, fulfilled his responsibility and his role in history. Each of them,
+
+standing against the oppressors, undertook to be himself, freely and irrevocably. And by choosing for
+
+himself in liberty, he chose the liberty of all. This Republic without institutions, without an army,
+
+without police, was something that at each instant every Frenchman had to win and to affirm against
+
+Nazism. No one failed in this duty, and now we are on the threshold of another Republic. May this
+
+Republic to be set up in broad daylight preserve the austere virtue of that other Republic of Silence
+
+and of Night.
+
+=== Sartre — Being and Nothingness (opening excerpt) ===
+
+profitable to consider
+briefly earlier works of Sartre's which serve as a kind of foundation for the
+fuller discussion in Being and Nothingness; second, I should like to dis
+cuss a few of the crucial problems presented in the latter work. In connec
+tion with the earlier writing, I shall be concerned only with those aspects
+which seem to me to be significantly connected with fundamental posi
+tions in Being and Nothingness; in the second part I am making no
+claim to presenting a full analysis or exposition of the book but merely
+offering some general comments as to a possible interpretation of certain
+central positions.
+'
+In an article called "La Transcendance de I'Ego. Esqnisse d'nne de
+scription phenomenologique"4 (1936) Sartre, while keeping within the
+general province of phenomenology, challenged Busserl's concept of the
+transcendental Ego. The article does more than to suggest some of the
+principal ideas of Being and Nothingness. It analyzes in detail certain
+fundamental positions which though basic in the later work are there
+hurriedly sketched in or even presupposed. Most important is Sartre's
+rejection of the primacy of the Cartesian cogito. He objects that in Des
+cartes' formula-"I think; therefore I am"-the consciousness which says,
+"I am," is not actually the consciousness which thinks. (p. 92) Instead
+we are dealing with a secondary activity. Similarly, says Sartre, Descartes
+has confused spontaneous doubt, which is a consciousness, with methodi
+cal doubt, which is an act. (p. 104) When we catch a glimpse of an
+object, there may be a doubting consciousness of the object as uncertain.
+But Descartes' cogito has posited this consciousness itself as an object;
+the Cartesian cogito is not one with the doubting consciousness but has
+reflected upon it. In other words this cogito is not Descartes doubting;
+it is Descartes reflecting upon the doubting. "I doubt; therefore I am"
+is really "I am aware that I doubt; therefore I am." The Cartesian cogito
+is reflective, and its .object is not itself but the original consciousness
+of doubting. The consciousness which doubted is now reflected on by the
+cogito but was never itself reflective; its only object is the object which
+it is conscious of as doubtful. These conclusions lead Sartre to establish
+the pre-reflective cogito as the primary consciousness, and in all of his
+later work he makes this his original point of departure.
+Now it might seem at first thought that this position would involve an
+41.1 Recherches philosophiques. Vol. VI, 1936-1937. PP' 85-l:l.3.
+
+----- page break -----
+
+x
+BEING AND NOTHINGNESS
+infinite regress. For if the Cartesian cogito reflects not on itself but on
+the pre-reflcctive consciousness, then in order for there to be self-con
+sciousness, it might seem that we should need a cogito for the Cartesian
+cogito, another for this cogito and so on ad infinitum. But this would be
+the case only if self-consciousness required that the sclf be posited as an
+object, and Sartre denies that this is so. The very nature of consciousness
+is such, he says, that for it, to be and to know itself are one and the same.
+(p. 112) Consciousness of an object is consciousness of being conscious
+ness of an object. Thus by nature all consciousness is self·consciousness,
+but by this Sartre does not mean that the self is necessarily posited as an
+object. When I am aware of a chair, I am non-reflectively conscious of
+my awareness. But when I
+
+
+deliberately think of my awareness, this is a
+totally new act of consciousness; and here only am I explicitly positing
+my awareness or"myself as an object of reflection. The pre-reflective cogito
+is a 'non-positional self-consciousness. Sartre uses the words conscience
+non-positionelle (de) soi and puts the de in parentheses to show that
+there is no separation, no positing of the self as an object of consciousness.
+Similarly he speaks of it as a non-thetic self-consciousness. Thetic or
+positional self-consciousness is conscience de soi in which consciousness
+deliberately reflects upon its own acts and states and in so far as is possi
+ble posits itself as an object. The Cartesian cogito, of course, belongs
+to the second order.
+In this same article Sartre lays down two fundamental principles con
+cerning the pre-reflective consciousness which are basic in his later work.
+First, he follows Husserl in holding that all consciousness is conscious
+ness of something; that is, consciousness is intentional and directive,
+pointing to a transcendent object other than itself. Here is the germ for
+Sartre's latcr view of man's being-in-the-world, for his "ontological proof"
+of the existence of a Being-in.itself which is external to consciousness.
+Secondly, the pre-reflective cogito is non-personal. It is not true that we
+can start with some such statement as "I am conscious of the chair."
+All that we can truthfully say at this beginni!lg stage is that "there is
+(il y a) consciousness of the chair." The Ego (including both the "I"
+and the "Me") docs not come into existence until the original conscious
+ness has been made the object of reflection. Thus there is never an Ego
+consciousness but only consciousness of the Ego. This is, of course, an
+other reason for Sartre's objecting to the primacy of the Cartesian cogito,
+for Descartes was actually trying to prove the existence of the "I."
+According to Sartre, the Ego is not in consciousness, which is utterly
+translucent, but in the world; and like the world it is the object of con
+sciousness. This is not, of course, to say that the Ego is material but
+only that it is not a subject which in some sense manipulates or directs
+consciousne~s. Strictly speaking, we should never say "my consciousness"
+but rather uconsciousness of me." This startling view is less extreme than
+
+----- page break -----
+
+TRANSLATOR'S INTRODUCTION
+xi
+it at first appears. It does not mean that consciousness is general, a uni
+versal pan-psyche. A consciousness is even at the start particular, for the
+objects of which it is conscious are particular objects and not the whole
+universe. Thus the consciousnesses of two persons are always individual
+and always self-eonsciousnesses, but to be individual and to be self
+conscious does not mean to be personal. Another way of putting it is to
+say that the Ego is "on the side of the psychic." (p. 106) Sartre makes a
+sharp distinction between the individual consciousness in its purity and
+psychic qualities, by which he means what is ordinarily thought of as
+the personality. What he calls the pop~J1ar view holds that the Ego is
+responsible for psychic states (e.g., love; hate) and that these in turn
+"
+determine our consciousness. The reality, he claims, is exactly the reverse.
+Consciousness determines the state, and the states constitute the Ego.
+For example, my immediate reaction of repulsion or attraction to some
+one is a consciollsness. The unity whi
+
+
+
+
+he case of objects. But con
+sciousness is not in-the-midst-of-the-world; it is in-the-world. This means
+that consciousness is inevitably involved with the world (both because
+we have bodies and because by definition consciousness is consciousness
+of a transcendent object) but that there is a separation between conscious
+ness and the things in the world. For consciousness in its primary form, as
+we saw earlier, is a non-positional self-consciousness; hence if conscious
+ness is consciousness of an object, it is consciousness of not being the
+object. There is, in short, a power of withdrawal in consciousness such
+that it can nihilate (encase with a region of non-being) the objects of
+which it is conscious. Imagination requires two of these nihilating acts.
+When we imagine, we posit a world in which an object is not present_
+in order that we may imagine a world in which our imagined object is
+present. I do not imagine a tree so long as I am actually looking at one.
+To accomplish this imagining act, we must first be able to posit the
+world as a synthetic totality. This is possible only for a consciousness
+capable of effecting a nihilating withdrawal from ·the world. Then we
+posit the imagined object as existing somehow apart from the world,
+thus denying it as being part of the existing world.
+Hence the imaginative act is constituting, isolating, and nihilating. It
+constitutes the world as a world, for before consciousness there was no
+"world" but only full, undifferentiated being. It then nihilates the world
+from a particular point of view and by a second act of nihilation isolates
+
+----- page break -----
+
+xiv
+BEING AND NOTHINGNESS
+the object from the world-as out-of-reach.
+Once we accept this view of imagination, the answer to Sartre's two
+questions is clear. Obviously the conditions of possibility for an imagining
+consciousness are the same as for consciousness in general. Clearly the
+imaginary function is constitutive of the essence of consciousness. To
+conceive of a non-imagining consciousness is impossible. For if conscious
+ness could not imagine, this could only be because it lacked the power of
+negating withdrawal which Sartre calls nihilation; and this would result
+in so submerging ~9.Jlsciousness in the world that it could no longer dis
+tinguish itself from the world. "If it were possible to conceive for a
+moment a consciousness which does not imagine, it would have to be
+conceived as completely engulfed in the existent and without the possi
+bility of grasping anything but the existent." (p. 271).
+In this early book Sartre had already linked the ideas of Nothingness
+and freedom. "In order to imagine, consciousness must be free from all
+specific reality and this freedom must be able to define itself by a "being
+in-the-world which is--at-Once the constitution and the negation of the
+world." (p. 269) This means that consciousness must be able to effect
+the emergence of the "unreaL" "The unreal is produced outside of the
+world by a consciousness which stays in the world, and it is becal1se he is
+transcendentally free that man can imagine." (p. 271)
+In The Emotions8 (1939) Sartre again discusses consciousness' consti·
+tution and organization of the world and from a different point of view,
+but the underlying ideas of the total involvement of consciousness in
+any of its acts and its possibility of choosing freely the way in which it
+will relate itself to the world remain the same. As we s
+
+
+hould expect, he
+completely rejects the idea that emotions are forces which can sweep over
+one and determine consciousness and its actions. Emotion is simply a
+way by which consciousness chooses to live its relationship to the world.
+On what we might call the everyday pragmatic level of existence, our
+perception constitutes the world in terms of demands. We form a sort of
+"hodological" map of it in which pathways are traced to and among ob
+jects in accordance with the potentialities and resistances of objects in
+the world. Thus if I want to go out into the street, I must count on so
+many steps to be taken. furniture to be avoided, a door to be opened,
+etc. Or to put it on a non-material level. if I want to persuade someone of
+a course of action, I must not only plan to use language which means more
+or less the same to him as to me but must observe certain "rules" of
+intersubjective relations if lam to appeal to his reason rather than to his
+8 Esquisse d'une tMorie des emotions. Paris: Hennann. 1939. Quotations are from
+the English translation by Bernard Frechbnan: The Emotions: Outline of a Theory.
+New York: Philosophical Library. 1939. I have discussed this after The Psychology of
+the Imagination, even though the latter was published a year later, because the order
+seemed a more natural one in terms of the material which I have chosen for considera
+tion.
+
+----- page break -----
+
+xv
+TRANSLATOR'S INTRODUCTION
+prejudice; I must approach him in terms of his experience .instead ~f re
+ferring to what he does not know, etc. In short, the objects which I
+want to realize appear to me as "having to be realized" in certain ways.
+"The world of our desires, our needs, and our acts, appears as if it were
+furrowed with strict and narrow paths which lead to one or the other
+determined end, that is, to the appearance of a created object." (p. 57)
+It might be compared to a pin-ball machine in which the ball which
+one wants to end up at a certain defined spot must arrive there by follow
+ing one of several possible paths filled with pits and barriers. All of this
+is an anticipation of the hierarchy of "instrumental complexes'~ which
+Sartre describes in detail in Being and Nothingness and which is vital to
+his discussion of the body, our situation-in general what he calls our
+"facticity" or our "being there in the world."
+It is important to note that although this hodological map depends to
+an extent on external brute matter and is hence to a significant degree
+the same for all people, still it is in part dependent on a constituting
+consciousness. This is true first because without any consciousness there
+could be no such meaningful organization. But it varies in meaning also
+according to the object aimed at and the attitude of the consciousness
+regarding the object. Thus the door may be a means of access to the
+outside or (if locked) a protection against unwanted guests. The appear
+ance of the environment and its organization vary according to whether
+J walk or drive. Finally, Sartre claims, I may choose to ignore or neglect
+this instrumental organization altogether, and it is here that emotion
+enters in. I may in a fit of temper, so to speak, refuse to pull the handle
+of the pin-ball machine or say that the ball reached its destination even
+when it went into the wrong hole or (to put an extreme case) break the
+glass and put the ball where I want it or state that I had never intended
+really to pull the ha
+
+
+ndle anyway. This world with its hodological mark
+ings is difficult; and if the situation becomes too difficult, if my plans
+meet with utter frustration, I may seek to transform the whole character
+of the world which blocks me. Since I can not do so in actuality, I
+accomplish a parallel result by a sort of magical transformation. Emotion
+"is a transformation of the world. When the paths traced out become
+too difficult, or when we see no path, we can no longer live in so urgent
+and difficult a world. All the ways are barred. However, we must act. So
+we try to change the world, that is, to live as if the connection between
+things and their potentialities were not ruled by deterministic processes,
+but by magic." (p. 58) We construct new ways and relationships; but
+since we can not do this by changing the world, we change ourselves. In
+certain cases we' may even faint, thus magically and temporarily anni
+hilating the world by nullifying our connection with it. Even. ioyous
+emotions fall into this same pattern since in joy we try to possess all at
+~
+
+----- page break -----
+
+xvi
+BEING AND NOTHINGNESS
+once and as a whole a desirable situation which if it is to be "really"
+experienced must be achieved slowly and in terms of instrumental organi
+zations. In summary, emotion is a consciousness' personal relation to
+the world and as such can be temporarily satisfying, but it is fundament
+ally ineffective and transient with no direct power to affect the environ
+ment.
+In the three works just considered Sartre shows clearly that he is not
+following very c1o~e1y the line of thought laid down by Husserl and his
+followers although in all three, as well as in the case of Being and Nothing
+ness, Sartre calls his approach phenomenological. In these examples, how
+ever, we find very little of what we have become accustomed to think of
+as inseparably connected with existentialism-namely, a concern with
+the living person and his concrete emotions of anguish, despair, nausea,
+and the like. Actually, until the publication of Being and Nothingness,
+Sartre's concern with men's happiness and unhappiness, their ethical
+problems, purposes, and conduct was expressed largely in his purely liter
+ary works. Of these the novel, Nausea" (1937), is richest in philosophical
+content. In fact one might truthfully say that the only full exposition
+of its meaning would be the total volume of Being and Nothingness.
+But amidst the wealth of material which might serve as a sort of book of
+illustrations for existentialist motifs there are two things of particular
+significance. First there is the realization on the part of the hero, Roquen
+tin, that Being in general and he himself in particular are de trop; that is,
+existence itself is contingent, gratuitous, unjustifiable. It is absurd in
+the sense that there is no reason for it, no outside purpose to give it
+meaning, no direction. Being is there, and outside of it-Nothing. In the
+passage in which this thought is especially developed we find Roquentin
+struggling with the idea that things overflow all the relationships and
+designations which he can attach to them, a view which Sartre developed
+later in the form of a theory of the "transphenomenality of Being."
+Furthermore Roquentin realizes that since he is an existent he can not
+escape this original contingency, this "obscene superfluity."
+"We were a heap of living creatures, irritated, embarrassed
+at ourselves, we hadn't the slight
+
+
+
+concerned with the sensations by which our facticity is revealed to us.
+But the concept underlies his discussion of the body. Furthermore it
+is in connection with the study of facticity that he presents the most de
+tailed analysis of the problem of freedom, for it is the limitations
+offered by man's connections with external being which offer the most
+serious threat to Sartre's view that the For-itself is absolutely free.
+In Being and Nothingness, which as L'ittre et Ie. Neant8 appeared in
+France in 1943, Sartre has incorporated the views which I have mentioned
+here as well as a number of less important themes found in scattered
+short stories and essays. The basic positions have not been really changed,
+but they have been enriched and elaborated and worked into a systematic
+philosophy. The subject matter of this philosophy is as all inclusive as the
+title indicates, and throughout a large part of the book the treatment
+is fully as abstract. Yet we might also say that it is a study of the human
+condition; for since "man is the beir,g by whom Nothingness comes
+into the world:' this means that man himself is Being and Nothingness.
+And before he has finished, Sartre has not only considered such concrete
+problems as love,hate, sex, the crises of anguish, the trap of bad faith, but
+he has sketched in outline an approach by which we may hope to ascertain
+the original choice of Being by which real individuals have made them
+selves what they are.
+. !
+The underlying plan of this comprehensive description is comparatively
+simple. In the Introduction, which is by far the most difficult part of
+the book, Sartre explains why we must begin with the pre-reflective con
+sciousness, contrasts his position with that of realism and of idealism, re
+jects any idea of a noumenal world behind the phenomenon, and explains
+his own idea of the "transphenomenality of Being." He then proceeds to
+present his distinction between unconscious Being (Being-in-itself)
+and conscious Being (Being-for-itself).9 Obviously certain difficulties
+arise. In particular, since the two types are radically diffcrcnt and separated
+from another, how can they both be part of one Being?
+In search of an answer Sartre in Part One focuses on the question
+itself-as a question-and reveals the fact that man (or the For-itself)
+can ask questions and can be in question for himself in his very being
+because of the presence in him of a Nothingness. Further examination
+of this Nothingness shows that Non-being is the condition of any tran
+scendence toward Being. But how can man be his own Nothingness and
+be responsible for the upsurge of Nothingness into the world? We learn
+that Nothingness is revealed to us most fully in anguish and that man
+generally tries to flee this anguish, this Nothingness which he is, by means
+of "bad faith." The study of "bad faith" reveals to us that whereas Being
+8 Paris: Gallimard.
+II Sartre evidently got these tenns from Hegel's an-sich and fjjr-sich.
+
+----- page break -----
+
+XIX
+TRANSLATOR'S INTRODUCTION
+in-itself simply is, man is the being "who is what he is not and who is
+not what he is." In other words man continually makes himself. Instead
+of being, he "has to be"; his present being has meaning only in the light
+of the future toward which he projects himself. Thus he is not what at
+any instant we might want to say that he is, and he is that toward which
+he projects himself but which he is not yet.lO This ambig
+
+
+uity provides
+the possibility for bad faith since man may try to interpret this evanescent
+"is" of his as though it were the "is" of Being-in-itself, or he may fluctuate
+between the two.
+In Part Two Sartre, using this view of the For-itself as a Nothingness
+and as an always future project, discusses the For-itself as a pursuit of
+Being in the form of selfness. This involves the questions of possibility,
+of value, and of temporality, all of which prove to be integrally related
+to the basic concept of the For-itself as an internal negation of Being-in
+itself. But if the For-itself is a relation to the In-itself, even by way of
+negation, then we must find some sort of bridge. This bridge is knowl~
+edge, the discussion of which concludes Part Two.
+Since no full presentation of knowledge is possible without considera
+tion of the senses, we are referred to the body. Part Three begins with a
+discussion of the body, and we soon perceive that one of the principal
+characteristics of a body is that it causes me to be seen by the Other.
+Hence Part Three is largely devoted to the study of Being-for-others,
+including descriptions of concrete personal relations. Finally our dis
+covery of our rdations with others shows us that the For~itself has an
+outside, that while never able to coincide with the In-itself, the For
+itself is nevertheless in the midst of it. And so at last in Part Four we
+return to the In-itself.
+We are concerned with the In-itself from two fundamental points of
+view. First, how can we be in the midst of the In-itself without losing our
+freedom. Here we find the fullest exposition of Sartre's ideas on freedom
+and facticity. Second, we discover that our fundamental relation to Being
+is such that we desire to appropriate it through either action, possession,
+or the attempt to become one with it. Analysis of these reactions leads us
+to the question of our original choice of Being, and it is here that Sartre
+outlines for us his existential psychoanalysis. This completes the book
+save for the Conclusion, in which Sartre suggests various metaphysical
+and ethical implications which may emerge as the result of his long "pur·
+suit of Being" and also promises us another work in which he will further
+develop thc ethical possibilities.
+Obviously the most stnkin~ly original idea here presented. as well as
+the unifying motif of the entire work, is the position that consciousness
+10 The generdl psychological consequences of this distinction between Being-for·
+itself and Being·in.i,tsclf I have discussed in some detail in my introduction to Jean.
+Paul's Sartrc's Existential Psychoanalysis. New York: Philosophical Library. 1953·
+
+----- page break -----
+
+xx
+BEING AND NOTHINGNESS
+isa Nothingness. Yet as a Nothingness it is also a revelation of Being.
+Aside from the paradoxical nature of this position, we are immediately
+puzzled as to how to relate it to the traditional theories of idealism and
+realism; and I think that perhaps our best approach to the whole question
+of the negativity of consciousness is to observe just how Sartre himself
+believes that he can hold a theory not open to the objections generally
+directedag~either of the others. His philosopl1Y is not idealism, not
+even Husserl's brand of idealism, as he points out, because Being in no way
+creates consciousness or is in any way dependent on consciousness for
+its existence. Being is already there, without reason or justification. It is
+not
+
+
+exhausted by any or by all of its appearances, though it is fully there
+in each one of its appearances. (That is, it does not serve as a sort of
+phenomenon with a noumenon behind it.) It always overflows whatever
+knowledge we have of it-just as it is presupposed by all our questions
+and by consciousness itself. This "transphenomenality of Being" means
+that the object of consciousness is always outside and transcendent, that
+there is forever a resistance, a limit offered to consciousness, an external
+something which must be taken into consideration. Nevertheless we have
+not substituted a realistic position for the idealistic. For without con
+sciousness, Being does not exist either as a totality (in the sense of "the
+world," "the universe") ·or with differentiated parts. It is a fullness of
+existence, a plenitude which can not possibly isolate one part so as to
+contrast it with another, or posit a whole over against its parts, or con
+ceive a "nothing" in opposition to which it is "everything.~' It is simply
+undifferentiated, meaningless massivity. Without consciousness there
+would not be a world, mountains, rivers, tables, chairs, etc.;there would
+be only Being. In this sense there is no thing without consciousness, but
+there is not nothing. Consciousness causes there to be things because it
+is itself nothing. Only through consciousness is there differentiation,
+meaning, and plurality for Being.
+There is a tendency among some of Sartre's critics to criticize him
+for this view of consciousness as negativity as though it were somehow a
+slight to the dignity of the human being and made things more impor
+tant than people. Such an objection seem~ unreasonable in the light of
+the tremendous consequences of this Nothingness. The more difficult
+problem, as it seemS to me, is how to account for these consequences
+without being false to the premise that consciousness is wholly negative;
+that is, without making it into a very formidable something. For when
+Sartre speaks of a Nothingness, he means just that and is not using the
+word as a misleading name for a new metaphysical substance. Yet the
+power to effect a Nothingness, to recognize and make use of it appears
+to be a positivity. If this power belongs to the For-itself, are we falling
+into a contradiction? And if the For-itself is a Nothingness, then in what
+
+----- page break -----
+
+xxi
+TRANSLATOR'S INTRODUCTION
+sense is it Being?
+In the Conclusion Sartre provides us with a helpful comparison by
+reminding us of a scientific fiction sometimes used to illustrate the
+physical principle of the conservation of energy.
+"If, they say, a single one of the atoms which constitute the
+universe were annihilated, there would result a catastrophe
+which would extend to the entire universe, and this would be,
+in particular, the end of the Earth and of the solar system. This
+metaphor can be of use to us here. The For-itself is like a tiny ni
+hilation which has its origin at the heart of Being; and this nihi
+lation is sufficient to cause a total upheaval to happen to the In
+itself. This upheaval is the world." (pp. 617-618)
+We can see in this comparison that the For-itself has no reality except
+in so far as it is the nihilation of Being. It is, however, slightly qualified
+in that it is the nihilation of an individual, particular In-itself. It is not a
+general Nothingness but a particular privation, an individual Non-Being.
+Just as we might say, I suppose, that th
+
+
+e catastrophe wrought by the
+annihilated atom would vary in character according to which atom was
+annihilated.
+Does this mean then that we have one disintegrated Being or a clear
+cut case of duality with the In-itself on the one hand and the For-itself
+on the other? Sartre is not altogether clear on this point. He says that in
+formulating metaphysical hypotheses to guide us in phenomenological
+psychology, anthropology, and so forth, we may, as we like, keep the old
+being-consciousness dualism or adopt a new idea of a phenomenon which
+will be provided with two dimensions of being (tn-itself and For-itself).
+But such hypotheses we may use only as the physicist may employ
+ad libitum either the wave theory or the quanta theory; that is, not with
+the idea that either is an exhaustive description but that it is merely an
+expedient hypothesis within which one may carry out experiments.
+In other passages Sartre makes it clear that Being-in-itself is logically
+prior to Being-for-itself, that the latter is dependent on Being-in-itself,
+both in its origin and in its continued history. In the original nihilation
+the For-itself is made-to-be (est ete) by the In-itself. Nothing external
+to Being caused the rupture in the self-identity of Being-in-itself. It oc
+curred somehow in Being. Thus the For-itself would be a mere abstrac
+tion withont Being, for it is nothing save the emptiness of this Being
+and hence is n0t an autonomous substance. It is unseIbstandig. (p. 619)
+"But as a nihilation it is; and it is· in a priori unity with the In-itself."
+(p. 621) In an effort to make this point more clear, Sartre points out
+that if we tried to imagine what "there was" before a world existed, we
+could ~ot properly answer "nothing" without making both the "nothing"
+and the "before" retroactive. That is, Nothing has no meaning without
+
+----- page break -----
+
+XXII
+BEING AND NOTHINGNESS
+Being, for it is that which is Other than Being. It there were somehow
+no Being, Nothing would concomitantly disappear. (p. 16) As the
+emptiness of a particular Being, every negation (by a reversal of Spinoza's
+famous statement) is a determination. Nothingness takes on a kind of
+borrowed being. In itself it is not, but it gets its efficacy concretely from
+Being. "Nothingness can nihilate itself only on the foundation of being;
+if nothingness can be given, it is neither before nor after being, nor in a
+general way outside of being. Nothingness lies coiled in the heart of
+being-like a worm." (p. :2.1) Thus Being-in-itself is logically prior to
+Being-for-itself; for the In-itself has no need of Nothingness since it is
+a plenitude, but the For-itself originates only by means of Being and as a
+rupture at the heart of Being.
+Moreover the For-itself is dependent on the In-itself not only in its
+origin but in its continued existence. We have seen that consciousness
+is a" revelation of Being and that this is because consciousness can make
+a Nothingness slip in between itself and Being or between the various
+parts of Being, thus bringing about a differentiation. We 'saw also in
+connection with The Psychology of the Imagination that this ability
+on the part of consciousness to separate itself from the world by a nihi
+lation enabled it to effect the emergence of the unreal, thus to dis
+tinguish between actual and possible, between image and perception,
+etc. In Being and Nothingness Sartre develops consciousness' "revealing
+intuition" as being
+
+
+ an "internal negation." An external negation is simply
+a distinction between two objects such that it affects neither;-e.g. the
+cup is not the table. But in an internal negation, which can exist only in a
+consciousness, the being making the negation is affected in its being.
+Thus consciousness perpetually negates the In-itself by realizing inwardly
+that it is not the In-itself; it nihilates the In-itself both as a whole and in
+terms of individual in-itselfs or objects. And it is by. means of knowing
+what it is not that consciousness makes known to itself what it is. Thus
+again in its daily existencc the For-itself is seen to depcnd on the In-itself.
+For since it is nothing but the nihilating consciousness of not being its
+objects, then once more its being depends upon that of its objects. For
+consciousness, too, negation is dctermination.
+It is important to recall that Sartre says of man that he is "the being
+by whom nothingness comes into the world." He does not deny to man
+any connection with being. Having noticed how the For-itself is dcpend
+ent on the In-itsclf, we can perhaps see more elearly how Sartre can both .
+declare that the For-itself is nothing and yet treat it as if it were a sub
+division of Being and devote avolume of more than seven hundred pages
+to a discussion of its nature and consequences. By itself the For-itself
+is nothing at all and is not even conceivable, just as a reflection or a
+shadow which would not be a reflection or shadow of anything could not
+be conceived. But in relation to being, by being the nothingness of a
+
+----- page break -----
+
+xxiii
+· TRANSLATOR'S INTRODUCTION
+particular being and thus deriving from the being which it nihilates a sort
+of marginal, dependent being, it can give a new significance to all of Being.
+Thus the For-itself is without any of that fullness of being which we
+call the In-itself, but as a nihilation it is.
+Sartre summarizes this position by saying, "For consciousness there is
+no being except for this precise obligation to be a revealing intuition of
+something." (p. 618) Immediately he recognizes that this definition
+is closely parallel to Plato's category of the Otherll as described in the
+Sophist. We note that with Plato, too, Otherness has no being except
+its being-other, but as Other it is. In PI:lto's description we note also
+the Other's characteristic of marginal or borrowed being, the trick of
+disappearing if considered by itself, its complete separation from Being
+at the same time that it cannot exist independcntly from Being. Sartre
+feels that Plato failed to see the logical consequence of his position, which
+would be that such an "otherness" could exist only in the form of con
+sciousness. "For the only way in which the other can exist as other is.
+to be consciousness '(of) being other. Otherness is, in fact, an internal
+negation, and only a consciousness can be constituted as an internal nega
+tion." (618) He also criticizes Plato for having restricted both categories
+-"being" and "other"- to a dialectical genesis in which they are simply
+genera. Sartre, of course, holds that the For-itself is an individual venture
+and he is speaking of concrete being and living consciousness.
+Sartre in his discussion of Nothingness presents a fairly detailed
+criticism of both Hegel's and Heidegger's concepts. He~l he criticizes
+for never having got beyond the logical formulation of Non-being so as
+to relate it to human reality. Moreo
+
+
+ver he objects .to Hegel's making
+the notions of Being and Non-being contemporary instead of viewing
+Non-being as logically dependent on Being. And he objects that Hegel
+has inadvertently bestowed a being upon Non-being. Heidegger, according
+to Sartre, has realized considerable progress by removing Being from
+Nothingness and by seeing both Being and Non-being as a tension of
+opposing forces; he is also to be commended for discussing Nothingness
+as a part of human experience and not
+
+[…remainder of this reading omitted for length…]
