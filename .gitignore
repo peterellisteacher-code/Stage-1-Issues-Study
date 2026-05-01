@@ -12,3 +12,6 @@ package-lock.json
 
 # Derivative — text extracted from readings_source/ + text_packs/ at pack-build time
 extracted/
+
+# Sub-agent ephemeral working directories (Playwright sessions, screenshots, etc.)
+*-session/
