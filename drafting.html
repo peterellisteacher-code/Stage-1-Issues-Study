@@ -36,26 +36,26 @@
         }
 
         .draft-header {
-            margin-bottom: var(--space-lg);
+            margin-bottom: var(--space-md);
         }
 
         .draft-header__title {
             font-family: var(--font-display);
-            font-size: var(--text-2xl);
+            font-size: var(--text-xl);
             color: var(--ink);
-            margin-bottom: var(--space-sm);
+            margin-bottom: var(--space-xs);
         }
 
         .draft-header__lead {
             font-family: var(--font-body);
             font-size: var(--text-base);
             color: var(--ink-soft);
-            max-width: 65ch;
-            line-height: 1.55;
+            max-width: 70ch;
+            line-height: 1.5;
         }
 
         .scaffold-section {
-            margin-bottom: var(--space-2xl);
+            margin-bottom: var(--space-lg);
             padding: var(--space-md);
             border-left: 3px solid var(--aged-soft);
             background: rgba(244, 236, 216, 0.5);
@@ -68,7 +68,7 @@
         .scaffold-section--bibliography { border-left-color: var(--aged); }
 
         .scaffold-section__head {
-            margin-bottom: var(--space-md);
+            margin-bottom: var(--space-sm);
         }
 
         .scaffold-section__criterion {
@@ -271,20 +271,15 @@
                         </p>
                     </div>
 
-                    <div class="marg-note">
-                        <span class="marg-note__author">Reminder</span>
-                        800 words is a maximum, not a target. A tighter argument always beats a longer one.
-                    </div>
-
-                    <div class="marg-note">
-                        <span class="marg-note__author">Save as you go</span>
-                        Your draft auto-saves to this browser session. To keep it permanently, export below.
-                    </div>
-
                     <div class="export-actions">
                         <button class="btn btn--clarity btn--small" id="exportMd">Export as Markdown</button>
                         <button class="btn btn--ghost btn--small" id="exportTxt">Export as plain text</button>
                         <button class="btn btn--ghost btn--small" id="clearDraft">Clear draft</button>
+                    </div>
+
+                    <div class="marg-note">
+                        <span class="marg-note__author">Reminder</span>
+                        800 words is a maximum, not a target. A tighter argument always beats a longer one. Your draft auto-saves to this browser; use Export to keep it.
                     </div>
                 </aside>
 

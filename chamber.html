@@ -276,15 +276,12 @@
             font-weight: 500;
         }
 
-        .agent-warning {
-            font-family: var(--font-ui);
-            font-size: var(--text-xs);
-            color: var(--marginalia);
-            background: rgba(165, 58, 42, 0.06);
-            padding: var(--space-sm);
+        .empty-chat--tip {
+            margin-top: var(--space-md);
+            padding-left: var(--space-md);
             border-left: 2px solid var(--marginalia-soft);
-            margin-bottom: var(--space-md);
-            line-height: 1.4;
+            color: var(--marginalia);
+            font-size: var(--text-sm);
         }
     </style>
 </head>
@@ -354,13 +351,12 @@
                         <p class="chat-header__subtitle">A Socratic interlocutor that will not write for you.</p>
                     </header>
 
-                    <div class="agent-warning">
-                        Tip: the agent works best when you give it something to push against. Try writing your half-formed thought above, then asking the agent: <em>"What's the strongest objection to this?"</em>
-                    </div>
-
                     <div class="chat-transcript" id="transcript" aria-live="polite">
                         <p class="empty-chat">
                             <strong>Begin when ready.</strong> A good first prompt: name your topic, then ask what philosophical questions sit inside it. The agent will not give you a question. It will help you find one.
+                        </p>
+                        <p class="empty-chat empty-chat--tip">
+                            <em>Tip:</em> give the agent your half-formed thought, then ask for the strongest objection to it.
                         </p>
                     </div>
 

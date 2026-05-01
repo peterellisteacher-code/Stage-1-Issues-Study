@@ -15,12 +15,10 @@
 
     <style>
         /* Landing-specific composition.
-           overflow-y: auto + align-items: safe center means: centered when the
-           hero fits the viewport, scroll-when-overflows on shorter screens. The
-           "safe" keyword tells the browser to fall back to start-alignment (so
-           the top of the content stays reachable) the moment the content grows
-           past the available height — without it, centering can push the top
-           offscreen and out of the scroll path. */
+           Padding tightened from space-2xl to space-md after a 1366×768 audit
+           showed the Begin CTA was sitting below the fold. align-items: safe
+           center keeps centering when the hero fits, falls back to start-align
+           the moment content overflows so the top stays reachable. */
         .hero {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
@@ -29,7 +27,7 @@
             margin: 0 auto;
             height: 100%;
             align-items: safe center;
-            padding: var(--space-2xl) var(--space-lg);
+            padding: var(--space-md) var(--space-lg);
             overflow-y: auto;
         }
 
@@ -50,13 +48,13 @@
 
         .hero__question {
             font-family: var(--font-display);
-            font-size: var(--text-display);
+            font-size: var(--text-3xl);
             font-weight: 400;
             font-style: italic;
             line-height: 1.05;
             color: var(--ink);
             letter-spacing: -0.02em;
-            margin-bottom: var(--space-lg);
+            margin-bottom: var(--space-md);
         }
 
         .hero__question em {
@@ -67,22 +65,17 @@
         .hero__intro {
             font-family: var(--font-body);
             font-size: var(--text-lg);
-            line-height: 1.55;
+            line-height: 1.5;
             color: var(--ink);
-            max-width: 50ch;
-            margin-bottom: var(--space-lg);
-        }
-
-        .hero__intro + .hero__intro {
-            font-size: var(--text-base);
-            color: var(--ink-soft);
+            max-width: 55ch;
+            margin-bottom: var(--space-md);
         }
 
         .hero__cta {
             display: inline-flex;
             align-items: center;
             gap: var(--space-sm);
-            margin-top: var(--space-md);
+            margin-top: var(--space-sm);
         }
 
         .hero__cta .btn {
@@ -145,11 +138,7 @@
                     </h1>
 
                     <p class="hero__intro">
-                        The Issues Study is the only assessment in your Stage 1 Philosophy course that asks you to choose your <em>own</em> philosophical question, then defend your <em>own</em> answer.
-                    </p>
-
-                    <p class="hero__intro">
-                        This site is a workspace. You'll find a bank of 117 philosophical questions across ethics, epistemology, and metaphysics; a Socratic chamber where an AI interlocutor will press you to refine your thinking; a library of readings drawn from the Western tradition; and a drafting scaffold for when you're ready to write.
+                        The Issues Study asks you to choose your <em>own</em> philosophical question and defend your <em>own</em> answer. This site is your workspace: a question bank, a Socratic chamber, the readings, and a drafting scaffold.
                     </p>
 
                     <div class="hero__cta">
