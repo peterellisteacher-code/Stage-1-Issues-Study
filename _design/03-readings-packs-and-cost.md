@@ -20,7 +20,7 @@ The chat Function loads `data/packs/<pack_id>.txt` at request time and inlines t
 
 If no pack file exists, the agent still works — it falls back to a one-line topic note. Quality is meaningfully better with packs in place because the agent can point students at specific passages.
 
-### Current pack content (built 2026-05-01)
+### Current pack content (built 2026-05-01, OCR fill-in)
 
 | Pack | Size (tokens, approx) | Notes |
 |---|---:|---|
@@ -28,16 +28,23 @@ If no pack file exists, the agent still works — it falls back to a one-line to
 | `stage1_virtue_compassion` | ~33K | Full coverage: Murdoch, Nussbaum (×2), Political Emotions excerpt |
 | `stage1_religion_ethics` | ~20K | Full coverage: three Haidt depths + Righteous Mind fragments |
 | `stage1_aesthetics` | ~28K | Full coverage: Wimsatt & Beardsley, Intentional/Unintentional, Theme 4, VCE Art chapter, Freeland |
-| `stage1_mind_simulation` | ~37K | Full coverage: Identity Theory, Functionalism, Dualism, Materialism, Sim/Human-Being slides, Ravenscroft trio, Nagel |
-| `lab_applied_normative_ethics` | ~22K | **Partial coverage** — see below |
+| `stage1_mind_simulation` | ~68K | Full coverage: Identity Theory, Functionalism, Dualism, Materialism, Sim/Human-Being slides, Ravenscroft trio, Nagel, Ned Block on Wittgenstein and Qualia |
+| `lab_applied_normative_ethics` | ~48K | Full coverage: BNW, When We Die, Thomson, Marquis, Singer on Abortion, Gilligan, Singer Practical Ethics excerpt |
 
-### lab_applied_normative_ethics — known gap
+All six packs now ground the agent in actual class text. Caching is active on every pack (each is well above Haiku 4.5's 4096-token threshold and well under its 200K-token context window).
 
-Three readings in `readings_source/` are scanned-image PDFs (no extractable text layer): `judith.pdf` (Thomson — *A Defence of Abortion*), `marquis.pdf` (Marquis — *Why Abortion is Immoral*), and `Singer Abortion.pdf`. OCR via tesseract is technically feasible but slow on the build host (~2-12 min per page × 25 pages).
+### Notes for re-running text extraction
 
-The lab pack therefore currently grounds the agent in: Brave New World Ch. 16, *When We Die*, Gilligan's *In a Different Voice*, and an excerpt of Singer's *Practical Ethics*. Claude has all three missing readings in its training data and can discuss Thomson's violinist, Marquis's future-like-ours argument, and Singer's personhood criteria without grounded text — it just can't quote specific lines from the class PDFs the way it does for the other 5 packs.
+`extracted/` is gitignored. To reproduce the pack files from the source PDFs:
 
-To enrich this pack later: OCR the three PDFs into `extracted/readings_source/{judith,marquis,Singer Abortion}.txt` (the tooling lives at `/tmp/run_ocr4.sh` in this build, but any OCR pipeline works) and re-run the assembly script.
+1. Install `pdfminer.six`, `python-docx`, `python-pptx` (`pip install ...`).
+2. Run `python3 /tmp/extract_all.py` (or recreate it; it walks `readings_source/` and `text_packs/` and writes plain text to `extracted/`).
+3. For the three image-only PDFs in the lab pack — `judith.pdf`, `marquis.pdf`, `Singer Abortion.pdf` — also run sequential tesseract OCR at 120 DPI with `--psm 6 --oem 1`. Sequential at full per-process CPU is faster than 4-way parallel (which thrashes the cache); ~30 min total for the three on a 4-core build host.
+4. Run `python3 /tmp/assemble_packs.py` to write `data/packs/<pack_id>.txt`.
+
+### Known source-asset issue
+
+`readings_source/Art - Wimsatt and Beardsley - the Intentional Fallacy.pdf` is incomplete in this repo — it ends mid-sentence at *"Sublimity is the echo of a great soul,"* (the original essay continues into Section II). The aesthetics pack faithfully includes 100% of what's in the PDF; the gap is in the source asset, not the build pipeline. If a complete copy of the essay becomes available, replace the PDF and re-run the build.
 
 ## Cost model
 
