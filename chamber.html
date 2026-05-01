@@ -323,7 +323,7 @@
                     </div>
 
                     <p class="working-panel__instructions">
-                        Refine the question above as the conversation unfolds. The agent in the rail to the right will press you toward sharper formulations, name the philosophical moves you're making, and surface positions you haven't considered. It will <em>not</em> write your essay.
+                        Refine the question above as the conversation unfolds. The agent in the rail to the right will press you to phrase the question more sharply, name the philosophical moves you're making, and show you positions you haven't considered. It will <em>not</em> write your essay.
                     </p>
 
                     <section class="pinned-section">
@@ -346,7 +346,7 @@
 
                     <div class="chat-transcript" id="transcript" aria-live="polite">
                         <p class="empty-chat">
-                            <strong>Begin when ready.</strong> A good first prompt: tell the agent your topic, and ask what philosophical questions it suggests within that topic. The agent will not give you a question — but it will help you find one.
+                            <strong>Begin when ready.</strong> A good first prompt: name your topic, then ask what philosophical questions sit inside it. The agent will not give you a question. It will help you find one.
                         </p>
                     </div>
 
@@ -471,7 +471,7 @@
             // --- Chat ---
             function renderTranscript() {
                 if (conversation.length === 0 && !isThinking) {
-                    transcript.innerHTML = '<p class="empty-chat"><strong>Begin when ready.</strong> A good first prompt: tell the agent your topic, and ask what philosophical questions it suggests within that topic. The agent will not give you a question — but it will help you find one.</p>';
+                    transcript.innerHTML = '<p class="empty-chat"><strong>Begin when ready.</strong> A good first prompt: name your topic, then ask what philosophical questions sit inside it. The agent will not give you a question. It will help you find one.</p>';
                     return;
                 }
                 const turns = conversation.map(t => {
