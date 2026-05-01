@@ -14,7 +14,13 @@
     <link rel="stylesheet" href="shared/marginalia.css">
 
     <style>
-        /* Landing-specific composition */
+        /* Landing-specific composition.
+           overflow-y: auto + align-items: safe center means: centered when the
+           hero fits the viewport, scroll-when-overflows on shorter screens. The
+           "safe" keyword tells the browser to fall back to start-alignment (so
+           the top of the content stays reachable) the moment the content grows
+           past the available height — without it, centering can push the top
+           offscreen and out of the scroll path. */
         .hero {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
@@ -22,8 +28,9 @@
             max-width: 1600px;
             margin: 0 auto;
             height: 100%;
-            align-items: center;
+            align-items: safe center;
             padding: var(--space-2xl) var(--space-lg);
+            overflow-y: auto;
         }
 
         .hero__main {

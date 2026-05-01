@@ -127,14 +127,20 @@
             align-items: center;
         }
 
-        /* --- Chat panel (right side, marginalia rail) --- */
+        /* --- Chat panel (right side, marginalia rail) ---
+           overflow-y: auto on the panel itself is the safety net for short
+           viewports: header + warning + input-area together total ~420px of
+           non-flex content, so on screens where the chamber-grid drops below
+           that, the transcript can't shrink any further and the panel needs to
+           scroll. On taller viewports, the transcript flex-grows and only the
+           transcript scrolls — the panel never reaches its overflow point. */
         .chat-panel {
             display: flex;
             flex-direction: column;
             border-left: 1px solid var(--aged-soft);
             padding-left: var(--space-lg);
             height: 100%;
-            overflow: hidden;
+            overflow-y: auto;
         }
 
         .chat-header {
@@ -159,6 +165,7 @@
 
         .chat-transcript {
             flex: 1;
+            min-height: 0; /* lets flex shrink the transcript below its content height on short viewports — without this, the panel overflows and the input box gets clipped */
             overflow-y: auto;
             padding: var(--space-sm) 0;
             display: flex;
