@@ -142,7 +142,15 @@
         }
 
         /* Page-specific spacing helpers (moved out of inline styles) */
-        .text-column .h-1 { margin-bottom: var(--space-lg); }
+        .text-column .h-1 { margin-bottom: var(--space-xs); }
+
+        .page-subtitle {
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            color: var(--aged);
+            font-style: italic;
+            margin-bottom: var(--space-lg);
+        }
         .text-column .h-2 { margin-top: var(--space-2xl); }
 
         .next-action {
@@ -205,6 +213,7 @@
                 <section class="text-column">
 
                     <h1 class="h-1 ink-appear">What is an Issues Study?</h1>
+                    <p class="page-subtitle ink-appear">What the assessment actually is. (Looking for how to use the site? <a href="using.html" class="inline-link">how to use</a>.)</p>
 
                     <article class="principle ink-appear">
                         <span class="step-marker">Principle One</span>

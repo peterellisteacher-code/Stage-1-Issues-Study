@@ -98,7 +98,15 @@
         }
 
         .text-column .h-1 {
-            margin-bottom: var(--space-sm);
+            margin-bottom: var(--space-xs);
+        }
+
+        .page-subtitle {
+            font-family: var(--font-ui);
+            font-size: var(--text-sm);
+            color: var(--aged);
+            font-style: italic;
+            margin-bottom: var(--space-lg);
         }
 
         .lede {
@@ -148,6 +156,33 @@
         .practice-list li em {
             color: var(--marginalia);
             font-style: italic;
+        }
+
+        /* Three-week rhythm — leading-day list, like a calendar in prose */
+        .rhythm {
+            list-style: none;
+            padding: 0;
+            margin: var(--space-md) 0;
+            border-left: 2px solid var(--marginalia-soft);
+            padding-left: var(--space-lg);
+        }
+
+        .rhythm li {
+            font-family: var(--font-body);
+            font-size: var(--text-base);
+            line-height: 1.6;
+            color: var(--ink);
+            padding: var(--space-xs) 0;
+            max-width: 65ch;
+        }
+
+        .rhythm li + li {
+            margin-top: var(--space-sm);
+        }
+
+        .rhythm li strong {
+            color: var(--marginalia);
+            font-weight: 500;
         }
 
         /* Quick-reference at the bottom — denser typesetting, still on-aesthetic */
@@ -241,6 +276,7 @@
                 <section class="text-column">
 
                     <h1 class="h-1 ink-appear">How to use this notebook</h1>
+                    <p class="page-subtitle ink-appear">How the site works, page by page. (Looking for what an Issues Study actually is? <a href="explainer.html" class="inline-link">the task</a>.)</p>
 
                     <p class="lede ink-appear">
                         This is a notebook, not a curriculum. The pages don't need to be visited in order. There is no quiz at the end. What follows is the sequence that works for most of you the first time through. It mirrors the cognitive arc the assessment expects: <em>find a question, hear more than one answer to it, evaluate those answers, defend one of your own.</em>
@@ -327,6 +363,20 @@
                             Type directly into each section. The word counter in the right rail climbs toward 800. That is the maximum, not the target; a tighter argument always beats a longer one. The scaffold auto-saves to your browser as you type. When you're ready to draft the actual piece in your word processor, hit <em>Export as Markdown</em>.
                         </p>
                     </article>
+
+                    <h2 class="h-2 ink-appear">A suggested rhythm</h2>
+                    <p class="body-text ink-appear">
+                        The Issues Study is usually three weeks of work. The order below is what most of you will fall into; it isn't a timetable.
+                    </p>
+                    <ul class="rhythm ink-appear">
+                        <li><strong>Days 1-3 — find your question.</strong> Read <em>the task</em> once. Browse the <em>question bank</em>. Pin three or four questions that catch you. End the week with one in the chamber and a sharper version of it written down.</li>
+                        <li><strong>Days 4-10 — read deeply and let the question shift.</strong> Engage two to four readings, not twenty. Bring each one back to the chamber. Your question will keep changing; that's the work, not a setback.</li>
+                        <li><strong>Days 11-18 — draft.</strong> Open the <em>drafting</em> scaffold. Fill the five sections in order. Don't try to write a beautiful draft on day 11; write a complete one.</li>
+                        <li><strong>Days 19-21 — revise.</strong> Cut to 800 words. Tighten your defended position. Check every claim against a reading.</li>
+                    </ul>
+                    <p class="body-text ink-appear">
+                        Two patterns of trouble: if you're still stuck on the question past day 5, you're probably trying to skip the chamber. If you have a clean question by day 2, use the extra time on readings, not on drafting early.
+                    </p>
 
                     <h2 class="h-2 ink-appear">Where to find what</h2>
                     <ul class="quick-ref ink-appear">

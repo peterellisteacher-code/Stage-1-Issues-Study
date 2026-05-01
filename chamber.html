@@ -127,6 +127,16 @@
             align-items: center;
         }
 
+        .topic-selector__hint {
+            font-family: var(--font-body);
+            font-size: var(--text-sm);
+            color: var(--ink-soft);
+            font-style: italic;
+            margin-top: var(--space-xs);
+            line-height: 1.5;
+            max-width: 60ch;
+        }
+
         /* --- Chat panel (right side, marginalia rail) ---
            overflow-y: auto on the panel itself is the safety net for short
            viewports: header + warning + input-area together total ~420px of
@@ -322,6 +332,10 @@
                         <button class="chip" data-pack="lab_applied_normative_ethics">applied ethics</button>
                     </div>
 
+                    <p class="topic-selector__hint">
+                        Don't see your topic? <em>Free will</em> sits inside <em>existentialism</em> (Sartre's radical freedom) or <em>mind / simulation</em> (determinism, neuroscience). <em>Consciousness</em> sits inside <em>mind / simulation</em>. <em>Personhood</em> and <em>abortion</em> sit inside <em>applied ethics</em>. If unsure, leave it on <em>auto-detect</em>.
+                    </p>
+
                     <p class="working-panel__instructions">
                         Refine the question above as the conversation unfolds. The agent in the rail to the right will press you to phrase the question more sharply, name the philosophical moves you're making, and show you positions you haven't considered. It will <em>not</em> write your essay.
                     </p>
@@ -399,6 +413,7 @@
             // --- Working question ---
             const params = new URLSearchParams(window.location.search);
             const initialQId = params.get('q');
+            const initialPack = params.get('pack');
 
             function loadInitialQuestion() {
                 if (initialQId) {
@@ -426,6 +441,12 @@
                             if (matched) selectPack(matched);
                         }
                     });
+                } else if (initialPack) {
+                    // Arrived via "Discuss in chamber" from a reading card.
+                    // Select the pack chip so it's visually clear which readings the agent has,
+                    // and reset the conversation so the new pack's context starts fresh.
+                    selectPack(initialPack);
+                    conversation = [];
                 }
             }
 
