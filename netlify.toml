@@ -33,3 +33,20 @@
   from = "/api/chat"
   to = "/.netlify/functions/chat"
   status = 200
+
+# Source readings are committed to the repo so the chat function bundle stays
+# reproducible and so the assemble script can re-extract text on demand. They
+# are NOT meant to be student-facing or public — most are copyrighted course
+# materials. force=true overrides Netlify's default static-file serving so
+# these paths return 404 even though the files exist on disk.
+[[redirects]]
+  from = "/readings_source/*"
+  to = "/"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/text_packs/*"
+  to = "/"
+  status = 404
+  force = true
