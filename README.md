@@ -1,6 +1,6 @@
 # Marginalia — SACE Stage 1 Philosophy Issues Study
 
-A polished portal for Year 11 Philosophy students working on the Issues Study (Assessment Type 3, 800 words / 5 min / multimodal). Static site + Netlify Function calling Vertex AI.
+A polished portal for Year 11 Philosophy students working on the Issues Study (Assessment Type 3, 800 words / 5 min / multimodal). Static site + Netlify Function calling the Anthropic Claude API.
 
 ## What this is
 
@@ -10,28 +10,28 @@ A polished portal for Year 11 Philosophy students working on the Issues Study (A
 | `explainer.html` | What is an Issues Study? Five principles + A-vs-C exemplar comparison |
 | `bank.html` | 117 philosophical questions, filterable by key area + difficulty + search; pin to revisit |
 | `chamber.html` | Socratic AI agent — refines vague intuitions into tight philosophical questions. Never writes for the student. |
-| `resources.html` | The cached readings library, with chamber links |
+| `resources.html` | The class readings library, with chamber links |
 | `drafting.html` | Five-section drafting scaffold with word count + Markdown export |
 
 Aesthetic identity: **Marginalia** — philosophy as a 2,500-year tradition of writing in the margins of texts. See `_design/02-aesthetic-brief.md`.
 
-Pedagogical brief, aesthetic brief, and cache-rebuild instructions all live in `_design/`.
+Pedagogical and aesthetic briefs live in `_design/`.
 
 ## Architecture
 
 ```
-Browser  ──HTTPS──▶  Netlify (static + Function)  ──REST──▶  Vertex AI (us-central1)
+Browser  ──HTTPS──▶  Netlify (static + Function)  ──HTTPS──▶  Anthropic API
                                   │                              │
-                                  │                              ├── cachedContent (when pack cache exists)
-                                  └── reads data/cache-state.json
+                                  └── reads ANTHROPIC_API_KEY    └── Claude Haiku 4.5
+                                       from env var                    via @anthropic-ai/sdk
 ```
 
 The site is purely static HTML/CSS/JS. The only server-side code is `netlify/functions/chat.js`, which:
-1. Authenticates with GCP using a service account JSON in env var
-2. Calls Vertex AI's generateContent endpoint
-3. Uses `cachedContent` when the requested pack has a valid cache name in `data/cache-state.json`
-4. Falls back to system-prompt-only generation when no cache is available
-5. Always enforces the Socratic system prompt (never writes the essay)
+1. Authenticates with Anthropic using `ANTHROPIC_API_KEY` from env vars
+2. Calls Claude Haiku 4.5 via the official SDK
+3. Always enforces the Socratic system prompt (never writes the essay)
+4. Optionally accepts a `pack` (topic) parameter to add a one-line context note alongside the working question
+5. Marks the system prompt for prompt caching (activates automatically once the prefix exceeds Haiku 4.5's 4096-token minimum — useful when reading excerpts get inlined)
 
 ## File tree
 
@@ -41,25 +41,23 @@ website/
 ├── explainer.html        ← assignment explainer + A/C exemplars
 ├── bank.html             ← question bank with filters & pins
 ├── chamber.html          ← Socratic AI chat interface
-├── resources.html        ← cached readings library
+├── resources.html        ← class readings library
 ├── drafting.html         ← drafting scaffold with word count
 ├── shared/
 │   ├── tokens.css        ← design tokens (Marginalia palette + 8px grid + Perfect Fourth scale)
 │   ├── marginalia.css    ← shared component styles
 │   └── pins.js           ← session-storage pinned-question state
 ├── data/
-│   ├── questions.json    ← 117 questions across 20 clusters
-│   └── cache-state.json  ← pack-id → Vertex cache resource name mapping
+│   └── questions.json    ← 117 questions across 20 clusters
 ├── netlify/
 │   └── functions/
-│       └── chat.js       ← Vertex AI proxy (the only server-side code)
+│       └── chat.js       ← Anthropic Claude proxy (the only server-side code)
 ├── netlify.toml          ← deployment config
-├── package.json          ← google-auth-library dep
+├── package.json          ← @anthropic-ai/sdk dep
 ├── .gitignore
 ├── _design/              ← briefs (not deployed but committed)
 │   ├── 01-pedagogical-brief.md
-│   ├── 02-aesthetic-brief.md
-│   └── 03-cache-rebuild-instructions.md
+│   └── 02-aesthetic-brief.md
 └── README.md             ← this file
 ```
 
@@ -70,42 +68,33 @@ npm install
 netlify dev          # starts local server with functions on http://localhost:8888
 ```
 
-You'll need `netlify-cli` installed globally (`npm i -g netlify-cli`) and the same env vars set locally (see below).
+You'll need `netlify-cli` installed globally (`npm i -g netlify-cli`) and the `ANTHROPIC_API_KEY` env var set locally (e.g. via `netlify env:set` or a `.env` file).
 
 ## Environment variables (set in Netlify site settings)
 
-| Var | Required | Default | Notes |
-|---|---|---|---|
-| `GCP_SERVICE_ACCOUNT_JSON` | yes | — | Full JSON of a Vertex-AI-enabled service account in project `gen-lang-client-0274569601`. Single string, contents of the key file. |
-| `GCP_PROJECT_ID` | no | `gen-lang-client-0274569601` | Override only if using a different project |
-| `GCP_LOCATION` | no | `us-central1` | Caches are tied to the location they were built in |
-| `GEMINI_MODEL` | no | `gemini-2.5-flash` | Cheaper than 2.5-pro for chat. Use `gemini-2.5-pro` for richer responses if budget allows. |
+| Var | Required | Notes |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | yes | Anthropic API key. Generate at `console.anthropic.com` → API Keys. Set a monthly spend cap there as a safety net. |
 
-To set the service account JSON in Netlify:
-1. Site settings → Environment variables → Add variable
-2. Key: `GCP_SERVICE_ACCOUNT_JSON`
-3. Value: paste the entire contents of your service-account.json file as a single string
+To set the API key in Netlify (recommended — never commit, never paste in chat):
 
-Or via Netlify CLI:
 ```bash
-netlify env:set GCP_SERVICE_ACCOUNT_JSON "$(cat /path/to/service-account.json)"
+netlify env:set ANTHROPIC_API_KEY "sk-ant-api03-..."
 ```
 
-## Cache state
+Or via the Netlify UI: *Site settings → Environment variables → Add variable*, name `ANTHROPIC_API_KEY`, mark it as a secret so it's masked in the dashboard.
 
-`data/cache-state.json` holds the live Vertex AI cache resource names keyed by pack ID. Two caches are currently built (virtue/compassion, aesthetics) and three are pending. See `_design/03-cache-rebuild-instructions.md` for how to build the remaining caches.
+## Cost
 
-When a pack's `cache_name` is `null`, the chat function still works — it falls back to system-prompt-only generation. The conversation quality is slightly lower but the agent still functions.
-
-When you rebuild a cache, update `data/cache-state.json` with the new `cache_name`, commit, and Netlify auto-redeploys.
+Claude Haiku 4.5 is priced at $1 per million input tokens and $5 per million output tokens. A typical Socratic exchange runs about 1-2k input tokens and ~300 output tokens, so a class of 30 students doing ~20 turns each over the unit lands at well under $5 total. Set a monthly spend cap in the Anthropic console as a structural guard against runaways.
 
 ## Deployment
 
-The site deploys via GitHub → Netlify. See `_DEPLOYMENT_PROMPT.md` (in the parent folder) for the autonomous prompt that wires this up end-to-end.
+The site deploys via GitHub → Netlify. Pushing to `main` triggers an auto-deploy.
 
 ## Why Netlify (not GitHub Pages)
 
-- GitHub Pages is static-only — no serverless functions. The Vertex AI proxy needs server-side execution to keep the GCP credentials secret.
+- GitHub Pages is static-only — no serverless functions. The Anthropic proxy needs server-side execution to keep the API key secret.
 - Netlify provides static hosting AND serverless functions in one platform.
 - Per the user: students at school cannot access github.io domains, but can access netlify.app.
 

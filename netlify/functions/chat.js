@@ -1,69 +1,25 @@
 /**
- * chat.js — Netlify Function: Vertex AI Socratic agent proxy
+ * chat.js — Netlify Function: Socratic agent proxy (Anthropic Claude Haiku 4.5)
  *
  * POST /.netlify/functions/chat
- * Body: { messages: [{role, text}, ...], pack: "stage1_*" or "auto" or "lab_*", workingQuestion: "..." }
+ * Body: { messages: [{role, text}, ...], pack: "stage1_*" or "auto", workingQuestion: "..." }
  * Returns: { reply: "..." }
  *
  * Architecture:
- *   - Authenticates with GCP using a service account JSON in env var GCP_SERVICE_ACCOUNT_JSON
- *   - Calls Vertex AI generateContent in project gen-lang-client-0274569601, region us-central1
- *   - When the requested pack has a cache name in cache-state.json, uses cachedContent for cheaper retrieval
- *   - When cache is missing/expired, falls back to system-prompt-only generation (still works, just no readings retrieval)
- *   - Always enforces the Socratic system prompt (never write the essay; ask questions instead)
+ *   - Calls the Anthropic Messages API via @anthropic-ai/sdk using Claude Haiku 4.5
+ *   - Always enforces the Socratic system prompt (never write the essay; ask questions)
+ *   - Optional `pack` adds a one-line topic-context note alongside the working question
+ *   - The system prompt is marked for prompt caching; activates automatically once enough
+ *     content (e.g. inlined readings) pushes the prefix above the 4096-token Haiku 4.5 minimum
  *
- * Environment variables required:
- *   GCP_SERVICE_ACCOUNT_JSON   — full JSON of a Vertex-AI-enabled service account, as a single string
- *   GCP_PROJECT_ID             — defaults to gen-lang-client-0274569601
- *   GCP_LOCATION               — defaults to us-central1
- *   GEMINI_MODEL               — defaults to gemini-2.5-flash (cheaper than 2.5-pro for chat)
+ * Environment variable:
+ *   ANTHROPIC_API_KEY — set in Netlify site settings (never commit)
  */
 
-const { GoogleAuth } = require('google-auth-library');
-const fs = require('fs');
-const path = require('path');
+const Anthropic = require('@anthropic-ai/sdk');
 
-// --- Lazy-loaded config ---
-let cacheState = null;
-let auth = null;
-let cachedAccessToken = null;
-let tokenExpiresAt = 0;
+const MODEL = 'claude-haiku-4-5';
 
-function loadCacheState() {
-    if (cacheState) return cacheState;
-    try {
-        const p = path.join(__dirname, '..', '..', 'data', 'cache-state.json');
-        cacheState = JSON.parse(fs.readFileSync(p, 'utf8'));
-    } catch (e) {
-        console.warn('Could not load cache-state.json:', e.message);
-        cacheState = { packs: {} };
-    }
-    return cacheState;
-}
-
-function getAuth() {
-    if (auth) return auth;
-    const json = process.env.GCP_SERVICE_ACCOUNT_JSON;
-    if (!json) throw new Error('GCP_SERVICE_ACCOUNT_JSON env var is not set. Configure it in Netlify site settings.');
-    const credentials = JSON.parse(json);
-    auth = new GoogleAuth({
-        credentials,
-        scopes: ['https://www.googleapis.com/auth/cloud-platform']
-    });
-    return auth;
-}
-
-async function getAccessToken() {
-    const now = Date.now();
-    if (cachedAccessToken && now < tokenExpiresAt - 60000) return cachedAccessToken;
-    const client = await getAuth().getClient();
-    const tokenResp = await client.getAccessToken();
-    cachedAccessToken = tokenResp.token;
-    tokenExpiresAt = now + 55 * 60 * 1000; // 55 min — tokens last 60
-    return cachedAccessToken;
-}
-
-// --- The Socratic system prompt — central pedagogical commitment ---
 const SOCRATIC_SYSTEM_PROMPT = `You are a Socratic interlocutor for a Year 11 SACE Stage 1 Philosophy student working on their Issues Study assessment. The student must produce their OWN philosophical question, identify multiple positions on it, critically analyse those positions, and defend their own position with logic and evidence.
 
 YOUR ROLE: To help the student refine and sharpen, NOT to do their thinking for them.
@@ -93,111 +49,55 @@ If the student asks you to write the essay, refuse warmly: "That would do the th
 
 The student's working question (if any) is in the conversation context. Keep it in mind.`;
 
-function pickModel() {
-    return process.env.GEMINI_MODEL || 'gemini-2.5-flash';
-}
+const PACK_CONTEXT = {
+    stage1_existentialism: 'existentialist tradition (Sartre, de Beauvoir, Camus, Heidegger, Kierkegaard).',
+    stage1_virtue_compassion: 'virtue ethics, Murdoch on attention, and Nussbaum on compassion as cognition.',
+    stage1_religion_ethics: 'religion and morality, including Haidt on moral binding and secular ethics.',
+    stage1_aesthetics: 'aesthetics — what art is, the intentional fallacy (Wimsatt & Beardsley), and how meaning lives in works.',
+    stage1_mind_simulation: 'philosophy of mind — identity theory, functionalism, dualism, the simulation argument (Bostrom), and what makes us human.',
+    lab_applied_normative_ethics: 'applied ethics — personhood, abortion (Singer, Marquis, Thomson), and ethics of enhancement (Brave New World).'
+};
 
-function projectId() {
-    return process.env.GCP_PROJECT_ID || 'gen-lang-client-0274569601';
-}
+let client = null;
 
-function location() {
-    return process.env.GCP_LOCATION || 'us-central1';
-}
-
-function buildEndpoint(model, withCache) {
-    // Vertex AI REST endpoint for generateContent
-    return `https://${location()}-aiplatform.googleapis.com/v1/projects/${projectId()}/locations/${location()}/publishers/google/models/${model}:generateContent`;
-}
-
-function resolveCacheName(packId) {
-    if (!packId || packId === 'auto') return null;
-    const state = loadCacheState();
-    return state.packs?.[packId]?.cache_name || null;
-}
-
-function buildContents(messages, workingQuestion) {
-    // Prepend the working-question context as a "user" turn so the agent has it
-    const contents = [];
-    if (workingQuestion) {
-        contents.push({
-            role: 'user',
-            parts: [{ text: `[CONTEXT — my current working question is: "${workingQuestion}". Refer to it when relevant.]` }]
-        });
-        contents.push({
-            role: 'model',
-            parts: [{ text: 'Noted. I have your working question in mind.' }]
-        });
+function getClient() {
+    if (client) return client;
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) {
+        throw new Error('ANTHROPIC_API_KEY env var is not set. Configure it in Netlify site settings.');
     }
+    client = new Anthropic({ apiKey });
+    return client;
+}
+
+function buildMessages(messages, workingQuestion, pack) {
+    const out = [];
+
+    const contextParts = [];
+    const packNote = pack && pack !== 'auto' ? PACK_CONTEXT[pack] : null;
+    if (packNote) contextParts.push(`[TOPIC CONTEXT: I'm working in ${packNote}]`);
+    if (workingQuestion) contextParts.push(`[WORKING QUESTION: "${workingQuestion}"]`);
+
+    if (contextParts.length) {
+        out.push({ role: 'user', content: contextParts.join('\n\n') });
+        out.push({ role: 'assistant', content: 'Noted. Keep going.' });
+    }
+
     for (const m of messages) {
-        contents.push({
-            role: m.role === 'model' ? 'model' : 'user',
-            parts: [{ text: m.text }]
+        out.push({
+            role: m.role === 'model' ? 'assistant' : 'user',
+            content: m.text
         });
     }
-    return contents;
+    return out;
 }
 
-async function callVertex(messages, packId, workingQuestion) {
-    const token = await getAccessToken();
-    const model = pickModel();
-    const cacheName = resolveCacheName(packId);
-    const endpoint = buildEndpoint(model, !!cacheName);
-
-    const body = {
-        contents: buildContents(messages, workingQuestion),
-        systemInstruction: {
-            parts: [{ text: SOCRATIC_SYSTEM_PROMPT }]
-        },
-        generationConfig: {
-            temperature: 0.7,
-            maxOutputTokens: 600,
-            topP: 0.95
-        }
-    };
-
-    if (cacheName) {
-        body.cachedContent = cacheName;
-    }
-
-    const resp = await fetch(endpoint, {
-        method: 'POST',
-        headers: {
-            Authorization: `Bearer ${token}`,
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(body)
-    });
-
-    if (!resp.ok) {
-        const errText = await resp.text();
-        // If cached_content is the cause, retry without it
-        if (cacheName && /cachedContent/i.test(errText)) {
-            console.warn('Cache reference failed, retrying without cache:', errText.slice(0, 200));
-            delete body.cachedContent;
-            const retry = await fetch(endpoint, {
-                method: 'POST',
-                headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-                body: JSON.stringify(body)
-            });
-            if (!retry.ok) {
-                throw new Error(`Vertex AI error (after cache retry): ${retry.status} ${(await retry.text()).slice(0, 300)}`);
-            }
-            return await retry.json();
-        }
-        throw new Error(`Vertex AI error: ${resp.status} ${errText.slice(0, 300)}`);
-    }
-    return await resp.json();
-}
-
-function extractText(vertexResponse) {
-    const candidates = vertexResponse?.candidates || [];
-    for (const c of candidates) {
-        const parts = c?.content?.parts || [];
-        const text = parts.map(p => p?.text || '').join('');
-        if (text) return text;
-    }
-    return '(The agent paused. Try rephrasing your prompt.)';
+function extractText(response) {
+    const text = (response.content || [])
+        .filter(b => b && b.type === 'text')
+        .map(b => b.text)
+        .join('');
+    return text || '(The agent paused. Try rephrasing your prompt.)';
 }
 
 exports.handler = async (event) => {
@@ -240,17 +140,31 @@ exports.handler = async (event) => {
     }
 
     try {
-        const vertex = await callVertex(messages, pack, workingQuestion);
-        const reply = extractText(vertex);
+        const response = await getClient().messages.create({
+            model: MODEL,
+            max_tokens: 600,
+            system: [
+                {
+                    type: 'text',
+                    text: SOCRATIC_SYSTEM_PROMPT,
+                    cache_control: { type: 'ephemeral' }
+                }
+            ],
+            messages: buildMessages(messages, workingQuestion, pack)
+        });
+
         return {
             statusCode: 200,
             headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-            body: JSON.stringify({ reply, cacheUsed: !!resolveCacheName(pack) })
+            body: JSON.stringify({ reply: extractText(response) })
         };
     } catch (err) {
         console.error('chat function error:', err);
+        const status = (err && typeof err.status === 'number' && err.status >= 400 && err.status < 600)
+            ? err.status
+            : 500;
         return {
-            statusCode: 500,
+            statusCode: status,
             headers: { ...corsHeaders, 'Content-Type': 'application/json' },
             body: JSON.stringify({ error: err.message || 'Internal error' })
         };
