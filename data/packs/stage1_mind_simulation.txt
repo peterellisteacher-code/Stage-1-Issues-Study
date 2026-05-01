@@ -1,0 +1,2794 @@
+# Readings pack: stage1_mind_simulation
+
+The following passages are the readings the agent should reference. Cite specific lines or paragraphs when pointing the student toward them. Do not summarise unprompted.
+
+=== Identity Theory and Functionalism ===
+
+Identity theorists believe that every mental state can be matched to some description of ibe brain.
+For the philosopher, it doesn’t matter that we don’t yet know quite what that brain state is or how
+to describe it precisely. If experiencing pain means that C-fibres are firing in particular ways in my
+brain, then the identity statement is: Pain = C-fibres firing. Neuroscientists can fill in exact details
+in due course. Hence, for the identity theorist, being in love is a particular kind of electrical and
+chemical event. Having a belief means that electrical activity is occurring in a particular part of
+my brain.
+
+Explanations of identity theory are often linked to other cases where updates in our SelemeLnc
+understanding have revealed two entities to be identical. For example, we now accept ‘H2O’ as the
+correct account of the molecular structure of water. This does not mean that we now commonly
+speak of showering in H20, or would ever request a drink containing two hydrogen molecules
+for every molecule of oxygen. Similarly, we now understand that scientifically, lightning can be
+described as ‘electrical discharge’. Venus, the Morning Star and the Evening Star are now realised
+to be one and the same planet.
+
+Identity theorists argue that falling in love will always be thought of as falling in love, but this
+doesn’t mean that its state cannot be identical with electrical activity in a certain part of the brain
+combined with particular chemical releases into the bloodstream and so on.
+
+However, it is important to ask, what do identity theorists mean by ‘identity’? Do they mean that
+any person experiencing bright red will be in exactly the same brain state as any other person
+experiencing bright red? This is the strongest version of the identity theory, known as type-type
+identity, linked to the hope that neuroscience will one day be able to map out human mental
+experience in the form of universal brain activity. On this account, my thought that this is a
+lovely day to take a walk in the park will correspond to ‘Neural State 35678120’ on this and every
+other time I, or any other person, has that thought. A weaker form of identity theory is known as
+token-token identity. In this version, I might have a slightly different brain state each time I think
+it is a lovely day to take a walk in the park. And my friend will have a different brain state again.
+
+THINK
+
+1.
+
+2.
+
+Progress in neuroscience has been much slower than most identity theorists
+expected in the 1950s and 60s. For the most part, ‘type-type’ identities have not
+been established. Does this undermine the identity theory, do you think?
+A pain may be sharp or burning, but a brain event wouldn’t be described as
+sharp or burning. Is this a problem for the identity theory of mind?
+
+:
+
+es Ss
+
+by
+
+i
+
+The identity theory seems intuitively plausible to most of us. It certainly has less trouble
+explaining how damage to the brain, or taking drugs, can cause changes in people’s mental states
+and personalities. It also boasts simplicity: why believe there are two substances if we can explain
+things with one substance? This is the principle of Ockham’s Razor, explained above (p.125).
+However, identity theorists are still challenged by problems of qualia and consciousness, to be
+outlined later in this Theme.
+
+Identity Theory
+
+Human understanding of the brain and nervous system has come a long way since the time of
+Descartes. You probably learnt in middle school science classes that brains and nervous systems
+consist of long cells called neurons. Electrical changes — themselves the products of chemical
+signals — occur along neurons, and hence brain events can be described as electro-chemical
+events.
+
+Between 1800 and 1950 huge advances were made in neuroscience, increasingly suggesting that
+events of the mind could actually be located in the brain. Fifty years ago it looked likely that
+before long, neuroscience would be able to pinpoint the precise brain location of every mental
+function.
+
+In the 1950s, papers published by Herbert Feig] in the United States, and by J.J.C.Smart (Famous
+Philosopher File p.132), U.T.Place (Famous Philosopher File p.132) and David Armstrong (Famous
+Philosopher File p.132) in Australia, argued for what has come to be called the Identity Theory
+of Mind (also known as ‘Australian materialism’). This theory argued that mental properties are
+identical with brain (that is, physical) properties.
+
+130
+
+VCE Philosophy: Units 1 & 2
+
+Metaphysics
+
+ial
+
+
+
+
+
+
+DISCUSS
+
+ye
+
+How plausible do you find it that being in love, having a spiritual experience or being
+in pain all correspond with particular patterns of chemistry and electrical activity
+in the brain? Does it diminish these experiences to say they are nothing more than
+electro-chemical events?
+
+WRITE
+
+Neuroscientists advise that: Severe injury to the frontal lobe area of the brain
+causes dramatic personality changes.
+
+1.
+
+2.
+
+3.
+
+Construct an argument in standard form, with this statement as the conclusion,
+and using the reasoning of Identity Theory in the premises.
+
+Does this argument convince you that identity theory is correct? Can you think
+of any ways it could still be incorrect?
+
+How might substance dualism explain brain injury and its effects on
+personality?
+
+THINK
+
+% es
+
+Is Ockham’s Razor a good principle upon which to support or reject a theory? Why vy
+or why not?
+
+134
+
+VCE Philosophy: Units 1 & 2
+
+Metaphysics
+
+135
+
+
+
+
+
+
+
+
+
+THINK
+Identify three examples of qualia that you have experienced yourself today. Do they
+match Dennett’s four descriptors?
+
+O if
+
+es
+
+yy
+
+aD
+
+e
+
+Suter
+
+am
+
+er experienced
+
+exp
+
+i
+
+i
+
+‘blue’
+
+Try to describe the experience of blue’ for someone who has never
+colour.
+»
+¢
+
+_Isit possible to provide a complete description?
+font
+Would it help to have scientific knowledge - for example,
+complete physical description of the wavelength of light which hits your retina,
+and
+the electro-chemical activity which follows in your brain, to produce the
+
+le, to be able to give a
+:
+
+a
+
+:
+
+experience of yellow?
+What can be concluded about the nature of the mind from this activity?
+
+:
+
+DISCUSS
+
+fos Ro}
+
+(
+
+Do you think qualia are challenging for t
+
+:
+
+:
+
+he theories of mind you have studied
+
+so
+
+ted
+
+:
+
+‘
+
+far? Explain why or why not.
+
+|
+
+| |
+|
+|
+H||
+|
+Mi)
+i}
+|
+|
+
+\|
+
+|
+
+|
+|
+|
+
+}
+
+Qualia and the ‘hard problem’ of consciousness:
+iali
+
+?
+A challenge for materialism, oF not:
+Qualia (singular — quale) refers to the subjective qualities of our conscious experience. The
+whiteness of whipped egg whites, the taste of pavlova, the pain I feel when I’ve eaten too much
+pavlova and so on, are examples of my immediate experience of the world, or of how it feels to
+be a conscious being. Qualia are problematic for materialist philosophers of mind, because they
+seem to resist being captured by descriptions of what is going on in the brain. Qualia are under-
+described by the language of physics.
+
+Australian philosopher David Chalmers (Famous Philosopher File p.133) has called the subjective
+nature of our conscious experience, including qualia, the Hard Problem of consciousness. He
+contrasts this with things about the human mind that he says are easier for materialism to explain.
+These include our reactions to the environment, recording information, controlling our behaviour
+and attention, and accessing and reporting on our inner states.
+
+a.
+
+4
+
+.
+
+In his book, Consciousness Explained (1991), American Daniel Dennett (Famous Philosopher File
+
+1.
+2.
+3.
+
+4.
+
+aL ao
+
+Ineffable: that is, they cannot be described in language; they have to be directly experienced.
+Intrinsic: that is, they are not necessarily dependent on other factors of experience.
+Private: that is, they
+
+are unique to the subject who experiences them, and they cannot be
+
+h
+
+;
+
+°
+
+"
+
+Directly apparent to consciousness: that is, to experience a quale is to know one experiences a
+Dire appre oceans iat tr expen
+quale, and to know all there is to know about that quale
+
+For all these reasons, qualia are difficult to discuss and form arguments about.
+
+144
+
+VCE Philosophy: Units 1 & 2
+
+s
+m
+s
+a
+n
+I
+e
+i
+i
+i
+a
+e
+t
+c
+i
+e
+e
+c
+n
+e
+i
+n
+e
+e
+i
+r
+e
+
+'
+
+9
+
+Thomas Nagel, 1974 ‘What is it like to be a bat?” Philosophical Review 83.4, p.436
+
+Metaphysics
+
+145
+
+
+
+
+
+
+
+
+
+
+
+
+Problems for Identity Theory: Leibniz’ Principle and Multiple Realization
+Excerpt edited from: Ian Ravenscroft, A Beginner’s Guide to Philosophy of Mind
+
+Leibniz’ Principle or the Principle of the Indiscernibility of Identicals.
+
+The mathematical principle of the ‘indiscernibility of identicals’ says that if X and Y are identical, then
+they have all their properties in common. When we say ‘identical’, we mean ‘exactly the same’. For
+example: Sally is identical to the tallest person in the room. In that case, Sally must be the tallest
+person in the room.
+
+Now, because they are identical (meaning exactly the same), if Sally has the property of an IQ of 175,
+so does the tallest person in the room; and if the tallest person in the room has the property of owning
+a Harley Davidson, so does Sally. For two things to be identical, they cannot differ in any way.
+
+Leibniz’ principle also applies to “types” of things. For example, the type ‘water’ is identical to the type
+‘H2O’. If water boils at 100 Celsius, so does H2O; and if H2O conducts electricity, so does water.
+
+So if, as the Identity Theorist claims, pain is identical to a specific type of brain activity, then every
+property of pain must also be a property of that brain activity. This means that if we find a property of
+pain which cannot be a property of that brain activity then they are not identical, and Identity Theory is
+proven false.
+
+Now, all pain has a property which is definitively part of its experience: it hurts. This is the property we
+will focus on for the next section.
+
+Multiple Realization: humans, animals, and potentially artificial intelligences might all experience pain,
+but the physical processes causing this pain could be quite different. So, if those physical processes of
+pain are all different, then how can they all share the same property of feeling hurt?
+
+Let's agree that, for the sake of argument, in humans’ pain is a unique part of our brain responding.
+Now, we can easily imagine animals with brains quite different from our own. Let's agree, again for the
+sake of argument, that squid have brains quite different from our own and lack that part of the brain
+which we use to respond to pain (This isn't at all implausible. The squid brain is very different from our
+own. From an evolutionary perspective, humans and squid are only very distantly related.)
+
+So far, we have assumed only that squid don't have that human part of the brain. It seems quite likely,
+though, that they experience pain that hurts (or at least we have no good reasons to doubt that they
+can be in pain). Consequently, the identity theory is in trouble: if squid can lack that part of the brain but
+feel pain that has the property of hurting, then it cannot be the case that pain is identical to a specific
+type of brain activity.
+
+This poses a serious challenge to the Identity Theory. If pain can be realised in different ways across
+different physical systems (i.e., different brain structures or even non-biological systems), then pain
+cannot be identical to one specific type of brain activity. In other words, if pain (a mental state) can have
+properties that are not shared by a specific type of brain activity (a physical state), then according to
+Leibniz’s Principle, they cannot be identical. Thus, Multiple Realization suggests that mental states are
+more than just physical processes and cannot be fully explained by them.
+
+NOTE TO LEXIE: Functionalism, however, suggests that ‘pain’ and ‘feeling hurt’ are both merely
+processes which function to detect injury. For the Functionalist, it doesn’t matter if ‘feeling hurt’ is
+different for everyone/every species: it retains the same function.
+
+However, while Functionalism can explain how different physical states can experience functionally
+similar mental states, it is extremely limited in how it can explain the properties of the mind.
+
+
+0
+
+Functionalism
+Functionalism is a theory of mind which is compatible with materialism. However, it actually
+sidesteps the question of what the mind is and instead asks the question, ‘what does the mind
+do?’ or ‘how does it function?’. The mind is thereby distinguished from the body not by virtue of
+substance but because of what it does that is different from the functions performed by the body.
+
+This kind of distinction is familiar in the computing world. The functionalist is not interested
+so much in the hardware as in the software programs of the mind, that is, the operations the
+mind performs rather than the physical mechanisms behind them. Functionalism examines the
+functions of the mind in causal relationship to one another as well as in relation to sensory inputs
+and behavioural outputs.
+
+The American philosopher Hilary Putnam (Famous Philosopher File p.139) was among the first to
+draw this parallel between hardware and software in a computer, and brain and mind in humans,
+in his 1960 paper, ‘Mind and Machines’. In a later paper, ‘Philosophy and our Mental Life’ (1973),
+Putnam argued against the eliminativist’s idea that we should discard descriptions of our mental
+lives. He used the analogy of a square peg that will not fit into a round hole. There are different
+levels of explanation we can give for this. We can give the dimensions in millimetres of peg and
+hole. Or we can explain that if you put the square peg at the entrance to the hole, you can see that
+the corners of the peg stick out and stop the peg going in the hole. There would be physicists with
+powerful computers who could calculate the precise configurations of the subatomic particles
+in the peg and in the hole in order to explain why peg into hole won't go. But, argues Putnam,
+this technical level is of no use to us, just as it is of no use to most of us to understand the precise
+activity of ones and zeros in the hardware of our computers. Similarly, he says, we have no need
+for the technical minutiae of the electrical and chemical activity going on in our brains; rather, we
+are interested in informative descriptions that help us live our lives. That, says Putnam, means we
+should preserve the propositional attitudes of the kind Churchland would reject.
+
+These ideas were developed into a complete philosophy of mind by American Jerry Fodor (1935-
+2017). In “The Mind-Body Problem’ (1981), Fodor wrote:
+
+In the past 15 years a philosophy of mind called functionalism that is neither dualist
+nor materialist has emerged from philosophical reflection on developments in
+artificial intelligence, computational theory, linguistics, cybernetics and psychology.
+All these fields, which are collectively known as the cognitive sciences, have in
+common a certain level of abstraction and a concern with systems that process
+information. Functionalism, which seeks to provide a philosophical account of this
+level of abstraction, recognises the possibility that systems as diverse as human beings,
+calculating machines and disembodied spirits could all have mental states. In the
+functionalist view the psychology of a system depends not on the stuff it is made of
+(living cells, metal or spiritual energy) but on how the stuff is put together.”
+
+A large part of functionalism’s appeal for many is its preservation of much of our traditional
+view of the mind and our everyday language. All the mental items in our common-sense or folk
+psychology - including the propositional attitudes and the way they interact — are considered a
+coherent program, worthy of preservation.
+
+FAMOUS PHILOSOPHER FILE
+Hilary Putnam (1926-2016)
+
+Born in Chicago, Illinois, Hilary Putnam is known for his
+contributions to mathematics and computer science as well
+as philosophy. In philosophy he subjected all arguments,
+including his own, to rigorous and repeated scrutiny, which
+sometimes led him to alter his views. He is best known in
+philosophy of mind, as the first thinker to formulate the
+theory of functionalism. He ended up rejecting his own functionalist arguments, but
+functionalism remains the most widely held view of mind among philosophers today.
+
+WRITE
+
+Yosh
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+Explain the functionalist theory of the mind, using the metaphor of a
+computer’s hardware and software. Expand the metaphor in detail, using an
+example of some software with which you are familiar.
+
+Using the software versus hardware metaphor, assess the effectiveness of
+functionalism as a theory of the mind.
+
+What might Fodor mean by describing functionalism as ‘neither dualist nor
+materialist’?
+
+In what ways might functionalism be an appealing theory for the field of
+psychology? Why might psychologists prefer it to eliminativism?
+
+Outline how functionalism would explain ‘folk psychology’, using examples of
+propositional attitudes.
+
+7
+
+138
+
+Jerry Fodor, ‘The Mind-Body Problem’ (1981), http://www.lscp.net/persons/dupoux/teaching/
+QUINZAINE_RENTREE_CogMaster_2010-11/Bloc_philo/Fodor_1981_mind_body_problem.pdf
+(accessed July 30, 2013)
+
+VCE Philosophy: Units 1 & 2
+
+Metaphysics
+
+139
+
+=== Problems for Identity Theory ===
+
+Problems for Identity Theory: Leibniz’ Principle and Multiple Realization
+Excerpt edited from: Ian Ravenscroft, A Beginner’s Guide to Philosophy of Mind
+
+Leibniz’ Principle or the Principle of the Indiscernibility of Identicals.
+
+The mathematical principle of the ‘indiscernibility of identicals’ says that if X and Y are identical, then
+they have all their properties in common. When we say ‘identical’, we mean ‘exactly the same’. For
+example: Sally is identical to the tallest person in the room. In that case, Sally must be the tallest
+person in the room.
+
+Now, because they are identical (meaning exactly the same), if Sally has the property of an IQ of 175,
+so does the tallest person in the room; and if the tallest person in the room has the property of owning
+a Harley Davidson, so does Sally. For two things to be identical, they cannot differ in any way.
+
+Leibniz’ principle also applies to “types” of things. For example, the type ‘water’ is identical to the type
+‘H2O’. If water boils at 100 Celsius, so does H2O; and if H2O conducts electricity, so does water.
+
+So if, as the Identity Theorist claims, pain is identical to a specific type of brain activity, then every
+property of pain must also be a property of that brain activity. This means that if we find a property of
+pain which cannot be a property of that brain activity then they are not identical, and Identity Theory is
+proven false.
+
+Now, all pain has a property which is definitively part of its experience: it hurts. This is the property we
+will focus on for the next section.
+
+Multiple Realization: humans, animals, and potentially artificial intelligences might all experience pain,
+but the physical processes causing this pain could be quite different. So, if those physical processes of
+pain are all different, then how can they all share the same property of feeling hurt?
+
+Let's agree that, for the sake of argument, in humans’ pain is a unique part of our brain responding.
+Now, we can easily imagine animals with brains quite different from our own. Let's agree, again for the
+sake of argument, that squid have brains quite different from our own and lack that part of the brain
+which we use to respond to pain (This isn't at all implausible. The squid brain is very different from our
+own. From an evolutionary perspective, humans and squid are only very distantly related.)
+
+So far, we have assumed only that squid don't have that human part of the brain. It seems quite likely,
+though, that they experience pain that hurts (or at least we have no good reasons to doubt that they
+can be in pain). Consequently, the identity theory is in trouble: if squid can lack that part of the brain but
+feel pain that has the property of hurting, then it cannot be the case that pain is identical to a specific
+type of brain activity.
+
+This poses a serious challenge to the Identity Theory. If pain can be realised in different ways across
+different physical systems (i.e., different brain structures or even non-biological systems), then pain
+cannot be identical to one specific type of brain activity. In other words, if pain (a mental state) can have
+properties that are not shared by a specific type of brain activity (a physical state), then according to
+Leibniz’s Principle, they cannot be identical. Thus, Multiple Realization suggests that mental states are
+more than just physical processes and cannot be fully explained by them.
+
+NOTE TO LEXIE: Functionalism, however, suggests that ‘pain’ and ‘feeling hurt’ are both merely
+processes which function to detect injury. For the Functionalist, it doesn’t matter if ‘feeling hurt’ is
+different for everyone/every species: it retains the same function.
+
+However, while Functionalism can explain how different physical states can experience functionally
+similar mental states, it is extremely limited in how it can explain the properties of the mind.
+
+=== Dualism ===
+
+Dualism
+
+What is appealing about dualism? Why would people believe in this split between the
+non-physical mind and the physical body?
+
+Let’s start with the basics: how do you know that you are not dreaming right now?
+
+See... We might only believe our bodies are real while, in fact, we are actually just a
+brain on a bench that someone else is prodding with electrodes, simulating the
+physical reality that we perceive. There is no way of knowing. We can say that the
+physical world is 99.99999% likely to be real, but we can never say with 100%
+certainty that it is.
+
+However... It is not an illusion to say that we are experiencing our thoughts. The
+existence of your mind is irrefutably proven by your experience of your thoughts. We
+cannot be certain about the rest of existence, but the fact that you are thinking right
+now means that we can say with 100% certainty that the conscious entity that is you
+is real.
+
+So, where does that leave us? Our minds = 100% real. The rest of reality =
+99.999999% likely to be real.
+
+The attraction of Dualism can be summarised like this: we cannot prove the body,
+but we cannot refute the mind.
+
+The Non-Physical Mind
+
+Everything up until now hopefully makes rational sense: we are 100% certain that
+our minds exist because we are thinking, and we could only be thinking if our minds
+exist. However, we cannot prove anything else exists because there is a tiny, tiny,
+tiny chance that it could all be a trick.
+
+Let's pretend that we are living in that 0.000001% chance that the rest of the world is
+all a trick. It turns out that your brain is actually on a bench somewhere and what you
+think is real is actually a stray cat licking your frontal lobe, causing you to hallucinate
+reality. Everything in this world that you know and love is actually just the saliva from
+little Mitsy's tongue, dripping down your neural pathways.
+
+Well, if that's the case, then the dualist has cause for celebration! They were right!
+Your mind MUST exist in a way that nothing else does. Why? Well, now that we
+know that your brain is on a table being licked by a cat, the same logic applies as
+before: there's a 0.000001% chance THAT'S just an illusion, too.
+
+So, the Dualist says, nothing physical is 100% certain to exist. However, because
+you are thinking then you can be 100% certain that your mind exists.. But what is
+your mind? If it’s physical, like your brain, then we cannot be certain it exists. But we
+know for a fact that your mind definitely does exist. Therefore, the dualist says, your
+mind must be non-physical!
+
+Problem solved!
+
+How Do You Touch Something That Doesn’t Exist?
+
+
+Before you log off your computer and try to figure out a way of getting Mitsy to lick
+the part of your brain which simulates unlimited pogs, or whatever it is that you kids
+collect these days, I'm afraid there is a problem: if your thoughts are non-physical,
+then how could they influence your physical behaviour?
+
+The Dualist has a philosophy-breaking problem here: we can't say that our thoughts
+are non-physical but at some point they become physical. As silly as this all might
+sound, we’re not dealing with science fiction right now, we’re legitimately trying to
+understand what the difference is between our minds and the rest of the world. It
+doesn’t make sense to have something non-physical that is physically influential. We
+can go a step further, even: it doesn’t really make sense to say that something non-
+physical exists!
+
+The word 'physical' refers to properties we can measure: mass, energy, wavelength,
+frequency, etc. The phrase ‘non-physical’ is getting away with a pretty outrageous
+claim at the moment: how can something that does not physically exist be said to
+exist at all? It makes much more sense to simply say that everything that exists is
+physical.
+
+On the other hand, the dualist cannot abandon the idea that our thoughts are non-
+physical: the whole point is that anything physical could simply be a dream or an
+illusion. If our minds are also physical then they might not be real. But we know our
+minds are real because we're thinking!
+
+At this point, it seems we need to admit that dualism is illogical. However, with their
+dying breath, the dualist whispers to us to remember their initial point: your mind is
+the only thing that 100% definitely exists. That your mind exists is the only thing that
+you can know for absolute certain: that is the philosophical legacy of dualism.
+
+Dualism might be a load of rubbish, but it has proven one thing that remains true to
+this day: the only thing that you can know for 100% certain is that your mind exists.
+Everything else might be a lie, but if you are thinking then you are existing.
+
+The physicalist says this:
+
+Physicalism
+
+Mental states depend on physical states. To put it more firmly: mental states are
+physical states. There is nothing about the mind that cannot be understood through a
+physical explanation. Or so they say.
+
+Unlike the dualist, the physicalist is not interested in making you doubt your own
+thoughts. The physicalist just says that your brain is physical and therefore your
+thoughts are physical. Our thoughts and personalities are an influential cocktail of
+genetics, chemicals, electricity, and well-trodden neural pathways.
+
+Let’s Clone You
+
+Imagine that I have developed an advanced cloning machine using the money I
+receive from my high school teacher salary.
+
+Now, imagine that you have consented to being put into that cloning machine. You
+
+
+
+go in and after a few seconds there is a very hot, bright, green light that seems to go
+right through you. A sound, like a glitching video, surrounds you as the machine
+envelopes you, copying all the information from the deepest recesses of your mind
+and body.
+
+My cloning machine perfectly replicates every single atom of you.
+
+The other side of the machine cracks open: your clone is ready!
+
+The question is: who comes out? The physicalist proudly says that it is a perfect
+copy of you in every single way. Everything is physical and, if my machine perfectly
+copied every single detail of your physical information, then what comes out is a
+perfect copy of you.
+
+One issue, though... What about the 'you' bit of you? If everything is physical, then
+will your consciousness be replicated in the clone as well? If so, will you be able to
+feel both bodies at once?
+
+That seems unlikely. What seems more likely is that the new version of you will be
+indiscernibly you, even to them. But... It won't be you, will it? It will be a copy of you,
+with fake memories from a history they never experienced. Let’s pretend you broke
+your arm when you were a kid and now you can’t bend it properly. Well, they can’t
+either: except they never broke their arm. They only think that happened to them. But
+it didn’t. It happened to you.
+
+So, even though they are a perfect copy of you they are not actually you… So,
+they’re not a perfect copy of you? How do we make a perfect copy of you, then?
+
+The Problem of ‘Hard Consciousness’
+
+There's a much bigger problem here for the physicalist than it seems, one that the
+dualist never had to worry about: 'Hard Consciousness'.
+
+Your consciousness, the bit of you that is thinking and feeling as you’re reading this,
+doesn’t seem to be able to be copied or moved. When we say 'hard consciousness',
+we mean the bit of you that can currently say 'I am thinking and therefore I exist'. It
+seems like, no matter what we do, that part of you that is really and truly you, who is
+reading this right now, cannot be copied. But if we cannot clone your consciousness,
+then… is it physical?
+
+Hold on hold on, let’s just all calm down. Perhaps we could say that, if we perfectly
+cloned you, you would start experiencing both minds at once. That seems unlikely,
+but then again so does perfect cloning! Let’s imagine that we perfectly clone you,
+consciousness and all. You wake up in a second body, while still experiencing your
+current body. You’ve got two brains and two bodies now and it’s sort of hard, but it
+also somehow works.
+
+Well, wait a second, now we have the old non-physical problem again—how are your
+two minds linked? No, this is starting to get a bit weird.
+
+It seems more likely that your clone will have a copy of your mind. They will be you,
+for now, but over time they will gradually become their own, unique, version of you.
+
+
+But then, of course, they’re not a perfect copy, are they? Your clone is actually a
+brand-new person with a brand-new consciousness that has never existed before.
+
+So, we ask the physicalist: if everything is physical, then why does it seem like
+consciousness has properties that no other physical thing has?
+
+It might surprise you to discover, but nobody knows the answer to this question. The
+problem of 'hard consciousness' is still unanswered in all of neuroscience.
+
+Want to know more? Look up, ‘Qualia.’
+
+=== Materialism — its appeal ===
+
+oS
+
+a |
+
+must
+
+The Appeal of Materialism
+
+The view of materialism describes everything in the world in terms of physical objects.
+Materialists deny views, such as Descartes’, that there are any things that cannot be accounted
+for in physical terms. For the materialist, the word ‘mind’ refers to nothing more than the brain.
+For the materialist, it is the physical matter in our heads — including all its complex hormonal
+chemistry and electrical activity — that is responsible for all our thoughts and feelings. Therefore
+it follows that the human self is to be identified with their body.
+
+DISCUSS
+
+Consider the following examples in small groups. How would they constitute a
+materialist argument against Descartes? How might Descartes defend his substance
+dualism in the face of these examples?
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+When electrical shocks are applied to the brain, the personality can be
+dramatically affected.
+
+A person who suffers brain damage is no longer the same. In severe cases, he or
+she will not even seem to be a person at all, but just a living body devoid of any
+attributes of mind.
+
+Robots are becoming increasingly intelligent and exhibit many of the attributes
+we might consider to be ‘thinking’.
+
+Certain vitamins and drugs have effects on people’s moods and thoughts.
+‘There is the famous case of the man named Phineas Gage (a Google search will
+yield many results), whose railway accident forced an iron rod right through
+his skull. Gage remarkably survived the accident, but his character underwent
+a dramatic change. His gentle, ethically upright and considerate nature
+transformed to snappy, rude, slovenly and untrustworthy behaviour, making
+him unrecognisable to his family in all but his physical appearance.
+
+In contemporary philosophy the materialist view is overwhelmingly favoured, as you will gather
+from the studies which follow, of various seminal twentieth century texts. In the meantime, we
+will consider some of the reasons why materialism has become the mainstream view of the mind
+— at least in scientific communities.
+
+The field of neuroscience — the scientific study of the brain and nervous system — has expanded
+enormously over the last hundred years or so, vastly increasing its knoweldge base and making
+use of ever-more sophisticated technology. Neuroscientists continue to demonstrate links between
+specific parts of the brain and our mental functions. Areas of the brain used in such processes
+as language, numeracy, creativity and humour have been located. Experiments have shown that
+when surgery deliberately damages a particular site in a monkey’s brain, the precise nature of the
+mental changes in the monkey can be predicted. Scientific developments are increasingly able
+to describe our mental lives in terms of the same cause and effect patterns demonstrated in the
+physical world. All of this challenges the dualist’s conviction that mind and brain are separate
+substances.
+
+Further, the material mind can be argued for on the basis of our biological development. Humans
+start life as single cells, which then divide, redivide and so on. Physical processes such as nutrition
+enable the foetus to continue growing into a baby capable of existing outside the womb. So at
+what point, asks the materialist, does a non-physical element become apparent or necessary
+in this story? The same question arises if we consider our development from an evolutionary
+perspective. Our species evolved over millions of years from single-celled organisms, through
+simple vertebrates, fish, reptiles, mammals and then from the great apes. Have all of these species
+had a non-physical soul or mind? Or only humans? It remains difficult to discern at what point in
+evolution a non-physical element could have intervened in the process of physical development,
+and how and why such a mysterious element could have done this. From a physicist’s point of view,
+energies cannot be created from nowhere without violating the fundamental law of conservation.
+
+For some, the dualist argument just seems far too complicated. It is surely a whole lot simpler,
+argue many materialists, to simply accept that there is one substance, and that is physical. Why
+argue for this additional, spooky, ethereal substance if we can explain the mental world without
+it? This is based on the principle of Ockham’s Razor - the idea that the simplest explanation is
+usually the best — named after William of Ockham (1288-1347). Translated more literally it is
+the principle that ‘entities should not be multiplied beyond necessity.’ This idea has been held
+as a basic rule of thumb by numerous philosophers and scientists over the centuries and the
+Australian philosopher J.J.C.Smart has used it to argue against dualism.
+
+The physical realm is certainly, in many ways, much easier for us to attempt to describe and
+explain. Fields such as neuroscience, psychiatry and psychology routinely assume materialism,
+holding open the hope that science will one day be able to fully explain the workings of the
+human mind in terms of the causal patterns that govern our physical world. We have a long way
+to go in this; the vast majority of the brain and our mental lives are still out of reach of scientific
+explanation. But if we are one day able to entirely define, describe and account for all aspects of
+the mind in physical terms, the dualism/materialism debate may be over.
+
+124
+
+VCE Philosophy: Units 1 & 2
+
+Metaphysics
+
+125
+
+=== Simulation Theory (lecture slides) ===
+
+--- Slide 1 ---
+Are We Living in a Simulation?
+What Would it Mean if the Answer is Yes?
+
+--- Slide 2 ---
+Think About This…
+We’re going to watch two videos that ask you to question reality.
+Write down the first things that pop into your head as you watch.
+There are no right answers, just write down everything you think of.
+
+--- Slide 5 ---
+Questions:
+Do you agree or disagree with Musk: Are we living in a simulation?
+
+If yes, why?
+
+If no, what evidence do you have to prove that this is “face reality”?
+
+--- Slide 6 ---
+Compile Evidence
+Write down a list of reasons why we could be living in a simulation and a list of reasons why we can’t be.
+
+Which list is more compelling? Why?
+
+--- Slide 7 ---
+Consider…
+Choose one of the following prompts on the next slides.
+Take 10 – 15 minutes to write about it.
+
+--- Slide 8 ---
+PROMPT #1
+Assume that we are, in fact, living in a computer simulation. Do our actions have consequences? Why or why not? How would you change the way you live your life given this knowledge?
+
+--- Slide 9 ---
+PROMPT #2
+You have just built the world’s best running supercomputer/virtual reality system and all the gaming companies are looking to you to make the next big game.
+What would you design? Would you ever want to make a simulation of reality so complete it was indistinguishable from the real thing? Why or why not?
+
+--- Slide 10 ---
+PROMPT #3
+There’s a new virtual reality game so detailed and complete, it is rumoured to feel just like real life. You get this system as a birthday present and discover the rumours are true!
+You can even eat food in this game and taste the flavours. The virtual world is much more peaceful and enjoyable than the real world is. Would you ever leave the game? Why or why not?
+
+--- Slide 11 ---
+PROMPT #4
+Would knowing that you live in a simulation change your experience of playing video games? Do you think it's possible that the characters in them are real?
+
+--- Slide 12 ---
+Reflect 1:
+Break into small groups and talk about your opinions on life being a simulation.
+Do other people’s opinions differ from yours?
+What types of evidence do you both have to support your points?
+
+--- Slide 13 ---
+Reflect
+What do you think: Is this all real, or is life as we know it just a simulation?
+
+And does that really matter?
+
+Would knowing the absolute answer change the way you live your life?
+
+--- Slide 14 ---
+Simulation Theory - Nick Bostrom (2003)
+Future generations will have immensely more powerful computers that we have currently.
+
+Mega computers that can run multiple, detailed, simulations of their ancestors.
+
+In these simulations, being have a sort of ‘artificial consciousness’.
+
+--- Slide 15 ---
+Simulation Theory - Nick Bostrom (2003)
+Is it likely that this technology will one day exist?
+
+--- Slide 16 ---
+Simulation Theory - Nick Bostrom (2003)
+If so, it is more likely that we are currently in such a simulation than not?
+
+--- Slide 17 ---
+Simulation Theory
+David Chalmers asks: if this is correct, who could be the higher being that is responsible for designing our hyper-realistic simulation?
+He describes this being as a “programmer in the next universe up”.
+“They might just be a teenager,” suggests Chalmers, “hacking on a computer and running five universes in the background … But it might be someone who is nonetheless omniscient, all-knowing and all-powerful about our world.”
+
+--- Slide 18 ---
+How is ‘Reality’ Defined?
+The metaphysical scenario of Simulation Theory refers to something which philosophers have discussed for centuries: how do we know if what we’re seeing is ‘real’?
+Rizwan Virk writes: “the findings of quantum physics may shed some doubt on the fact that the material universe is real. The more that scientists look for the ‘material’ in the material world, the more they find that it doesn’t exist.”
+
+--- Slide 19 ---
+How is ‘Reality’ Defined?
+Physicist John Wheeler, a colleague of Albert Einstein, wrote that Physics as a field has evolved from the Newtonian idea that “everything is a particle” to the Quantum theory that “everything is information.”
+“It from bit” is the phrase, meaning everything is based on information.
+Even the definition of a particle in Quantum Physics is “kind of fuzzy”
+
+--- Slide 20 ---
+How is ‘Reality’ Defined? Physicist David Bohm:
+Reality is what is true.
+What is true is what we believe.
+We believe what we perceive.
+We perceive what we pay attention to.
+We pay attention to what we think about.
+We think about what we perceive
+What we perceive determines what we believe.
+What we believe determines what is true.
+What is true is our reality.
+
+--- Slide 21 ---
+Elon Musk says:
+
+--- Slide 22 ---
+What is true? Elon Musk:
+If not now, then one day what is true will be the beliefs of simulated brains and nervous system in a simulated world.
+Musk says the odds that we’re the very first people to develop that technology is “one in billions.”
+This is because, as soon as those simulations start, there will be countless trillions upon trillions of simulated people living in simulated worlds.
+
+--- Slide 24 ---
+Objections
+What are some objections to this idea?
+
+--- Slide 25 ---
+Objections
+What are the limits of computing powers?
+Are there limits?
+
+--- Slide 26 ---
+Objections
+Paul Davies says “Mathematicians have proved that a universal computing machine can create an artificial world that is itself capable of simulating its own world, and so on ad infinitum.
+In other words, simulations nest inside simulations inside simulations,”
+“Because fake worlds can outnumber real ones without restriction, the ‘real’ multiverse would inevitably spawn a vastly greater number of virtual multiverses.”
+
+--- Slide 27 ---
+Objection: Harvard University physicist Lisa Randall
+“It’s just not based on well-defined probabilities,” Randall said.
+“The argument says you’d have lots of things that want to simulate us. I actually have a problem with that.
+We mostly are interested in ourselves. Why simulate us? I mean, there’s so many things to be simulating. … I don’t know why this higher species would want to bother with us.”
+
+--- Slide 28 ---
+Objection: Harvard University physicist Lisa Randall
+“It’s just not based on well-defined probabilities,” Randall said.
+“The argument says you’d have lots of things that want to simulate us. I actually have a problem with that.
+We mostly are interested in ourselves. Why simulate us? I mean, there’s so many things to be simulating. … I don’t know why this higher species would want to bother with us.”
+
+--- Slide 29 ---
+Final Exercise:
+Write down the most compelling argument for why we are living in a simulation.
+
+Write down the most compelling argument for why we are not living in a simulation.
+
+Write down which you agree with, and why.
+
+You are now ready to start your Issues Study!
+
+=== What is a Human Being? (lecture slides) ===
+
+--- Slide 1 ---
+What is a Human Being?
+Is humanity purely biological? Or are there other components to being human?
+
+--- Slide 3 ---
+Write down your answers to this:
+What is a human being?
+
+What defines a human being as fully human?
+
+Is being human merely a biological definition, or something more?
+
+--- Slide 4 ---
+SHARE/DISCUSS
+Discuss each of your answers with the people nearest to you.
+
+--- Slide 5 ---
+Theories of Personhood
+
+--- Slide 6 ---
+Questions to start
+7/1/20XX
+Pitch deck title
+6
+What is different about you now than when you were a one-year-old?
+How about when you were a12-year-old?
+Will you be the same person when you are 80 years old?
+
+--- Slide 7 ---
+Overview
+Context
+The reason we should study personhood.
+Genetic Criteria
+A legal argument for personhood.
+Cognitive Criteria
+The argument for five criteria for cognitive personhood.
+Social Criterion
+7/1/20XX
+Pitch deck title
+7
+The argument that personhood is defined by societal recognition.
+Sentience Theory
+The argument that personhood is defined by self-awareness.
+
+--- Slide 8 ---
+Context
+Personhood is a moral term
+If we grant something ‘personhood’ then we agree to meaningfully consider their rights like people.
+
+Personhood is at the centre of social issues like:
+The Death Penalty
+Abortion
+Animal Rights
+Artificial Intelligence
+
+Why?
+Pitch deck title
+8
+
+--- Slide 9 ---
+How To Define Personhood
+7/1/20XX
+Pitch deck title
+9
+We will now look through five different ways that people have argued we should define personhood.
+Each of these ways can be used to think about any of those social issues.
+
+--- Slide 10 ---
+The Genetic Criterion
+7/1/20XX
+Pitch deck title
+10
+P1: Only those granted personhood are entitled to moral and legal rights.
+P2: Personhood is reserved for humans.
+P3: Every human has human DNA, and only humans have human DNA.
+Conclusion: So long as you have human DNA you are entitled to all the moral and legal rights of personhood.
+The ‘Genetic Criterion’ is famously attributed to Judge John Noonan (1926-2017)
+Noonan served as a federal judge in the United States for thirty years.
+Known for his philosophy of personhood.
+Notably, his views are shaped by his Catholic faith and his education in law and philosophy.
+His criterion was primarily designed to think about Abortion law.
+
+--- Slide 11 ---
+Cognitive Criteria
+Mary Anne Warren (1946-2010)
+American philosopher who specialised in personhood.
+Like Noonan, Warren was primarily concerned with the abortion debate.
+She was pro-choice and opposed to the Genetic Criterion.
+She identified five criteria that about personhood:
+7/1/20XX
+Pitch deck title
+11
+Consciousness – Defined as the capacity to experience emotions and sensations.
+Reason – Defined as the ability to process complex problems.
+Self-Motivated Activity – Deciding to act based on a conscious decision.
+Communication – The ability to communicate ‘by whatever means’ on a variety of topics.
+Self-Awareness – Recognising oneself as an individual and/or member of a group.
+
+--- Slide 12 ---
+Cognitive Criteria
+7/1/20XX
+Pitch deck title
+12
+Not all of Warren’s criteria are required to qualify for personhood.
+1, 2, and 3 might be sufficient (consciousness, reasoning, self-motivated activity).
+For example, we might lose the capacity to communicate, but we would still retain personhood.
+Mary Anne Warren (1946-2010)
+
+--- Slide 13 ---
+Cognitive Criteria
+7/1/20XX
+Pitch deck title
+13
+"We needn't suppose that an entity must have all of these attributes to be properly considered a person; (1) and (2) alone may well be sufficient for personhood, and quite probable (1) - (3) are sufficient. Neither do we need to insist that any one of these criteria is necessary for personhood, although once again (1) and (2) look like fairly good candidates for necessary conditions, as does (3), if 'actively' is construed so as to include the activity of reasoning."
+Mary Anne Warren (1946-2010)
+
+--- Slide 14 ---
+Cognitive Criteria
+7/1/20XX
+Pitch deck title
+14
+Warren qualifies that her definition is “species neutral”, writing:
+
+“…it leaves room for the logical possibility that there can be persons that are not human beings, or human beings that are not persons. What makes a being a person, on this definition, is not its biological humanity, but its intelligence, and its capacity for thought, reason, reflection and self-awareness.”
+Mary Anne Warren (1946-2010)
+
+--- Slide 15 ---
+Social Criterion
+Many philosophers, including Charles Taylor (1931-)
+7/1/20XX
+Pitch deck title
+15
+You are a person when society recognises you as a person, or when someone cares about you.
+
+Q: 1. What are some strengths of this view?
+Q: 2. What are some limitations of this view?
+
+--- Slide 16 ---
+Sentience Theory
+Peter Singer (1946-)
+7/1/20XX
+Pitch deck title
+16
+Personhood relies on sentience: the ability to feel pleasure and pain
+We cannot exclude non-humans from moral consideration, because they can suffer like humans
+Acknowledges that differences between individual members of different species may be morally relevant in determining how we treat them
+But we cannot simply mistreat animals because they do not have human membership
+
+--- Slide 17 ---
+Gradient Theory
+American Zoologist Charles Manning Child (1869-1954)
+7/1/20XX
+Pitch deck title
+17
+Personhood comes in degrees - you can have more or less personhood E.g. the development of a foetus
+Can be gradually lost or gradually gained
+Some believe that personhood is forfeited when you greatly violate the laws of society through Inhumane actions (this is an argument for the death penalty)
+
+=== Ravenscroft — The Identity Theory ===
+
+3
+The identity theory
+If you gave him a brain cell it'd be lonely.
+-Old Australian insult
+Very roughly, the identity theory asserts that the mind is the brain. More precisely,
+it claims that mental states are physical states of the brain. The qualification
+'physical' is important. After all, property dualism asserts that mental states are
+properties ot the brain (see Section 1 .4) . However, according to property dualism,
+mental states are nonphysical properties of the brain. Consequently, if the identity
+theory is to be distinct from property dualism, it must assert that mental states are
+physical states of the brain. For ease of expression, in this chapter I will simply say
+'brain states' rather than 'physical states of the brain'. It is important to remember,
+though, that it is physical brain states that are being discussed.
+The identity theory gets its name because it identifies-claims an identity
+between-mental states and certain brain states. I sa y 'certain' brain states because
+whilst the identity theory claims that every mental state is a brain state, it is not
+committed to the converse. In fact, it's certa inly not the case that every brain state
+is a mental state. For example, in addition to billions of neurons, the human brain
+contains a large number of glial cells which play a supportive and protective role.
+It's unlikely that any mental state is identical with a state ot one or more glial cells.
+3.1
+More about the identity theory
+The idea that mental states are brain states is not new. The English philosopher
+Thomas Hobbes ( 1 588-1 679) and his French contemporary Pierre Gassendi
+( I 5 92- 1 6 5 5 ) both made the claim more than three hundred years ago. However,
+the idea wasn't carefully expressed and defended until the 1 9 50s when a group of
+A u stralian philosophers including J. J. C . Smart explored the idea.
+These days the idea of mind-brain identity is commonplace . Indeed, it has crept
+i n t o o rd i n a ry la nguage with expressions like 'He's brainy' and 'I can't get my head
+,Hou n d i t ' . Howl'ver, when the idea was proposed back in the 1 950s, it was
+
+----- page break -----
+
+40 I P H I L O S O P H Y O F M I N D
+ridiculed. One English philosopher 'went so far as to suggest that Smart must
+have spent too much time in the hot Australian sun! (l owe this story to
+David Armstrong. )
+When Smart articulated the identity theory h e used a couple o f analogies to
+convey his claim that mental states are brain states. According to Smart. mental
+states are brain states in the same way that water is H20 and lightning is an
+atmospheric electrical discharge. These analogies are important for two reasons.
+First. Smart's analogies are cases in which it took considerable scientific
+investigation to make the identifications. That water is H20 cannot be established
+by casual observation, nor by thinking about the meanings of the terms 'water'
+and 'H20'. Similarly, the claim that mental states are brain states is not supposed
+to be an obvious truth which can be established by simple observation or by
+reflecting on the meanings of expressions like 'belief' and 'cortex'. (The cortex is a
+part of the human brain.) Rather, the claim that mental states are brain states is
+plausible in part because of advances in our understanding of the human brain.
+In order to grasp the second reason why Smart's analogies are significant we
+need to understand the important distinction between
+
+
+ tokens and types. Let's
+begin with an example.
+Dingoes are a kind of wild dog found in many parts of the Australian outback.
+Say that we are camping in the outback and see four dingoes prowling 'around our
+campfire. In that case we have four tokens of the type dingo. Thel tokens are the
+individual animals; the type is the kind or class to which the individuals b..clQng.
+Notice that the four dingo tokens belong to a great many other types besides the
+type dingo. For example, they are tokens of the types mammal, animal, material
+object, and scary thing which prowls around the campfire.
+Here's another example of the type/token distinction. On my bookshelf are two
+copies of Newton-Smith's nice book about the philosophy of science. One I bought
+for myself; the other was given to me by a friend. So on my shelf I have two tokens
+of the type Newton-Smith 's nice book about the philosophy of science.
+Now that we have in place the distinction between tokens and types, we can make
+a further distinction between token identity and type identity. Some examples
+will be useful. Posh Spice used to be a member of the British pop band The Spice Girls.
+After she left the band she married English soccer star David Beckham and now
+calls herself 'Victoria Beckham'. If you are invited to a party by Posh Spice you have
+simultaneously been invited to a party by Victoria Beckham, ?osh Spice and Victoria
+Bl'l'kham are one and the same person. They are token identical. Similarly, the
+1'1 I 1Tl'llt President of the United States is George W. Bush. If you are invited
+I t ) I III' Whitl' House by the current President you have simultaneously been invited to
+I III' Whlll' "OUSl' hy George W. Bush. George W. Bush and the current President
+ol l h,' U l l lh'lI SI.lll'S arl' one and the same person. They a re tokl'Jl i(il'Jll il'al .
+
+----- page break -----
+
+THE ID ENTITY TH E O R Y I 4 1
+In contrast, the identities between water and H20, and between lightning and
+atmospheric electrical discharge, are type identities. Every token of the type water is a
+token of the type H20, and every token of the type lightning is a token of the type
+atmospheric electrical discharge. Science has discovered that the type water and
+the type H20 are identical. as are the types lightning and atmospheric electrical discharge.
+We are now in a position to clarify the kind of identity which identity theorists
+want to assert between brain states and mental states. According to the identity
+theory, there is a type identity between mental states and brain states. For
+example, every token of the type pain is a token of the type c-fiber firing.
+Consequently, there is a type identity between pain and c-fiber firing. (I will often
+use the example 'pain is c-fiber firing' to illustrate the identity theory. This is a
+common practice in the philosophy of mind, but is not intended to be taken very
+seriously. There are nerve fibers called 'c-fibers' and they have something to do
+with painful sensations. However, it is unlikely that pain is identical to that
+particular type of neurological state. Moreover, whilst I will sometimes describe
+c-fiber firings as 'brain states', c-fibers are in fact peripheral nerves.)
+Summing up, the identity theory asserts that every type of mental state is
+identical to a type of brain state. (It is not committed, though, to the converse. )
+The brain states in question are physical states of the brain: " Moreover, the
+identities ar
+
+
+e not supposed to be discoverable by either simple observation or
+examining the meanings of the terms involved. Rather, they are analogous to
+scientific identities like 'water is H20'.
+3.2
+Arguments in favor of the identity theory
+How well does the identity theory explain the six features of mental states noted
+in the Introduction? It's fair to say that the identity theory offers convincing
+explanations of three of the six features, and that it may turn out to be compatible
+with sophisticated attempts to explain two of the remaining features. However,
+one feature of mental states-consciousness-presents a serious challenge to the
+identity theory. In this section we will discuss those features of mental states
+which the identity theory, or a theory compatible with it. can explain. In the next
+section we will touch on, amongst other things, the issue of consciousness. A fuller
+discussion of consciousness will have to wait until Part 4. In what follows I have
+retained the numbering used in the Introduction.
+1 . Some mental states are caused by states of the world. Example: Bloggs's belief that
+there is a cup of coffee in front of him (mental state) is caused by there being a
+ClIJl of l'Ol'ke in front of him (state of the world) .
+
+----- page break -----
+
+42 I P HILO S O PH Y O F MIND
+If, as the identity theory claims, mental states are brain states, then the first
+feature amounts to the claim that some brain states (the ones held by the identity
+theory to be identical with certain mental states) are caused by states of the world.
+Research in neuroscience gives us grounds for thinking that this is true. For
+example, the causal impact of seeing a cup of coffee can be traced deep into the
+brain. Light from the cup stimulates the light-sensitive cells at the back of the eye
+(the retina), and information about the pattern of stimulation on the retina is
+carried into the brain by the optic nerve. (Intriguingly, the pattern of activation on
+the retina is reproduced many times in the visual centers of the brain. )
+2. Some mental states cause actions. Example: Bloggs's desire for another coffee
+(mental state) together with his belief that there is more coffee in the kitchen
+(mental state), caused him to go into the kitchen (action) .
+I f the identity theory i s t o explain the second feature o f mental states, i t must
+be the case that certain brain states cause actions like going to the kitchen for a
+coffee. Research in neuroscience makes it overwhelmingly likely that this is the
+case. We have very good evidence that actions are caused by activity in a part of
+the brain called the motor cortex.
+3 . Some mental states cause other mental states. Example: Bloggs's belief that it's Friday
+(mental state), together with his belief that Friday is payday (mental state),
+caused him to believe that it's payday (mental state) .
+If, a s the identity theory insists, mental states are brain states, then the claim
+that some mental states cause other mental states is supported by the fact that
+some brain states cause other brain states. However, as we noted in the
+Introduction, there is something special about the way mental states interact
+with each other. Notice that my belief that it was Friday, together with my belief
+that Friday is payday, give me good reason to believe that it's payday. To put this
+point another way: the causal relations between mental states often respect the
+rational relations bet
+
+
+ween them. In Chapter 6 we will look in a little detail at one
+theory of the rationality of thought. That theory is a physicalist one, and to that
+extent is compatible with the identity theory. However, it is controversial whether
+that account of the rationality of thought can be squared with the claim that
+mental states are brain states.
+';. Some mental states are about things in the world. That is, they represent the world as
+hei llg a certain way. For example, Bloggs's belief that Mt Everest is 8,848 meterS
+t ., 1 1 Is ,,"out Mt Everest and represents Mt Everest as being 8,848 meters tall. In
+( : I "'ptt'r <) Wl' will look at a range of theories of mental representat ioll which a re
+I l I t I.ll l l y m l l l i lol l ihk with the iden t ity theory.
+
+----- page break -----
+
+T H E I D E NTITY T H E O R Y I 43
+6. Some kinds of mental states are systematically correlated with certain kinds of brain
+states. According to the identity theory, mental states literally are brain states.
+Consequently, the identity theory smoothly explains the systematic correlation
+of mental states with brain states.
+In the next section I briefly describe a historical case which strikingly illustrates
+the existence of mind-brain correlations.
+3.3
+Evidence from deficit studies
+Deficit studies provide particularly striking evidence of mind-brain correlations. In
+a deficit study neuroscientists attempt to determine the function of a part of the
+brain by examining subjects who, due to brain damage, have lost a particular
+mental function. A great many mind-brain correlations have been explored in this
+way. In what follows I will sketch j ust one example to give the flavor of this
+research.
+The 1 840s was a period of great expansion of the American railway system. In
+those days construction teams relied on gunpowder to help clear away rock.
+A hole was drilled into the rock and a fuse inserted. The hole was then packed with
+gunpowder and the fuse lit. Everybody ran as fast and as far as possible before the
+gunpowder exploded. Finally, the rubble was cleared away by hand and the whole
+process repeated.
+Phineas Gage was a highly responsible leader of a railway construction team. It
+was his job to carefully pack down the gunpowder before lighting the fuse-a
+process called 'tamping'. Gage had his own iron 'tamping rod' made. Now in a
+museum, it was j ust over a meter long and weighed around 6 kg. One end-the
+end inserted into the hole-was flat; the other pointed.
+One day there was a terrible accident. It seems that Gage's tamping rod struck a
+spark from the wall of the hole, setting off the gunpowder prematurely. The rod,
+pointed end first, passed through Gage's left cheek and the front part of his brain
+( crucially, the prefrontal cortices), before exiting through the top of his skull.
+It was subsequently found some distance away. Incredibly, Gage survived. His
+personality was, however, drastically altered. Prior to the accident he was
+described as 'efficient and capable' ( Damasio 1 994: 4); after the accident he
+was careless and irresponsible. 'Gage', his friends observed, 'was no longer Gage'
+( Damasio 1 994: 8 ) . He could no longer hold down his job as team leader and began
+to d rink heavily. He died in San Francisco at the age of thirty-eight.
+Thc t ragic case of Phineas Gage provides striking evidence of a correlation
+Ill't Wl'l'1l a
+1ll l'll t a l process-impulse control-and a part of the brain-the
+prdro n
+
+
+t 'l l ("( ) rt in's. W h i lst Smart and his fellow identity theorists didn't know
+
+----- page break -----
+
+44 I P H I L O S O P H Y O F M I N D
+enough about the brain to predict the details of that particular correlation, cases
+like Gage's provide important support for their view.
+3.4
+Arguments against the identity theory
+There are two important ways of arguing against the identity theory. The first way
+appeals to Leibniz's principle of the indiscernibility of identicals; the second
+involves the distinction between type identity and token identity. As we might
+expect, consciousness is a difficult problem for the identity theory; it will be
+discussed in the context of Leibniz's principle of the indiscernibiIity of identicals.
+1. Arguments based on Leibniz's principle. As we saw in Section 1.2, Leibniz's principle of
+the indiscernibility of identicals says that if X and Y are identical, then they have all
+their properties in common. Example: say that Sally is the tallest person in the room.
+In that case, if Sally has an IQ of 1 7 5, so does the tallest person in the room; and if the
+tallest person in the room rides a Harley Davidson, so does Sally.
+The example just given involves a case of token identity: Sally and the tallest
+person in the room are one and the same individual. However, Leibniz's principle
+also applies to types. For example, the type water is identical to the type H20. So if
+water boils at 1 00 degrees Celsius, so does H20; and if H20 conducts electricity, so
+does water. Similarly if, as the identity theorist claims, pain is c-fiber firing, then
+any property of pain is a property of c-fiber firing, and vice versa. Consequently, if
+we can locate a property of pain which is not a property of c-fiber firing, or a
+property of c-fiber firing which is not a property of pain, then we will have proven
+the identity theory false.
+Various suggestions have been made of properties which pain has but c-fiber
+firing does not, or vice versa. For example, my pain has the property of being
+located in my foot, whereas my c-fiber firing does not; my pain is sharp but c-fiber
+firings are neither sharp nor dull; and my c-fiber firing has a frequency (say 20
+firings per second) whereas my pain has no frequency. Since my pain and my
+c-fiber firings have different properties, they cannot be identical. Consequently,
+the identity theory is false.
+Let's take each of these examples in turn.
+(i) My pain is in my foot but my c-fiber firing is not. In reply, the identity theorist can
+insist that, strictly speaking, my pain is not in my foot. The brain state which is ident
+Il'01I 10 my pain is in my head. Rather than talk about a pain in my foot we should talk
+.lhOIiI having a pain of the in-the-foot kind. One state of my brain--call it 'B 1 '-is
+hlt'l Illl'1ll 10 my having a pain of the in-the-foot kind; another state of my brain
+call it '1I2'-ls Idt'ntk'al to my having a pain of the in-the-hand kind; and so on.
+
+----- page break -----
+
+T H E I D E NTITY TH E O R Y I 45
+The identity theorist's reply gains in plausibility when we reflect on the
+phenomenon of phantom pains. Some unfortunate folk who have lost a body part
+continue to feel pain which they say is in the missing part. For example, it is not
+uncommon for people who have had a foot amputated to experience what they
+call a pain in their foot. These pains can be excruciating, and are very difficult to
+treat. Now it's clear that there is no pa
+
+
+in located in their foot for the simple reason
+that they have no foot. Rather, they have a brain state of the kind we earlier called
+'B 1 '-a brain state identical to having a pain of the in-thc-foot kind.
+(ii) My pain is sharp but nothing in my brain is sharp. This argument takes too literally
+the expression 'sharp' in 'sharp pain'. Clearly, the expression is metaphorical.
+To have a sharp pain is to have a pain which feels a certain way-it is not to have
+a knife-like pain. The identity theorist can say that pains of the sharp kind are
+identical to a certain kind of brain state, whereas pains of the throbbing kind
+are identical to a different kind of brain state.
+(iii) My c-fiber firings have a frequency but my pains do not. In reply to this objection the
+identity theorist will simply assert that we have discovered (somewhat surprisingly)
+that pains have a frequency. Remember that the identity theorist offers scientific
+identities like 'lightning is an atmospheric electrical discharge' as examples of the kind
+of identity she has in mind. Now if the identity between lightning and atmospheric
+electrical discharge is correct, lightning has a voltage. I guess that to the modern mind
+that may not sound too surprising, but two hundred years ago someone would have
+been puzzled by that claim. Similarly, given the current state of understanding of
+psychology and neuroscience, it will strike many people as a bit odd to say that pain
+has a frequency. Nevertheless, science has discovered that it does.
+There is one more application of Leibniz's principle which we should briefly
+consider. There is something that it is like to be in pain-it hurts. On the other
+hand, it is very hard to conceive how electrical activity in a nerve cell could hurt.
+As Colin McGinn put it, how could technicolor consciousness arise from gray brain
+matter (McGinn 1 99 1 : 1 )7 So, it seems that pains have a property-hurting
+which no brain state could ever have. Consequently, pains cannot be identical to
+c-fiber firing.
+It must be admitted that consciousness raises very serious difficulties for the
+identity theory. However, further discussion of consciousness will be deferred
+until Part 4.
+2. Type identity and token identity revisited. We saw in Section 3. 1 that the identity.
+theory identifies mental state types with brain state types. The emphasis on type
+identity has, however, been challenged. There is a general consensus amongst
+contemporary philosophers of mind that the type identities proposed by the
+ident i t y theory have to be either restricted or replaced with token identities. To get
+
+----- page break -----
+
+46 I P H I L O S O P H Y O F M I N D
+a grip o n the concern about the type identities proposed by the identity theory, we
+will consider a few examples.
+Let's agree that for the sake of argument in humans pain is c-fiber firing. Now
+we can easily imagine animals with nervous systems quite different from our own;
+more specifically, we can imagine animals which don't have c-fibers. Let's agree,
+again for the sake of argument, that squid have nervous systems quite different
+from our own and lack c-fibers. (This isn't at all implausible. The squid brain is
+very different from our own. From an evolutionary perspective, humans and
+squid are only very distantly related. You have to go back a very long way to find
+a creature which was an ancestor of both ourselves and the squid.)
+So far we have assumed only that squid
+
+
+don't have c-fibers. It seems quite likely,
+though, that they experience pain (or at least we have no very good reasons to
+doubt that they can be in pain). Consequently, the identity theory is in trouble: if
+squid can lack c-fibers but feel pain, then it cannot be the case that pain is identical
+to c-fiber firing. Another example will help reinforce the point.
+Imagine a group of aliens whose brains (if you can call them that) are made up
+of silicon chips. They certainly don't have anything even remotely like c-fibers.
+Nevertheless, we can imagine that they feel pain when, for example, they stub
+their toe on the way into the teletransporter, or get a sore throat from repeatedly
+shouting, 'Exterminate all Earthlings'.
+The examples we have just considered support the idea that pain is identical to
+different physical states in different kinds of creatures. Pain is said to be multiply
+realized: in different creatures pain is 'realized' in different ways. One way to
+respond to the multiple realizability of pain is to restrict the type identities to species:
+Pain-in-humans is type identical to c-fiber firings.
+Pain-in-squid is type identical to d-fiber firings.
+Pain-in-aliens is type identical to activity in silicon chip E.
+This list of type identities could, in principle, be extended indefinitely. I will call the
+resulting theory of mental states the restricted type identity theory to indicate that the
+type identities proposed are restricted to a given species.
+However, it's quite likely that there are relevant differences within a single species.
+For example, I believe that the Eiffel Tower is in Paris. Chances are you do too. So
+we both have a token of the type belief that the Elffel Tower is in Paris 'stored' in our
+Ill'ads. However, it's likely that the exact way in which my token of that belief is
+' i l l fl'd in my head differs slightly from the way in which your token of that belief
+I, ' 1 1 l H'd i l l your head. Whilst there's good reason to think that the coarse anatomy
+III yl l m hr.l i n is very similar to mine, and that the mechanisms whereby
+1 1 I 1 1 lI'1 1 I 11 1 1 1 1 1 1 is stored in the brain are similar in both cases, it's unlikely t h a t
+1 1 1 1 " " 1 1 11 1 1 1 1 1 1 .lhmll I hl' location of the Eifkl Tower is st ored i n pn'l'isl' l y 1 1l l' 'il l 1 1 l'
+
+----- page break -----
+
+T i l E I[) E N T IT Y T1 1 1'. ( ) I{ Y I 1\ 7
+'place' in both brains. Exactly how a piece of information is stored seellls t o
+depend on the other information your brain has already soaked up, and your bra i n
+has no doubt soaked up different information from mine.
+By way of analogy, think about the way information is stored on the hard drive
+of a computer. The exact pattern of storage on a hard drive depends on the
+information already stored on it. New information often ends up scattered around
+on unused portions of the drive. Consequently, even if copies of the same
+document are stored on computers of the same model, it's unlikely that the
+document will be stored in exactly the same way in both machines.
+So once again we have an example of multiple realization: the way your belief
+about the Eiffel Tower is realized will probably differ slightly from the way my
+belief is realized. However, unlike the pain case discussed earlier, these multiple
+realizations occur within a single species. (I am assuming here that you're a
+human being ! ) These considerations have led some philosophers of
+
+
+ mind to
+abandon even the restricted type identity theory. On their view, the most we can
+say is that each mental state token is identical to some brain state token. In other
+words, these philosophers endorse only the token identity of mental states with
+brain states. I will sometimes refer to this view as the 'token identity theory'.
+I will not try to settle the dispute between those who advocate the restricted type
+identity theory and those who only advocate the token identity of mental states and
+brain states. (If you want to explore that issue, see Further reading, below.) It's
+enough for our purposes to note that the identity theory, as originally stated, is mis
+taken: there are no simple type identities between mental states and brain states.
+3.5
+Reductive and non reductive physicalism
+The term 'reduction' is used in a great many ways, and for some people is a term
+of abuse. Even in the philosophy of mind the term is used in at least two ways.
+1 . Intertheoretic reduction. Sometimes it is possible to show that one theory
+( the 'reduced' theory) can be derived from another (the 'reducing' theory). In that
+case an intertheoretic reduction has been achieved. Notice that the emphasis
+here is on theories-'intertheoretic' means 'between theories'. The example
+of intertheoretic reduction standardly given is the derivation of classical
+thermodynamics from the kinetic theory of gases. The former theory describes the
+behavior of gases in terms of their temperature, pressure, and volume; the latter
+describes the behavior of gases in terms of the kinetic energy and impacts of gas
+ll1olecu les. The derivation is achieved with the help of 'bridge laws' which identify
+t he t e rms of one theory with those of another. For example, the pressure of a gas
+is i d e ll l i fied with t h e mean (or 'average' ) kinetic energy of its gas molecules.
+
+----- page break -----
+
+48 I P H I L O S O PH Y O F MIND
+2. Ontological reduction. Sometimes it's possible to show that what appear to be
+two distinct kinds of phenomena are in fact the same kind of phenomena; that is,
+sometimes we can establish type identities (see Section 3.2). In that case we can
+say that one phenomenon has been ontologicaIIy reduced to another. The
+classic example is water and H20. Water is type identical to H20, and the discovery
+that water is H20 facilitated the (ontological) reduction of water to H20. (Why has
+water been reduced to H20 rather than vice versa? The general idea is that
+chemistry has the resources to deal with a much wider range of phenomena than
+does a science that is restricted to studying water. Consequently, chemistry is held
+to be the more 'basic' or 'fundamental' science.)
+We have seen that Smart's version of the identity theory proposes type identities
+between mental states and brain states. That is, it asserts a series of ontological
+reductions between the kinds found in psychology and those found in brain
+science: the former are to be (ontologically) reduced to the latter. Moreover, the
+identity theorist asserts that, if we can locate the appropriate bridge laws,
+psychology will be intertheoretica!ly reduced to neuroscience. Smart's kind of
+physicalism is therefore often called reductive physicalism.
+In contrast, the position which I have called the 'token identity theory' is a kind of
+non reductive physicalism. It denies that there are type identities between mental
+states and brain states, and so is opposed to
+
+
+ontological reduction. Moreover, it
+denies that there is any meaningful sense in which intertheoretic reduction could be
+achieved. Since mental states are, according to the token identity theory, multiply
+realized, there can be no simple bridge laws linking mental states with brain states.
+You might like to keep the expressions 'reductive physicalism' and 'nonreduct
+ive reductive physicalism' in mind as you read around the topic: you're very likely
+to come across them.
+3.6
+Conclusion
+The identity theory has a great many advantages but also some striking
+disadvantages. Is it possible to avoid what is problematic about the identity theory
+without losing what is valuable? In the next chapter we will examine
+functionalism which neatly sidesteps the issues raised by multiple realization
+whilst retaining many of the attractive features of the identity theory.
+S U M MARY
+( I ) ""mrding to the identity theory, mental states are brain states.
+( 2 ) "n-ordlllK 1 0 Ihe identity theory, the identities hetween menial slales a n d
+h ... l l l l Slilll's a n' analogous 1 0 scie n l i l k iuen l i l k's (e.g. wall'" = UlO ) .
+
+----- page break -----
+
+T H E I D E NTITY THE O R Y I 49
+( 3 ) Types are kinds of things; tokens are individual members of types. Example:
+Lassie is a token of the type dog.
+(4) According to the identity theory, the identities between mental states and
+brain states are type identities.
+( 5 ) The identity theory accounts for a number of the features of mental states
+discussed in the Introduction. In particular, it predicts the existence of
+mind-brain correlations.
+(6) The multiple realization of mental states creates a major difficulty for the
+identity theory. The restricted identity theory and the token identity theory
+were developed in response to multiple realization.
+(7) The identity theory is a kind of reductive physicalism; the restricted identity
+theory and the token identity theory are kinds of nonreductive physicalism.
+FU RTH E R READIN G
+The most important contemporary source for the identity theory is Smart's
+'Sensations and Brain Processes' ( 1 959); see also Place 1 956. Good discussions of the
+identity theory can be found in Armstrong 1 968: Ch. 6, Sections I-IV; Churchland
+1 988: 26-35; Braddon-Mitchell and Jackson 1 996: Ch. 6; and Kim 1 996: Ch. 3. The
+papers in Part 2 of Block 1 980 are both relevant and of outstanding quality; they are,
+however, all rather hard. For an excellent discussion of the issue of token identity
+versus restricted type identity see Braddon-Mitchell and Jackson 1 996: 96-1 0 1 .
+For a good discussion of intertheoretic reduction see Churchland 1 986: Section 7.2.
+For more on reductive and nonreductive physicalism see Kim 1 996: Ch. 9.
+For a fascinating account of Phineas Gage's case see Damasio ( 1 994: Chs 1 and 2 ) .
+T U TO R I A L Q U E ST I O N S
+( 1 ) Explain the type/token distinction.
+(2) Give examples of (i) token identities and (ii) type identities.
+( 3 ) Does the identity theory assert type or token identities between mental
+states and brain states?
+(4) Which of the features of mental states given in the Introduction can the
+identity theory easily account for? Which does it struggle to account for?
+( 5 ) The Ph ineas Gage case is an example of a deficit study. Can you find another
+e x a m pic or a defi cit st udy which reveals a mind-brain correlation?
+(6) What docs it 1l11',1 1 1 to say that mental states a
+
+
+re multiply realized?
+( 7 ) How docs 1 1 I 1 I l t ipll- n"l l i l'
+.? l I ioll cha l iengl' the identity theory?
+(S) Ih'sniilc ( i ) i l l t l, rt hl'o l'l't!l' n'd u l'l lon lind (ii) ontologica l red uct i o n .
+
+=== Ravenscroft — Functionalism ===
+
+4
+Functionalism
+. . . one of the major theoretical developments of twentieth -century analytic
+philosophy.
+-Ned Block
+Philosophy is a hard subject, and even amongst professional philosophers there
+are major disagreements. The philosophy of mind is no exception, and as yet there
+is no consensus about the nature of mental states. (This is not to say that there has
+been no progress on the issue: we are now much clearer on which answers are the
+wrong ones, and we have a keener sense of what problems need to be solved. )
+Whilst there isn't complete agreement about the nature o f mental states, it's fair to
+say that functionalism plays a central role in contemporary philosophy of mind.
+Even those philosophers who reject functionalism agree that they need to explain
+in detail what's wrong with it.
+4.1
+Introducing functionalism
+In the previous chapter we noticed that mental states can be multiply realized. In
+humans the state which realizes pain is (say) c-fiber firing; in squid it's (say)
+d-fiber firing. Multiple realization raises a puzzle: what do old Eight-legs and
+I have in common when we are both in pain? It can't be c-fiber firing because
+Eight-legs has no c-fibers (or so I will assume ) . And it can't be d-fiber firing
+because I have no d-fibers (or so I will assume) . In virtue of what, then, is it true
+that Eight-legs and I are both in pain?
+Functionalism provides an answer to this puzzle. According to functionalism,
+(·-tiher firing does the same job in me as d-fiber firing does in Flipper. On this view,
+I I I Ill' i n pain is to have an internal state which does a certain job. Which job is
+l i toll? Vl' ry roughly, an internal state does the 'pain j ob' if it is caused by bodily
+d.IIIl.I?ll' ,l l l d causes us to say 'ouch' and rub the sore spot. So, according to
+l unctionalism, III he in pain is to have an internal state which is activated by hodily
+
+----- page break -----
+
+F U N C T I O N A L I S M I 5 1
+damage and which causes us to say 'ouch' and rub the sore spot. More generally,
+according to functionalism, to be in (or have) mental state M is to have an internal
+state which does the 'M-job'.
+Confused? Not to worry. Let's work through some analogies and a couple of
+examples. After that. I'm pretty sure you'll get the idea.
+First analogy. Practically all cars have carburetors. A carburetor is a device
+which combines petrol with air and delivers the resulting mixture to the engine.
+In my car the carburetor is mainly made out of brass. (I drive an old Ford.) In
+more modern cars the carburetor is made out of a more sophisticated alloy. In the
+future, car manufacturers may make carburetors out of high-tech plastic. It
+doesn't matter what a carburetor is made out of as long as it can combine petrol
+with air and deliver the resulting mixture to the engine. That is, something is a
+carburetor because it does a certain job-mixing petrol with air and delivering the
+resulting mixture to the engine-not because it is made out of some particular
+material.
+In summary, carburetors are multiply realized. What my carburetor has in
+common with yours is that they both perform the same job: they both combine
+petrol and air and deliver the resulting mixture to the engine. It is irrelevant that
+my carburetor is brass and yours some high-tech plastic. All that matters is that
+they get the job done.
+Second analogy. An antibiotic is a substance which does a certain job: it kills
+disease-causing
+
+
+ bacteria without doing serious harm to the patient. Penicillin kills
+disease-forming bacteria without doing undue harm to the patient; consequently
+it's an antibiotic. Erythromycin also kills disease-causing bacteria without doing
+serious harm to the patient; consequently it too is an antibiotic. However,
+penicillin and erythromycin have quite different chemical structures.
+In summary, antibiotics are multiply realized. What penicillin and erythromycin
+have in common is that they both do the same job: they kill disease-causing
+bacteria without doing serious harm to the patient. It is irrelevant to their being
+antibiotics that penicillin and erythromycin have different chemical structures. All
+that matters is that they get the job done.
+According to functionalism, mental states are in important ways like carburetors
+and antibiotics. What makes a carburetor a carburetor is that it does the 'carburetor
+job'; what makes an antibiotic an antibiotic is that it does the 'antibiotic job'.
+Similarly, what makes a mental state the particular state it is, is that it does the job
+associated with that mental state. Here are a few examples.
+First example. Let's return to the case of pain. The doctrine of multiple realization
+/ays I h a l pain can he realized in a variety of different ways. Functionalism explains
+lhe Ill ll lti ple realization of pa i n as follows. According to functionalism an organism
+
+----- page break -----
+
+52 I P H I L O S O P H Y O F M I N D
+Stepping o n
+a tack,
+breaking a
+leg , etc.
+Anxiety
+Pai n
+Saying
+1---+ 'ouch',
+screaming,
+etc.
+Figure 4.1 A highly simplified account of the pain role. The arrows represent the causal relation ,
+with the arrowhead located at the effect
+is in pain if it has a state inside it which does the pain job-or, as philosophers of
+mind prefer to say, if it has a state inside it which occupies the pain role. I'll say more
+about the pain role shortly-for the moment just think of it as the job pain does.
+Now in principle lots of different sorts of things could occupy the pain role, just as
+lots of different sorts of things can occupy the carburetor role or the antibiotic role.
+Consequently, pain is mUltiply realizable.
+So what is the pain role? The pain role is defined in terms of inputs, outputs, and
+internal connections. The inputs are the circumstances which cause pain; they
+include stepping on a tack, breaking a leg, and burning your hand. The outputs are
+the behaviors which pain causes, including saying 'ouch', screaming, and rubbing
+the sore spot. The internal connections are the causal links between pain and
+other mental states. They include, for example, the causal link between pain and
+anxiety: pains (especially severe ones) often cause anxiety. (Figure 4. 1 summar
+izes the pain role. ) Putting all of this together, we can say that pain is a state which
+is caused by stepping on a tack (etc.), often makes us anxious, and causes us to say
+'ouch' ( etc. ) .
+Second example. Consider m y belief that a lion is near. (Let's assume that it's a
+wild lion. ) On the input side my belief is caused by hearing a lion, or seeing a lion,
+or being told by a reliable witness that a lion is near. My belief has internal
+connections to, for example, fear: believing a lion is near very often causes fear.
+Things get more complex when we consider the output side. Typically, when we
+believe that there is a lion near we run away. That's because the belief that
+
+
+
+lism, pain is identical to the occupant of the pain role. Let's call the occupant
+of the pain role 'R'. Thus we arrive at our first premise:
+1 . Pain = R .
+Now let's assume for the moment that R-the occupant of the pain role-is
+identical to c-fiber firing. Thus we have our second premise:
+2. R = c-fiber firing .
+By the principle of the transitivity of identity we can now obtain:
+3 . Pain = c-fiber firing .
+In other words, if we assume that the occupant of the pain role is c-fiber firing,
+we can derive the type identity theory of mental states from functionalism.
+However, as we saw in Chapter 3, pain is very likely to be multiply realized; for
+example it may be the case that whilst in humans pain is identical to c-fiber firing,
+in squid it is identical to d-fiber firing. Consequently, the assumption that R is
+identical to c-fiber firing is very probably mistaken. Far more plausible is the claim
+that in humans R is identical to c-fiber firing. Reconstructing our argument we get:
+1 . Pain = R.
+2'. In humans, R = c-fiber firing.
+Therefore,
+3 ' . In humans, pain = c-fiber firing .
+The conclusion expresses what in Chapter 3 we called the 'restricted identity
+theory'.
+Finally, it may turn out that even the restricted identity theory is false. Perhaps
+the most that we can say is that in Bloggs R is identical to some brain state B. In
+that case we can derive the token identity theory from functionalism:
+I. Pain = R.
+2". In Bloggs, R = B.
+rherefore,
+I". III Bloggs, pain = B.
+WI' l I ,wI' Sl'l'n that from functionalism we can derive three versions of the idell
+t i t y 1 1 1t'000y: t i ll' t ype identity theory, the restricted t ype iden t i t y t ill' ory, a n d I h l'
+token identity 1 l l l'my. Th e I h rl'l' dcriva l io m d i ffl' r i ll I h ,l t c,l l'll rc l i l's O i l ,1 d i fkrclll
+
+----- page break -----
+
+F U N C T I O N A L I S M I 5 5
+second premise. In each case the second premise i s an empirical claim-a claim
+that can only be established by observation and experiment. In the case of pain it's
+plausible that neuroscience will establish that the same type of brain state plays
+the pain role in all humans. However, it is likely that some mental states (for
+example, the belief that the Eiffel Tower is in Paris) are realized by subtly different
+brain states in different people.
+4.3
+Functionalism and the six features of mental states
+In the previous section we saw that functionalism easily yields various versions
+of the identity theory. Consequently, functionalism's capacity to explain the six
+features of mental states identified in the Introduction closely parallels that of the
+identity theory.
+I . Some mental states are caused by states of the world. We have seen that it is very
+likely that the states which occupy the functional roles characteristic of the
+various mental states are states of the brain. Consequently, for the functionalist
+the claim that some mental states are caused by states of the world is true only
+if some brain states are caused by states of the world. And, as we saw in Section
+3.2, some brain states are indeed caused by states of the world.
+2. Some mental states cause actions. Again recall that it is very likely that the states
+which occupy the functional roles characteristic of mental states are states of
+the brain. Consequently, for the functionalist the claim that some mental states
+cause actions is true only if some brain states cause actions. A
+
+
+nd, again as we
+saw in Section 3 .2, some brain states do indeed cause actions.
+3. Some mental states cause other mental states. If mental states are brain states, then
+the claim that some mental states cause other mental states amounts to the
+claim that some brain states cause other brain states. And that is certainly true.
+However, as we have noted in previous chapters, it's not merely the case that
+some mental states cause other mental states; in addition the causal relations
+between mental states sometimes mirror the rational relations between them.
+I'm getting a bit tired of the old examples, so here's a new one.
+Say that Bloggs has a terrible hangover and that, whilst he can remember it's the
+weekend, he doesn't know which day of the weekend it is:
+I . B I ( )gg2 bel ieves that either it's Saturday or it's S u n da y.
+Hc t hell I lot in's t h a t he can't hear church bells, and realizes that it's not Sunday:
+2. I I l ogg\ I wl il'VI'\ I l 1.tl I I 's 1 101 Sunday.
+
+----- page break -----
+
+56 I P H I L O S O PH Y O F M I N D
+Together, these two beliefs cause Bloggs to have a third belief:
+3. Bloggs believes that it's Saturday.
+Notice that in addition to the causal relation between Bloggs's beliefs, there is
+also a rational relation between them. (Strictly speaking there is a rational relation
+between the contents of Bloggs's beliefs.) The following is a valid argument:
+I. Either it's Saturday or it's Sunday.
+2 ' . It's not Sunday.
+Therefore,
+3 ' . It's Saturday.
+So far we've j ust seen an example of the way in which the causal processes
+between mental states sometimes mirror the rational relations between them. Can
+functionalism explain that feature of mental states? The only detailed theory of
+this phenomenon we presently have-the computational theory-is in some
+important respects similar to functionalism. However, the computational theory
+insists that mental states are something more than the occupants of characteristic
+functional roles. In particular, it insists that they have a particular kind of structure.
+(We will develop this idea in Chapter 6.) If the computational theory is right,
+functionalism cannot be the whole story about mental states.
+4. Some mental states are conscious. As usual, consciousness is a major headache. It
+seems that we can imagine a robot whose central computer has states which
+occupy the functional role characteristic of pain but which does not feel pain. If
+that's right, consciousness presents functionalism with a very serious problem.
+5. Some mental states are about things in the world. In Chapter 9 we will see that there
+are, broadly speaking, two theoretical approaches to this issue. One of them
+functional role semantics-sits very comfortably with functionalism. However
+the other approach, which includes the causal theory of content, requires at the
+very least additions to the basic functionalist framework.
+6. Some kinds of mental states are systematically correlated with certain kinds of brain
+states. As we have noted, it's overwhelmingly plausible that the functional roles
+characteristic of the various mental states are occupied by brain states.
+Consequently, functionalism is compatible with the claim that there are
+systematic correlations between mental states and certain brain states.
+OVI'rail, the result is a mixed bag. Functionalism straightforwardly explains
+'0111" 01' t ht, six features; may succeed at explaining others; and st ruggles
+
+
+with the
+1'1'11111 1 1111,'r.
+W,' t l l l'l1 1 10W to a pair of wel l - k nown antifu llClionalisl a rgu lIll'lIts.
+
+----- page break -----
+
+F U N C T I O NALI S M I 57
+4.4
+Two famous arguments against functionalism
+According to functionalism, mental states are the occupants of characteristic
+causal roles. This suggests two strategies for devising objections to functionalism.
+Consider some mental state M. If functionalism is true, any organism which is
+in M has a state which occupies the M-role, and any organism which has a state
+which occupies the M-role is in M. So, if we could find an organism that is in M
+but does not have a state which occupies the M-role, we would have shown func
+tionalism to be false. Alternatively, if we could find an organism that has a state
+which occupies the M-role but which is not in M, we would have shown func
+tionalism to be false.
+The antifunctionalist arguments we will consider here all take the latter form:
+they all purport to describe a situation which, intuitively, involves no mental states
+but which is such that the relevant functional roles are occupied.
+1 . The China Brain. As we have seen, functionalists accept that, at least in
+principle, mental states could be realized by a wide range of physical-or even
+nonphysical-states. In the human case, mental states are most plausibly realized
+by brain states. We can, however, imagine them being realized by something quite
+different. For example, imagine that the entire population of China is enlisted to
+realize the mental states of a typical person-say Bloggs. The realization is
+achieved as follows. Each person in China is given a mobile phone and a set of
+instructions. The instructions tell them which numbers to ring when they have
+been rung by certain numbers.
+For example, Jiang's instructions might be:
+? If rung by 724 1 144 then ring 722 9768 and 667 1 849.
+? If rung by 532 8 1 8 1 and 9 5 5949 then ring 29 1 4245.
+What Jiang i s i n fact doing i s simulating the function o f one o f Bloggs's neurons
+and this goes for every other person in China as well. Taken together, the population
+of China is simulating, neuron by neuron, Bloggs's brain. Consequently, whatever
+functional roles are occupied in Bloggs's brain are also occupied by the popUlation of
+China. For example, if Bloggs believes that it is raining, the population of China
+believes that too. But that's absurd: a bunch of people ringing each other on mobile
+phones doesn't believe anything.
+It's important to stress that when I say that according to functionalism the
+pop u l a t ion of China believes that it is raining, I'm not referring to the beliefs of
+i n d i v i d u a l ci t izens. Rat h er, I'm referring to the entire population taken as a single
+u ll i ! . The poi n t ('a n lw p u t this way. Say that there are a billion people in China,
+a l ! of wholl1 t ,l k l' I'Mt i n t ill' C h i na Arain experiment. In that case, according to
+
+----- page break -----
+
+')8 I PHILOSOPHY OF M I N D
+functionalism there will be a billion and one minds in China . There will be a
+billion minds each of which belongs to exactly one Chinese citizen, and there will
+be, in addition, the mind realized by the entire population during the phone
+link-up.
+There would, of course, be very many practical difficulties in actually setting up
+the China Brain experiment. For one thing, there are far more neurons in the
+human brain than there are people in Chi
+
+
+na. In addition, we don't know
+anywhere near enough about the human brain to write out the instruction sheets
+for the participants. Nevertheless, functionalism is committed to the view that
+if such an experiment were undertaken, the population of China really would
+realize a mind.
+The China Brain is supposed to be a case in which all the relevant functional
+roles are occupied but the corresponding mental states don't exist. For some
+people, the intuition that the China Brain has no mental states is very strong. But
+should we accept that intuition? Two factors would appear to drive the intuition.
+In my view, careful consideration of those factors reveals that the intuition based
+on those factors isn't worth much.
+First factor: consciousness. My guess is that many people will doubt whether what
+it's like for the China Brain to believe that it's raining is the same as what it's like
+for Bloggs to so believe. Indeed, I suspect that most people will think that there is
+nothing that it is like for the China Brain to believe this or fear that. But we have
+already admitted that consciousness is a big problem for functionalism; the
+question is whether the China Brain presents a further problem to functionalism.
+We can put the issue this way: would the China Brain have a mind identical in all
+nonconscious aspects to Bloggs's mind? Will it process the same stimuli in the same
+way to yield the same output? Will its thoughts follow the same patterns? I suspect
+that for most people the answer will be 'yes'. In other words, what was driving
+their initial claim that the China Brain would not have a mind was a worry
+about consciousness, and we have already acknowledged that functionalism has a
+problem with consciousness.
+Second factor: chauvinism. Chauvinism is a bias in favor of the familiar. Racism is a
+kind of chauvinism because it's a bias in favor of the race most familiar to the
+racist-his or her own. Now the mind realized by the China Brain would be a very
+different sort of mind to those with which we are presently most familiar. The
+m i nds with which we are presently most familiar are human minds, and human
+I l l i nds are found inside skulls and are realized by billions of brain cells which
+I o l l l l l i l i n icate with each other using special chemicals called 'neurotransmitters'.
+1 1 1 l'l I l I l r.ls l , the China Brain is not found in any single skull. It is distributed
+1 1 1 1 0 1 1 1-1 1 1 0 1 1 1 .1 billion skulls which are widely located over <l V<lst co u n t ry.
+MOI I'OYI'r, 1 1 11' C h i n a B r<l i n 's ' n e u rons' ( i .e. the i nd i vid u .l l Chil1ese dti/.l'I1S)
+
+----- page break -----
+
+F U N C T I O N A L I S M I 59
+communicate with each other by mobile phones rather than by neurotransmitters.
+Consequently, there is a risk of chauvinism here-a risk of a bias in favor of minds
+realized in the way ours are realized.
+Chauvinism about minds is nothing new. Europeans used to think that
+non-Eu ropeans didn't have sophisticated minds. Such attitudes are now quite
+properly denounced as chauvinist. Similarly, some people have expressed
+chauvinism about animal minds, declaring that chimpanzees, for example, don't
+'really' feel pain. But how do these cases differ from the China Brain? Isn't our
+rejection of the China Brain as mindless merely a chauvinistic refusal to accept
+that there might be minds realized in different ways to our own minds? Without
+an argument to show that the d
+
+
+
+extra cholesterol) for breakfast, they're not
+likely to have a carrot sandwich (hold the butter) for lunch. Consequently, if the
+robot is to behave like a typical person, the list of circumstances and responses must
+exhibit an appropriate level of consistency.
+The robot we have been discussing was first described by Ned Block ( 1 98 1 ), and
+has since been called 'Blockhead' in his honor. In fact, Block's robot is a little
+different from the one just described as Block arranges the table of circumstances
+and responses into a branching structure called a 'look-up tree'. This technicality
+need not detain us; the robot as I have described it is enough to make Block's
+point. Let us turn now to the antifunctionalist argument Block makes with his
+Blockhead example.
+Most people have the strong intuition that Blockhead has no mental states. That
+intuition is supported by the observation that Blockhead just blindly follows the
+instructions provided by the scientist. There is nothing going on inside Blockhead
+I hal looks remotely like deliberation. Blockhead no more has mental states than
+dOl'S a door bell which rings when you press a button. (Block himself remarked
+I h.1 I Bl orklwad is no more intelligent than a toaster. ) Block argues, however that
+I'l I l l l'l iOllalism is committed to the claim that Blockhead has menta l Sla t es. If
+I l lork " rl"h L h I lH·' iOlla !ism is i n big trouble.
+
+----- page break -----
+
+F U N C T I O N A L I S M I 6 1
+Why might Block think that, according t o functionalism, Blockhead has mental
+states? Consider what happens when Blockhead finds itself in a burning building.
+Seeing the flames causes Blockhead to search the list of circumstances for the entry,
+'In a burning building'. Corresponding to that entry is the response, 'Find the fire
+escape', so Blockhead hurries around looking for the fire escape. Now, putting it
+crudely, functionalism says that Blockhead believes that it is in a burning building
+if it has an internal state caused by seeing flames and causing fire-escape-seeking
+behavior. And Blockhead does have such a state. As we have seen, the entry in
+the table of circumstances, 'In a burning building' is activated by seeing flames
+and causes fire-escape-seeking behavior. So, according to functionalism, Blockhead
+believes that it is in a burning building. But we have already seen that Blockhead
+has no mental states. So functionalism is false.
+The trouble with Block's argument is that it misrepresents functionalism. When
+I sketched Block's argument I said that putting it crudely functionalism says that
+Blockhead believes that it is in a burning building if it has an internal state caused
+by seeing flames and causing fire-escape-seeking behavior. But that is to
+describe functionalism far too crudely. It's more accurate to say that, according to
+functionalism, the belief that the building is burning is a state which occupies a
+certain functional role. That role has inputs which include, but are not exhausted
+by, seeing flames; has outputs which include, but are not exhausted by, looking for
+the fire escape; and has internal connections to other mental states (for example
+to the belief that the situation is life threatening) . Moreover, the outputs of the
+belief that the building is burning in part depend on the presence of other beliefs
+and desires. For example, the belief that the building is burning will only lead to
+fire-escape-seeking behavior in co
+
+
+
+vity Argument' was independently articulated by
+David Armstrong ( 1 968) and David Lewis ( 1 966, 1 972, 1 994) . A more accessible
+discussion of the relationship between functionalism and the identity theory can
+be found in Braddon-Mitchell and Jackson 1 996: Ch. 6.
+Ned Block described both the China Brain and the Blockhead example in his
+important paper 'Troubles with Functionalism' (Block 1 978) . In that paper he
+also made significant distinctions between different types of functionalism, and
+discussed concerns about functionalism and consciousness.
+TUTO R I A L Q U E ST I O N S
+( I ) Describe functionalism.
+( 2 ) In your view, which of the six features of mental states can functionalism
+handle?
+( 3 ) Sketch the Transitivity Argument, and show how functionalism is compatible
+with (i) the identity theory; (ii) the restricted identity theory; and (iii) the
+token identity theory.
+(4) Describe the China Brain. Does it present a serious challenge to functionalism?
+( 5) Describe the Blockhead. Does it present a serious challenge to functionalism?
+
+=== Ravenscroft — Dualism ===
+
+1
+Dualism
+You gotta have soul.
+-Billy Joel
+According to an ancient tradition, the mind is a nonphysical object. This doctrine is
+called substance dualism, and is the focus of the first half of this chapter (Sections
+1 . 1 and 1 .2). According to substance dualism, the mind is an entirely different sort
+of thing to the body. The body is a physical object-it's located in space; it's made
+from the atoms familiar to chemistry; it has a cert'tin weight and height; and it can
+be seen and touched. The mind, on the other hand, is a nonphysical object. It's not
+located in space; it's not made from the atoms familiar to chemistry; it has neither
+weight nor height; and it can't be seen or touched. (In Chapter 8 we will refine our
+understanding of the difference between the physical and the nonphysical. For the
+moment we'll proceed on an intuitive understanding of the distinction.)
+We've seen that. according to substance dualism, mind and body are different
+sorts of things or substances. (If it helps, read 'substance' as 'stuff'.) We can now
+see where the label 'substance dualism' comes from. According to substance
+dualism there are two distinct kinds of substances in the world: mental substances
+and physical substances. In other words, there is a duality of substances. Later in
+this chapter we will consider another form of dualism-property dualism.
+Whereas substance dualism claims that there are two fundamentally different kinds
+of substances in the world, property dualism claims that there are two fundamentally
+different kinds of properties in the world. (When philosophers use the word prop
+erty they mean, roughly, 'feature'. ) I'll say more about the distinction between
+properties and substances in Section 1.4.
+Before getting started one brief terminological point is in order. Sometimes
+substance dualists call the nonphysical mind they postulate the 'soul'. However,
+when discussing substance dualism I'll tend to avoid the term 'soul' because of its
+associations with religious doctrines that are not part of substance dualism. For
+example, according to common usage the soul is an entity which survives the
+death of the body. However, the philosophical doctrine of substance dualism takes
+110 stand on the afterlife one way or the other.
+
+----- page break -----
+
+10 I PHILOSOPHY OF MIND
+1.1
+Substance dualism
+Imagine that, whilst on safari, Bloggs sees a lion a short distance away and runs
+back to his car. A few quick strides and he's safe inside. Here's how the substance
+dualist accounts for this series of events. First. light waves from the lion hit Bloggs's
+retina, stimulating it in a particular way. Bloggs's brain then extracts sensory
+information from the activation pattern on his retina, and passes that information
+on to his nonphysical mind. His mind interprets the sensory information it has
+received from the brain and recognizes that there is a lion present. It then decides
+that the best thing to do is to run quickly back to the vehicle. A message (RUN!) is
+sent from Bloggs's mind back to his brain. His brain sends the relevant signals to
+his leg muscles and he runs quickly back to the car.
+According to substance dualism, mind and body, whilst quite distinct, interact
+with one another. Sensory information about the state of the world is sent from
+brain to mind, and decisions about how to react are sent from mind to brain. Your
+body is like a probe, sent by NASA to explore a distant planet. The pr
+
+
+obe sends
+pictures back to mission control, where scientists decide what the probe should do
+next. Instructions are then sent back to the probe which responds accordingly.
+The probe itself is entirely unintelligent . Similarly, information about the world is
+communicated by the body to the mind; the mind decides on a course of action and
+communicates the decision back to the body. The body itself makes no decisions.
+It's important to note that the relations between the mind and the body are
+causal relations. The sensory information sent by the brain to the mind causes
+the mind to register the presence of the lion. And the mind's decision to run causes
+the brain to activate the relevant muscles. In other words, there are two -way
+causal interactions between the mind and the brain.
+It's worth briefly considering two more examples .
+1 . Say that Bloggs burns his hand on the stove and, accordingly, feels a painful
+sensation. According to substance dualism, the damage to Bloggs's hand causes
+a message to be sent to his brain, which in turn sends a message to his non
+physical mind. The mind is then brought into a state which Bloggs recognizes
+as a painful sensation. According to substance dualism, experiences of pain are
+states of the nonphysical mind; the brain itself has no conscious experiences.
+2. Say that Bloggs knows the following two things . (I) If it's Friday then it's
+Jhlyday. (2) It's Friday. From (I) and (2) he works out something else:
+( \) I1's pnyday. According to substance dualism, all of these knowledge states
+111"1' slnll's of Bloggs's nonphysical mind. Moreover, his nonphysical mind's
+111'111)1111 SI.lll's (1) and (2) caused it to be in state (3). On this view, all rational
+1111'1'1\'111"1' tI!"l"ms in I he nonphysical mind; the brain isjust pla in dumb.
+
+----- page break -----
+
+1.2
+Arguments in favor of substance dualism
+DUALISM I II
+In this section we will consider four arguments in favor of substance dualism. The
+first three arguments all have the following structure:
+1. Minds can __ .
+2. No physical object can __ .
+Therefore,
+3. Minds are not physical objects.
+Different arguments are obtained by filling in the empty slots in different ways.
+1. Could a physical object use language? We obtain the first argument for substance
+dualism by filling in the empty slots with 'use language':
+la. Minds can use language.
+2a. No physical object can use language.
+Therefore,
+3. Minds are not physical objects.
+This argument was articulated by the seventeenth-century French philosopher,
+scientist, and mathematician, Rene Descartes (1596- 1 650) . It seemed to him
+impossible that a physical object could generate and understand the rich variety of
+sentences which humans so effortlessly handle. Consequently, it seemed imposs
+ible to Descartes that the human mind could be a physical object.
+Since Descartes' day, a great deal has been learned about language. In particu
+lar, we have come to appreciate that languages are regulated by a series of rules
+that specify which sequences of words count as. grammatical sentences. These
+rules are called the syntax of the language. The syntax of English, for example,
+specifies that 'The boy ate the ice cream' is a grammatical sentence whereas' Ate
+boy ice cream the the' is not. Syntax is mechanical in the sense that, in principle, a
+computer could be programmed to determine of any sequence of English words
+whether or not it's grammatical. I say 'in pri
+
+
+nciple' because our understanding of
+syntax remains incomplete. Nevertheless, we have good reason to accept that a
+certain kind of physical object-a suitably programmed computer-could process
+the rules of language. Consequently, it seems that Descartes was wrong to at least
+this extent: a physical object could handle the syntax of language.
+However, there is more to language than syntax. In particular, words and sen
+tences have meaning. The ways in which meanings are assigned to the words and
+sentences of a language is called the semantics of that language. Recently, lin
+guists and philosophl'rs have began to unravel the mysteries of semantics. It's fair
+
+----- page break -----
+
+12 I PHILOSOPHY OF M IND
+to say that, at present, we don't have a fully worked out theory of semantics. But
+it's also fair to say that, at present, there seems to be little reason to doubt that a
+physical object could use language meaningfully. Descartes' argument from the
+claim that minds use language to the claim that the mind is a nonphysical object
+therefore seems mistaken.
+2. Could a physical object reason? The second argument for substance dualism we will
+consider is very much like the first. Descartes not only doubted that a physical
+object could use language; he also doubted whether such an object could reason:
+1 b. Minds can engage in reasoning.
+2b. No physical object can engage in reasoning.
+There/ore,
+3. Minds are not physical objects.
+Descartes begins his defense of the crucial second premise by noting that
+reasoning is universal in this sense: there are many circumstances about which
+we can reason. He admits that there could be a mechanism for responding to any
+one circumstance (e.g. responding to dogs); however, he claims that there could
+not be a mechanism which responded to a multiplicity of circumstances (say, dogs,
+breakfast, and algebra). Consequently, a machine which could respond univer
+sally would require a vast number of mechanisms-one for each circumstance.
+But, he says, that's impossible: the number of mechanisms involved would be too
+great.
+I'm unconvinced by Descartes' argument for the second premise. However,
+rather than directly discussing the second premise, I propose to briefly consider
+one kind of reasoning which modern machines can, at least to some extent,
+achieve-mathematical reasoning. (As a significant mathematician, Descartes
+would have been intrigued by the mechanization of mathematical reasoning. )
+Just what d o w e mean b y the expression 'mathematical reasoning'? I f by 'math
+ematical reasoning' we mean something like 'the ability to correctly apply
+mathematical rules' then it's clear that physical objects can do mathematical
+reasoning. After all, the cheapest pocket calculator can apply the rules of addition,
+subtraction, multiplication, and so forth to a range of numbers.
+'Mathematical reasoning' might, though, mean something else. It might refer to
+the ability to discover new mathematical truths and methods. Newton and
+\.('Ihniz, for example, invented calculus-an entirely new way of solving certain
+lI1i1tht'matical problems. Could a computer be programmed to do mathematical
+rt'nNonll1M In this sense? Could a computer discover calculus? This is a hard ques-
+111111, lind IIIH' which we cannot address very fully here. What can be said is that
+,'(rtl/h, kl"II.? or mathematical discoveries can now be made by computers. These
+
+----- page break -----
+
+DUALIS M I 13
+disco
+
+
+veries involve deriving new mathematical truths ('theorems') from
+established mathematical claims ('axioms'). There are limits to how effective com
+puters can be at making these sorts of discoveries. Nevertheless, it seems that at
+least some sorts of mathematical reasoning can be achieved by physical objects,
+and it is likely that future research will expand the range of mathematical prob
+lems which computers can solve.
+3. Could a physical object be conscious? The third argument for substance dualism is as
+follows:
+I c. Minds can be conscious.
+2c. No physical object can be conscious.
+There/ore,
+3. Minds are not physical objects.
+I suspect that considerations of consciousness weigh heavily with many dualists.
+Sometimes these considerations amount to little more than the bald intuition that
+no physical object could be conscious; sometimes they consist of sophisticated
+arguments. For the moment I propose to simply set aside the issue of conscious
+ness. That issue is so important-and so difficult-that Part 4 of this book is
+devoted to discussing it. We will consider there whether the existence of con
+sciousness provides good reason to endorse some form of dualism.
+Before moving on to the final argument in favor of substance dualism, it is
+worth mentioning that each of the three arguments just discussed relies on
+Leibniz's principle of the indiscernibility of identicals. The German philosopher and
+mathematician Gottfried Leibniz (1 646-1 716) pointed out that if X and Y are
+identical then they have exactly the same properties. So, if there are properties of
+the mind which no physical object could have then, by the principle of the indis
+cernibility of identicals, the mind cannot be a physical object. And this is exactly
+the strategy adopted by the three arguments we have been considering.
+4. Doubt and existence. The last argument for substance dualism which we will con
+sider is also due to Descartes. In the Meditations, Descartes noticed that he could
+doubt the existence of his body. He begins by observing that sometimes when we
+dream we mistake our dreams for reality. For example, I might dream that I'm
+falling off a cliff, and whilst dreaming it seems to me entirely real that I'm falling off
+a cliff. Nevertheless, I'm actually asleep in bed. It follows that at least many of my
+present beliefs might be false. For example, it seems to me that at this moment I'm
+wide awake, sitting in front of my laptop. But it must be admitted that I could be
+asleep, dreaming that I'm sitting in front of my laptop. Consequently, my present
+hl'lil'!' that I'm sitting in front of my laptop can be called into doubt. Similarly, my
+
+----- page break -----
+
+14 I PHILOSOPHY OF MIND
+present belief that I have a body can be called into doubt. Perhaps I have no body
+but am presently dreaming that I do.
+Descartes strengthened this line of thought by introducing a new thought
+experiment. It seems that I must admit that there might be an incredibly power
+ful alien determined to mislead me in all possible ways. This creature controls
+my thoughts, making me believe all sorts of things which are not true. But once
+I admit that such a creature is possible, it seems that I must admit that my pre
+sent belief that I have a body could be mistaken. Perhaps I am a disembodied
+spirit who has been deceived by the powerful alien into believing that I have a
+body.
+Considerations like these led Descartes to the first premise of his argum
+
+
+ent:
+(A) I can doubt that I have a body.
+Next, Descartes took his thought experiments a little further. We have admitted
+that I might be dreaming that I'm sitting in front of my laptop. However, even if
+I'm dreaming, one thing remains certain: that I exist. My belief that I exist must be
+true, because even if I'm dreaming, I must exist in order to dream. Similarly, the
+alien might deceive me in all sorts of ways. Nevertheless, it remains certain that I
+exist. My belief that I exist must be true because, even if the alien is controlling my
+thoughts, I must exist in order to be controlled.
+Considerations like these led Descartes to his second premise:
+(8) I cannot doubt that I exist.
+From (A) and (B) it seems to follow that:
+(C) I am not my body.
+We will return to the inference from (A) and (B) to ( C ) shortly. For the moment,
+notice that if we accept that I am my mind, then (C) entails the claim that:
+(D) My mind is not my body.
+Now (D) is not quite the same as substance dualism; nevertheless, establishing
+(D) would go a long way towards establishing substance dualism.
+Let's now think about the inference from (A) and (B) to ( C ) . At first glance, the
+inference from (A) and (B) to ( C ) would appear to have the same structure as this
+.1I'gument:
+(A I) My ('ar is red.
+(III) 1'h,' 4'olI' In front of me is not red.
+'I'i/(/(/j,/'I',
+((: I) Th,' nil III l!'Imt 01 Int' is not milll'.
+
+----- page break -----
+
+DUALISM I 1 5
+The argument from (A 1 ) and (B I) to (C 1 ) is a good one. By the principle of the
+indiscernibility of identicals, if the car in front of me is my car it must have exactly
+the same properties as my car. Consequently, if my car is a different color to the
+one in front of me, then the car in front of me is not mine.
+Now the argument from ( A) and (B) to (C) also seems to rely on the principle of
+the indiscernibilty of identicals. For it points out that I have one property-the
+property of it not being doubted that I exist-and my body has another property
+the property of it being doubted that it exists. Since I and my body have different
+properties, it seems to follow that I am not my body.
+But there's a catch. Consider the following argument.
+(A2) I think my car is red.
+(E2) I think the car in front of me is not red.
+Therefore,
+(C2) The car in front of me is not mine.
+At first glance, this argument appears to rely on the principle of the indiscern
+ibility of identicals. For it says that whilst my car has the property of being thought
+to be red, the car in front of me does not, and so the car in front of me is not mine.
+But it's clear that this argument does not work. Say that I have j ust won a blue car
+in a lottery, but mistakenly believe that I have won a red car. I go to pick up my
+new car and the lottery organizers show me a blue car. It really is my car, but
+I don't think that it is because I expect a red car. In that case premises (A2 ) and (B2)
+are both true: I think my car is red and I think the car in front of me is not red.
+Nevertheless, the conclusion (C2) is false: the car in front of me is mine.
+More generally, the principle of the indiscernibility of identicals does not work
+when the properties in question involve psychological states like believing and
+thinking. Now this is crucial for the evaluation of Descartes' argument. For
+premises (A) and (B) both involve properties which involve the psychological
+state of doubting. Another example will make it
+
+
+quite clear that Descartes'
+argument doesn't work:
+(A3) I can doubt I am the author of this book.
+(E 3) I cannot doubt that I exist.
+Therefore,
+(C3) I am not the author of this book.
+Descartes has shown how I can doubt that I am the author of this book: I might have
+merely dreamed that I wrote it or my thoughts might be under the control of a power
+I'ul alien. And he has shown us how I cannot doubt that I exist. But it certainly does
+1101 I'ollow Ihill I Jill nol the author of this book. Similarly, whilst I can doubt that
+I h,lVl'.1 body ilnd nol douhl Ih<ll I exist, it does not follow that I am not my body.
+
+----- page break -----
+
+16 I PHILOSOPHY OF MIND
+1.3
+Arguments against substance dualism
+In the previous section we considered four arguments in favor of substance
+dualism. None of these arguments was very convincing. In this section I will
+present three arguments against substance dualism.
+1. Princess Elizabeth's argument. The substance dualist makes two claims about the
+mind. (1) Mind and body are radically different kinds of substances. (2) Mind and
+body causally interact. These two claims are in tension. If mind and body are sup
+posed to be radically different, how can they causally interact? This objection was
+first put to Descartes by his contemporary, Princess Elizabeth of Bohemia
+(1618-80) . Descartes' replies were highly evasive!
+Princess Elizabeth's argument has a certain amount of force. Nevertheless, the
+argument can be overplayed. Notice that there are causal interactions between
+very different kinds of physical substances. For example, sunshine can heat metaL
+and yet sunshine and metal are quite different kinds of substance. The former is a
+kind of electromagnetic radiation; the latter an assembly of atoms. If quite differ
+ent kinds of physical substances can interact, why can't physical and nonphysical
+substances interact? The crucial point, it seems to me, is not that mind and brain
+are (according to substance dualism) radically different kinds of stuff; rather, the
+crucial point is that the substance dualist has said absolutely nothing about the
+details of the interaction. Physics can tell us in considerable detail about the ways
+light affects matter, but the su\}stance dualist can provide no details at all about the
+way the soul and brain affect each other.
+2 . The explanatory completeness of physiology. If you ask a physiologist to describe
+what happens when Bloggs runs away from a lion, they will say something like
+this. Running occurs when certain muscle groups-especially the muscles in the
+thigh-contract powerfully. The thigh muscles contract because they are stimu
+lated by certain nerves. Those nerves arise in the spine, and are in turn stimulated
+by special spinal nerves. The spinal nerves in their turn are stimulated by the
+motor cortex-the part of the brain devoted to the initiation and control of move
+ment. At this point the physiologist's account gets very complicated, but this much
+is clear. The motor cortex is stimulated by those parts of the brain responsible for
+decision making, which in turn receive input from the visual cortex-the part of
+the brain responsible for vision. (Remember that Bloggs ran away because he saw
+till' I ion.) And the activity in the visual cortex came about because Bloggs's retina
+W.IS stimulated by the lion.
+III.lVl', of wurse, left out a great deal of detail. The sum total of what physiology
+hIlS ,IISl'OVt'rl'd about the cau
+
+
+sal background of even a simple movement would fill
+I' dot.l'lI hooks. Nl'vcrtheless, it's clear that the theory offered by t h e physiologist is
+
+----- page break -----
+
+D U A LIS M I 17
+a physical one. There has been no mention whatsoever of nonphysical substances.
+But if we can account for people's actions without appealing to nonphysical
+substances, then substance dualism is mistaken to at least this extent: the non
+physical mind does not cause people to behave as they do. Of course, the substance
+dualist could concede this point but still insist that the nonphysical mind is respon
+sible for other aspects of our mental life. For example, it might be argued
+that, whilst not causally responsible for our actions, the nonphysical mind is
+nevertheless the seat of consciousness. We return to the issue of consciousness in
+Part 4. For the moment we can say this much: there is no need to believe in a
+nonphysical mind in order to explain action.
+3. The explanatory weakness of substance dualism. In the Introduction we noted six
+general features of mental life which a good theory of mental states should be able
+to explain (or explain away) :
+I. Some mental states are caused by states o f the world.
+2. Some mental states cause actions.
+3. Some mental states cause other mental states.
+4. Some mental states are conscious.
+5. Some mental states are about things in the world.
+6. Some kinds of mental states are systematically correlated with certain kinds of
+brain states.
+What is striking about substance dualism is the extent to which it fails to illumin
+ate the items on this list. We have already seen that substance dualism has trouble
+explaining the first two items on the list. Moreover, it is completely silent about
+the third item: it says nothing at all about how one mental state causes another.
+How do states of nonphysical stuff bring about other states of nonphysical stuff? In
+particular, how is it that some of the causal relations between nonphysical states
+respect the canons of rationality? No answers are forthcoming.
+Turning to the fourth item we can observe that substance dualists do not offer a
+theory of consciousness. They assert that nonphysical mental stuff is conscious;
+they do not tell us what it is about nonphysical stuff that facilitates consdollsness,
+This problem is especially telling if we allow that some mental stall'S iHl' uncon
+scious. What is the difference between conscious, nonphysil:al IIll'lllal slates and
+unconscious, nonphysical mental stales?
+Item ( 5 ) on the list of gennal i't'atllfes of 1lll'llt.ll Sl.ll,'s Ilol,'s Ihat at least some
+mental states are about thillgs ill Ille world: Illy hl'lll'llh.ll Mt Everest is 8,848
+Illcters high is about Mt EVl'rl'St. Tlll'mi,'s 01 til" 'liholllm'ss' of mental states are
+l'allt-d 'theories of content', and Wl' ,lisl'lIss IIWllflt'S of mntent in Chapter 9. It is
+
+----- page break -----
+
+1 8 I PH I L O S O P H Y O F MIND
+not entirely out of the question that nonphysical states could be about things in
+the world; nevertheless, we don't at present have a dualist theory of content.
+Finally, let's consider item (6) . Why should states of a nonphysical mind be
+correlated with states of the physical brain? According to substance dualism, the
+brain plays a crucial role in mediating between the world and the nonphysical
+mind. Perceptual information about the world is conveyed to the mind via the
+brain, and instructions to move in cer
+
+
+tain ways are conveyed from the mind to the
+body via the brain. Consequently, the existence of correlations between mental
+states and brain states is not entirely unexpected. However, we know that damage
+to certain parts of the brain causes deficits of reasoning. In other words, we know
+that there are correlations between reasoning processes and certain brain states.
+According to substance dualism, though, reasoning occurs entirely in the soul. The
+correlations between reasoning processes and brain states are thus an embarrass
+ment to substance dualism.
+So far I have argued that substance dualism has little to say about the six items
+on our list. Moreover, there is little reason to expect that the explanatory situation
+will change. There simply are no obvious ways of developing nonphysicalist
+theories of perception, thought, action, or consciousness. In contrast, we shall see
+in later chapters that there are at least the beginnings of physicalist theories of
+most of the items on the list. Moreover, there are reasons to think that those
+physicalist theories might be developed in coming years.
+The relative lack of explanatory power of substance dualism is, in my view, the
+most decisive reason available for discarding substance dualism. We should
+endorse the theory of mental states which most helps us understand the place
+of minds in the world, and substance dualism does very little to advance that
+u ndersta nding.
+1.4
+Property dualism
+So far in this chapter we have largely been concerned with substance dualism. In
+this section I will briefly discuss an alternative kind of dualism-property dualism.
+We haven't said very much yet about the distinction between substances and
+properties. For our purposes, a substance is something which could be the only thing
+in the universe. My body is therefore a substance, for we can easily imagine a uni
+Vl'lW which contains only my body. On the other hand, having a mass (roughly,
+wl'lMht ) of 80 kg is not a substance, for we cannot imagine a universe which contains
+140 kM IIlId nothing else: there would have to be something else in the universe
+whkh hnd that mass. (This way of defining 'substance' is due to David Armstrong
+(I ')tIIl: 7), 1'111 not entirely happy with it, but it will do for present purposes.)
+
+----- page break -----
+
+D U A LISM I 1 9
+We have seen that my body is a substance whereas having a mass of 80 kg is not.
+Having a mass of 80 kg is a property. Say that my body weighs 80 kg. Then one of
+my body's properties is having a mass of 80 kg. More generally: substances have
+properties.
+Here are a few more examples. My car is a substance: we can imagine a universe
+which contains nothing but my car. One of my car's properties is being white.
+Another is having four tires. And a third is having the license plate 'UZR 155'. The
+Australian one-dollar coin in my pocket is a substance. It has various properties
+including being gold colored; being minted in 1 998; and being in my pocket.
+With the distinction between substance and property in place, we can now turn
+to the doctrine of property dualism. According to property dualism, mental states
+are nonphysical properties of the brain. The brain is a physical substance with vari
+ous physical properties. For example, the typical human brain weighs about one
+kilogram; contains billions of neurons; has a blood supply; and so forth. That much
+is common ground. What's radical about property .dualism is that it
+
+
+claims that,
+besides all of these physical properties, the brain has some nonphysical properties.
+These include being conscious; being in pain; believing that it is Monday; and
+wishing that it were Friday. In short, mental states are nonphysical properties of
+the brain.
+There are various kinds of property dualism, but here we will focus on one espe
+cially important sort: epiphenomenal property dualism. Since 'epiphenomenal
+property dualism' is a bit of a mouthful, I will just say 'epiphenomenalism'.
+According to epiphenomenalism, physical properties of the brain cause non
+physical properties of the brain, but not vice versa. Consider again the example of
+seeing a lion (Section 1 . 1 ) . According to epiphenomenalism, light waves from the
+lion stimulate Bloggs's retina in a certain way, and that in turn causes his brain to
+be activated in a certain way. In other words, his brain is caused to have a particu
+lar physical property-the property of being activated in a certain way. Bloggs's
+brain's having the physical property of being activated in that way causes it to have
+the nonphysical property of thinking 'LION! '
+S o far we have seen that, according t o epiphenomenalism, mental states are non
+physical properties of the brain which are brought about by physical properties of
+the brain. The distinctive feature of epiphenomenalism is that the nonphysical
+properties of the brain do not, in turn, bring about physical states of the brain.
+Bloggs's 'LION! ' thought has no causal powers-it doesn't do anyth ing. But if his
+'LION ! ' thought doesn't do anything, it does not cause him to run away. What, then,
+makes Bloggs run away when he sees a lion? According to epiphenomenalism, it is
+ph ysical states of his brain alone which cause him to run away. So the full story
+a ccord ing to epiphenomeIl.alism is this. Light waves strike Bloggs's retina and
+('a u s t' his hra i n \0 hl' activated in a certain way. Call the physical property of having
+
+----- page break -----
+
+20 I P H I L O S O P H Y O F M I N D
+Nonphysical
+LION!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+?.
+p
+ . (cid:3)
+Physical
+Figure 1 .1 A diagrammatic representation of epiphenomenalism, The arrows represent the
+causal relation, with the arrowhead located at the effect
+the brain activated in a certain way 'P'. P has two effects. First, it causes Bloggs's
+brain to have the nonphysical property of thinking 'LION! '. Second, it causes his
+legs to move so that he runs away. Figure 1 . 1 illustrates epiphenomenal property
+dualism.
+It's important to stress that, according to epiphenomenalism, mental states are
+causally inert. My thought 'LION! ' does nothing. What causes me to run away is a
+state of my brain.
+1.5
+Assessing epiphenomenalism
+We saw in Section 1.3 that substance dualism faces three major difficulties:
+(i) Princess Elizabeth's problem; (ii) the explanatory completeness of physi
+ology; and (iii) the explanatory weakness of substance dualism. Each of these
+problems also arises-in some form or other-for epiphenomenalism. Because the
+problems faced by epiphenomenalism overlap to a large extent the problems faced
+by substance dualism, my discussion of the former will be relatively brief. For
+more details, refer back to Section 1 . 3.
+I . Princess Elizabeth 's problem. Princess Elizabeth pointed out that there is a
+tens
+
+
+
+
+n doubt see his
+Discourse on the Method, Part 4 (Descartes 1 970: 3 1 -2 ) . Princess Elizabeth's objec
+tion can be found in one of her letters to Descartes, dated 6-1 6 May 1 643
+( Descartes 1 970: 274-5 ) . (Note: Several good translations of Descartes' philosoph
+Il'a l writings are available. Don't feel obliged to use the one to which I refer. ) A
+good discussion of Descartes on substance dualism is Smith and Jones 1 986: Ch. 3.
+In Section 1 .2 I mentioned contemporary theories of language. Pinker 1 994 is a
+h ighly readable introduction to this fascinating area . In Section 1 . 3 I mentioned
+t ilt' possibility of providing a complete physical account of human movement.
+A n ke introduction to the neuroscience of movement is Kosslyn and Koenig
+1 <)<)2 : Ch, 7.
+TUTO R IAL Q U ESTI O N S
+( I ) Descrihe su hslil lKe d ual ism . (Use a picture i f i t helps. )
+(2) What is Ll' i h n i ".'s pri n ci ple or the indiscernibility o f identicals?
+
+----- page break -----
+
+24 I PHI LOSOPHY OF MI N D
+(3) I n your view, are there things which minds can d o but physical objects could
+not achieve?
+(4) What does it mean to say that physiology is explanatorily complete? How
+does the explanatory completeness of physiology pose a threat to substance
+dualism?
+( 5 ) How did Descartes establish that he can doubt the existence of his body?
+(6) Describe property dualism.
+(7) Describe epiphenomenalism.
+(8) Give an argument against epiphenomenalism.
+
+=== Nagel — Death ===
+
+ugh it is easy enough to imagine
+ oneself, from the outside, in either of those conditions). Yet people
+ who are averse to death are not usually averse to unconsciousness
+ (so long as it does not entail a substantial cut in the total duration
+ of waking life).
+ If we are to make sense of the view that to die is bad, it must
+ be on the ground that life is a good and death is the corresponding
+ deprivation or loss, bad not because of any positive features but
+ because of the desirability of what it removes. We must now turn
+ to the serious difficulties which this hypothesis raises, difficulties
+ about loss and privation in general, and about death in particular.
+ Essentially there are three types of problem. First, doubt may
+ be raised whether anything can be bad for a man without being
+ positively unpleasant to him: specifically, it may be doubted that
+ there are any evils which consist merely in the deprivation or ab-
+ sence of possible goods, and which do not depend on someone's
+This content downloaded from
+ 192.58.125.24 on Fri, 09 Sep 2022 16:04:38 UTC
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ 76 NOUS
+ minding that deprivation. Secondly, there are special difficulties, in
+ the case of death, about how the supposed misfortune is to be
+ assigned to a subject at all. There is doubt both as to who its sub-
+ ject is, and as to when he undergoes it. So long as a person exists,
+ he has not yet died, and once he has died, he no longer exists; so
+ there seems to be no time when death, if it is a misfortune, can be
+ ascribed to its unfortunate subject. The third type of difficulty con-
+ cerns the asymmetry, mentioned above, between our attitudes to
+ posthumous and prenatal nonexistence. How can the former be bad
+ if the latter is not?
+ It should be recognized that if these are valid objections to
+ counting death as an evil, they will apply to many other supposed
+ evils as well. The first type of objection is expressed in general form
+ by the common remark that what you don't know can't hurt you. It
+ means that even if a man is betrayed by his friends, ridiculed be-
+ hind his back, and despised by people who treat him politely to his
+ face, none of it can be counted as a misfortune for him so long as he
+ does not suffer as a result. It means that a man is not injured if his
+ wishes are ignored by the executor of his will, or if, after his death,
+ the belief becomes current that all the literary works on which his
+ fame rests were really written by his brother, who died in Mexico
+ at the age of twenty-eight. It seems to me worth asking what as-
+ sumptions about good and evil lead to these drastic restrictions.
+ All the questions have something to do with time. There cer-
+ tainly are goods and evils of a simple kind (including some pleasures
+ and pains) which a person possesses at a given time simply in
+ virtue of his condition at that time. But this is not true of all the
+ things we regard as good or bad for a man. Often we need to know
+ his history to tell whether something is a misfortune or not; this
+ applies to ills like deterioration, deprivation, and damage. Some-
+ times his experiential state is relatively unimportant-as in the case
+ of a man who wastes his life in the cheerful pursuit of a method of
+ communicating with asparagus plants. Someone who holds that all
+ goods and evils must be temporally assignable states of the person
+ may of course try to bring difficult cases into
+
+
+
+e usual sort, and
+ circumstances which may not coincide with him either in space or
+ in time. A man's life includes much that does not transpire within
+ the boundaries of his body and his mind, and what happens to him
+ can include much that does not take place within the boundaries of
+ his life. These boundaries are commonly crossed by the misfortunes
+ of being deceived, or despised, or betrayed. (If this is correct, there
+ is a simple account of what is wrong with breaking a deathbed
+ promise. It is an injury to the dead man. For certain purposes it is
+ possible to regard time as just another type of distance.) The case
+ of mental degeneration shows us an evil that depends on a contrast
+ between the reality and the possible alternatives. A man is the sub-
+ ject of good and evil as much because he has hopes which may or
+ may not be fulfilled, or possibilities which may or may not be
+ realized, as because of his capacity to suffer and enjoy. If death is
+ an evil, it must be accounted for in these terms, and the impossi-
+ bility of locating it within life should not trouble us.
+ When a man dies we are left with his corpse, and while a
+ corpse can suffer the kind of mishap that may occur to an article of
+ furniture, it is not a suitable object for pity. The man, however, is.
+ He has lost his life, and if he had not died, he would have continued
+ to live it, and to possess whatever good there is in living. If we apply
+ to death the account suggested for the case of dementia, we shall
+ say that although the spatial and temporal locations of the individual
+ who suffered the loss are clear enough, the misfortune itself cannot
+ be so easily located. One must be content just to state that his life is
+ over and there will never be any more of it. That fact, rather than
+ his past or present condition, constitutes his misfortune, if it is one.
+ Nevertheless if there is a loss, someone must suffer it, and he must
+ have existence and specific spatial and temporal location even if the
+ loss itself does not. The fact that Beethoven had no children may
+ have been a cause of regret to him, or a sad thing for the world, but
+ it cannot be described as a misfortune for the children that he never
+ had. All of us, I believe, are fortunate to have been born. But unless
+ good and ill can be assigned to an embryo, or even to an uncon-
+ nected pair of gametes, it cannot be said that not to be born is a
+ misfortune. (That is a factor to be considered in deciding whether
+ abortion and contraception are akin to murder.)
+ This approach also provides a solution to the problem of
+ temporal asymmetry, pointed out by Lucretius. He observed that
+This content downloaded from
+ 192.58.125.24 on Fri, 09 Sep 2022 16:04:38 UTC
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ DEAM 79
+ no one finds it disturbing to contemplate the eternity preceding his
+ own birth, and he took this to show that it must be irrational to fear
+ death, since death is simply the mirror image of the prior abyss.
+ That is not true, however, and the difference between the two ex-
+ plains why it is reasonable to regard them differently. It is true that
+ both the time before a man's birth and the time after his death are
+ times when he does not exist. But the time after his death is time of
+ which his death deprives him. It is time in which, had he not died
+ then, he would be alive. Therefore any death entails the loss of
+ some life that its victim woul
+
+
+d have led had he not died at that or
+ any earlier point. We know perfectly well what it would be for him
+ to have had it instead of losing it, and there is no difficulty in iden-
+ tifying the loser.
+ But we cannot say that the time prior to a man's birth is time
+ in which he would have lived had he been born not then but earlier.
+ For aside from the brief margin permitted by premature labor, he
+ could not have been born earlier: anyone born substantially earlier
+ than he was would have been someone else. Therefore the time prior
+ to his birth is not time in which his subsequent birth prevents him
+ from living. His birth, when it occurs, does not entail the loss to him
+ of any life whatever.
+ The direction of time is crucial in assigning possibilities to
+ people or other individuals. Distinct possible lives of a single person
+ can diverge from a common beginning, but they cannot converge
+ to a common conclusion from diverse beginnings. (The latter would
+ represent not a set of different possible lives of one individual, but a
+ set of distinct possible individuals, whose lives have identical con-
+ clusions.) Given an identifiable individual, countless possibilities
+ for his continued existence are imaginable, and we can clearly con-
+ ceive of what it would be for him to go on existing indefinitely.
+ However inevitable it is that this will not come about, its possi-
+ bility is still that of the continuation of a good for him, if life is the
+ good we take it to be.
+ We are left, therefore, with the question whether the non-
+ realization of this possibility is in every case a misfortune, or
+ whether it depends on what can naturally be hoped for. This seems
+ to me the most serious difficulty with the view that death is always
+ an evil. Even if we can dispose of the objections against admitting
+ misfortune that is not experienced, or cannot be assigned to a def-
+ inite time in the person's life, we still have to set some limits on
+ how possible a possibility must be for its nonrealization to be a
+This content downloaded from
+ 192.58.125.24 on Fri, 09 Sep 2022 16:04:38 UTC
+All use subject to https://about.jstor.org/terms
+
+----- page break -----
+
+ 80 NOUS
+ misfortune, (or good fortune, should the possibility be a bad one.)
+ The death of Keats at 24 is generally regarded as tragic; that of
+ Tolstoy at 82 is not. Although they will both be dead forever, Keats's
+ death deprived him of many years of life which were allowed to
+ Tolstoy; so in a clear sense Keats's loss was greater, (though not in
+ the sense standardly employed in mathematical comparison between
+ infinite quantities.) However, this does not prove that Tolstoy's
+ loss was insignificant. Perhaps we record an objection only to evils
+ which are gratuitiously added to the inevitable; the fact that it is
+ worse to die at 24 than at 82 does not imply that it is not a terrible
+ thing to die at 82, or even at 806. The question is whether we can
+ regard as a misfortune any limitation, like mortality, that is normal
+ to the species. Blindness is not a misfortune for a mole, nor would
+ it be for a man, if that were the natural condition of the human race.
+ The trouble is that life familiarizes us with the goods of which
+ death deprives us. If we put aside doubts about their status as goods
+ and grant that their quantity is in part a function of their duration,
+ the question remains whether death, no matter when it occurs, can
+ be said to deprive its victim of what is
+
+
+in the relevant sense a possi-
+ ble continuation of life. The situation is an ambiguous one. Observed
+ from without, human beings obviously have a natural lifespan and
+ cannot live much longer than a hundred years. A man's sense of his
+ own experience, on the other hand, does not embody this idea of a
+ natural limit. His existence defines for him an essentially open-ended
+ possible future, containing the usual mixture of goods and evils that
+ he has found so tolerable in the past. Having been gratuitously
+ introduced to the world by a collection of natural, historical, and
+ social accidents, he finds himself the subject of a life, with an
+ indeterminate and not essentially limited future. Viewed in this
+ way, death, no matter how inevitable, is an abrupt cancellation of
+ indefinitely extensive possible goods. Normality seems to have noth-
+ ing to do with it, for the fact that we will all inevitably die in a few
+ score years cannot by itself imply that it would not be good to live
+ longer. If there is no limit to the amount of life that it would be
+ good to have, then it may be that a bad end is in store for us all.
+This content downloaded from
+ 192.58.125.24 on Fri, 09 Sep 2022 16:04:38 UTC
+All use subject to https://about.jstor.org/terms
