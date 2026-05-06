@@ -39,11 +39,11 @@
 
         .working-question {
             font-family: var(--font-display);
-            font-size: var(--text-xl);
+            font-size: var(--text-lg);
             font-weight: 400;
             font-style: italic;
             color: var(--ink);
-            line-height: 1.3;
+            line-height: 1.4;
             padding: var(--space-md);
             background: var(--paper-dark);
             border-left: 4px solid var(--marginalia);
@@ -188,11 +188,12 @@
         }
 
         .turn--agent {
-            font-family: var(--font-marginalia);
-            font-size: var(--text-lg);
+            font-family: var(--font-body);
+            font-size: var(--text-base);
             color: var(--marginalia);
             border-left: 2px solid var(--marginalia);
             padding-left: var(--space-md);
+            line-height: 1.55;
         }
 
         .turn--student {
@@ -222,6 +223,35 @@
             border-top: 1px solid var(--aged-soft);
             padding-top: var(--space-md);
             margin-top: var(--space-md);
+        }
+
+        .chat-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-xs);
+        }
+
+        .chat-actions__btn {
+            font-family: var(--font-ui);
+            font-size: var(--text-xs);
+            color: var(--aged);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.04em;
+            padding: 2px 4px;
+        }
+
+        .chat-actions__btn:hover {
+            color: var(--marginalia);
+            text-decoration: underline;
+        }
+
+        .chat-actions__btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            text-decoration: none;
         }
 
         .input-area__form {
@@ -360,6 +390,12 @@
                         </p>
                     </div>
 
+                    <div class="chat-actions">
+                        <button type="button" class="chat-actions__btn" id="copyTranscriptBtn" title="Copy the conversation to your clipboard">copy transcript</button>
+                        <button type="button" class="chat-actions__btn" id="downloadTranscriptBtn" title="Download the conversation as a text file">download</button>
+                        <button type="button" class="chat-actions__btn" id="clearChatBtn" title="Clear this conversation">clear</button>
+                    </div>
+
                     <div class="input-area">
                         <form class="input-area__form" id="chatForm">
                             <textarea
@@ -397,10 +433,67 @@
             const input = document.getElementById('chatInput');
             const sendBtn = document.getElementById('sendBtn');
             const packChips = document.querySelectorAll('[data-pack]');
+            const copyBtn = document.getElementById('copyTranscriptBtn');
+            const downloadBtn = document.getElementById('downloadTranscriptBtn');
+            const clearBtn = document.getElementById('clearChatBtn');
+
+            const STORAGE_KEY = 'marginalia.chamber.session.v1';
 
             let conversation = [];   // {role: 'user'|'model', text: string}
             let activePack = 'auto';
             let isThinking = false;
+
+            function saveSession() {
+                try {
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                        conversation,
+                        workingQuestion: workingQ.textContent,
+                        activePack,
+                        savedAt: Date.now()
+                    }));
+                } catch { /* quota or disabled storage — ignore */ }
+            }
+
+            function loadSession() {
+                try {
+                    const raw = localStorage.getItem(STORAGE_KEY);
+                    if (!raw) return null;
+                    return JSON.parse(raw);
+                } catch {
+                    return null;
+                }
+            }
+
+            function clearSession() {
+                try { localStorage.removeItem(STORAGE_KEY); } catch {}
+            }
+
+            function transcriptAsText() {
+                const wq = workingQ.textContent.trim();
+                const lines = [];
+                lines.push('Marginalia — Socratic Chamber transcript');
+                lines.push(new Date().toLocaleString());
+                if (wq) {
+                    lines.push('');
+                    lines.push('Working question:');
+                    lines.push(wq);
+                }
+                lines.push('');
+                lines.push('---');
+                conversation.forEach(t => {
+                    lines.push('');
+                    lines.push(t.role === 'model' ? 'Agent:' : 'You:');
+                    lines.push(t.text);
+                });
+                return lines.join('\n');
+            }
+
+            function updateActionButtons() {
+                const empty = conversation.length === 0;
+                copyBtn.disabled = empty;
+                downloadBtn.disabled = empty;
+                clearBtn.disabled = empty;
+            }
 
             const escape = (s) => String(s).replace(/[&<>"']/g, (c) => ({
                 '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -413,6 +506,10 @@
 
             function loadInitialQuestion() {
                 if (initialQId) {
+                    // Arriving from the bank with a specific question — load it,
+                    // and start the conversation fresh so context matches the new question.
+                    conversation = [];
+                    clearSession();
                     fetch('data/questions.json').then(r => r.json()).then(bank => {
                         const q = bank.questions.find(x => x.id === initialQId);
                         if (q) {
@@ -435,6 +532,8 @@
                             };
                             const matched = packMap[q.cluster];
                             if (matched) selectPack(matched);
+                            saveSession();
+                            updateActionButtons();
                         }
                     });
                 } else if (initialPack) {
@@ -443,11 +542,30 @@
                     // and reset the conversation so the new pack's context starts fresh.
                     selectPack(initialPack);
                     conversation = [];
+                    clearSession();
+                    saveSession();
+                    updateActionButtons();
+                } else {
+                    // No URL params — restore the saved session if there is one,
+                    // so switching tabs (or closing and reopening) doesn't wipe progress.
+                    const saved = loadSession();
+                    if (saved) {
+                        if (Array.isArray(saved.conversation)) conversation = saved.conversation;
+                        if (typeof saved.workingQuestion === 'string' && saved.workingQuestion.length) {
+                            workingQ.textContent = saved.workingQuestion;
+                            workingQ.dataset.empty = saved.workingQuestion.trim() === '' ? 'true' : 'false';
+                        }
+                        if (typeof saved.activePack === 'string') selectPack(saved.activePack);
+                        renderTranscript();
+                        updateActionButtons();
+                    }
                 }
             }
 
             workingQ.addEventListener('input', () => {
                 workingQ.dataset.empty = workingQ.textContent.trim() === '' ? 'true' : 'false';
+                saveSession();
+                updateActionButtons();
             });
 
             // --- Pins display ---
@@ -469,6 +587,8 @@
                 workingQ.textContent = card.dataset.text;
                 workingQ.dataset.empty = 'false';
                 workingQ.focus();
+                saveSession();
+                updateActionButtons();
             });
 
             // --- Pack selector ---
@@ -482,7 +602,10 @@
             }
 
             packChips.forEach(chip => {
-                chip.onclick = () => selectPack(chip.dataset.pack);
+                chip.onclick = () => {
+                    selectPack(chip.dataset.pack);
+                    saveSession();
+                };
             });
 
             // --- Chat ---
@@ -546,8 +669,47 @@
                     isThinking = false;
                     sendBtn.disabled = false;
                     renderTranscript();
+                    saveSession();
+                    updateActionButtons();
                 }
             }
+
+            copyBtn.addEventListener('click', async () => {
+                const text = transcriptAsText();
+                try {
+                    await navigator.clipboard.writeText(text);
+                    const original = copyBtn.textContent;
+                    copyBtn.textContent = 'copied ✓';
+                    setTimeout(() => { copyBtn.textContent = original; }, 1500);
+                } catch {
+                    // Fallback: select-and-prompt approach is overkill; just surface the failure.
+                    alert("Couldn't copy automatically. Use 'download' instead.");
+                }
+            });
+
+            downloadBtn.addEventListener('click', () => {
+                const text = transcriptAsText();
+                const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                const stamp = new Date().toISOString().slice(0, 10);
+                a.href = url;
+                a.download = `marginalia-chamber-${stamp}.txt`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            });
+
+            clearBtn.addEventListener('click', () => {
+                if (conversation.length === 0) return;
+                if (!confirm('Clear this conversation? The transcript will be lost unless you copy or download it first.')) return;
+                conversation = [];
+                clearSession();
+                saveSession();
+                renderTranscript();
+                updateActionButtons();
+            });
 
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
@@ -567,6 +729,7 @@
             loadInitialQuestion();
             renderPins();
             renderTranscript();
+            updateActionButtons();
         })();
     </script>
 </body>
