@@ -256,9 +256,52 @@ The system prompt does most of the work, but the front-end matters too. In `cham
 - **Empty-state copy**: *"The agent will not give you a question. It will help you find one."*
 - **Pack selector with `auto`** so a student mid-formation isn't forced to commit to a topic before they've found one.
 - **Working-question pane is editable in place** so students sharpen the question as the conversation refines it. The current text travels with every chat request.
-- **Copy / download / clear** — students can take a transcript away. There's no chat persistence on the server; sessions live in `localStorage`.
+- **Copy / download / clear** — students can take a transcript away. Copy puts plain text on the clipboard; download writes a timestamped `.txt` file; clear is confirmation-gated so a misclick can't wipe a long thread.
 
 These are small, but they keep the visual and verbal frame consistent with the system prompt.
+
+### 6a. Session persistence (`localStorage`, no server-side store)
+
+The chamber persists everything client-side under a single key:
+
+```js
+const STORAGE_KEY = 'marginalia.chamber.session.v1';
+
+function saveSession() {
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+            conversation,           // [{role: 'user'|'model', text}, ...]
+            workingQuestion: workingQ.textContent,
+            activePack,             // 'auto' | 'stage1_*' | 'lab_*'
+            savedAt: Date.now()
+        }));
+    } catch { /* quota or disabled storage — ignore */ }
+}
+```
+
+**What's saved:** the conversation history, the current working question, and the chosen topic pack. Nothing about the student's identity is sent to or stored on the server — the Function logs only the IP (for rate limiting) and token usage (for cost tracking).
+
+**When it saves:** on every `input` event on the working question, on every chat exchange, on every pack-chip click, on clear. The cost is essentially free (a single `JSON.stringify` of a short conversation) so there's no debounce — every change is durable.
+
+**When it restores:** on page load, if no URL params override it. So a student can close the tab mid-conversation, come back tomorrow, and find their working question, the agent's last reply, and the right pack still selected. No login, no account, no server round-trip.
+
+**When it intentionally wipes:** in three cases, all in `loadInitialQuestion()`:
+
+| Trigger | Why |
+|---|---|
+| `?q=<id>` in URL (arriving from the question bank) | New question = new context. Carrying over yesterday's exchange about consciousness when today's question is about abortion would confuse the agent and the student. |
+| `?pack=<id>` in URL (arriving from a reading) | Same logic — the student is starting a fresh exploration of a different topic cluster. |
+| User clicks "clear" (confirmation-gated) | Explicit reset. |
+
+**Defensive details:**
+
+- Every `localStorage` call is wrapped in `try/catch`. If the browser has storage disabled (private mode, strict cookie settings) or is over quota, the chamber still works — it just doesn't persist across reloads.
+- The key is versioned (`...v1`) so a future schema change (e.g. adding per-message timestamps) can ship without breaking on old saved sessions — bump to `v2` and old data is simply ignored.
+- `loadSession()` also catches `JSON.parse` failures and returns `null`, so a corrupted entry never crashes the page.
+
+**Privacy posture.** Because the conversation only lives in the student's browser (and the server logs no message content), the chamber is safe to use without a privacy review. The only data that crosses the network is the chat payload itself, sent to Anthropic via the proxy. If you replicate this for a school context, this property is worth preserving — it eliminates the "where is student work being stored?" question from any compliance conversation.
+
+**What it deliberately doesn't do:** sync across devices, persist beyond `localStorage`, or attach the conversation to any account. If a student wants their transcript to survive the browser, they use the download button — student-controlled portability, not server-side storage.
 
 ---
 
@@ -292,5 +335,6 @@ In rough priority order:
 5. **Static site + one Netlify Function** (§3). Don't introduce a backend you don't need. The proxy exists only to hide the API key.
 6. **Per-IP rate limit + Anthropic spend cap** (§3, §7). The first catches a misbehaving browser; the second catches a misbehaving developer.
 7. **UX framing** (§6) — make the student's work the visual document and the AI a note in the margin, not the other way round.
+8. **`localStorage`-only session persistence** (§6a). No accounts, no server-side store, no privacy review. A versioned storage key, a try/catch around every storage call, and intentional wipes when URL params signal a context change. Worth copying verbatim.
 
 The single most counter-intuitive lesson, if you're used to building productivity AIs: **most of the design effort goes into making the AI do less, not more.** A Socratic agent that refuses well is more pedagogically useful than a brilliant one that obliges.
