@@ -13,5 +13,12 @@ package-lock.json
 # Derivative — text extracted from readings_source/ + text_packs/ at pack-build time
 extracted/
 
+# Source readings (copyrighted course materials). Already 404'd publicly via
+# netlify.toml force-redirects; this is belt-and-braces so future additions
+# don't accidentally get committed. Existing tracked files remain in history
+# until git rm --cached is run separately.
+readings_source/
+text_packs/
+
 # Sub-agent ephemeral working directories (Playwright sessions, screenshots, etc.)
 *-session/
