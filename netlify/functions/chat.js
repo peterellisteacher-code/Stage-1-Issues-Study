@@ -14,8 +14,8 @@
  *
  * Readings:
  *   - Looks for data/packs/<pack_id>.txt at request time
- *   - If found, inlines it as a cached system block (caching activates above 4096 tokens)
- *   - If not, falls back to a one-line topic context note
+ *   - If found, inlines it as a 1h-TTL cached system block (Haiku cache min: 2048 tokens)
+ *   - If not, falls back to a one-line topic context note (no caching: prompt is too small)
  *
  * Environment variable:
  *   ANTHROPIC_API_KEY — set in Netlify site settings (never commit)
@@ -123,12 +123,17 @@ function buildSystem(pack) {
     const blocks = [{ type: 'text', text: SOCRATIC_SYSTEM_PROMPT }];
     const packEntry = loadPackText(pack);
     if (packEntry) {
+        // 1h TTL: writes cost 2× (vs 1.25× at 5min) but stay valid 12× longer.
+        // Student work patterns (read → think → ask, often >5min between turns)
+        // were producing a ~1:1 cache write:read ratio at 5min, defeating the cache.
         blocks.push({
             type: 'text',
-            text: `\n\n--- READINGS FOR THIS TOPIC ---\nThe following passages are available for reference. Cite specific lines when pointing the student toward them; do not summarise unprompted.\n\n${packEntry.content}`
+            text: `\n\n--- READINGS FOR THIS TOPIC ---\nThe following passages are available for reference. Cite specific lines when pointing the student toward them; do not summarise unprompted.\n\n${packEntry.content}`,
+            cache_control: { type: 'ephemeral', ttl: '1h' }
         });
     }
-    blocks[blocks.length - 1].cache_control = { type: 'ephemeral' };
+    // No cache breakpoint when there's no pack: the system prompt alone (~400 tokens)
+    // is below Haiku's 2048-token cache minimum, so the marker would be silently ignored.
     return blocks;
 }
 
@@ -153,6 +158,27 @@ function buildMessages(messages, workingQuestion, pack, hasInlineReadings) {
             content: m.text
         });
     }
+
+    // Multi-turn caching: mark the most recent assistant turn so the cache covers
+    // system prompt + readings + history up to (but not including) the new user turn.
+    // Only worth doing when readings are present — without them the prefix is too
+    // small to clear Haiku's 2048-token cache minimum.
+    if (hasInlineReadings) {
+        for (let i = out.length - 1; i >= 0; i--) {
+            if (out[i].role === 'assistant') {
+                out[i] = {
+                    role: 'assistant',
+                    content: [{
+                        type: 'text',
+                        text: out[i].content,
+                        cache_control: { type: 'ephemeral', ttl: '1h' }
+                    }]
+                };
+                break;
+            }
+        }
+    }
+
     return out;
 }
 
