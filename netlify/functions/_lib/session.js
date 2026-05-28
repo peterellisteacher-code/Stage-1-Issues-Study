@@ -17,8 +17,16 @@ const crypto = require('crypto');
 const SESSION_LIFETIME_MS = 8 * 60 * 60 * 1000;
 
 function secret() {
-    return process.env.SESSION_SECRET ||
-        'dev-only-do-not-ship-this-set-SESSION_SECRET-in-netlify-env';
+    if (process.env.SESSION_SECRET) return process.env.SESSION_SECRET;
+    // Refuse to start in production without a real secret. The fallback is
+    // only acceptable for `netlify dev` where NETLIFY_DEV === 'true'.
+    if (process.env.NETLIFY === 'true' && process.env.CONTEXT !== 'dev') {
+        throw new Error(
+            'SESSION_SECRET env var must be set in Netlify production. ' +
+            'Set it with: netlify env:set SESSION_SECRET "$(openssl rand -hex 32)"'
+        );
+    }
+    return 'dev-only-do-not-ship-this-set-SESSION_SECRET-in-netlify-env';
 }
 
 function sign(payload) {

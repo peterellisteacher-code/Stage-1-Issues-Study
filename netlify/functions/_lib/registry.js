@@ -57,7 +57,6 @@ function listStudents() {
     return Object.entries(REGISTRY).map(([id, s]) => ({
         id,
         firstName: s.firstName,
-        house: s.house || null,
     }));
 }
 

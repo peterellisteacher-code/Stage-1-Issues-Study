@@ -12,8 +12,9 @@
 
 'use strict';
 
-const https = require('https');
 const { authenticate } = require('./_lib/session');
+
+const FETCH_TIMEOUT_MS = 8000;
 
 const RATE_LIMIT_MAX = 20;
 const RATE_LIMIT_WINDOW_MS = 5 * 60_000;
@@ -35,6 +36,11 @@ function checkRateLimit(ip) {
     }
     recent.push(now);
     rateBuckets.set(ip, recent);
+    if (rateBuckets.size > 100 && Math.random() < 0.02) {
+        for (const [k, v] of rateBuckets) {
+            if (v.filter(t => t > cutoff).length === 0) rateBuckets.delete(k);
+        }
+    }
     return { ok: true };
 }
 
@@ -76,21 +82,13 @@ function pickThumbnail(thumbnails) {
     );
 }
 
-/** Promisified HTTPS GET — returns parsed JSON or throws. */
-function httpsGetJson(url) {
-    return new Promise((resolve, reject) => {
-        https.get(url, (res) => {
-            let raw = '';
-            res.on('data', chunk => { raw += chunk; });
-            res.on('end', () => {
-                try {
-                    resolve(JSON.parse(raw));
-                } catch (e) {
-                    reject(new Error(`Failed to parse YouTube API response: ${e.message}`));
-                }
-            });
-        }).on('error', reject);
+/** Fetch JSON with an explicit timeout — avoids hanging the Function
+ *  until Netlify's platform 10s ceiling if YouTube's API stalls. */
+async function fetchJson(url) {
+    const res = await fetch(url, {
+        signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
+    return res.json();
 }
 
 exports.handler = async (event) => {
@@ -186,7 +184,7 @@ exports.handler = async (event) => {
     const url = `https://${YT_SEARCH_HOST}${YT_SEARCH_PATH}?${params.toString()}`;
 
     try {
-        const data = await httpsGetJson(url);
+        const data = await fetchJson(url);
 
         // YouTube API returns an `error` object on quota/auth failures
         if (data.error) {

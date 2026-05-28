@@ -46,8 +46,11 @@ function json(statusCode, body, extra = {}) {
 
 // ── Blob helpers ─────────────────────────────────────────────────────────────
 
-function store(context) {
-    return getStore({ name: STORE_NAME, consistency: 'strong', siteID: context?.siteId, token: context?.token });
+function store(_context) {
+    // @netlify/blobs v8 auto-resolves credentials from the function env in
+    // production. The explicit-context branch was for v1/v2; on v8 it is
+    // ignored and confuses local dev. Use the minimal form everywhere.
+    return getStore({ name: STORE_NAME, consistency: 'strong' });
 }
 
 function stateKey(studentId) {

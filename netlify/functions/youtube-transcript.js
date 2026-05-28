@@ -41,6 +41,11 @@ function checkRateLimit(ip) {
     }
     recent.push(now);
     rateBuckets.set(ip, recent);
+    if (rateBuckets.size > 100 && Math.random() < 0.02) {
+        for (const [k, v] of rateBuckets) {
+            if (v.filter(t => t > cutoff).length === 0) rateBuckets.delete(k);
+        }
+    }
     return { ok: true };
 }
 

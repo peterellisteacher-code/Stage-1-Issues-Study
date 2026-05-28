@@ -28,7 +28,10 @@ const { YoutubeTranscript } = require('youtube-transcript');
 const { authenticate } = require('./_lib/session');
 const { getStudent } = require('./_lib/registry');
 
-const MODEL = '~anthropic/claude-haiku-latest';
+// Pinned to a specific Haiku version for the duration of the unit; latest-
+// pointer slugs can silently drift to a new model mid-term, changing
+// behaviour without notice.
+const MODEL = 'anthropic/claude-haiku-4.5';
 const MAX_OUTPUT_TOKENS = 800;
 const HISTORY_TURN_LIMIT = 6;
 const MAX_TOOL_LOOPS = 6;
@@ -233,9 +236,19 @@ function loadAllPacks() {
             try {
                 const body = fs.readFileSync(path.join(packsDir, f), 'utf8');
                 combined += `\n\n${body}\n`;
-            } catch (e) { /* skip */ }
+            } catch (e) {
+                console.error('loadAllPacks: failed to read pack file', f, e.message);
+            }
         }
     } catch (e) {
+        // Most likely cause: data/packs/*.txt not included in netlify.toml
+        // [functions].included_files. The agent will still answer, but it
+        // cannot quote primary text.
+        console.error(
+            'loadAllPacks: packs directory not readable. Check that ' +
+            'netlify.toml includes data/packs/*.txt in [functions].included_files.',
+            e.message
+        );
         combined = '';
     }
     cachedPacksText = combined;
@@ -246,10 +259,12 @@ function loadAllPacks() {
 // Per-student state (Netlify Blobs)
 // ----------------------------------------------------------------------
 
-function studentStore(netlifyContext) {
-    const opts = { name: 'marginalia-students', consistency: 'strong' };
-    if (netlifyContext && netlifyContext.blobs) opts.blobsContext = netlifyContext.blobs;
-    return getStore(opts);
+function studentStore(_netlifyContext) {
+    // @netlify/blobs v8 auto-resolves credentials from the function's
+    // env. Passing an explicit context object via netlifyContext is the
+    // legacy v1-v2 escape hatch and is silently ignored on v8. The
+    // simplest, most portable form is just (name, consistency).
+    return getStore({ name: 'marginalia-students', consistency: 'strong' });
 }
 
 async function loadStudentState(store, studentId) {
@@ -344,7 +359,16 @@ async function execAddResource(store, studentId, state, input) {
 
     let url = String(input.url || '').trim();
     if (kind === 'web' || kind === 'youtube') {
-        try { new URL(url); } catch (e) { return { error: 'A valid URL is required.' }; }
+        try {
+            const parsed = new URL(url);
+            // Reject javascript:, data:, file:, etc. — only http(s) goes on
+            // the shelf because the URL renders as <a href> on the client.
+            if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') {
+                return { error: 'Only http(s) URLs are allowed.' };
+            }
+        } catch (e) {
+            return { error: 'A valid URL is required.' };
+        }
     }
     if (kind === 'youtube' && !/^[a-zA-Z0-9_-]{11}$/.test(String(input.videoId || ''))) {
         return { error: 'A valid videoId is required for YouTube resources.' };
@@ -425,6 +449,13 @@ function checkRateLimit(ip) {
     }
     recent.push(now);
     rateBuckets.set(ip, recent);
+    // Opportunistic cleanup: every ~50th call, evict empty buckets so the
+    // Map does not grow unboundedly across a warm container's lifetime.
+    if (rateBuckets.size > 100 && Math.random() < 0.02) {
+        for (const [k, v] of rateBuckets) {
+            if (v.filter(t => t > cutoff).length === 0) rateBuckets.delete(k);
+        }
+    }
     return { ok: true };
 }
 
@@ -506,7 +537,10 @@ function buildHistory(history, currentMessage) {
     const truncated = Array.isArray(history) ? history.slice(-HISTORY_TURN_LIMIT * 2) : [];
     const out = truncated.map(m => ({
         role: m.role === 'model' || m.role === 'assistant' ? 'assistant' : 'user',
-        content: m.text || m.content || '',
+        // Coalesce empty-string content correctly (the || form skips '' which
+        // falls through to undefined — sending an empty user message to the
+        // API breaks the tool-use loop)
+        content: (m.content != null ? m.content : (m.text != null ? m.text : '')),
     }));
     out.push({ role: 'user', content: String(currentMessage || '') });
     return out;
@@ -581,8 +615,21 @@ async function runAgent({ system, messages, ctx, ip }) {
         messages.push({ role: 'user', content: toolResults });
     }
 
+    // If we exited the loop while still asking for tool use, the agent
+    // hit MAX_TOOL_LOOPS without producing a text reply. Give the student
+    // a human-readable fallback instead of "(no reply)".
+    let text = lastResponse ? extractText(lastResponse) : '';
+    if (!text && lastResponse && lastResponse.stop_reason === 'tool_use') {
+        text = 'I went down a research rabbit hole and ran out of steps for this turn. Ask me something more focused, or tell me which lead to follow first.';
+        console.warn(JSON.stringify({
+            event: 'chat.max_tool_loops_reached',
+            studentId: ctx.studentId,
+        }));
+    }
+    if (!text) text = '(The agent paused. Try rephrasing.)';
+
     return {
-        text: lastResponse ? extractText(lastResponse) : '(no reply)',
+        text,
         resourcesAdded,
         workingQuestionSet,
     };

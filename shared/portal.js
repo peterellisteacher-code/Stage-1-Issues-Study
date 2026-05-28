@@ -546,6 +546,13 @@
         /* Ensure questions are loaded before we try to look them up */
         await loadQuestionsCache();
 
+        /* Defensive guard: if pins.js failed to load (network hiccup, file
+           missing on a previous deploy), do not crash the whole portal — just
+           leave the pinned section hidden and continue. */
+        if (!window.pins || typeof window.pins.list !== 'function') {
+            return;
+        }
+
         const pins = window.pins.list();
         if (!pins || pins.length === 0) return; /* leave hidden */
 

@@ -23,6 +23,36 @@ const CORS = {
     'Content-Type': 'application/json',
 };
 
+// Per-IP rate limit on login attempts. 9 students with low-entropy
+// surnames as passwords means brute-force is otherwise trivial.
+const LOGIN_LIMIT_MAX = 8;
+const LOGIN_LIMIT_WINDOW_MS = 5 * 60_000;
+const loginBuckets = new Map();
+
+function getClientIp(event) {
+    const xff = event.headers?.['x-forwarded-for'] || event.headers?.['X-Forwarded-For'];
+    if (xff) return String(xff).split(',')[0].trim();
+    return event.headers?.['client-ip'] || 'unknown';
+}
+
+function checkLoginRateLimit(ip) {
+    const now = Date.now();
+    const cutoff = now - LOGIN_LIMIT_WINDOW_MS;
+    const recent = (loginBuckets.get(ip) || []).filter(t => t > cutoff);
+    if (recent.length >= LOGIN_LIMIT_MAX) {
+        const retryAfterMs = recent[0] + LOGIN_LIMIT_WINDOW_MS - now;
+        return { ok: false, retryAfter: Math.max(1, Math.ceil(retryAfterMs / 1000)) };
+    }
+    recent.push(now);
+    loginBuckets.set(ip, recent);
+    if (loginBuckets.size > 100 && Math.random() < 0.02) {
+        for (const [k, v] of loginBuckets) {
+            if (v.filter(t => t > cutoff).length === 0) loginBuckets.delete(k);
+        }
+    }
+    return { ok: true };
+}
+
 function respond(statusCode, body) {
     return { statusCode, headers: CORS, body: JSON.stringify(body) };
 }
@@ -45,6 +75,17 @@ exports.handler = async (event) => {
     }
 
     if (action === 'login') {
+        const ip = getClientIp(event);
+        const limit = checkLoginRateLimit(ip);
+        if (!limit.ok) {
+            return {
+                statusCode: 429,
+                headers: { ...CORS, 'Retry-After': String(limit.retryAfter) },
+                body: JSON.stringify({
+                    error: `Too many login attempts. Try again in ${limit.retryAfter}s.`,
+                }),
+            };
+        }
         const id = String(payload.id || '').trim().toLowerCase();
         const password = payload.password;
         if (!id || typeof password !== 'string') {

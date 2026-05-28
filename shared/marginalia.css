@@ -11,13 +11,16 @@
 
 html, body {
     height: 100dvh;
-    overflow: hidden;
     color: var(--color-text);
     font-family: var(--font-body);
     font-size: var(--text-base);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
+
+/* Per-shell scroll-lock — the portal and page shells each declare their own
+   overflow: hidden so pages without a shell (or future pages with internal
+   scroll) are not trapped at the body level. */
 
 /* ============================================================
    PAGE SHELL — header + main + footer/nav
@@ -318,16 +321,22 @@ html, body {
     top: var(--space-xs);
     right: var(--space-xs);
     background: transparent;
-    border: none;
-    color: var(--aged);
+    border: 1px solid transparent;
+    color: var(--aged-strong);
     cursor: pointer;
     font-size: var(--text-base);
     line-height: 1;
-    padding: 4px 6px;
+    padding: var(--space-xs);
+    min-width: 40px;
+    min-height: 40px;
 }
 
-.pin__remove:hover {
+.pin__remove:hover,
+.pin__remove:focus-visible {
     color: var(--marginalia);
+    border-color: var(--marginalia);
+    outline: 2px solid var(--marginalia);
+    outline-offset: 1px;
 }
 
 /* ============================================================
@@ -378,7 +387,7 @@ html, body {
 }
 
 .btn--small {
-    min-height: 36px;
+    min-height: 40px;
     padding: var(--space-xs) var(--space-md);
     font-size: var(--text-sm);
 }
@@ -438,9 +447,12 @@ html, body {
 
 /* ============================================================
    FOCUS STATES (accessibility)
+   The marginalia red is the site-wide accent — focus rings use it
+   so the visible state is consistent everywhere a user can land.
+   Component-level overrides should match this colour, not contradict it.
    ============================================================ */
 :focus-visible {
-    outline: 2px solid var(--clarity);
+    outline: 2px solid var(--marginalia);
     outline-offset: 3px;
 }
 
@@ -498,7 +510,7 @@ html, body {
 /* ============================================================
    TERM POPOVERS — define-on-first-use glossary hints
    WCAG 1.4.13: dismissible (Esc), hoverable, persistent.
-   Uses the native HTML Popover API (popover="hint").
+   Uses the native HTML Popover API (popover="auto").
    ============================================================ */
 .term {
     color: var(--marginalia);
@@ -511,7 +523,7 @@ html, body {
     cursor: help;
 }
 
-[popover="hint"] {
+[popover="auto"] {
     max-width: 32ch;
     padding: var(--space-sm) var(--space-md);
     border: 1px solid var(--ink-soft);

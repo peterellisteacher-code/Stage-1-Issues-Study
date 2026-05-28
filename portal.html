@@ -62,9 +62,9 @@
         .portal-header__nav a {
             color: var(--ink-soft);
             text-decoration: none;
-            padding: var(--space-xs) var(--space-sm);
+            padding: var(--space-sm) var(--space-sm);
             border-radius: 0;
-            min-height: 24px;
+            min-height: 40px;
             display: inline-flex;
             align-items: center;
         }
@@ -95,7 +95,7 @@
         /* ---- Chat pane ---- */
         .chat-pane {
             display: grid;
-            grid-template-rows: 1fr auto;
+            grid-template-rows: auto 1fr auto;
             min-height: 0;
             border-right: 1px solid var(--aged-soft);
         }
@@ -114,17 +114,18 @@
             .chat-stream { padding: var(--space-md) var(--space-lg); }
         }
 
+        /* Intro sits ABOVE the aria-live chat-stream so screen readers do
+           not announce it on every page load or compete with new messages. */
         .chat-stream__intro {
             font-family: var(--font-body);
             font-size: var(--text-sm);
             color: var(--ink-soft);
             text-align: center;
-            padding: var(--space-md);
-            border: 1px dashed var(--aged-soft);
+            padding: var(--space-md) var(--space-xl);
+            border-bottom: 1px solid var(--aged-soft);
             background: var(--paper-dark);
-            max-width: 60ch;
-            margin: 0 auto;
             line-height: 1.55;
+            margin: 0;
         }
 
         /* ---- Messages ----
@@ -163,9 +164,11 @@
             color: var(--ink);
             line-height: 1.65;
             white-space: pre-wrap;
+            overflow-wrap: anywhere;
             padding: var(--space-md) var(--space-lg);
             border: 1px solid var(--aged-soft);
             background: var(--paper-dark);
+            max-width: 75ch;
         }
 
         .chat-msg--agent .chat-msg__body {
@@ -227,6 +230,18 @@
             display: flex;
             flex-direction: column;
             gap: var(--space-xl);
+        }
+
+        /* Working question stays pinned at the top of the sidebar scroll
+           container so a long resource shelf does not push the student's
+           current assessment anchor out of view. */
+        .sidebar__section--sticky {
+            position: sticky;
+            top: 0;
+            background: var(--ground);
+            padding-bottom: var(--space-sm);
+            border-bottom: 1px solid var(--aged-soft);
+            z-index: 1;
         }
 
         @media (max-width: 900px) {
@@ -301,11 +316,11 @@
             background: var(--paper-dark);
             color: var(--ink);
             border: 1px solid var(--aged-soft);
-            padding: var(--space-xs) var(--space-sm);
+            padding: var(--space-sm) var(--space-sm);
             cursor: pointer;
             line-height: 1.3;
             text-align: left;
-            min-height: 24px;
+            min-height: 40px;
         }
 
         .pinned-chip:hover,
@@ -356,8 +371,8 @@
             position: absolute;
             top: var(--space-xs);
             right: var(--space-xs);
-            min-width: 28px;
-            min-height: 28px;
+            min-width: 36px;
+            min-height: 36px;
             border: 1px solid var(--aged-soft);
             background: var(--ground);
             color: var(--ink-soft);
@@ -443,7 +458,7 @@
             background: black;
         }
 
-        /* .term and [popover="hint"] rules live in shared/marginalia.css */
+        /* .term and [popover="auto"] rules live in shared/marginalia.css */
     </style>
 </head>
 <body>
@@ -469,13 +484,12 @@
             <h1 class="visually-hidden">Your Issues Study portal</h1>
 
             <section class="chat-pane" aria-label="Chat with the agent">
-                <div class="chat-stream" id="chatStream" aria-live="polite" aria-atomic="false">
-                    <p class="chat-stream__intro">
-                        Start by saying what you are thinking about &mdash; even one sentence.
-                        The agent will press from there. The agent asks questions and will not
-                        write your essay for you.
-                    </p>
-                </div>
+                <p class="chat-stream__intro">
+                    Start by saying what you are thinking about &mdash; even one sentence.
+                    The agent will press from there. The agent asks questions and will not
+                    write your essay for you.
+                </p>
+                <div class="chat-stream" id="chatStream" aria-live="polite" aria-atomic="false"></div>
                 <div class="chat-input-bar">
                     <textarea
                         id="chatInput"
@@ -492,7 +506,7 @@
 
             <aside class="sidebar" aria-label="Your workspace">
 
-                <section class="sidebar__section" aria-labelledby="workingQHeading">
+                <section class="sidebar__section sidebar__section--sticky" aria-labelledby="workingQHeading">
                     <h2 class="sidebar__heading" id="workingQHeading">Your working question</h2>
                     <p class="sidebar__hint">
                         Type the philosophical question you want to defend. The agent can
