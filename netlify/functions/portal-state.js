@@ -54,7 +54,13 @@ function stateKey(studentId) {
     return `students/${studentId}/state.json`;
 }
 
-const EMPTY_STATE = () => ({ workingQuestion: '', resources: [], updatedAt: 0 });
+const EMPTY_STATE = () => ({
+    workingQuestion: '',
+    resources: [],
+    chatHistory: [],
+    progressNotes: '',
+    updatedAt: 0,
+});
 
 async function loadState(studentId, context) {
     try {
@@ -65,6 +71,8 @@ async function loadState(studentId, context) {
         return {
             workingQuestion: typeof data.workingQuestion === 'string' ? data.workingQuestion : '',
             resources: Array.isArray(data.resources) ? data.resources : [],
+            chatHistory: Array.isArray(data.chatHistory) ? data.chatHistory : [],
+            progressNotes: typeof data.progressNotes === 'string' ? data.progressNotes : '',
             updatedAt: typeof data.updatedAt === 'number' ? data.updatedAt : 0
         };
     } catch (err) {
@@ -155,7 +163,13 @@ function validateResource(raw) {
 
 async function actionLoad(studentId, _payload, context) {
     const state = await loadState(studentId, context);
-    return json(200, { ok: true, workingQuestion: state.workingQuestion, resources: state.resources });
+    return json(200, {
+        ok: true,
+        workingQuestion: state.workingQuestion,
+        resources: state.resources,
+        chatHistory: state.chatHistory,
+        progressNotes: state.progressNotes,
+    });
 }
 
 async function actionSetWorkingQuestion(studentId, payload, context) {

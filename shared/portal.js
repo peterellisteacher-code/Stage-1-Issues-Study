@@ -147,10 +147,10 @@
             data = await r.json();
             if (!r.ok || !data.ok) {
                 /* Non-fatal — portal still usable without persisted state */
-                data = { ok: false, workingQuestion: '', resources: [] };
+                data = { ok: false, workingQuestion: '', resources: [], chatHistory: [] };
             }
         } catch (e) {
-            data = { ok: false, workingQuestion: '', resources: [] };
+            data = { ok: false, workingQuestion: '', resources: [], chatHistory: [] };
         }
 
         const wq = data.workingQuestion || '';
@@ -159,6 +159,40 @@
 
         currentResources = Array.isArray(data.resources) ? data.resources : [];
         renderShelf(currentResources);
+
+        /* Replay persisted chat history into the stream and the in-memory
+           history array, so a returning student picks up where they left off. */
+        const persistedHistory = Array.isArray(data.chatHistory) ? data.chatHistory : [];
+        if (persistedHistory.length > 0) {
+            chatHistory = persistedHistory.slice();
+            renderPersistedHistory(persistedHistory);
+        }
+    }
+
+    function renderPersistedHistory(history) {
+        /* Remove the default "Start by saying…" system bubble */
+        Array.from(chatStream.querySelectorAll('.chat-msg--system')).forEach(function (el) {
+            el.remove();
+        });
+
+        /* Lead-in marker so the student knows what they're seeing */
+        const marker = document.createElement('div');
+        marker.className = 'chat-msg chat-msg--system';
+        const markerBody = document.createElement('div');
+        markerBody.className = 'chat-msg__body';
+        markerBody.style.background = 'transparent';
+        markerBody.style.border = 'none';
+        markerBody.style.padding = '0';
+        markerBody.style.fontStyle = 'italic';
+        setText(markerBody, '— picking up where you left off —');
+        marker.appendChild(markerBody);
+        chatStream.appendChild(marker);
+
+        history.forEach(function (turn) {
+            const role = (turn.role === 'assistant' || turn.role === 'model') ? 'agent' : 'user';
+            const text = String(turn.content || turn.text || '');
+            if (text) addMsg(role, text);
+        });
     }
 
     /* ================================================================
@@ -308,6 +342,21 @@
                 embedYouTube(article, ytId);
             });
             actions.appendChild(watchBtn);
+
+            const doneBtn = document.createElement('button');
+            doneBtn.className = 'btn btn--ghost btn--small';
+            doneBtn.dataset.action = 'finished-watching';
+            doneBtn.textContent = 'I’ve finished watching';
+            doneBtn.addEventListener('click', function () {
+                const title = (res.title || 'this video');
+                /* Pass the videoId in the message so the agent's
+                   youtube_transcript tool has the id without inferring. */
+                const idTag = res.videoId ? ' (videoId: ' + res.videoId + ')' : '';
+                const msg = 'I just finished watching ‘' + title + '’' + idTag +
+                    '. Read the transcript and ask me something Socratic about what I saw.';
+                sendChat(msg);
+            });
+            actions.appendChild(doneBtn);
         }
 
         const explainBtn = document.createElement('button');

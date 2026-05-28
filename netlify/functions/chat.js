@@ -68,6 +68,7 @@ You have four tools. Use them sparingly and only when they help.
 - youtube_transcript: Use AFTER the student has watched a video they named. Read the transcript so you can ask them what they took from it. Do not read it before — that ruins the watch.
 - add_resource: Use when you have found something the student should keep. Always say in your reply what you added and why, in plain words. Keep the title ≤140 characters. Keep the description ≤280 characters and at Year 11 reading level.
 - set_working_question: Use ONLY when the student has explicitly committed to a refined version of their question. Confirm in your next reply.
+- update_progress_notes: After any meaningful shift in the student's thinking — a position they are now taking seriously, a reading they have processed, a refined question — save a short snapshot (≤500 chars) of where they are up to and how they are approaching the problem. These notes feed back into your context on every future turn, so future-you can pick up where past-you left off. Update them as a snapshot (replaces previous), not a log (do not accumulate).
 
 PLAIN-LANGUAGE RULES — WHEN YOU EXPLAIN HARD IDEAS
 The cached readings below are academic philosophy (Murdoch, Sartre, Haidt, Nussbaum, Wimsatt & Beardsley, etc.). They are written for adults. The student reads at about Year 8 level when tired or anxious.
@@ -180,6 +181,21 @@ const TOOLS = [
             required: ['question'],
         },
     },
+    {
+        name: 'update_progress_notes',
+        description:
+            'Save a short running summary of where this student is up to, what their current question is, and how they are approaching it. Replaces the previous notes entirely (it is a snapshot, not a log). Update after meaningful shifts in their thinking — a new position they are taking seriously, a reading they have processed, a refined question. ≤500 characters. The notes feed back into your context on every future turn, so be specific and dated in your phrasing.',
+        input_schema: {
+            type: 'object',
+            properties: {
+                notes: {
+                    type: 'string',
+                    description: 'Snapshot of the student\'s current state and approach. ≤500 chars.',
+                },
+            },
+            required: ['notes'],
+        },
+    },
 ];
 
 // ----------------------------------------------------------------------
@@ -243,9 +259,11 @@ async function loadStudentState(store, studentId) {
         return {
             workingQuestion: typeof data.workingQuestion === 'string' ? data.workingQuestion : '',
             resources: Array.isArray(data.resources) ? data.resources : [],
+            chatHistory: Array.isArray(data.chatHistory) ? data.chatHistory : [],
+            progressNotes: typeof data.progressNotes === 'string' ? data.progressNotes : '',
         };
     }
-    return { workingQuestion: '', resources: [] };
+    return { workingQuestion: '', resources: [], chatHistory: [], progressNotes: '' };
 }
 
 async function saveStudentState(store, studentId, state) {
@@ -356,7 +374,18 @@ async function execSetWorkingQuestion(store, studentId, state, input) {
     return { ok: true, workingQuestion: q };
 }
 
+async function execUpdateProgressNotes(store, studentId, state, input) {
+    const notes = String(input.notes || '').trim().slice(0, 500);
+    if (!notes) return { error: 'Notes content is required.' };
+    state.progressNotes = notes;
+    await saveStudentState(store, studentId, state);
+    return { ok: true, progressNotes: notes };
+}
+
 async function dispatchTool(name, input, ctx) {
+    if (ctx.anonymous && (name === 'add_resource' || name === 'set_working_question' || name === 'update_progress_notes')) {
+        return { error: 'This tool is only available when the student is signed in.' };
+    }
     switch (name) {
         case 'youtube_search':
             return execYoutubeSearch(input);
@@ -366,6 +395,8 @@ async function dispatchTool(name, input, ctx) {
             return execAddResource(ctx.store, ctx.studentId, ctx.state, input);
         case 'set_working_question':
             return execSetWorkingQuestion(ctx.store, ctx.studentId, ctx.state, input);
+        case 'update_progress_notes':
+            return execUpdateProgressNotes(ctx.store, ctx.studentId, ctx.state, input);
         default:
             return { error: `Unknown tool: ${name}` };
     }
@@ -404,6 +435,16 @@ function getIp(event) {
 }
 
 function buildSystem(student, state) {
+    // Layout the system blocks so the cache breakpoint sits on the LARGE,
+    // SLOW-CHANGING readings block. The student-context block comes AFTER
+    // the breakpoint -- uncached, small, freshly rebuilt on every turn
+    // with the latest working question, shelf, and progress notes.
+    //
+    // Without this discipline, any state change (a resource added, a
+    // working-question edit, the agent updating its progress notes) would
+    // invalidate the 103K-token readings cache and force a fresh write at
+    // 1.25x input rate. With it, the readings stay cached for the 5-min
+    // ephemeral TTL and only the small student-context block is recharged.
     const blocks = [{ type: 'text', text: SOCRATIC_SYSTEM_PROMPT }];
 
     const packs = loadAllPacks();
@@ -416,29 +457,48 @@ function buildSystem(student, state) {
                 'when pointing the student toward a specific argument. Always pair a quote with ' +
                 'a one-sentence plain-language version when the language is hard.\n' +
                 packs,
+            cache_control: { type: 'ephemeral' },  // <-- CACHE BREAKPOINT HERE
         });
+    } else {
+        // No readings -> cache breakpoint goes on the Socratic prompt block
+        blocks[0].cache_control = { type: 'ephemeral' };
     }
 
+    // ---- Per-turn student context (UNCACHED, fresh every call) ----
     if (student) {
-        const houseSuffix = student.house ? ` (${student.house})` : '';
-        const ctx = [
-            `--- THIS STUDENT ---`,
-            `First name: ${student.firstName}${houseSuffix}`,
-            `Working question: ${state.workingQuestion || '(not set yet — help them find one)'}`,
-            state.resources.length
-                ? `Resources currently on their shelf:\n${state.resources.map(r =>
-                    `  - [${r.kind}] ${r.title} (${r.addedBy})`).join('\n')}`
-                : 'Their resource shelf is empty.',
-        ].join('\n');
-        blocks.push({ type: 'text', text: ctx });
+        const lines = [
+            `--- THIS STUDENT (refreshed each turn) ---`,
+            `First name: ${student.firstName}`,
+            ``,
+            `Working question:`,
+            `  ${state.workingQuestion || '(not set yet — help them find one)'}`,
+            ``,
+        ];
+        if (state.progressNotes) {
+            lines.push(`Your last progress notes about where they are up to and how they are approaching it:`);
+            lines.push(`  ${state.progressNotes}`);
+            lines.push(``);
+            lines.push(`Use these notes to pick up where you left off. Update them with update_progress_notes when their thinking shifts.`);
+        } else {
+            lines.push(`No progress notes yet. After this turn, call update_progress_notes with a short snapshot of where they are.`);
+        }
+        lines.push(``);
+        if (state.resources.length) {
+            lines.push(`Their resource shelf (${state.resources.length} item${state.resources.length === 1 ? '' : 's'}):`);
+            for (const r of state.resources) {
+                lines.push(`  - [${r.kind}] ${r.title} (${r.addedBy})`);
+            }
+        } else {
+            lines.push(`Their resource shelf is empty.`);
+        }
+        blocks.push({ type: 'text', text: lines.join('\n') });
     } else {
         blocks.push({
             type: 'text',
-            text: '--- ANONYMOUS CHAMBER VISIT ---\nThis student is browsing without signing in. You cannot save resources or update their working question. Help them think, point them at readings if relevant, and suggest they sign in if they want their work to follow them.',
+            text: '--- ANONYMOUS CHAMBER VISIT ---\nThis student is browsing without signing in. You cannot save resources, update their working question, or maintain progress notes. Help them think, point them at readings if relevant, and suggest they sign in if they want their work to follow them.',
         });
     }
 
-    blocks[blocks.length - 1].cache_control = { type: 'ephemeral' };
     return blocks;
 }
 
@@ -580,13 +640,22 @@ exports.handler = async (event, netlifyContext) => {
 
     try {
         let store = null;
-        let state = { workingQuestion: '', resources: [] };
+        let state = { workingQuestion: '', resources: [], chatHistory: [], progressNotes: '' };
         if (student) {
             store = studentStore(netlifyContext);
             state = await loadStudentState(store, studentId);
         }
         const system = buildSystem(student, state);
-        const messages = buildHistory(history, message);
+
+        // Build the messages array from PERSISTED chatHistory (preferred when
+        // signed in) rather than the client-sent history. This guarantees the
+        // server has the canonical record even if the client dropped state
+        // (e.g. tab reload mid-session). Falls back to client-sent history
+        // for anonymous mode.
+        const historyForAgent = student && state.chatHistory && state.chatHistory.length
+            ? state.chatHistory
+            : history;
+        const messages = buildHistory(historyForAgent, message);
 
         const result = await runAgent({
             system,
@@ -596,6 +665,24 @@ exports.handler = async (event, netlifyContext) => {
         });
 
         const reply = result.text || '(The agent paused. Try rephrasing.)';
+
+        // Persist updated chat history (signed-in students only). Cap at 40
+        // turns (20 user + 20 assistant) so the Blob stays bounded. The
+        // agent's tool-use back-and-forth is not stored — only the user-
+        // facing turns, so the next session's replay stays clean.
+        if (student && store) {
+            const newHistory = Array.isArray(state.chatHistory) ? state.chatHistory.slice() : [];
+            newHistory.push({ role: 'user', content: message, ts: Date.now() });
+            newHistory.push({ role: 'assistant', content: reply, ts: Date.now() });
+            state.chatHistory = newHistory.slice(-40);
+            try {
+                await saveStudentState(store, studentId, state);
+            } catch (e) {
+                console.error('chat: failed to persist chatHistory', e);
+                // Non-fatal — reply still returns
+            }
+        }
+
         const body = { reply };
         if (result.resourcesAdded.length) body.resources_added = result.resourcesAdded;
         if (result.workingQuestionSet !== null) body.working_question_set = result.workingQuestionSet;
